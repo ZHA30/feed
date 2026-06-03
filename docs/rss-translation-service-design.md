@@ -113,6 +113,7 @@ Repository Variables：
 | `LLM_PROVIDER` | LLM 提供方 |
 | `LLM_BASE_URL` | OpenAI-compatible API base URL |
 | `LLM_MODEL` | 翻译模型 |
+| `WEB_TRANSLATE_FALLBACK` | Web 翻译兜底开关，`1` 表示启用 |
 
 Repository Secrets：
 
@@ -558,11 +559,11 @@ interface TranslationUnitResult {
 2. 命中 translation cache 的 unit 标记为 `cached`。
 3. 未命中的 unit 按 `targetLanguage` 分桶。
 4. 按代码常量中的单批 unit 数和字符数切批。
-5. 并发调用 LLM，要求严格 JSON 输出。
+5. 串行调用 LLM batch，要求严格 JSON 输出。
 6. 校验响应。
-7. 批量调用失败时重试一次。
-8. 仍失败时逐条重试。
-9. 单条仍失败的 unit 标记为 `failed`，回嵌阶段保留原文。
+7. batch 调用失败时，将该 batch 拆成单 unit 请求。
+8. 单 unit LLM 请求失败或返回空译文时，尝试 Web 翻译兜底。
+9. Web 翻译兜底仍失败的 unit 标记为 `failed`，回嵌阶段保留原文。
 10. 成功结果写入 next state 中的 translation cache。
 
 LLM 输入：
@@ -607,10 +608,11 @@ LLM 输出：
 
 失败处理：
 
-- 批量请求失败、超时、输出 JSON 无效或 id 集合不匹配时，同批重试一次。
-- 同批重试仍失败时，将该批拆成单 unit 请求。
-- 单 unit 仍失败时，标记为 `failed`，不写入 cache。
-- 内容审查或安全拒绝不做额外绕过处理，最终保留原文。
+- 批量请求失败、超时、输出 JSON 无效或 id 集合不匹配时，将该批拆成单 unit 请求。
+- 单 unit LLM 仍失败时，按顺序尝试 Google Translate Web API、Microsoft Edge Translate Web API。
+- Web 翻译兜底不需要额外 API key，但属于非正式网页接口，失败时只记录日志并保留原文。
+- `WEB_TRANSLATE_FALLBACK=1` 时启用 Web 翻译兜底；未设置时不调用网页翻译接口。
+- 成功的 Web fallback 结果会写入 cache，`model` 标记为 `web-fallback`。
 
 ## 11. 回嵌与渲染
 
@@ -748,7 +750,7 @@ reports/
 6. 按该 feed 的 `limit` 裁剪最新窗口。
 7. 每次都从窗口 item 重新提取 units。
 8. units 命中 cache 时直接复用译文。
-9. cache miss units 进入 LLM 批量翻译和重试。
+9. cache miss units 进入 LLM 批量翻译、单条重试和 Web 翻译兜底。
 10. 回嵌并渲染 `dist/**/*.xml`。
 11. 根据当前所有 feed 窗口生成 next state，只包含 `state/cache/manifest.json` 和 `state/cache/units.json`。
 12. 写入 `state/reports/latest.json`。
@@ -828,6 +830,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           TRANSFEED_STATE_DIR: state
           TRANSFEED_SECRET_ENV: ${{ secrets.TRANSFEED_SECRET_ENV }}
+          WEB_TRANSLATE_FALLBACK: "1"
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

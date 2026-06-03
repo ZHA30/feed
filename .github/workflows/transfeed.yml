@@ -52,6 +52,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           TRANSFEED_STATE_DIR: state
           TRANSFEED_SECRET_ENV: ${{ secrets.TRANSFEED_SECRET_ENV }}
+          WEB_TRANSLATE_FALLBACK: "1"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

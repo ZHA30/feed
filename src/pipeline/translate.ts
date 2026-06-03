@@ -2,10 +2,12 @@ import type { ExtractedFeed, TranslationCache, TranslationResult, TranslationUni
 import { logGroup, logGroupEnd, logKeyValue } from "../lib/logger.js";
 import { putCacheEntry } from "../state/cache.js";
 import { loadLlmConfig, translateBatch } from "./llm.js";
+import { translateTextWithWebFallback } from "./web-translate.js";
 
 const BATCH_MAX_UNITS = 40;
 const BATCH_MAX_CHARS = 12_000;
 const HEARTBEAT_INTERVAL_MS = 30_000;
+const WEB_FALLBACK_ENABLED = process.env.WEB_TRANSLATE_FALLBACK === "1";
 
 export async function translateFeed(extracted: ExtractedFeed, cache: TranslationCache): Promise<TranslationResult> {
   const config = loadLlmConfig();
@@ -23,9 +25,15 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
   }
 
   if (!config) {
+    logGroup(`Translate ${extracted.path}`);
+    logKeyValue("cache hits", results.length);
+    logKeyValue("misses", misses.length);
+    console.log(WEB_FALLBACK_ENABLED ? "LLM config missing, using web translation fallback" : "LLM config missing, web translation fallback disabled");
     for (const unit of misses) {
-      results.push(resultFromUnit(unit, "failed", undefined, 0, "missing_llm_config"));
+      const translated = WEB_FALLBACK_ENABLED ? await translateUnitWithWebFallback(cache, unit, extracted.targetLanguage, 0) : null;
+      results.push(translated ?? resultFromUnit(unit, "failed", undefined, 0, "missing_llm_config"));
     }
+    logGroupEnd();
     return makeResult(extracted, results);
   }
 
@@ -72,11 +80,13 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
             results.push(resultFromUnit(unit, "translated", translated.translatedText, 2));
           }
           else {
-            results.push(resultFromUnit(unit, "failed", undefined, 2, "empty_translation"));
+            const fallback = WEB_FALLBACK_ENABLED ? await translateUnitWithWebFallback(cache, unit, extracted.targetLanguage, 2) : null;
+            results.push(fallback ?? resultFromUnit(unit, "failed", undefined, 2, "empty_translation"));
           }
         }
         catch (error) {
-          results.push(resultFromUnit(unit, "failed", undefined, 2, error instanceof Error ? error.message : "translation_failed"));
+          const fallback = WEB_FALLBACK_ENABLED ? await translateUnitWithWebFallback(cache, unit, extracted.targetLanguage, 2) : null;
+          results.push(fallback ?? resultFromUnit(unit, "failed", undefined, 2, error instanceof Error ? error.message : "translation_failed"));
         }
       }
       console.log(`batch ${batchIndex}/${batches.length}: fallback done in ${formatDuration(Date.now() - batchStartedAt)}`);
@@ -141,6 +151,29 @@ function makeResult(extracted: ExtractedFeed, units: TranslationUnitResult[]): T
 
 function formatDuration(ms: number): string {
   return `${(ms / 1000).toFixed(1)}s`;
+}
+
+async function translateUnitWithWebFallback(
+  cache: TranslationCache,
+  unit: TranslationUnit,
+  targetLanguage: string,
+  attempts: number,
+): Promise<TranslationUnitResult | null> {
+  const startedAt = Date.now();
+  try {
+    const translated = await withHeartbeat(
+      `web fallback ${unit.unitIndex}`,
+      startedAt,
+      () => translateTextWithWebFallback(unit.sourceText, targetLanguage),
+    );
+    putCacheEntry({ cache, unit, translated, model: "web-fallback", targetLanguage });
+    console.log(`web fallback ${unit.unitIndex}: ok in ${formatDuration(Date.now() - startedAt)}`);
+    return resultFromUnit(unit, "translated", translated, attempts, "web_fallback");
+  }
+  catch (error) {
+    console.log(`web fallback ${unit.unitIndex}: failed (${error instanceof Error ? error.message : "translation_failed"})`);
+    return null;
+  }
 }
 
 async function withHeartbeat<T>(label: string, startedAt: number, task: () => Promise<T>): Promise<T> {

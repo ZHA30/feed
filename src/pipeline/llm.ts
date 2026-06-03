@@ -96,9 +96,13 @@ function validateTranslations(content: string, units: TranslationUnit[]): LlmTra
       throw new Error(`llm response contains duplicate id: ${item.id}`);
     }
     seen.add(item.id);
+    const normalizedTranslatedText = item.translatedText.trim();
+    if (!normalizedTranslatedText) {
+      throw new Error(`llm response item has empty translatedText: ${item.id}`);
+    }
     results.push({
       id: item.id,
-      translatedText: item.translatedText.trim(),
+      translatedText: normalizedTranslatedText,
     });
   }
   if (seen.size !== expected.size) {
