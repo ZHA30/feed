@@ -1,6 +1,6 @@
 import * as DomUtils from "domutils";
 import renderDom from "dom-serializer";
-import { Element, Text } from "domhandler";
+import { Element, Text, type AnyNode } from "domhandler";
 import { parseDocument } from "htmlparser2";
 
 export interface HtmlBlock {
@@ -40,7 +40,8 @@ const SKIP_TAGS = new Set([
   "aside",
 ]);
 
-const SKIP_ATTR_PATTERN = /\b(notranslate|breadcrumb|breadcrumbs|crumb|code|highlight|syntax|hljs|ad|ads|advert|sponsor|promo|banner|recommend|related)\b/i;
+const SKIP_ATTR_PATTERN = /\b(notranslate|translated|breadcrumb|breadcrumbs|crumb|code|highlight|syntax|hljs|ad|ads|advert|sponsor|promo|banner|recommend|related|author|byline|meta|metadata|dateline)\b/i;
+const HEADING_TAGS = new Set(["h1", "h2", "h3", "h4", "h5", "h6"]);
 
 export function hasHtmlStructure(value: string): boolean {
   return /<\/?[a-z][\s\S]*>/i.test(value);
@@ -88,7 +89,7 @@ function markTranslatableBlocks(children: Element["children"]): HtmlBlock[] {
     if (hasCandidateDescendant(node)) {
       continue;
     }
-    const text = normalizeText(DomUtils.textContent(node));
+    const text = normalizeText(textContentForTranslation(node.children));
     if (!isUsefulText(text) || isLowValueBlock(node, text)) {
       continue;
     }
@@ -140,9 +141,29 @@ function isLowValueBlock(node: Element, text: string): boolean {
   if (/^(home|首页)\s*([>/|]|$)/i.test(text)) {
     return true;
   }
+  if (HEADING_TAGS.has(node.name.toLowerCase())) {
+    return false;
+  }
   const links = DomUtils.findAll((child): child is Element => child instanceof Element && child.name.toLowerCase() === "a", node.children);
-  const linkTextLength = links.reduce((total, link) => total + normalizeText(DomUtils.textContent(link)).length, 0);
+  const linkTextLength = links.reduce((total, link) => total + normalizeText(textContentForTranslation(link.children)).length, 0);
   return text.length > 0 && linkTextLength / text.length > 0.6;
+}
+
+function textContentForTranslation(nodes: AnyNode[]): string {
+  let text = "";
+  for (const node of nodes) {
+    if (node instanceof Text) {
+      text += node.data;
+      continue;
+    }
+    if (node instanceof Element) {
+      if (shouldSkipNode(node)) {
+        continue;
+      }
+      text += textContentForTranslation(node.children);
+    }
+  }
+  return text;
 }
 
 function normalizeText(value: string): string {
