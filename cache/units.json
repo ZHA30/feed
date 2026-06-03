@@ -1,6 +1,94 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c81e396b85bd8a94552c4abacd84907842e769d2d2f2be158190a817ba120319": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a1f49a8b84969638d66e0780c9c99ff7a1937d14a171c7cf7519b17f12d1b844",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Brume 是一款适用于 CM5 的 24 复音多音色桌面合成器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "fdf350b39fc35ae7a39f3cd3b0c962cb3a24d51d9d2bada16ecefe7ca63f3439": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b7330b9f9e6bc960b156237fb10fbb0238fcb90e80e32d831cf13e663cf7bf19",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Elixir v1.20：现已成为渐进类型语言",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "4cc63bb4175697d60b6814b720f16672cfdd646deae826fde72b34001556b5c9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "2b0fec2500d67bca3feb6d3ee566186c9e2a99def948d37be91f99b95b827edd",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Rootshell：冰岛托管的全新端到端加密电子邮件服务",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "08f550d8d26f737380c30832898546b79336ffb9bc36334e347c0d3de4620788": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "403775116700d53faeae227459960d251ed58fd34123eef7d33875d2e66c767c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "人工智能并不具备意识——特德·姜",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "282690d08501dcb8c6541d933cdf426faee79db82979ace69cbd59f90dd54047": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "305735a831d3afca73840d9751f4e1286dbab919ea2475c705cf11ea2ac588d1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "胚胎塑造肢体：“基因刹车”的关键发现",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "576c5d3d4f0c72c1eb2d595de1501196777d787f8a140bafb2b38a867a3d34aa": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "bff7b056e149381db63b28a7ab0a3ef727a9325c54917cfe9a572d9010f6be5e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "机器人流量与人类流量对比",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "41e09fed2c3aad2f3d0969445d7cc16a98c2285f4b047d4ae4278d83a0df947d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "682a6c110723e8f0c9907a397f97d6b533bd528027ae11dc1b012eededd76d46",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "HN 发布：Hyper（YC P26）——助力智能体开发的公司大脑",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "4e6770044d1f5b75458e95b6fc83cf6e2aa3ca6837465e9825e86553624b122a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3fff6a108cf8fffef8683d222faf299499c123804ae4213b169c127284907379",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Gooey：面向 Zig 的 GPU 加速 UI 框架",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
     "1b3942ab50146f39fa26002a51d464f7b7aa143ee76cc1f4edab7394b2e6c85a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -12,16 +100,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:39.671Z"
     },
-    "f84af31057038bf6d442442edcfce9f9fc3e7fca2f228efea8ce96cf40c53a44": {
+    "6d3abc3b3a8205ff2d8a40ae41923dff6ce826f5a9c27cb8ccb9e692abb88321": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "a2db9a9bce3b3dd3a93e668716e77ce3aaa125828aee1b1d00ce59cc79432c13",
+      "sourceHash": "fc8f8eb97c719939f2faedd336ca45c2c88c251f760660327315c52f3df3a303",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Show HN：Nutrepedia – 涵盖29种语言区域的营养信息，使用Clojure和Htmx构建",
+      "translated": "Angular v22",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "68aa0864ce16a916ae516ccc5a329d1dccf147aab4fd27032fad42bd513d95ea": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "aa2cd4042894956b0d927e73ad91433148e957a04ad509cbea953d7924069f93",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "德州仪器新型 5532 芯片并非我们使用数十年的 5532",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
+    "5f370dee92a84a4fb4f2ccefc3ed019dc00770191a9570e6e48f530828de6a3b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7b0d1c96cdb32a2b8072bab6e168d8c0aefa2ce69dbfefd13ec41e8859885ea3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "HN 展示：Nutrepedia——使用 Clojure 和 Htmx 构建的涵盖 29 个地区的营养信息",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
     },
     "1a9e7b44334c86c7ed346602e16aab3b87ef3f09ea60d1ed2b81c7c77cba6dc6": {
       "targetLanguage": "zh-CN",
@@ -31,17 +141,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "ESP32-S31",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
-    },
-    "7bd6a2c9e8e17755024b6e6b4f8d42a1e52953b908533dd05331a65632df7223": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8ab91fbed6223d170f8468bad0a796d703685e066bb16a8f4741742765fd889b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Uber将裁减人力资源部门23%的职位",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:39.671Z"
     },
@@ -78,38 +177,16 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:17.356Z"
     },
-    "45b63a423c2f190767e412fbcbf9a5985a0e6069d29528f91e894862d3867a8e": {
+    "505bf76b7c884696704db183e5e61face499202e9566af95cc46551d41a24235": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "84631c0659a590fb2e8f505432c0ece831d5a974bac79b815d5b76845a250738",
+      "sourceHash": "2d2ec5ceb573f473a74f41b63433e8d37baccf459c54297baf234c0cde25a6c4",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Shopify 宕机",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
-    "567b0e181fa4703f5ba1668361572edb189c6013971f3d28e1e838d0b37d236d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a74c6a83ee0432da11e242ba13beee14eaef2dbde3d3424f2eafcdabf3ea8606",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "REST3D：从单张图像重建物理稳定的3D场景",
+      "translated": "我最近被诊断出患有抗 NMDA 受体脑炎",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
-    },
-    "2e6386363680018f26ae47f71252a446e269bbdaf9ccdeba05d589fd1571da9a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "26899485d57420792123d6bfd9f0584b9f814535194676f20dd1d0d8045cda21",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我制作了一个关于飞机飞过我房子的天花板投影映射",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
+      "createdAt": "2026-06-03T20:34:01.265Z"
     },
     "62f7f1e89a52f75653ecc8b162de69a0e01c33ab798a8b11a0fdf9dccd2d62f6": {
       "targetLanguage": "zh-CN",
@@ -133,6 +210,17 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:17.356Z"
     },
+    "d6ca28d361f98696932c16bf2c9989fff487a9d2e6d304b970bd2ce0f0f7ee5d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fb1770a1c3d693d14f52c89525732994f24829b954da718235d1a7470e567a1c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Uber 每月 1500 美元的 AI 限额为 AI 工具定价提供了有用信号",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
     "db41201f1c22d26a4b0601a112d0982af3b24bd3fa3ad3b201a23e1ba2451caf": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -155,6 +243,17 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:17.356Z"
     },
+    "237003ffec317f0bbef6fb8791eddf35a114ca4a161eede38fe9f69154cc04c8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "07bf477475c37a2a708d747fbebfdb0b9daa0a449fbc3a7f9726a63b3cbe720c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "关于长号我学到的东西",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:01.265Z"
+    },
     "228297f6458914665430a759a8cb032379ee36becfd3df2462b771366792d65a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -166,124 +265,25 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:17.356Z"
     },
-    "35be4ef2fa8fc4cd984f94c238e0166ef07fd8fe33908e6ef049ad0d972a1781": {
+    "171e329df75e7d934586f3bc42d9916a821ab83c017d2220d3541ef024df86c9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "4126a7037899c7051ee2aee8516d407d08cea86f83f2f008703f5700478b9a2e",
+      "sourceHash": "6c1c405c592c1ace25a08770732cd2faaf965ab6947ad5911ba62a02bd6ba8b6",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "关于人工智能与数学的莱顿宣言",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
-    "6adbe346328ae13e37a5cf344ab232e618d973dfcb4fd687f983c298342295f8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "66d39e70e3fa7dac24c1afde7be1098c0336f704b4e528bb4550c875adc17649",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "自然界蛋白质折叠的不合理冗余",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
-    "25211fb427fd234dd29a584d8589ccb72dafae34b0971b336aee3d7fa04bff55": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "47ddf971dc6099486bc1756b07e4afd301cdf4ed6a0281d7c7ad53e92d7883e2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "多伦多大学研究人员展示 AI 蠕虫可针对任何在线设备",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
-    "e5a41d0967fd02d41b9aa5fc7fbb47d73e93521179b3b7e198162f2b84f8c255": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "7ed49db25efa57fa0c78bf5ef2bfa0f4252002446e3af0ddd3db53917e585b89",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "在斯坦福法学院研究中，AI 表现优于法学教授",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "bb67349db7f816abf026c29a256799fc922bed382a9f3fccdcee1c2c847652bb": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "78c55644b44bb5cb519097f89a962d4a221941803540df07b6a6132ded96616e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Pluto.jl 1.0 发布 – 适用于 Julia 的响应式笔记本",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "cbca819e87cd5873d1d652f347bd7d6e694224e171a02aa7d9368cfef14c7b6a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "2f2fe68e08db33a29145ab9679c1e9db246cf571014d515f45b312521c0a24ed",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "在 Linux 上将 Nvidia GPU 的显存用作交换空间",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "7b30dfc701be2ef2aaac38b867b6b71850a8815a405d37e7e327cf96701a6fca": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d583bdc2979b26bf66d439726a3107ba904240dea3a63fcf09733e053b82aad7",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Show HN: Edsger – 适用于 reMarkable 2 的手写 Clojure REPL",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "4497414a27ce127f884b1388a5aad5158f75073138bba4de9bffe0c2b1e62f31": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c3a62c3993d138e3743d1da02b940dfb53b7605861228b67b53b63fde08d98e7",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "MAI-Code-1-Flash",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "9446b8eb6d94141dbfc6d7d96a15f7ad6ac948a3c3fbcc859238ebe774814fc2": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b1aac8bc5d381dfdda5a9736bd3d27723d636c2beac0499d619227964db3ecc8",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "通过 VSCode 漏洞一键窃取 GitHub 令牌",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.357Z"
-    },
-    "2cdb9f03af06bfc6a9d32cd4e0784d26790959e7ecd0c715b31f63abf6245735": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "653a473cd4bf111e7e31f0a39dae9cc1009f86858eb1c59957f55c2e64fd51d7",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "你喜欢我们的意大利扁面条吗？（2025）",
+      "translated": "随着人工智能迅速发展，数学家发出警告",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
+      "createdAt": "2026-06-03T20:34:01.265Z"
     },
-    "be604a519938d3024a6abf31b2e43d78b93224cda5665085ec27783df3ebbb1f": {
+    "31a8f6f72301bac8406f632d73168a78a01f76c1d2f5ffbe7cf3c83cac71dd56": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "991468eb111fc45bb46f52b06934cd8a88a175875240abafb1fd94f4892352c6",
+      "sourceHash": "81b49dc2170d50080d36d5c9b91ae5e917d2640388ad5bd54636ff654433682a",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "'懒惰但方便'——威尔士四分之一的年轻人每周吃两份或更多外卖",
+      "translated": "伊朗无人机袭击科威特机场，致一人死亡数十人受伤",
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:33.904Z"
     },
@@ -298,6 +298,50 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:33.904Z"
     },
+    "cd50e8389233e8a4ea50cc75c9c005de387f789394a81b1be0d2716de8a922d8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0559c7ddefeb7a0f82b00f315e1428cfaba649f6df539cc0f2735191c8c3c0ae",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "以色列空袭致黎巴嫩九人死亡，真主党越境发射火箭弹",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "9de0e676427b1945e6d306f804cd17e9ab608b3047c197e9f6a516e9dab718b3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ee94ce359fe8ea99a0e711dd76c5fc15a363b2f79c83bb42831d2c515d9dea4a",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "特朗普'反武器化'基金的终止是共和党反击的又一迹象",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "39ac21e28a5b0ed1a20440cc9054a3055724a1782493d869138dd3d3cae99269": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "344db6cadc3cb206a688c50ed6c78830af66e1fc39fffc4bcd17fb041d44c6ff",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "头号种子萨巴伦卡再次错失大满贯良机",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "f06495df053d4159c635ac210dda381ceea730b5e0e01bc91385fab4a98c4ec2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5b0243f39cc9062ffd84bdf1263de414dc87d55221bbc0565adf3e5291503d97",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "警察局长就亨利·诺瓦克被铐并逮捕向其家属道歉",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
     "07273e368daeccaf205f059b2dfb3167ae6679e6d5e21865cf2e963fdf412797": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -308,6 +352,83 @@
       "translated": "英国军情六处前负责人亚历克斯·扬格爵士逝世，享年62岁",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:49.919Z"
+    },
+    "507b55b6b9d7ed290848d5292523fd4750f4a97e9f4d6df0d6d979fe0616071d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "adf6870edc0721d02b88c2c8e3ff043e2c55f9a494f4f4f67a8792718cc571bb",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "最具经验？最年轻？最佳联赛？世界杯阵容数据一览",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "19b97975ec685f46b5990070e4aa28f6f28a48e30eeb4b8f04179fdda79041ac": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "6012612a4ae01712d374389c8daad6feb105e8ce11c3c3105c027f66cdb4454f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "亨利·诺瓦克之死引发对英国警务与种族问题的更多质疑",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "ceb3e9454e3770fdb94cc1cecda215f15fe0637d4631bdc9191996da4bf60988": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "85447e3eb760afcd968b78137aa560009c871e812940dbf8e84b57cef44366e5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伊劳拉将让利物浦球迷再次兴奋——墨菲",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "59a2ab1e9e20edd52a31b1c988d7613c091a70759a9793d3898528227d7ef701": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ebd121f6a15bd8ede3a1d6dbd0203eafb89cf5e293f50bb5ea9c8cb66ed3ca61",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "英格兰在灰烬杯后负债累累，必须立即开始偿还",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "5486ec813e8987abff25664fd3fd135069de4095d3f7d48e65b179ec4ca16a44": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fee2c2cfbb7a00620c15e257abc46816914ca96ccb3c7ee2e83bcdc288a054bc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'兼职'麦克罗伊将继续选择性参赛",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
+    },
+    "be604a519938d3024a6abf31b2e43d78b93224cda5665085ec27783df3ebbb1f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "991468eb111fc45bb46f52b06934cd8a88a175875240abafb1fd94f4892352c6",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'懒惰但方便'——威尔士四分之一的年轻人每周吃两份或更多外卖",
+      "model": "deepseek-v4-flash",
+      "createdAt": "2026-06-03T15:06:33.904Z"
+    },
+    "5851eba5dfa2468e546cecd416b21677a07e98b739c46fafbb77aa21924aef82": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "25b1c54f9fbf5326663330b1ab141e4a3f5a92beb458c9689b5e682e4cb685a4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Newscast",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
     },
     "9d654a95c1e0e27bae7b1b7c0b3cb31805f98b02d84daaddcc87471c34f1cf49": {
       "targetLanguage": "zh-CN",
@@ -320,17 +441,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:49.919Z"
     },
-    "8f17e1e52a6e001aa715d8795ceb3e3ee2adf7c4111f9539108e53652cd6c42e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "458ae47e9486e87d6f17256c4c13902cc28c7e8293fcec1ee9d71e9d9c1b0bbb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "资格赛选手赫瓦林斯卡晋级半决赛，延续法网梦想之旅",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
     "67731010e84cb7d3896afea5d06f660820dd2aad3be8540aa134dea8ce6db0fe": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -339,17 +449,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "男子在加州银行劫持人质后被FBI击毙",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:49.919Z"
-    },
-    "f7e521935cbd16e89601c1591eaf6248b92059835ccd70784d419933881aaa05": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c4a1a90d23094fd5802c14db6678f901d05731578101f1838ab2acf53c9f62dd",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "萨巴伦卡在震惊的1/4决赛失利中\"陷入精神黑暗\"",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:49.919Z"
     },
@@ -375,17 +474,6 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:06:33.904Z"
     },
-    "e83f80972ff8cc7b5d517c2bc40ca7b585de68134902d5ff183fc9eb326dc484": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ed4ce30fac7749bb260b2d611a1f2ac6b593ab0c9bfd1338e8972302c92c7544",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "前英国政治顾问和拜登内阁秘书在加州州长初选计票中领先",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:49.919Z"
-    },
     "05329cc95af682c25d6d89026a1d49307405b8167ce57a79c07a23c80417b972": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -397,49 +485,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:49.919Z"
     },
-    "a64116a12aa55f8a6b00fd605ccac92264ef0255cc44754a545b4fd7f671f767": {
+    "cefb6bc73961585bc84efd44eaed05f69e46ae7b4ef236ec049961bdd408e6ae": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "bf8b4e5d4b66f367029bca6596517daf2fb284bbdcacc2624c6dd4af0f2971c1",
+      "sourceHash": "c75996f935ee7673bcdc100cc69d1be423f9391428cdddb1a1ff8f7336addce5",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "严格的IPL立场可能给英格兰队带来麻烦——斯托克斯",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "bb0c40a9157b4df84086ae6e348ed5952e6461a813992f2e2870620fdfe0a9dd": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6b7a523d3665d47b37db1ee05b0fdf7c53fee75af7eb5b0331c81866f174076e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "英国通信管理局称，企业和地方当局必须改善火车上的移动信号",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "d4d84a303eef34220a6c8f333acff943f765ff3cbb04e6676912acd17459e5d2": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f99136f799a68126ef928104b32e44b11e10e6d98e92d1494b01db7049cec400",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "德国间谍活动是否如南安普顿主帅埃克特所称那样普遍？",
+      "translated": "'自私'的司机延误了对溺水女孩的救援",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:49.919Z"
+      "createdAt": "2026-06-03T20:34:25.561Z"
     },
-    "31a8f6f72301bac8406f632d73168a78a01f76c1d2f5ffbe7cf3c83cac71dd56": {
+    "f1f1ba1079be015859bab109dc522e67bd39e92b41d3e85a7802763044fc4bcc": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "81b49dc2170d50080d36d5c9b91ae5e917d2640388ad5bd54636ff654433682a",
+      "sourceHash": "57b604f085acad8ce9e07f250a3f6cefdea18ef4ec0789308313a18071663fe0",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "伊朗无人机袭击科威特机场，致一人死亡数十人受伤",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
+      "translated": "有多少世界杯球衣可能不会在比赛中被穿着？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-03T20:34:25.561Z"
     },
     "34e452275e5a7d8473e4bc2b802126468253e42cbe5e853245310ab38c2c6f06": {
       "targetLanguage": "zh-CN",
@@ -473,83 +539,6 @@
       "translated": "社区对亨利·诺瓦克警方抗议中的暴力行为感到震惊",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:49.919Z"
-    },
-    "1dfb3dd11c41745ccd74e962bcb55e35c3b0afab95001ba9556292ee146c6b24": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ecfb0bdf169cdde666a7629e9fc300eaf7a1eb3263b7a9813453f81521974647",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "特朗普'武器化'基金的结束是共和党反击的又一迹象",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "c085ba6cf7530e87125a232012bba5950ab8f5d857f57beba365c5508d40c982": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a53b90481ea5e3610fcbe6e8e1ac3c74bddc34830727582d89b5f49b8d2976e4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "每周两小时力量训练能降低早逝风险吗？",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "dd865f24730d3dd2c0a69ec3434a4cece853158bfb77c62204a7fcdf93daf156": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8738bacf387767bbb5eeada69c3f1105698575832c2b8951753ab6b313c9a6c0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "乌克兰无人机袭击圣彼得堡，普京旗舰经济论坛开幕",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "2fb54f6a8ce87b43b80ee04153356f9c0e6813da40b139db5386811929c2286a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "cae25ab87c6fe878025de7f515347a74704367c26272398fc1923fec96627096",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "KSI退出YouTube团体后告诉Sidemen'我会一直在'",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "4d203d6039e0f2a25fb5c0051f3d0fcf38762c0ac5eae4317ba69b1c7df08b6b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "695292b342b1d16868e14e2075e6bdf282e303fcb687c2365400904b7d86b281",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Meta员工可拒绝在工作时被追踪——但每次只能半小时",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "d338c87e7337c7b167aa73b5f5d069ebc56e8faeee2a4c274edc9e57e8c9f4f4": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "becae9783878dc2bedf4941d47e0d1b3cd0920ef09f00f6f28785283375ae694",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "一名内容创作者如何试图利用YouTube不在场证明逃脱谋杀指控",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "fdbaaba2626c4f888f831f5faf3646dcf9bad5230bf1b1ae20db5542744bc026": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c69577561ccfba11d706e1cf2fdbb12c00ed1d2ac24264e440fe767bd47a4df4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "斯科特准备在世界杯友谊赛中首次代表英格兰出场",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
