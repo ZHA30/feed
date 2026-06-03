@@ -5,6 +5,7 @@ import { loadLlmConfig, translateBatch } from "./llm.js";
 
 const BATCH_MAX_UNITS = 40;
 const BATCH_MAX_CHARS = 12_000;
+const HEARTBEAT_INTERVAL_MS = 30_000;
 
 export async function translateFeed(extracted: ExtractedFeed, cache: TranslationCache): Promise<TranslationResult> {
   const config = loadLlmConfig();
@@ -39,7 +40,11 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
     const batchStartedAt = Date.now();
     console.log(`batch ${batchIndex}/${batches.length}: ${batch.length} units, ${batch.reduce((sum, unit) => sum + unit.sourceText.length, 0)} chars`);
     try {
-      const translated = await translateBatch(config, extracted.targetLanguage, batch);
+      const translated = await withHeartbeat(
+        `batch ${batchIndex}/${batches.length}`,
+        batchStartedAt,
+        () => translateBatch(config, extracted.targetLanguage, batch),
+      );
       for (const item of translated) {
         const unit = batch.find((unit) => unit.unitId === item.id);
         if (!unit || !item.translatedText) {
@@ -52,9 +57,16 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
     }
     catch {
       console.log(`batch ${batchIndex}/${batches.length}: failed, retrying as single-unit requests`);
+      let fallbackIndex = 0;
       for (const unit of batch) {
+        fallbackIndex++;
+        const fallbackStartedAt = Date.now();
         try {
-          const [translated] = await translateBatch(config, extracted.targetLanguage, [unit]);
+          const [translated] = await withHeartbeat(
+            `batch ${batchIndex}/${batches.length} fallback ${fallbackIndex}/${batch.length}`,
+            fallbackStartedAt,
+            () => translateBatch(config, extracted.targetLanguage, [unit]),
+          );
           if (translated?.translatedText) {
             putCacheEntry({ cache, unit, translated: translated.translatedText, model: config.model, targetLanguage: extracted.targetLanguage });
             results.push(resultFromUnit(unit, "translated", translated.translatedText, 2));
@@ -129,4 +141,17 @@ function makeResult(extracted: ExtractedFeed, units: TranslationUnitResult[]): T
 
 function formatDuration(ms: number): string {
   return `${(ms / 1000).toFixed(1)}s`;
+}
+
+async function withHeartbeat<T>(label: string, startedAt: number, task: () => Promise<T>): Promise<T> {
+  const timer = setInterval(() => {
+    console.log(`${label}: running ${formatDuration(Date.now() - startedAt)}...`);
+  }, HEARTBEAT_INTERVAL_MS);
+  timer.unref();
+  try {
+    return await task();
+  }
+  finally {
+    clearInterval(timer);
+  }
 }
