@@ -1,0 +1,27 @@
+{
+  "name": "transfeed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "transfeed:build": "tsx src/cli/build.ts",
+    "transfeed:update-readme": "tsx src/cli/update-readme.ts",
+    "transfeed:commit-state": "tsx src/cli/commit-state.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dom-serializer": "^2.0.0",
+    "domhandler": "^5.0.3",
+    "domutils": "^3.2.2",
+    "fast-xml-parser": "^5.2.5",
+    "htmlparser2": "^10.0.0",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

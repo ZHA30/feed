@@ -1,0 +1,6 @@
+node_modules/
+build/
+dist/
+/state/
+/.transfeed-state/
+.DS_Store

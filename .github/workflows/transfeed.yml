@@ -1,0 +1,58 @@
+name: Build Transfeed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+concurrency:
+  group: transfeed-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git fetch --depth=1 origin main:refs/remotes/origin/main && git checkout -B main origin/main
+      - name: Prepare state worktree
+        run: |
+          if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
+            git fetch --depth=1 origin state:refs/remotes/origin/state
+            git worktree add --detach state origin/state
+          else
+            git worktree add --orphan state
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run transfeed:build
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          TRANSFEED_STATE_DIR: state
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - run: npm run transfeed:update-readme
+        env:
+          TRANSFEED_STATE_DIR: state
+          TRANSFEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+      - run: npm run transfeed:commit-state
+        env:
+          TRANSFEED_STATE_DIR: state
