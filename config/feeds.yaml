@@ -1,0 +1,6 @@
+feeds:
+  - path: /hn
+    url: https://hnrss.org/frontpage
+    targetLanguage: zh-CN
+    fields:
+      - title
