@@ -1,1 +1,3 @@
-- [/hn](https://zha30.github.io/transfeed/hn.xml)
+- [/ycombinator/news](https://zha30.github.io/transfeed/ycombinator/news.xml)
+- [/bbc](https://zha30.github.io/transfeed/bbc.xml)
+- [/readwise](https://zha30.github.io/transfeed/readwise.xml)

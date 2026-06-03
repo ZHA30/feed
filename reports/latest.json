@@ -1,0 +1,58 @@
+{
+  "runId": "26893713325",
+  "startedAt": "2026-06-03T15:06:02.443Z",
+  "finishedAt": "2026-06-03T15:12:17.665Z",
+  "status": "success",
+  "feeds": [
+    {
+      "path": "/ycombinator/news",
+      "sourceUrl": "https://news.ycombinator.com/rss",
+      "outputPath": "dist/ycombinator/news.xml",
+      "limit": 25,
+      "inputItems": 25,
+      "outputItems": 25,
+      "units": 25,
+      "cacheHits": 0,
+      "translated": 25,
+      "failedUnits": 0,
+      "issues": []
+    },
+    {
+      "path": "/bbc",
+      "sourceUrl": "https://feeds.bbci.co.uk/news/rss.xml",
+      "outputPath": "dist/bbc.xml",
+      "limit": 25,
+      "inputItems": 25,
+      "outputItems": 25,
+      "units": 25,
+      "cacheHits": 0,
+      "translated": 25,
+      "failedUnits": 0,
+      "issues": []
+    },
+    {
+      "path": "/readwise",
+      "sourceUrl": "https://wise.readwise.io/feed",
+      "outputPath": "dist/readwise.xml",
+      "limit": 10,
+      "inputItems": 10,
+      "outputItems": 10,
+      "units": 268,
+      "cacheHits": 0,
+      "translated": 268,
+      "failedUnits": 0,
+      "issues": []
+    }
+  ],
+  "totals": {
+    "feeds": 3,
+    "renderedFeeds": 3,
+    "inputItems": 60,
+    "outputItems": 60,
+    "units": 318,
+    "cacheHits": 0,
+    "translated": 318,
+    "failedUnits": 0
+  },
+  "issues": []
+}
