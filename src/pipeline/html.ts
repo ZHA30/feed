@@ -48,7 +48,7 @@ export function hasHtmlStructure(value: string): boolean {
 }
 
 export function extractHtmlBlocks(html: string): HtmlBlock[] {
-  const document = parseDocument(html, { decodeEntities: false });
+  const document = parseDocument(html, { decodeEntities: true });
   return markTranslatableBlocks(document.children);
 }
 
@@ -57,7 +57,7 @@ export function reinsertHtmlTranslations(html: string, translations: Map<string,
     return html;
   }
 
-  const document = parseDocument(html, { decodeEntities: false });
+  const document = parseDocument(html, { decodeEntities: true });
   markTranslatableBlocks(document.children);
   for (const node of DomUtils.findAll((node): node is Element => node instanceof Element, document.children)) {
     const blockPath = node.attribs["data-transfeed-block"];

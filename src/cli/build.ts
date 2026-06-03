@@ -4,6 +4,7 @@ import { extractFeed } from "../pipeline/extract.js";
 import { writeTextFile, writeJsonFile } from "../lib/files.js";
 import { fetchText } from "../feed/fetch.js";
 import { parseFeedXml, windowFeed } from "../feed/normalize.js";
+import { appendStepSummary, logGroup, logGroupEnd, logKeyValue, logNotice } from "../lib/logger.js";
 import { redactUrl } from "../lib/url.js";
 import { reembedFeed } from "../output/reembed.js";
 import { renderRss } from "../output/rss.js";
@@ -23,14 +24,25 @@ async function main(): Promise<void> {
 
   await rm("dist", { recursive: true, force: true });
 
+  logGroup("Transfeed setup");
   const configs = await loadConfig();
   const cache = await loadTranslationCache();
+  logKeyValue("feeds", configs.length);
+  logKeyValue("cache entries", Object.keys(cache.entries).length);
+  logGroupEnd();
 
   for (const config of configs) {
+    const feedStartedAt = Date.now();
+    logGroup(`Feed ${config.path}`);
     try {
+      logKeyValue("source", redactUrl(config.url));
+      logKeyValue("target", config.targetLanguage);
+      logKeyValue("limit", config.limit);
       const fetched = await fetchText(config.url, FETCH_TIMEOUT_SECONDS);
       const normalized = windowFeed(parseFeedXml(fetched.body, config, fetched.finalUrl));
+      logKeyValue("items", normalized.channel.items.length);
       const extracted = extractFeed(normalized, config);
+      logKeyValue("units", extracted.units.length);
       const translated = await translateFeed(extracted, cache);
       const renderedItems = reembedFeed(normalized, config, extracted, translated);
       const rendered = renderRss(normalized, config, renderedItems);
@@ -44,6 +56,11 @@ async function main(): Promise<void> {
       await writeTextFile(rendered.outputPath, rendered.xml);
       const failedUnits = translated.units.filter((unit) => unit.status === "failed").length;
       const feedIssues = [...normalized.issues, ...extracted.issues, ...translated.issues, ...rendered.issues];
+      logKeyValue("cache hits", translated.units.filter((unit) => unit.status === "cached").length);
+      logKeyValue("translated", translated.units.filter((unit) => unit.status === "translated").length);
+      logKeyValue("failed", failedUnits);
+      logKeyValue("output", rendered.outputPath);
+      logKeyValue("duration", formatDuration(Date.now() - feedStartedAt));
       issues.push(...feedIssues);
       feedReports.push({
         path: config.path,
@@ -68,6 +85,8 @@ async function main(): Promise<void> {
         path: config.path,
       };
       issues.push(issue);
+      logKeyValue("error", issue.message);
+      logKeyValue("duration", formatDuration(Date.now() - feedStartedAt));
       feedReports.push({
         path: config.path,
         sourceUrl: redactUrl(config.url),
@@ -81,14 +100,22 @@ async function main(): Promise<void> {
         issues: [issue],
       });
     }
+    finally {
+      logGroupEnd();
+    }
   }
 
+  logGroup("State and report");
   const nextCache = pruneCache(cache, usedCacheKeys);
   await saveTranslationCache(nextCache);
+  logKeyValue("next cache", Object.keys(nextCache.entries).length);
 
   const report = makeReport(runId, startedAt, new Date().toISOString(), feedReports, issues);
   await writeJsonFile(stateFilePath("reports/latest.json"), report);
+  logKeyValue("report", stateFilePath("reports/latest.json"));
+  logGroupEnd();
   writeSummary(report);
+  await appendStepSummary(renderStepSummary(report));
 
   if (report.status === "failed") {
     process.exitCode = 1;
@@ -118,13 +145,35 @@ function makeReport(runId: string, startedAt: string, finishedAt: string, feeds:
 }
 
 function writeSummary(report: RunReport): void {
-  console.log(`Transfeed ${report.status}`);
-  console.log(`Feeds: ${report.totals.renderedFeeds}/${report.totals.feeds}`);
-  console.log(`Items: ${report.totals.outputItems}`);
-  console.log(`Units: ${report.totals.units}, cache hits: ${report.totals.cacheHits}, translated: ${report.totals.translated}, failed: ${report.totals.failedUnits}`);
+  logNotice(`Transfeed ${report.status}: feeds ${report.totals.renderedFeeds}/${report.totals.feeds}, items ${report.totals.outputItems}, units ${report.totals.units}`);
   for (const issue of report.issues) {
     console.log(`[${issue.severity}] ${issue.path ?? ""} ${issue.code}: ${issue.message}`);
   }
+}
+
+function renderStepSummary(report: RunReport): string {
+  const rows = report.feeds
+    .map((feed) => `| ${feed.path} | ${feed.outputItems} | ${feed.units} | ${feed.cacheHits} | ${feed.translated} | ${feed.failedUnits} |`)
+    .join("\n");
+  return `## Transfeed ${report.status}
+
+| Metric | Value |
+|---|---:|
+| Feeds | ${report.totals.renderedFeeds}/${report.totals.feeds} |
+| Items | ${report.totals.outputItems} |
+| Units | ${report.totals.units} |
+| Cache hits | ${report.totals.cacheHits} |
+| Translated | ${report.totals.translated} |
+| Failed units | ${report.totals.failedUnits} |
+
+| Feed | Items | Units | Cache hits | Translated | Failed |
+|---|---:|---:|---:|---:|---:|
+${rows}
+`;
+}
+
+function formatDuration(ms: number): string {
+  return `${(ms / 1000).toFixed(1)}s`;
 }
 
 function errorToMessage(error: unknown): string {

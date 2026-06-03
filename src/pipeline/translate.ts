@@ -1,4 +1,5 @@
 import type { ExtractedFeed, TranslationCache, TranslationResult, TranslationUnit, TranslationUnitResult } from "../types.js";
+import { logGroup, logGroupEnd, logKeyValue } from "../lib/logger.js";
 import { putCacheEntry } from "../state/cache.js";
 import { loadLlmConfig, translateBatch } from "./llm.js";
 
@@ -27,7 +28,16 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
     return makeResult(extracted, results);
   }
 
-  for (const batch of makeBatches(misses)) {
+  const batches = makeBatches(misses);
+  logGroup(`Translate ${extracted.path}`);
+  logKeyValue("cache hits", results.length);
+  logKeyValue("misses", misses.length);
+  logKeyValue("batches", batches.length);
+  let batchIndex = 0;
+  for (const batch of batches) {
+    batchIndex++;
+    const batchStartedAt = Date.now();
+    console.log(`batch ${batchIndex}/${batches.length}: ${batch.length} units, ${batch.reduce((sum, unit) => sum + unit.sourceText.length, 0)} chars`);
     try {
       const translated = await translateBatch(config, extracted.targetLanguage, batch);
       for (const item of translated) {
@@ -38,8 +48,10 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
         putCacheEntry({ cache, unit, translated: item.translatedText, model: config.model, targetLanguage: extracted.targetLanguage });
         results.push(resultFromUnit(unit, "translated", item.translatedText, 1));
       }
+      console.log(`batch ${batchIndex}/${batches.length}: ok in ${formatDuration(Date.now() - batchStartedAt)}`);
     }
     catch {
+      console.log(`batch ${batchIndex}/${batches.length}: failed, retrying as single-unit requests`);
       for (const unit of batch) {
         try {
           const [translated] = await translateBatch(config, extracted.targetLanguage, [unit]);
@@ -55,8 +67,10 @@ export async function translateFeed(extracted: ExtractedFeed, cache: Translation
           results.push(resultFromUnit(unit, "failed", undefined, 2, error instanceof Error ? error.message : "translation_failed"));
         }
       }
+      console.log(`batch ${batchIndex}/${batches.length}: fallback done in ${formatDuration(Date.now() - batchStartedAt)}`);
     }
   }
+  logGroupEnd();
 
   return makeResult(extracted, results);
 }
@@ -111,4 +125,8 @@ function makeResult(extracted: ExtractedFeed, units: TranslationUnitResult[]): T
     units,
     issues: [],
   };
+}
+
+function formatDuration(ms: number): string {
+  return `${(ms / 1000).toFixed(1)}s`;
 }

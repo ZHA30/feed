@@ -12,6 +12,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
       pages: write
@@ -20,10 +22,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout source
+        uses: actions/checkout@v4
         with:
           ref: main
-      - run: git fetch --depth=1 origin main:refs/remotes/origin/main && git checkout -B main origin/main
+      - name: Pin source branch
+        run: git fetch --depth=1 origin main:refs/remotes/origin/main && git checkout -B main origin/main
       - name: Prepare state worktree
         run: |
           if git ls-remote --exit-code --heads origin state >/dev/null 2>&1; then
@@ -32,12 +36,15 @@ jobs:
           else
             git worktree add --orphan state
           fi
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npm run transfeed:build
+      - name: Install dependencies
+        run: npm ci
+      - name: Build translated feeds
+        run: npm run transfeed:build
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
@@ -45,15 +52,19 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           TRANSFEED_STATE_DIR: state
           TRANSFEED_SECRET_ENV: ${{ secrets.TRANSFEED_SECRET_ENV }}
-      - uses: actions/upload-pages-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist
-      - id: deployment
+      - name: Deploy Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-      - run: npm run transfeed:update-readme
+      - name: Update state README
+        run: npm run transfeed:update-readme
         env:
           TRANSFEED_STATE_DIR: state
           TRANSFEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-      - run: npm run transfeed:commit-state
+      - name: Commit state
+        run: npm run transfeed:commit-state
         env:
           TRANSFEED_STATE_DIR: state
