@@ -1,16 +1,49 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "c247bb66b89af877bdea13bc1d8c8cb2159fd96de98cd1604a35a95830b03e48": {
+    "be0e7fde435a40709bbdc431a7abb3e5bec1d1b5227e7667f65e74c09e385660": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "4c183f9617b9c2a0aa76c40ff772f552c3c400089bce526bae05d5ff2ff616ae",
+      "sourceHash": "ce55746dfc0eaaca01b1e801f3c8e8a998b49c554884e89be4e95b969894f7c1",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "NSA 使用 Anthropic 的 Mythos 进行网络攻击",
+      "translated": "Show HN: 形式化验证的多边形相交 – Opus 4.8 oneshots，先前失败",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T21:41:09.510Z"
+      "createdAt": "2026-06-04T23:08:22.615Z"
+    },
+    "1a839e46c8f4ee4c7269719b9126732c4d756191ccd09b3cee72d80deb8d3400": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fddb381865693025d151a455fefa481e71de2c7cae3bafd6973cc8a5b1623daa",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "URL中的IPv6区域是一个错误",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:22.615Z"
+    },
+    "f50564f77e19f087bcdcd742a28128fd77c3a8df5b55c09a7ec16123f195178a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d60ae57521acd3a8a7fe04a5707e8f2a5abf799ec18a515d632f5eac8c76057d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "蜂后从特殊的蜡室中出现",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:22.615Z"
+    },
+    "0ba49b8d7492841f83995cde5c882664fbdfbfdb9cdea54013959bc153e56349": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0119c3f81fae7fca0482f48339041ce237cbed70a9d40cc809c0a91feba9cff1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN: Mercek – 一个适用于AWS ECS的桌面IDE",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:22.615Z"
     },
     "cbff150c9c9a7b901814122d254a048703aaaa683b9a8ba003c76bc6b1fd95a2": {
       "targetLanguage": "zh-CN",
@@ -67,16 +100,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T21:41:09.510Z"
     },
-    "8d069dc78bc02ed890d4b429794b63ea8d3dd933f2175e60bf21ba2d6c5001ac": {
+    "f4cd715745b95f8adc0f8dfd58b7f0b6a76a48f806a5ca1947323b97237615d7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "0f991fa2fabc4a6d6cd28a05174ff29f791cb02455c735589d006f457bc226fe",
+      "sourceHash": "cf42fdb98899ab0c9a385b3f46f5348978d022bdf36c912524ce06bceb810188",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "纽约时报的绝望",
+      "translated": "Show HN: Hitoku Draft – 上下文感知的本地助手",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:42.669Z"
+      "createdAt": "2026-06-04T23:08:22.615Z"
     },
     "e37cf219960fd09ff37cca23f715b8e6640529f5cc98048be0428892171a2474": {
       "targetLanguage": "zh-CN",
@@ -133,6 +166,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T19:23:31.276Z"
     },
+    "4e6b934016b208c79649e3a12550e942d5e7ed0c82780ef90d89494df1b3514b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "44dadc80623a3c5222eac07c2de8efea8ce815bfd7e421f2ab5b97683581ae85",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Ask HN: 金拉米策略",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:22.615Z"
+    },
     "566a875c7cd0720cef0e490aa584ac591c834667e4ae51234de3a405fa6235ab": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -143,17 +187,6 @@
       "translated": "VoidZero将加入Cloudflare",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
-    },
-    "0c4e5743e147ab5db71c01abef445f797b4f60d7566706fad928046d895f6f1f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "55570f2a47438c5131ada2e58d9754a8e528a2ea46636a32e20c04161229c1ab",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Show HN: Cost.dev (YC W21) – 使代理具有成本意识且调用成本更低",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:31.276Z"
     },
     "8feb0ba83464ace193d2a9cf12b68f667756bbe45f4ed3e50c46690bb89e4614": {
       "targetLanguage": "zh-CN",
@@ -188,71 +221,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:42.669Z"
     },
-    "31694373b52fe63ce119a3fc06b1e8682a2d126e0e3d4a5603222a703f3c848a": {
+    "5835f6b0b26bd9bc34a231776d845dc2a0e66a113a5383b77c416755f000bb70": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "39e1a802ffabf2be885437de1379b656d4f25329d98fb994d14f77677a67f51d",
+      "sourceHash": "53c7469a31be188a6079f3fb8a598348f734cfcca30a7e2a507cd2c17da51dca",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "我构建了一个有漏洞的应用，并花费了1500美元来测试LLMs能否攻破它。",
+      "translated": "我对革新教育的努力持怀疑态度",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T01:44:04.536Z"
+      "createdAt": "2026-06-04T23:08:22.615Z"
     },
-    "ebcf8aa5f2ab0c2136c1cafadd3fc892f200b3bab0535850ba8651810f6e245e": {
+    "20ef508b4a5f9b8a433b70660aad170abc71ba258f9ee8de3b7ba1e9b84a22d3": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "e474d64f18f29c8563f87cbc8e046d7a05ad58b4ff3f1f2ada27bae00fa4fbbe",
+      "sourceHash": "ec8d8379ebebdc5d9e3b743fd9b9f761902a2137b867906fb219bbef62c79518",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "在伯克利计算机科学课程中，随着人工智能的使用，不及格分数骤升，数学技能下降",
+      "translated": "无分支快速排序比std:sort和pdqsort更快，带有C和C++ API",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T06:30:00.775Z"
-    },
-    "e196017b8614c62e709ca7414b5fe6ba30bccd86c866589a77f422ce08e0db8c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a7c6699b13c0550df3f86b1cd02cd8aca2113a9102b846c94613f0d712f82774",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "它们是由砝码制成的",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T10:26:31.742Z"
-    },
-    "fdf350b39fc35ae7a39f3cd3b0c962cb3a24d51d9d2bada16ecefe7ca63f3439": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b7330b9f9e6bc960b156237fb10fbb0238fcb90e80e32d831cf13e663cf7bf19",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Elixir v1.20：现已成为渐进类型语言",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:01.265Z"
-    },
-    "08f550d8d26f737380c30832898546b79336ffb9bc36334e347c0d3de4620788": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "403775116700d53faeae227459960d251ed58fd34123eef7d33875d2e66c767c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "人工智能没有意识——Ted Chiang",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:42.669Z"
-    },
-    "60c8bbf2f8dfbd515f441f27c33f37e0e381e95382e4c4a9428370ad792caa44": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b7d307d4ca01cda8182e853f8121c3750b4b3059fe6548d877d339d9ebcc2985",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Gemma 4 12B：统一的、无编码器的多模态模型",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
+      "createdAt": "2026-06-04T23:08:22.615Z"
     },
     "11fd1d9e121714f05459b71f4a987aa5887c9604b69217c25a403fd24ddd58ce": {
       "targetLanguage": "zh-CN",
@@ -276,6 +265,83 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
     },
+    "e05e257c9f19263b3289fd09906406f62d0bd054b70bc7bbf2b9e2c61f3b6b02": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "98881047a90427cab87dec10b55b2c1ef2647214dd918899c3b137a65518421f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "3D打印书籍将其自身的G代码转化为凸起的文字",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:22.615Z"
+    },
+    "e24308ce7400a7767f119583aca129124bc68e3fef873c03937c9129bf90bfdd": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d1ab73e384b75c357025d331c7b111dfa01316b6088fae9857c9cf96492169b7",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "敬你，Ollie Robinson——英格兰比你想象的更需要你",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:45.019Z"
+    },
+    "d431f3edadce0918be6df8eeba4e41b77199781fb6b14e0ebe256501e0051c06": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c0c4a00dff65a7d57d0605e5363a4616f8d77fc2a5d9943f77579ba91e8fb6c5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Steven Spielberg 相信我们将在有生之年发现外星人",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:45.019Z"
+    },
+    "6ca69e68f55ffa8faad9389fea30855a368dfff63e5f09ebf6c4717928a2ddd5": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8f9ed74182172fc0b9a4c734ea6941c7b79b5475fc552dd796a5df7594279d95",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伯纳姆表示他将寻求参加任何工党领袖竞选",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
+    "bc1a2439bffffcffc1d25fb3895d572ff5bc2848790a4188ce154fe79ad64446": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "08fbdef7fbbea8ec10f55f5aab50a0b040a7038b3d1e06c12c0b666865ac3420",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "AI 需要'刹车踏板'，Anthropic 联合创始人警告",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:45.019Z"
+    },
+    "a78408f20a6f9501c10c9ecd0ea52df0db1d6653c858515749b2699cf905bde4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e82d1aa0fef5aace8133a2f6ed601efa60e5514af5e11e8dc53f1fff9bd79d74",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "身份政治冲突长期来看可能导致内战，Badenoch 表示",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:45.019Z"
+    },
+    "e34b816fa528b79766a28cdd1991f1de8567f00fe7535ca13dd012d00d9ead4a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "27443fc25b725fcc8df9db54a745b94ae13e7adf075451d5cf57ca3b68a7e1c0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "迪拜统治者的侄子的前妻被拘留，检察官称",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T23:08:45.019Z"
+    },
     "7bc2955943e4a3b8604115244e80483ca94cda52a2c98aaf7dc491395e3b8645": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -298,17 +364,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T21:41:25.127Z"
     },
-    "6ca69e68f55ffa8faad9389fea30855a368dfff63e5f09ebf6c4717928a2ddd5": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8f9ed74182172fc0b9a4c734ea6941c7b79b5475fc552dd796a5df7594279d95",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "伯纳姆表示他将寻求参加任何工党领袖竞选",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T21:41:25.127Z"
-    },
     "827cea153a1d2e1ad4e5c0f4f7283f32dd12e5415cb7ba676afc4d68bf0c611e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -319,17 +374,6 @@
       "translated": "真主党拒绝接受以色列和黎巴嫩达成的新的停火协议",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:00.371Z"
-    },
-    "335024509f62505b1cf262c000d5d06d34391706ced9d861ddf8456770d3d2ac": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "77d161f2850ae3d62013c4311989aa4bf629dd2a520b581d2512fdd34065de9d",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "罗宾逊在梦幻回归后准备付出努力",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T21:41:25.127Z"
     },
     "38f08725cd361af59cdb528978c1910028df0877fac5c99ae79096cb83417ddf": {
       "targetLanguage": "zh-CN",
@@ -430,17 +474,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:21:01.500Z"
     },
-    "176a63839ff4f9415c7ce526b6af8490848689da6541a6a6de18276411db46ef": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "69b0c53d18cdf7640d8ab48c803d886733a61da84696949b505d0cf7f3271a7a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "律师称迪拜统治者侄子的前妻失踪",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.276Z"
-    },
     "a5a33c71d95f0a4867a434d464545cb8f24d1abeb5a5117a4d5f5037e880f408": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -485,17 +518,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
     },
-    "ed5dd22ca38bdf21a6213cf5211297cd46377a6a4308480c1ce5da8b5b6d508c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "69fbf6cf9ae4bd077639b5c12f7005928d99de24770a13381469cf0f74bb80e8",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "唐纳森虐待案审判中据称受害者的丈夫在作证时情绪崩溃",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:21:52.394Z"
-    },
     "4307bb459ffc8dde19be0a141df5a9c2c647ca7ff01e2f9da702b27476dad175": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -507,17 +529,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:11.602Z"
     },
-    "4a6b911c808803228409cace5bb4448c4937d2f0f466fdffe44686d10337121e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8dd6a2b115df608700a901eba148ed26ffb06154a889a2414f4df4693f6d8bcf",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "曾获奥斯卡提名的《我在伊朗长大》作者玛嘉·莎塔琵去世，享年56岁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:22:24.651Z"
-    },
     "6e1bf3a50b31141a1be33b7b49973572b0e09b01e6d94a06194d28b58918b256": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -528,17 +539,6 @@
       "translated": "邦迪海滩枪击案英雄被控袭击",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:43.571Z"
-    },
-    "e351f4de7ea85e561f71b5d49550da70a3627f5aaf8173a31a864c6b6c519a39": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1b760573ba441a98f2598db3b5f0b266dd24df59d7c518c5c9a538e4f38cd48a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "高温专家表示，世界杯水瓶禁令将球迷置于风险之中。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:22:48.003Z"
     },
     "b73703220565018b46af581a908bb96ec8acb5fe95f0c0671bb9498f0e467e95": {
       "targetLanguage": "zh-CN",
