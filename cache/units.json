@@ -1,6 +1,17 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f9afd1bc5737cfabd4f092e3aed75bb5ab603cfda0e7e03da150ceed6a3ff164": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "279b6477c67eb5eb76f2307f18f0e08c0c88763684bd70a510b00a6ab417f541",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "SpaceX的IPO将是世纪之窃",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
     "31694373b52fe63ce119a3fc06b1e8682a2d126e0e3d4a5603222a703f3c848a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -11,6 +22,28 @@
       "translated": "我构建了一个有漏洞的应用，并花费了1500美元来测试LLMs能否攻破它。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:04.536Z"
+    },
+    "626898a9e13c8ea5d2849c6cba38b1788a5c43d8d695ce8aa12d7a6b9d45f52c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "1039adbbbab846b2231058f10cf04682165cc248c15cd6a4bf6bcdfcf4a5c7f3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国将拆除追踪面临崩溃风险的大西洋洋流的系统",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
+    "b63539f057da75c54302c19e83527818f6b215d687231241ba78dee67bdd9608": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c2ebffcb3f014e05d93afdeb9bf9cbe9038d282d485d77221d8e84515cf14194",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Dumbphone 2",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
     },
     "71f3f02fe0f4b854f83692c0a4e81087114c27582981f564ab2d892beabd8dd4": {
       "targetLanguage": "zh-CN",
@@ -23,16 +56,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:04.536Z"
     },
-    "10917b0272806a1d113accf72226128b6fd5fe8d81b11b7eec9e254a398dc9b7": {
+    "ebcf8aa5f2ab0c2136c1cafadd3fc892f200b3bab0535850ba8651810f6e245e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "19c7e2d82ef2ad983742ec49ad789e41c919e1770c39e11694c9bbe199f1d75b",
+      "sourceHash": "e474d64f18f29c8563f87cbc8e046d7a05ad58b4ff3f1f2ada27bae00fa4fbbe",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Ü编程语言。",
+      "translated": "在伯克利计算机科学课程中，随着人工智能的使用，不及格分数骤升，数学技能下降",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T01:44:04.536Z"
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
+    "4e065161f141304725f78e1b7a4887deb6c1ad288a73a14b990c573c44903041": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "dc3cf785da16299a27ceee02647bb3704c71f94d7b4286f114f3536038867edc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "DNS是为人类服务的，而不是为IT基础设施",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
+    "53ea19cf241b99a70a6e4d23ee68292f7abd51344a2f2324c3179db54c488595": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "6ea4b07418a1c1acb672b6aa5fc3306b0da47c4b8bf9f3584e277dc230f266e6",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "\"它们是由砝码制成的\"",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
     },
     "ef80b0b21dd5da09cf48aeb1acbb813048cfb63156d1b4319813ef957a1591fe": {
       "targetLanguage": "zh-CN",
@@ -45,16 +100,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T22:59:22.577Z"
     },
-    "8f85c039cd2d68a56d0e296541737af76ba824462a8673f40392405557dab789": {
+    "269c8936e3b898e96b6d117f5c6ca36427a7be3bcb6308ab6470cf3570148fdf": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "856cd5c221dc882ee594560187dc431bc5663d1935154dc7a0e540ba385c8ca1",
+      "sourceHash": "9af0521f952b51eacb61657acf61685e9ce7bc727af3f7b59bd2494d92cbf75e",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "一个数学家的悲叹 – Paul Lockhart (2002) [pdf]",
+      "translated": "《一位数学家的哀叹》（2002）[pdf]",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:22.578Z"
+      "createdAt": "2026-06-04T06:30:00.775Z"
     },
     "539a8680ec3d8c1660198abf8440520f016a00d19676aa98ad766fdff15d0bbb": {
       "targetLanguage": "zh-CN",
@@ -67,27 +122,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T22:59:22.578Z"
     },
-    "9eb531732568d6318e572c7a08070f4683edc94148b9ceb15ae4a5f86c47b7c9": {
+    "9b065c09c10356cb197cbcc44e8b02d892dcf99caed8438665287fb01c298361": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "b4bffb35d7c5dc34abd4025151faa681f54aa9a5e4c90927e73f4ab5d73fc954",
+      "sourceHash": "f28c09960b5c2fe8066f021231571cf07ff3756c8a373a433b13ca21f9138b72",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Show HN: Mnemo – 面向任何大语言模型的本地优先AI记忆层 (Rust, SQLite, petgraph)",
+      "translated": "以读书为生的人",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:22.578Z"
-    },
-    "120193d852fd1588e41854aeda57c927c3ee5f2542b4ec00ae76d0d5dd14c68d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a982392d0b29fb82df91eecfb7b04f395606dfcf08b7bb3013fe6377521f6ac4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "一个靠读书谋生的人（每两天读一本）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:22.578Z"
+      "createdAt": "2026-06-04T06:30:00.775Z"
     },
     "8caf718ee79c98ab36735bd200cde190831445ca6daccdc016f4689d0014538c": {
       "targetLanguage": "zh-CN",
@@ -99,17 +143,6 @@
       "translated": "自托管开发沙盒，带预览URL (Docker, Go, 无K8s)",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T22:59:22.578Z"
-    },
-    "c81e396b85bd8a94552c4abacd84907842e769d2d2f2be158190a817ba120319": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a1f49a8b84969638d66e0780c9c99ff7a1937d14a171c7cf7519b17f12d1b844",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Brume 是一款适用于 CM5 的 24 复音多音色桌面合成器",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:01.265Z"
     },
     "fdf350b39fc35ae7a39f3cd3b0c962cb3a24d51d9d2bada16ecefe7ca63f3439": {
       "targetLanguage": "zh-CN",
@@ -133,17 +166,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:04.536Z"
     },
-    "282690d08501dcb8c6541d933cdf426faee79db82979ace69cbd59f90dd54047": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "305735a831d3afca73840d9751f4e1286dbab919ea2475c705cf11ea2ac588d1",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "胚胎塑造肢体：“基因刹车”的关键发现",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:01.265Z"
-    },
     "41e09fed2c3aad2f3d0969445d7cc16a98c2285f4b047d4ae4278d83a0df947d": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -165,17 +187,6 @@
       "translated": "Gooey：面向 Zig 的 GPU 加速 UI 框架",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T20:34:01.265Z"
-    },
-    "1b3942ab50146f39fa26002a51d464f7b7aa143ee76cc1f4edab7394b2e6c85a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4f03cd39cee3c6b061db9ca1039bbcb778fbd66f35f6331a5699738d25e851fb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Skyvern（YC S23）正在招聘热爱开源的DevRel工程师",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:39.671Z"
     },
     "1a9e7b44334c86c7ed346602e16aab3b87ef3f09ea60d1ed2b81c7c77cba6dc6": {
       "targetLanguage": "zh-CN",
@@ -232,17 +243,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T20:34:01.265Z"
     },
-    "8f8dbd1506be647161a6f7f97318d1b2a9fd3c764ab9a32ab8344b972e17751a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3928a710b30e1fbb4a57d1aa15cab894b474f4766ea407e22d669ff6e1e9e324",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Meta 员工可以选择在工作时最多 30 分钟不被追踪",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
     "d6ca28d361f98696932c16bf2c9989fff487a9d2e6d304b970bd2ce0f0f7ee5d": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -254,27 +254,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T20:34:01.265Z"
     },
-    "db41201f1c22d26a4b0601a112d0982af3b24bd3fa3ad3b201a23e1ba2451caf": {
+    "171e329df75e7d934586f3bc42d9916a821ab83c017d2220d3541ef024df86c9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "a2f22a83b6368e0023fa53ba01a2612b729c506e7ef1265c9284c88e018a0446",
+      "sourceHash": "6c1c405c592c1ace25a08770732cd2faaf965ab6947ad5911ba62a02bd6ba8b6",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "每个字节都重要",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:17.356Z"
-    },
-    "394ec6263ebbef648793891a850f40ea9bdf6da329862f3053db6aba698ad419": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "43d639a211779a22552d3d63c67669215ddf2dc856ff28b4a571f0c576599352",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Pwnd Blaster: 无需触碰即可通过扬声器入侵你的电脑",
+      "translated": "随着人工智能迅速普及，数学家们发出警告",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:22.578Z"
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
+    "1b174aaf20a1ed9d3f4849b4845dbf0f85fccd161b5f4492858e33567bfcf6aa": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "bdaff7d70f1fbb68fc6c5555c0ec924924b9841f9a40663b71ac868ab12da2c3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "救生/急救海报",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:00.775Z"
+    },
+    "f790e2660b3f0c78c39be8f4c60e5ab736a9d223017cbaafae34ba9f55394370": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e72b19b7c1d39c7f50a11ac4571c99f44a6170aeb4149d49a3b1db1e746ee95a",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "视频库与利兹捡垃圾——走进贝尔萨的内心世界",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
     },
     "378fdfaa27cdbbcbb2a5f7349c5e5620d9b2b29020420d7f97c1bf3a13a9bcca": {
       "targetLanguage": "zh-CN",
@@ -287,16 +298,115 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:16.028Z"
     },
-    "9d4137573e9b55b4bb2fa6dbff83db5c91e5d304fdc3f52d8a9d0b925116d528": {
+    "f98b864d5673ac3727070c1e757910eee9484d2d632c67eb2b6e0021b7991896": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "4008406b253ff95c987e4783ddbe1f5a9f28f39cc04a881d3e325844e125d64a",
+      "sourceHash": "bd4a87c411b6cc8e7de3d85d0065a14ae7a4a5018f3ebb92dd95a7d60baa1656",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "美国众议院投票阻止伊朗战争，以示对特朗普的谴责",
+      "translated": "一个不想成为梅西的青少年：拉明·亚马尔如何开辟自己的道路",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "596a775b27dbedb8f903500a09790b462b07bea70156af8dc383f82b45e86953": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "63df9af3c61d9e84f8b4fd8f15a8a2edc536606a57fa8e48d6732f3583cb2136",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "乌克兰-俄罗斯紧张局势笼罩法网半决赛",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "0eca49ff7f421b419f5b80afebeff8af63ab58d4a0d546f5a86ee021812b07f3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "22cf9455e10ea184cebc1dd8adbd334f6fe57f01b1b8a6f0760751dffffb0ba3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "锡克教领袖在诺瓦克骚乱后呼吁和谐",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "d5027ae3252c2f70333e8d9cbd09b2f26f21ad9295d8a4b4e7cc7fbbc58c4094": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3993055f7659094b3aa37a3a7cd7010205728c2e8c08a4f8515766230ad20a41",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "“我离开了儿童之家——并被爱拥抱”",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "df824b01190819a6a5cbd71a152b612bbffa05fe23186bbcb216e64788b11c1b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3052544143eaf0f0bf1eff1d6953d1d7cfdc43921ee4437082878bf43829ae27",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "莫莉-梅·黑格和汤米·弗瑞喜迎第二胎",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "f7fff041358a23f7128ebef286763152252a052a16b65355b0a352a067273bd4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "140e876a8cce87bb2dc754359b3a0e8fa173f9fa8d95519c51497ed02a54af45",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "食肉螺旋蝇抵达美国，德克萨斯州牛群中发现首例病例",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "bcd4196c3304ea1bccae6ef4e25ea77720410d09544f2b98d683514465e1f37c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "cf719251c296262b89ae91a06fc1a6ee0443c82f0928c00d4390f2844e561ff2",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国众议院投票限制特朗普的战争权力，以示对伊朗问题的谴责",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "90785f75f3b1e4e874edf18354b1c382918cd6b01f4b4d9950d3f2b4a3028989": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "340ff946d6c0963baa635ea7225d923af8aa69720a11bd92485edd8606cfa415",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "SpaceX称估值达1.75万亿美元，接近股票市场首次亮相",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:16.028Z"
+    },
+    "4ba3b538a962238e155a6799c107c7de4474e3c6986b547557ae0af4fa5c0b18": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "35482a1d138790507e5daad148bcc079bc29db2dbd5c37603da924be1fd7e3cf",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "参议院共和党人削减10亿美元用于特朗普新建白宫舞厅的资金",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
+    },
+    "1a3360f809bbb2c2683de94307772fd6fc9d67f30d36d92da359d6fc14e07534": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3e3bd21e2d25214b5bdcdedbc99618127d43db15071803f7b2a6c0c0fa58e01c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "德国指责俄罗斯导致其在联合国安理会竞选中“惨败”",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T06:30:12.526Z"
     },
     "2b010907e155265591d8283115c39ddfb9b29e7ab6df5ae0e6e0c737464c1e21": {
       "targetLanguage": "zh-CN",
@@ -320,27 +430,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:16.028Z"
     },
-    "b638740c0a94f56d90163401dcc25b28534e07ac03e91380ffea2e71b7f8145f": {
+    "62f11038a5a481b430a2630d3320fa4be0a0c43de236f665bb93ac911c491763": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "b45ca07c271ba9e7991de506d308a663acc66b6cfdfde4e1120826789d1c0b0a",
+      "sourceHash": "3c903f866b0d1f9eb3d3c6109d891b7fe41a34f3caad95c8992bae822359a543",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "突破性卵巢癌药物为患者提供更多时间和更高质量的生活",
+      "translated": "新卵巢癌药物为患者提供更长时间和更高质量的生活",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T01:44:16.028Z"
-    },
-    "90785f75f3b1e4e874edf18354b1c382918cd6b01f4b4d9950d3f2b4a3028989": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "340ff946d6c0963baa635ea7225d923af8aa69720a11bd92485edd8606cfa415",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "SpaceX称估值达1.75万亿美元，接近股票市场首次亮相",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T01:44:16.028Z"
+      "createdAt": "2026-06-04T06:30:12.526Z"
     },
     "428554c0ec146d266a86a6cf827c1b422d7b9def074cfb271435adb3402bbb60": {
       "targetLanguage": "zh-CN",
@@ -386,27 +485,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T22:59:29.303Z"
     },
-    "33fe94cc0a5ef198244811d572a209c07e7ac3bc3045eaa0c5180b690819d881": {
+    "fdfb93997617a9f16402b2dde7a6b7e0e29659fcc18b778c7b477cc2f3fa814e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "55cf59dda4da5b03b27912069d2ab9309285a87903dc3810d0c941bf6f714297",
+      "sourceHash": "31eba7f83b91855448b608d1f6f8f19c2bfdac3a87f449227e21bc01283886c6",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "科纳特透露若塔和父亲去世后自己患上抑郁症",
+      "translated": "科纳特透露在若塔和父亲去世后患上抑郁症",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:29.303Z"
+      "createdAt": "2026-06-04T06:30:12.526Z"
     },
-    "bb02a3fedafcc623544b142f1c9ef571f3def5a440c8a1be3cc078692dfc99a9": {
+    "64df86c17cfcde8d48c91bcb38812933f659b98892f659936caaf9d362b98e0b": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "8935f649ca44efee3e8712741fe5c398c159638bb2d7975153d4cd5420b9faf9",
+      "sourceHash": "4fa50c69e0edd92e433d29cd60c5db730aa6f30d78812c1758435f20c0f76458",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "军情五处警告中国间谍利用招聘网站瞄准政府工作人员",
+      "translated": "MI5警告中国间谍利用招聘网站针对政府工作人员",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T22:59:29.303Z"
+      "createdAt": "2026-06-04T06:30:12.526Z"
     },
     "0a7155f8592056c1134e44f82936fac587f4ce3a3d2c0dc1586942601195fde9": {
       "targetLanguage": "zh-CN",
@@ -451,105 +550,6 @@
       "translated": "议员因深度伪造比基尼照片起诉马斯克的xAI",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:16.028Z"
-    },
-    "4b71e337b2b478f7d1092073a368f3238dad7c172ae5bdb65e54626983809aaf": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "28f80598544be40983bf5363afd239531c5cc7cfa7e939ac589bbbc62a171eb7",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "皇家海军直升机训练演习中坠毁，三人死亡",
-      "model": "deepseek-v4-flash",
-      "createdAt": "2026-06-03T15:06:33.904Z"
-    },
-    "9de0e676427b1945e6d306f804cd17e9ab608b3047c197e9f6a516e9dab718b3": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ee94ce359fe8ea99a0e711dd76c5fc15a363b2f79c83bb42831d2c515d9dea4a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "特朗普'反武器化'基金的终止是共和党反击的又一迹象",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "39ac21e28a5b0ed1a20440cc9054a3055724a1782493d869138dd3d3cae99269": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "344db6cadc3cb206a688c50ed6c78830af66e1fc39fffc4bcd17fb041d44c6ff",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "头号种子萨巴伦卡再次错失大满贯良机",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "f06495df053d4159c635ac210dda381ceea730b5e0e01bc91385fab4a98c4ec2": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "5b0243f39cc9062ffd84bdf1263de414dc87d55221bbc0565adf3e5291503d97",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "警察局长就亨利·诺瓦克被铐并逮捕向其家属道歉",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "07273e368daeccaf205f059b2dfb3167ae6679e6d5e21865cf2e963fdf412797": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9866c532b208b931c31bd408b3e27358062660a11bbb019e6a03ff2f6d2cfd91",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "英国军情六处前负责人亚历克斯·扬格爵士逝世，享年62岁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T17:06:49.919Z"
-    },
-    "507b55b6b9d7ed290848d5292523fd4750f4a97e9f4d6df0d6d979fe0616071d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "adf6870edc0721d02b88c2c8e3ff043e2c55f9a494f4f4f67a8792718cc571bb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "最具经验？最年轻？最佳联赛？世界杯阵容数据一览",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "19b97975ec685f46b5990070e4aa28f6f28a48e30eeb4b8f04179fdda79041ac": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6012612a4ae01712d374389c8daad6feb105e8ce11c3c3105c027f66cdb4454f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "亨利·诺瓦克之死引发对英国警务与种族问题的更多质疑",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "59a2ab1e9e20edd52a31b1c988d7613c091a70759a9793d3898528227d7ef701": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ebd121f6a15bd8ede3a1d6dbd0203eafb89cf5e293f50bb5ea9c8cb66ed3ca61",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "英格兰在灰烬杯后负债累累，必须立即开始偿还",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
-    },
-    "5486ec813e8987abff25664fd3fd135069de4095d3f7d48e65b179ec4ca16a44": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fee2c2cfbb7a00620c15e257abc46816914ca96ccb3c7ee2e83bcdc288a054bc",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'兼职'麦克罗伊将继续选择性参赛",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:25.561Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
