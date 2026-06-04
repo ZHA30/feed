@@ -1,16 +1,71 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "7d99fcd0f64b4692156d722d6f2b4371710c6ddf74b946baad71dc50a88a0646": {
+    "c247bb66b89af877bdea13bc1d8c8cb2159fd96de98cd1604a35a95830b03e48": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "6f693ba38237a254153aefcd5aec5ff067d0549dae2b7ef31a06e6b4b7a27613",
+      "sourceHash": "4c183f9617b9c2a0aa76c40ff772f552c3c400089bce526bae05d5ff2ff616ae",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "美国财富的切分",
+      "translated": "NSA 使用 Anthropic 的 Mythos 进行网络攻击",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:31.276Z"
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
+    "cbff150c9c9a7b901814122d254a048703aaaa683b9a8ba003c76bc6b1fd95a2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "774e9ad50eec3dce63f4223d882435d7e62edc24a4c6f4f6a47bd9689a4e357e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "展示 HN: FFmpeg WebCLI – 浏览器中的完整 FFmpeg，离线 PWA，无需上传 (WASM)",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
+    "3c642221827cd3b092da6cabe6bbe2d110139ed9a52d787101105589198e76b4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e51a4c8f5844f633f5cc1b45332767fcde21c62f45ac5acd0b9fb7f8b88ba5eb",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伊朗冲击震动亚欧加速能源转型",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
+    "9a29cadd29e0c06dda7730505056e225a1f29af81aae75c3512ccb80f271c5b8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b3554500f5a3a98020fc4abf2a79fa62f8cf6c45e09485c864daae7dcfc6a86d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Anthropic 的开源框架，用于 AI 驱动的漏洞发现",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
+    "9ec9f30c2688425b455c468649d25d7e031218d68ea6d8c8c2a3003c08513e36": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4971270569f75c587d42f272feef28135ed06c714e34b9513e4b1d71237ad5f2",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Castor: CERN 高级存储管理器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
+    "816b3c02f61c6f810af8ae3b243d05bb242701f9b5a0763533b77aab134801dc": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "1545735e31e7242d7222c4d2fab08fa808aadf87ad7989a5e46d291f45369c5d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Meta 在智能眼镜上推出面部识别功能",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
     },
     "8d069dc78bc02ed890d4b429794b63ea8d3dd933f2175e60bf21ba2d6c5001ac": {
       "targetLanguage": "zh-CN",
@@ -34,16 +89,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:42.669Z"
     },
-    "ae002ce2a241d0f08f93479bac3ed80a21cbe4635ca94b6e70950137aff5bd55": {
+    "07ec87632d8bec7a3c007ef4c29c0b72ef4a822e0a86e1568aee89dbecdd9129": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "6f3186f378891f9f8b57f2ef8d6f34f1c2d92e5dadf0a0a4f2acade53a60be8d",
+      "sourceHash": "88a6a67cac420d1323bd3542277dc5f0e88d1d0dff8f7a4347419a2231189ecb",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "12,060块积木，$799.99，圣家堂是迄今为止最大的乐高建筑套装",
+      "translated": "当 AI 自我构建：我们在递归自我改进方面的进展",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:42.669Z"
+      "createdAt": "2026-06-04T21:41:09.510Z"
     },
     "81ff578b4b8ae760b707aa49078b39093d0d6ea8799265bd20b40dd9628d4920": {
       "targetLanguage": "zh-CN",
@@ -78,17 +133,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T19:23:31.276Z"
     },
-    "ddfa211ff155f8497df1c55ea9d3e03f35c609f729d64b9c2282b6669b305b7f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b1d326769c0f67959bba514a75af2b719aef4f173c11df96525caffe7af2be2f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "全球首次：2026年4月风能和太阳能发电量超过天然气",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:20:20.380Z"
-    },
     "566a875c7cd0720cef0e490aa584ac591c834667e4ae51234de3a405fa6235ab": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -97,28 +141,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "VoidZero将加入Cloudflare",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:20:20.380Z"
-    },
-    "be6e93953206aa770287f389ba78c8c1d2846a370f8bbaf0b01b3d325bc1484c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "074a90553aa76f09a9fe92e4f03550dfe82a58063040ceda4b39efb5d8eb6ee6",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Ask HN：Facebook的\"localhost\"追踪到底发生了什么？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:42.669Z"
-    },
-    "35650ce066ea57fe21ff86222038e230d34431b3f9c1fdf11c5df92244433a5e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "71f2ee0084c8893e8b7f49bb85722dc450bd8703fdcdaedbdaaecad30179d138",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "法裔伊朗作家、《波斯波利斯》作者玛嘉·莎塔碧去世，享年56岁",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
     },
@@ -177,17 +199,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T01:44:04.536Z"
     },
-    "71f3f02fe0f4b854f83692c0a4e81087114c27582981f564ab2d892beabd8dd4": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "796372c5210e90df41f0c0e928d0627346b6ff1a42e726626139e8c290fc424c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我们在各个产品中管控Claude的方法。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T01:44:04.536Z"
-    },
     "ebcf8aa5f2ab0c2136c1cafadd3fc892f200b3bab0535850ba8651810f6e245e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -243,6 +254,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:39.671Z"
     },
+    "11fd1d9e121714f05459b71f4a987aa5887c9604b69217c25a403fd24ddd58ce": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c0acd9cf16a44b086e07b0d72bf253d0c42a2c6b65d1b1e1dcd26c7a7c9557e3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "在 Pinecil 上使用 JLink JTAG 访问",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:09.510Z"
+    },
     "abc93ee492831f65f21810571c2be25e626cb7d35798356529cee418ab1ce565": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -254,27 +276,71 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
     },
-    "e05e257c9f19263b3289fd09906406f62d0bd054b70bc7bbf2b9e2c61f3b6b02": {
+    "7bc2955943e4a3b8604115244e80483ca94cda52a2c98aaf7dc491395e3b8645": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "98881047a90427cab87dec10b55b2c1ef2647214dd918899c3b137a65518421f",
+      "sourceHash": "223a6dd3f32c14e5472cd2d4557ffd572b579ea0579eef2c6c9f756895b91037",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "3D打印书籍将其自身的G代码转化为凸起文字",
+      "translated": "考德里和亨特·贝尔在罗马钻石联赛中获胜",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:20:20.380Z"
+      "createdAt": "2026-06-04T21:41:25.127Z"
     },
-    "386c49dc603c9af90828cdefb9e77db391b4a4aa71ea270404e7c694d7be5cfc": {
+    "cca11246a2497c27e4c1912f053c537a83c549fcaa8aaf3219faa17ae0179740": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "3ec0bbb354f3f8c48512265ed35b7a366b239a1e19d0d21634c09cb9e7d52523",
+      "sourceHash": "18ea72481ac9d62891ba5df744d65912b3491e23380cf6affde4c9cd55d90f23",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "巴黎圣母院下，“世纪发掘”出土1700年历史",
+      "translated": "凯尔特人球迷团体表示反对基恩",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:31.276Z"
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
+    "6ca69e68f55ffa8faad9389fea30855a368dfff63e5f09ebf6c4717928a2ddd5": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8f9ed74182172fc0b9a4c734ea6941c7b79b5475fc552dd796a5df7594279d95",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伯纳姆表示他将寻求参加任何工党领袖竞选",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
+    "827cea153a1d2e1ad4e5c0f4f7283f32dd12e5415cb7ba676afc4d68bf0c611e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e4b230b13d2f14a9abd5f787cc2390cfcca13213995e35b4ca1e306076af94c1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "真主党拒绝接受以色列和黎巴嫩达成的新的停火协议",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T16:22:00.371Z"
+    },
+    "335024509f62505b1cf262c000d5d06d34391706ced9d861ddf8456770d3d2ac": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "77d161f2850ae3d62013c4311989aa4bf629dd2a520b581d2512fdd34065de9d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "罗宾逊在梦幻回归后准备付出努力",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
+    "38f08725cd361af59cdb528978c1910028df0877fac5c99ae79096cb83417ddf": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0a4e5a07e324a10ff9fac1fc371462976afb9396f4ca9886680633621d6dda30",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "令人震惊的法国网球公开赛决赛选手的小纹身如何赋予伟大征程意义",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
     },
     "3ced357a3b4bdaf1e4756cf941b3f276b0b8b8304b8ef34f953ef67eb625c814": {
       "targetLanguage": "zh-CN",
@@ -287,6 +353,39 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
     },
+    "c161d9f9522dd1db0825626750c1311e3197d324ac05051909fd60ee3e31c043": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ad531cb1053e6bf1506de4eeb3d2f4a643d3be33e8b4b6bc5a8e02761f2e40ea",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "凯特拥抱按响“结束癌症治疗”铃的母亲",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T18:12:58.276Z"
+    },
+    "a33cfcd2549ae49fa2fbfd8c0177b4d1727d78e328234b037c16b616464d2c97": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ea5a65606d9817f4c1223cf9028a93a482df850507cbd8cabde29b5f1ee7ff06",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "关于学生谋杀案的错误信息如何导致两人躲藏",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
+    "4d0cd4ee25de3c42a4d69050cd8d87494fd9abd68b6f3190c200ba11dedbc03f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8b1937bfa9f462bf0319b1767fbcb855bbeaf47ac0b6f0c066312bfb1169b88a",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "罗宾逊的完美回归使英格兰对新西兰占据优势",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T21:41:25.127Z"
+    },
     "adbf75005557f2021f3715a577b7ceccd9f7862fcc8cb89220235dc2d05e2080": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -297,28 +396,6 @@
       "translated": "伦敦地铁罢工期间乘车人数超周二，TfL 表示",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T19:23:39.320Z"
-    },
-    "1d4d22f9ba644dea52ab63ef4b3b6b4ec7dda216ac19a13bd0211ea470608001": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3362d0456f83c2829202a18dc06051ca7143fc6e7c457a0192a23dedc0115aca",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "罗宾逊惊艳回归为英格兰注入活力",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:39.320Z"
-    },
-    "31dda213827748d935277bc1711549d6d47f682605988ef8c5b2cfcc32de7ed4": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "986ad86a25546a26ad01feb7461440962e7d3916dffd869ee4a758b344a338e3",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "预选赛选手赫瓦林斯卡晋级法网决赛，将战安德烈耶娃",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.276Z"
     },
     "644e64f797fd540ced69f5adf680650b9e282d279d96c1500f19554a04d8e3f7": {
       "targetLanguage": "zh-CN",
@@ -331,16 +408,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T19:23:39.320Z"
     },
-    "29848150caae9aa7da42df8c8e593d9484d67c7389a0e533757275f5053585f0": {
+    "ac04e70e05bae10b59cc9290c59e4013d606c6255f595db7261f2e88210a4e28": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "ce9939a8a4ce232bd9b41c1a63d9b889ca8da9c437359287691e6d89246e07b2",
+      "sourceHash": "f20ec58eedcba8e8d4fe71f159cd69a99972f16bc42a702210ebd4c2f465a81a",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "利物浦任命伊劳拉为主教练",
+      "translated": "顶级球员、冠军争夺——为何伊拉奥拉感觉已准备好对阵利物浦",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:39.320Z"
+      "createdAt": "2026-06-04T21:41:25.127Z"
     },
     "ea9d16f5ebc1a39406b13d96ccd4bd62fad4b7267038241128dfab264ed54b4d": {
       "targetLanguage": "zh-CN",
@@ -375,17 +452,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:44.817Z"
     },
-    "827cea153a1d2e1ad4e5c0f4f7283f32dd12e5415cb7ba676afc4d68bf0c611e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "e4b230b13d2f14a9abd5f787cc2390cfcca13213995e35b4ca1e306076af94c1",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "真主党拒绝接受以色列和黎巴嫩达成的新的停火协议",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:22:00.371Z"
-    },
     "3c1ced732664fc9c19460f54c4c9f47e33036240d62dfdefcd4e55897a6779e3": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -394,17 +460,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "荷兰警方调查多起涉嫌下药和性侵女性案件",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.276Z"
-    },
-    "c161d9f9522dd1db0825626750c1311e3197d324ac05051909fd60ee3e31c043": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ad531cb1053e6bf1506de4eeb3d2f4a643d3be33e8b4b6bc5a8e02761f2e40ea",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "凯特拥抱按响“结束癌症治疗”铃的母亲",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
     },
@@ -419,28 +474,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T10:26:51.618Z"
     },
-    "82b203b636537b742eba5e5d5b80080114a28972816e90cbf5cb363fd5df4bf0": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "64ce16a2d0d107780872e6645f1ac7b0722964a8cace2b5e39746d407038a544",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "罗宾逊精彩表现闪耀洛德球场，英格兰回归之战",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T19:23:39.320Z"
-    },
-    "ed79ff16352e8e1441d5cb6230743aa04f622ec694443e3af00215d2eadf8199": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3d403f7e367246d5647c22b5545072ac1b2e8698c03c301f335d2641db6f92b0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "队友拉塞尔称安东内利的冠军已无悬念",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:21:27.548Z"
-    },
     "12adc047d4ce678341371ca7ebfe958487e45e2e01abf4c80c165669aba2868e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -451,17 +484,6 @@
       "translated": "世界杯票价如何了？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
-    },
-    "0160bcc7f2c576318a8e763550641b8ca1d4591e17b7bf844f746955d13f62ce": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "40cfbead00157424b6288459da5a1dd4f8080c84462f6043b6d310bb2b3f7fda",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "在诺瓦克案中被误认为是警官的女性‘担心安全’",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:21:33.586Z"
     },
     "ed5dd22ca38bdf21a6213cf5211297cd46377a6a4308480c1ce5da8b5b6d508c": {
       "targetLanguage": "zh-CN",
@@ -484,17 +506,6 @@
       "translated": "在众议院就伊朗问题谴责他之后，特朗普反击称该投票'不爱国'。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:11.602Z"
-    },
-    "6acd420a79f948b16e5fdda75d35e2e3348e8d0eb8d0a35db0e0b382d4b8e25c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c1ce57f5f103b32fd9cefba02c2bd66347113b964454eeb7a21dc3cb1bc978ae",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "库什纳支持的豪华度假村计划在阿尔巴尼亚引发抗议",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:22:15.438Z"
     },
     "4a6b911c808803228409cace5bb4448c4937d2f0f466fdffe44686d10337121e": {
       "targetLanguage": "zh-CN",
@@ -539,17 +550,6 @@
       "translated": "失踪六天的夏尔巴向导被发现爬行至珠峰大本营",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:52.627Z"
-    },
-    "ffe7f632b6f1eb890aa35e3cb73629e4eeb91792c4387780c19449afb2068986": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d69ad3d6bdc20ebe0d6235f985f327ea2c92be9859e0f72e2570828e275bc702",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "哈里和梅根分享新照片庆祝莉莉贝特五岁生日",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:23:06.331Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
