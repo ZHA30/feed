@@ -1,6 +1,17 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7d99fcd0f64b4692156d722d6f2b4371710c6ddf74b946baad71dc50a88a0646": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "6f693ba38237a254153aefcd5aec5ff067d0549dae2b7ef31a06e6b4b7a27613",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国财富的切分",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:31.276Z"
+    },
     "8d069dc78bc02ed890d4b429794b63ea8d3dd933f2175e60bf21ba2d6c5001ac": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -34,17 +45,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:42.669Z"
     },
-    "07ec87632d8bec7a3c007ef4c29c0b72ef4a822e0a86e1568aee89dbecdd9129": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "88a6a67cac420d1323bd3542277dc5f0e88d1d0dff8f7a4347419a2231189ecb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "当AI自我构建：我们在递归自我改进方面的进展",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:42.669Z"
-    },
     "81ff578b4b8ae760b707aa49078b39093d0d6ea8799265bd20b40dd9628d4920": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -67,16 +67,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:42.669Z"
     },
-    "1b87df08adc1f79153465037a3d9efa2808308acea2144e218d7a299f66a232c": {
+    "2787ca04f9c7516f4012482990ff15f6fe55ca702691d7e1cd68b00debc5c799": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "9f10374b3ded0d906a1e4c4eda9d8d35948f291a8c317ce8f055eafd67f0f47b",
+      "sourceHash": "dfa54899661c1566b2e6970c4ffba289b61ce5f4d92a181b77b3f5ad0ff8885c",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Show HN：Boxes.dev：放弃localhost；在云端运行Claude Code和Codex",
+      "translated": "AI、Ashby Engineering与未来",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:20:20.380Z"
+      "createdAt": "2026-06-04T19:23:31.276Z"
     },
     "ddfa211ff155f8497df1c55ea9d3e03f35c609f729d64b9c2282b6669b305b7f": {
       "targetLanguage": "zh-CN",
@@ -121,6 +121,17 @@
       "translated": "法裔伊朗作家、《波斯波利斯》作者玛嘉·莎塔碧去世，享年56岁",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
+    },
+    "0c4e5743e147ab5db71c01abef445f797b4f60d7566706fad928046d895f6f1f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "55570f2a47438c5131ada2e58d9754a8e528a2ea46636a32e20c04161229c1ab",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN: Cost.dev (YC W21) – 使代理具有成本意识且调用成本更低",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:31.276Z"
     },
     "8feb0ba83464ace193d2a9cf12b68f667756bbe45f4ed3e50c46690bb89e4614": {
       "targetLanguage": "zh-CN",
@@ -232,28 +243,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:06:39.671Z"
     },
-    "505bf76b7c884696704db183e5e61face499202e9566af95cc46551d41a24235": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "2d2ec5ceb573f473a74f41b63433e8d37baccf459c54297baf234c0cde25a6c4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我最近被诊断出患有抗 NMDA 受体脑炎",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:01.265Z"
-    },
-    "d6ca28d361f98696932c16bf2c9989fff487a9d2e6d304b970bd2ce0f0f7ee5d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fb1770a1c3d693d14f52c89525732994f24829b954da718235d1a7470e567a1c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Uber 每月 1500 美元的 AI 限额为 AI 工具定价提供了有用信号",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-03T20:34:01.265Z"
-    },
     "abc93ee492831f65f21810571c2be25e626cb7d35798356529cee418ab1ce565": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,16 +265,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:20:20.380Z"
     },
-    "4aa31ca8555936aaf58a747ea9394f55d4e1385b5c6884b5ee5791b50420ccff": {
+    "386c49dc603c9af90828cdefb9e77db391b4a4aa71ea270404e7c694d7be5cfc": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "b8f5d72653c2b0b4095bb17ba65edce20a2e4b376787f581fdb4cd93d514d8a1",
+      "sourceHash": "3ec0bbb354f3f8c48512265ed35b7a366b239a1e19d0d21634c09cb9e7d52523",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "今日于测试赛观看：首日测试",
+      "translated": "巴黎圣母院下，“世纪发掘”出土1700年历史",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.275Z"
+      "createdAt": "2026-06-04T19:23:31.276Z"
+    },
+    "3ced357a3b4bdaf1e4756cf941b3f276b0b8b8304b8ef34f953ef67eb625c814": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b583b375d08a0e7083b2a6431d1707fb7dcfbc2ea7e9c11fa1637e200903d46f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "总理称亨利·诺瓦克的遗产应超越悲剧",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T18:12:58.276Z"
+    },
+    "adbf75005557f2021f3715a577b7ceccd9f7862fcc8cb89220235dc2d05e2080": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "44b3f0902fccafd19a9b0531598798ed29a14bbe937579cbb49b2ae1fd7d76ed",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伦敦地铁罢工期间乘车人数超周二，TfL 表示",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:39.320Z"
+    },
+    "1d4d22f9ba644dea52ab63ef4b3b6b4ec7dda216ac19a13bd0211ea470608001": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3362d0456f83c2829202a18dc06051ca7143fc6e7c457a0192a23dedc0115aca",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "罗宾逊惊艳回归为英格兰注入活力",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:39.320Z"
     },
     "31dda213827748d935277bc1711549d6d47f682605988ef8c5b2cfcc32de7ed4": {
       "targetLanguage": "zh-CN",
@@ -298,16 +320,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
     },
-    "3ced357a3b4bdaf1e4756cf941b3f276b0b8b8304b8ef34f953ef67eb625c814": {
+    "644e64f797fd540ced69f5adf680650b9e282d279d96c1500f19554a04d8e3f7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "b583b375d08a0e7083b2a6431d1707fb7dcfbc2ea7e9c11fa1637e200903d46f",
+      "sourceHash": "d7bf540af25e6773eeaf45164531ba442af2fbb166f4de43e25103fd9a578f5e",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "总理称亨利·诺瓦克的遗产应超越悲剧",
+      "translated": "利物浦任命安多尼·伊劳拉为主教练",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.276Z"
+      "createdAt": "2026-06-04T19:23:39.320Z"
+    },
+    "29848150caae9aa7da42df8c8e593d9484d67c7389a0e533757275f5053585f0": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ce9939a8a4ce232bd9b41c1a63d9b889ca8da9c437359287691e6d89246e07b2",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "利物浦任命伊劳拉为主教练",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:39.320Z"
+    },
+    "ea9d16f5ebc1a39406b13d96ccd4bd62fad4b7267038241128dfab264ed54b4d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "25ad9aa652fc3ffd469a737048f9b05ba68d477e099572d1cc4eef834587f4b3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "大学校园内一名男子被弩箭射中",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T16:21:01.500Z"
     },
     "176a63839ff4f9415c7ce526b6af8490848689da6541a6a6de18276411db46ef": {
       "targetLanguage": "zh-CN",
@@ -353,17 +397,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T18:12:58.276Z"
     },
-    "ea9d16f5ebc1a39406b13d96ccd4bd62fad4b7267038241128dfab264ed54b4d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "25ad9aa652fc3ffd469a737048f9b05ba68d477e099572d1cc4eef834587f4b3",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "大学校园内一名男子被弩箭射中",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:21:01.500Z"
-    },
     "c161d9f9522dd1db0825626750c1311e3197d324ac05051909fd60ee3e31c043": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -385,6 +418,17 @@
       "translated": "斯塔默指责马斯克试图在亨利·诺瓦克谋杀案上煽动分裂",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T10:26:51.618Z"
+    },
+    "82b203b636537b742eba5e5d5b80080114a28972816e90cbf5cb363fd5df4bf0": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "64ce16a2d0d107780872e6645f1ac7b0722964a8cace2b5e39746d407038a544",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "罗宾逊精彩表现闪耀洛德球场，英格兰回归之战",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-04T19:23:39.320Z"
     },
     "ed79ff16352e8e1441d5cb6230743aa04f622ec694443e3af00215d2eadf8199": {
       "targetLanguage": "zh-CN",
@@ -485,17 +529,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:48.003Z"
     },
-    "0ac8bdb828ce8e2d14bd52d6893794c1f4d600b072691b7b0fc29e5097e9b3a3": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c461183ca5d30512e4fa1321f935e92945661b6872a8e60837faf0fca049022d",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "高温专家警告“鲁莽的”国际足联，禁瓶令存在健康风险",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T18:12:58.276Z"
-    },
     "b73703220565018b46af581a908bb96ec8acb5fe95f0c0671bb9498f0e467e95": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -507,17 +540,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:22:52.627Z"
     },
-    "a5efe8c85c47ffe76f08cd49272133582eb15e3bc0adcc0cccc898653a053219": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "2129472a0a540299471791342121d4bf380cc1943a76e4365f3bd27ac9b3bac2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "考试监管机构警告称高科技作弊行为有所增加",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:23:02.795Z"
-    },
     "ffe7f632b6f1eb890aa35e3cb73629e4eeb91792c4387780c19449afb2068986": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -528,28 +550,6 @@
       "translated": "哈里和梅根分享新照片庆祝莉莉贝特五岁生日",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-04T16:23:06.331Z"
-    },
-    "b66bdd0764c018003d8383bf7fff9baaca171a3bc5a53b2b032fc98931f489a5": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fc0f032561cf94f26c12dc92972a732788202e2ce85188ae4684f614244f7f3f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "机器狗和直升机：墨西哥某城市的世界杯安保策略",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:23:09.767Z"
-    },
-    "6fbd0d2c2cd67c9a1886a2a0ff8f09042b9bfc670de9e40225e3b5d4e0bf5a1e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "06b74ecbececcc488b85a46c8c58e3f86a4493f31b0263c064cdfc0ae8a7b991",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我们的社区在骚乱后被标记为战区——但现实情况截然不同。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-04T16:23:16.275Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
