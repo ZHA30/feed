@@ -1,3 +1,6 @@
 - [/ycombinator/news](https://zha30.github.io/transfeed/ycombinator/news.xml)
 - [/bbc](https://zha30.github.io/transfeed/bbc.xml)
 - [/readwise](https://zha30.github.io/transfeed/readwise.xml)
+- [/nytimes/world](https://zha30.github.io/transfeed/nytimes/world.xml)
+- [/typesetinthefuture/feed](https://zha30.github.io/transfeed/typesetinthefuture/feed.xml)
+- [/construction-physics/feed](https://zha30.github.io/transfeed/construction-physics/feed.xml)
