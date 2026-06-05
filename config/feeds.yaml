@@ -18,3 +18,9 @@ feeds:
       - title
       - content:encoded
     limit: 10
+
+  - path: /nytimes/world
+    url: https://rss.nytimes.com/services/xml/rss/nyt/world.xml
+    targetLanguage: zh-CN
+    fields:
+      - title
