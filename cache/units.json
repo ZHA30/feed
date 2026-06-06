@@ -1,6 +1,50 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c2a68ff746044f22e1e4c0f5793e2cdcbd37326529c25ffa08a8d68496aa1731": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ff3daa4c341e3804459675d1b55d59225e3f93ed87d325a70241614ab1421eed",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "你可以跑",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
+    "1e1f1f6c3b48b0cc0cb76b4d055a4154babbf7f8f784ef4fc9cb28d82d8cf222": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "2591b7566be30842672717365db86a925f58f6b15e89c2ace71f9eec864eb127",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "英格兰和威尔士警方被要求停止在法庭陈述中使用人工智能",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
+    "3f937d0ad8666e433b3aad4e37478e0ce51b6308d5def4ad1c8a92ebe297cdef": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "356f2841b6a678baf00eaf624dde91d36ec9bfc0854ffa7d928ea52452da97b4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Python JIT项目被要求暂停开发",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
+    "e44175bc0649c4acf948bc3ccfd7cb086c22cf1516c3e913e5ad361d34957846": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8d2bed68d9b8c4754d963abb4675ce76ba3931708155baebc31f7f0e664d1421",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Zeroserve：一个可以使用eBPF脚本编写的零配置Web服务器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
     "d94fc91376da7ee7d8543962acdc1830dc386a769e7b3277652827e1ce0a5c46": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -11,6 +55,17 @@
       "translated": "超越fork() + exec()",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:14:50.562Z"
+    },
+    "7cf01b917ef5c972dc85d4a1297b47dbcdf9a7e35385f9bda947ce2d62f76626": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f8c7c8e58da04a664fd8dc60fa72aacc9e01aab4b26fdc610a447c11a4481871",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "使用MicroPython和WASM在沙箱中运行Python代码",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
     },
     "4e0d41df8ed850d5749201079567fea203daf15873d3468b2458626a11580986": {
       "targetLanguage": "zh-CN",
@@ -34,16 +89,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:14:50.562Z"
     },
-    "e4ab602fa7553865e0a3aff983cbc437adb0408ab9fb20040e3ee7ee7d98c335": {
+    "d1f15184ff30ff21ff951081c8ccf706f64c13c7dcf6029b0b32532e697822c4": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "bf02657941011b7b7c295f2cdfbcaa253024dfc41411ecb1c01448e71e4e2251",
+      "sourceHash": "0e8a293552ded35998d9ecce466673cce640d33a7eb3507ac6204183d2b85c2f",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Meta不断推迟向其开发者发布新AI模型",
+      "translated": "从树到流再返回：统一决策树和扩散模型",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:40:56.876Z"
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
+    "5d41101ce57bc0f36905fd482ce304e656dc26c02566d7662236e90d682bc473": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "40e21130ea6fbff8e3cc6e2c069824ff7e5ddf661a786861243e263564d4d003",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Nvidia提议为Windows PC推出一款强大的CPU系统",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
     },
     "433aab454beb6fbe592fe6b9511dd8e67462ce70c7792f80d0172f73e5d8affd": {
       "targetLanguage": "zh-CN",
@@ -67,6 +133,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:40:56.877Z"
     },
+    "19d9f5db4ff951ce3c54ca8094bb84354b63f1d8e36a75f1870227b2a2a74572": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7ae544cc127a18e1e801cf59a3a40febdc64f8fb2e0ef4c88e581cc27ad69fd1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Google将每月向SpaceX支付9.2亿美元以获取计算能力",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
     "90627a47dfcf5927c0aab9ed9d395655d87668b6ec0c3f0d820d015f41612f97": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -77,39 +154,6 @@
       "translated": "《宝可梦 绿宝石》已移植到WebAssembly（10万FPS）",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:40:56.877Z"
-    },
-    "cefd79388fa59ec0378e2f7c2545c5b79f450a68df6d65513e51215500c401ad": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9c68dfa9a6c5a8e633a53802b482c27463b3bfbbb03a3ce4fbf349f0afce8602",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "简介 – 面向Python程序员的Rust",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:40:56.877Z"
-    },
-    "a5df5ffa6c7859370ba7039fb05cf6a140c4e904e16ff10fcd108eb9aa915ad8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "7093e376edd2bd87dcf230c511ce563a980acc2c56be4776ad4150bbf8606ab0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "客厅里的智能电视是人工智能抓取经济中的一个节点",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T11:26:22.267Z"
-    },
-    "66e539d20ae961310178232b95581d90e1629d841b5733ec698baf76f1a73680": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f8f41fbb3613b4e0fb80eee933242777ff34633fbbd6fa55f6be04ed983e75c0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Azure Linux 桌面",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T11:26:22.267Z"
     },
     "e58b46859b1c700d6ae55c4b92f161baf68833162eca5086949458a1ac8fc2ed": {
       "targetLanguage": "zh-CN",
@@ -133,17 +177,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T06:52:13.150Z"
     },
-    "bfbf6ea20b2fd3b4f2dc5e82ef441dd1555c5218e58d7ddd425c0c273e76865a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "0cacd87bf8147c6bbf9c4d22ddabc7e64cd26378c62648006e832f4f1c333b2b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "C++语言书籍封底提出了封面未解答的问题",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T06:52:13.150Z"
-    },
     "55e40457c1ed84222b8b3f6092a12dda82abe3cf149b1c892542d63276475658": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -155,6 +188,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T03:23:31.227Z"
     },
+    "776cb585370cd71b57436742f10a45435563835aabe51fcbc168b16001cbcd1d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a95178f883838e9761fbb85153f8642550c91ad63f1aadc28a72f24880674eb9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "SQLite中UUID主键的风险",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:24.163Z"
+    },
     "a4a14a56e58a0b2130c094016ff71daa26f4f75cffc49d53a99a3a30a42901e0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -165,17 +209,6 @@
       "translated": "向汽车艺术家山田次郎致敬（1960-2025）[视频]",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:14:50.562Z"
-    },
-    "3413357a0fa2e9febd80a010ddbd29db6d18c16b6ec101e3777646c98de23676": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "42989196eb4d2d9242486ca57556e57942c369da39824f0c0295f3cf96d3cf36",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Gov.uk 已用荷兰支付提供商 Adyen 取代 Stripe",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-05T19:53:57.163Z"
     },
     "d331b1c1cb4b1b3e468c879559878f92af9425ab6e7c5755b479dc33282ee04b": {
       "targetLanguage": "zh-CN",
@@ -221,17 +254,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-05T19:53:57.163Z"
     },
-    "8cbd5d528ca4c6a8441e4201919f67ebf1e9a4c4fe481014a7636f845cb61c18": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3f262b334454696c207bd0c708acaa7d61ddd4cacea95162cdb80d46c6fc2573",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Claude 是否增加了 rsync 中的错误？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-05T19:53:57.163Z"
-    },
     "a0d6aad355ded0bdc355afe8f2c59018e993e95e1a79e495090e7269eff28178": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -243,49 +265,71 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-05T19:53:57.163Z"
     },
-    "f0faa96e29f5c398e2c2933621de939d90f1eb9381d8aaf3c3f986f19f728699": {
+    "6a5117509f95934b549d28b4a31a7c1ea191f2f021b0712af4a54fd11bf05302": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "8ec7f50af3ccb3d89ea364996f1daa8890f42e06d05ad287882926f971fa79a7",
+      "sourceHash": "cf53b4c12db9dfcb2a08ea69fbb48bfff1431778ef9e1c592adb8dd6aa308d37",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "我的测试驱动开发代理技能",
+      "translated": "Splash是一种颜色格式",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T03:23:31.227Z"
+      "createdAt": "2026-06-06T17:13:24.163Z"
     },
-    "4b3ff9473b60e6d06866f4b54d447ea7f69f1420f788447c3884273cdad2509e": {
+    "9c5c2e826c803238bd7dffbbcd136474798bbc639ba3dcc860fa7791d6860c85": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "d20c6e4a8d9bc415807ad9fc56c92f88e9544f8a7f9d122de0cc675cba2a25d8",
+      "sourceHash": "2c85e05602d059a65544f89c4896496703d93f92813869d37e8659fe860c8629",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "HISE – 构建VST插件的工具包",
+      "translated": "碳酸饮料罐因可能意外破裂被召回",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:40:56.877Z"
+      "createdAt": "2026-06-06T17:13:39.198Z"
     },
-    "ebb6af9c5242866070b2dcb8c71292b090b4bdce90289cb4fa3120728684b773": {
+    "9c24523cea1334645dd14d97250acf3831359c9a71ab003226d15e4deb398f39": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "53dc5afec98859db05e8dfb9f0b3aa96784e5d7d91576a3eeb58edaa80dd3d72",
+      "sourceHash": "f403b7bb4befca6c72b761ae3e18ccd981a5c081076bcb63d11f4b799910d77b",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "LLM如何工作",
+      "translated": "英格兰队在潮湿的罗德板球场更接近战胜新西兰",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T15:14:50.562Z"
+      "createdAt": "2026-06-06T17:13:39.198Z"
     },
-    "39bf785853c7ac593e181b9425b03c1eccd227a08dbac9147d75317af20d4104": {
+    "0ea5643bb802c92fa7b809109c559b71342f876550bc7ff0926a03be98b67d2d": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "9d958921f2d9f5c4993365a81d4f61e10a9d370fe1cac2945f409ab1b28f06d2",
+      "sourceHash": "b56d3e3b3b609c9d67265045dec1d8211a98904d355b661a9684847dac18d524",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "三名英国男子因'未付账单'纠纷承认在加拿大杀害餐厅老板",
+      "translated": "英格兰队在潮湿的罗德板球场更接近获胜",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
+      "createdAt": "2026-06-06T17:13:39.198Z"
+    },
+    "664398a8ef3cee2a91da65418670fafc7cc2f858c343b2875f28fbe67fccbf83": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4d1337c3b3c525770b1e765a6934ce63871b737c750eb4662b395d956ed73758",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "安东内利的'魔法圈'超越维斯塔潘获得摩纳哥杆位",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:39.198Z"
+    },
+    "87c9676412097bb5e17e9812607aa1240253e02b9245ebac5334db9f3d849a9b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "43c46955fa20e0e3533b0cc07a906f709704ef70a986bd8753497d3f30e90f73",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "青少年选手安德烈耶娃在法网击败赫瓦林斯卡，获得首个大满贯冠军",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:39.198Z"
     },
     "8f00792d1762e02a0c38d8484fa03bff22fc2c45b1b05766f3f6bfd17dae1637": {
       "targetLanguage": "zh-CN",
@@ -297,6 +341,28 @@
       "translated": "安德烈娃赢得法国网球公开赛，赫瓦林斯卡的童话落幕",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:15:10.766Z"
+    },
+    "9568a6718a51ac2ea6cddc8ad8b603d9158a149408c62571506d84dbb980ad90": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "bc9a51eef91928b472d0200326ed2f1df274d8af7b266e96b6641cc3aba002cb",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "国王外甥彼得·菲利普斯与NHS护士结婚，威廉与凯特出席",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T15:15:10.766Z"
+    },
+    "39bf785853c7ac593e181b9425b03c1eccd227a08dbac9147d75317af20d4104": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9d958921f2d9f5c4993365a81d4f61e10a9d370fe1cac2945f409ab1b28f06d2",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "三名英国男子因'未付账单'纠纷承认在加拿大杀害餐厅老板",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T13:41:10.324Z"
     },
     "0f11b96bd32a27392e7270d8cb17c2a4e271a9600befd55ca9fe166864e858eb": {
       "targetLanguage": "zh-CN",
@@ -320,16 +386,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:41:10.324Z"
     },
-    "9568a6718a51ac2ea6cddc8ad8b603d9158a149408c62571506d84dbb980ad90": {
+    "5fa630d2e299c1698845e3cb4b02dd4e0c32f90b1a9ffc6beca8a2204fde8e82": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "bc9a51eef91928b472d0200326ed2f1df274d8af7b266e96b6641cc3aba002cb",
+      "sourceHash": "b8be5d64117f4b3f25cc47923e35c246c52dda60e99459edc9693c0c0df2140d",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "国王外甥彼得·菲利普斯与NHS护士结婚，威廉与凯特出席",
+      "translated": "向在湖泊悲剧中去世的'有爱心的'男子致敬",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T15:15:10.766Z"
+      "createdAt": "2026-06-06T17:13:39.198Z"
     },
     "81d7d6f67e744999679f643df724c5aabaf50b404dc7ba6c833a4a4dea655e58": {
       "targetLanguage": "zh-CN",
@@ -375,17 +441,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:41:10.324Z"
     },
-    "9b1cc36fffceafa456c1e56800f0f746a6c19e1bce961634ca5c9097babf1952": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "762c3cf7aa3945a28dec5d944e5319f51f9cd9f13d900323524d4c1c31c026fb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "伊朗称工作人员在球员获得世界杯签证后被阻止进入美国",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
-    },
     "dfba4f94400cf6b34a5917d52e7f17d763a369e71cb273f22bff2dce8ce217ae": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -408,17 +463,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T11:26:38.466Z"
     },
-    "4041701a1462fc11fc432496c0dba39bc322c81bd0de954642a93e63cfa3b544": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "bb519302440536763c2dfb92f5b1f33a9f5674b763c108317c2c438c170bf516",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "向《吸血鬼猎人巴菲》和《足球教练》明星安东尼·海德致敬，享年72岁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T09:25:28.761Z"
-    },
     "714730941ec34068d70a6cfa9ebc3dd0011fa712ac8c0b942eea259c456972c0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -429,6 +473,28 @@
       "translated": "我在约会应用上与四名男子配对——他们都是骗子",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:41:10.324Z"
+    },
+    "6c50f495f607fbda35a976723eba8a9dd7609440ca9863a2456d081cdbc28f7a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b4e3778895d61c1a4504f7a55500bf71a80914cfa2cf3225c5af80901401454d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "一支出人意料的世界杯球队中的先驱",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:39.198Z"
+    },
+    "3415c17067cefdd8e740ef7f0b3d593024916b23258c0d6852b9890bd3baee85": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "107a8c73b1fadfc9f486ced019d21749d9adf8b2d01a2ea782c7035a5fe2ebf3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "不可替代先生与金球奖竞争者——这是凯恩的时刻吗？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:39.198Z"
     },
     "e77294c5b1a15b1313dfd509eac9a19d2042103184ac6d1918a9688af3ddcec1": {
       "targetLanguage": "zh-CN",
@@ -484,72 +550,6 @@
       "translated": "深夜和'全力加速'——世界杯观赛派对全力以赴",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "8f71caf18ce3d9f9392f61dd9b2623768c5a9434ea7c277f356256d1722f292e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4093fb3939845be376d4464dbda6b35c587041636c7ec14ebcbb333f6e479647",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Anthropic：人工智能可能脱离人类控制",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T11:26:38.466Z"
-    },
-    "83685ec14de01a361ddb7f49f8780378d583939fea252e6199200cfe96afd444": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fcbb2c9f6f9044f42a6e4aa52bbf33f770c6b283bae5d394b5b9c84a7074cb62",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "这会是唐纳德·特朗普的世界杯吗？（与足球日报一起，第1部分）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "becd12c4b54076f91c30361755f34eae4120cb7201692ab4416b7f8d63f85b19": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c0f50285528debd99f6003603a1d191825ed51502b800c9719781543990045db",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "探索一个科学、政治和文化碰撞的地方",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "7c6ba41cc5b7b6fa507ee78472b770bb509732c62894cddd5dee549da9da52ef": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "7e00739531379d1b150bfa6d70d674899a6f940576de1144e7c55ea7d81d4f9d",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "《宿敌》服装设计师荣幸为吉莉·库珀女爵士制作服装",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "b60f0df25f3455209ae8af09dee134cd49d451a0adda4de8b012a82c54b760b5": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1d41fb525b43af798906e423b976c1b0d50a2cdd1563acb882d120c2ff7f882f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'他造成严重破坏'：因弗内斯一只逃脱的鹦鹉被指造成汽车损坏",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "fa41298a4f44e63c3a93517fa3914ee7ea60ef9dc2975bde027978311a8bcb3c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4227a49b535e95bcaf12ce0d57363479744276e6d2b12a407ec3b80971479e94",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'这是个容易的决定'：男子捐赠部分大脑以帮助寻找痴呆症疗法",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T15:15:10.766Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
@@ -2916,6 +2916,28 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
+    "afc86c0186325208b0438165ef1282cdc00f88831b50f9c131c933be1823f84d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "70e124cf7701ebc0482305991638321051b991bd4e6a6f7a62269b0c9aa14a97",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "特朗普的国防部认为来自以色列的间谍威胁日益增长。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T17:13:44.185Z"
+    },
+    "080ead59568512d731d36ce4b1bb2107087e464fa3eb605f46bb875a195a815e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fcf4fd32d55ba86f3da8890ce2b0f9bd12c2d3c0983aedec2b5cef3714d357b4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "世界从上次埃博拉疫情中吸取了教训，但差距依然存在",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T09:25:40.795Z"
+    },
     "373fc1c99ef41ece6ae0bacf1ba3de4924a69706dd8314fbc90d4582429079b2": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -3048,17 +3070,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T09:25:40.795Z"
     },
-    "080ead59568512d731d36ce4b1bb2107087e464fa3eb605f46bb875a195a815e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fcf4fd32d55ba86f3da8890ce2b0f9bd12c2d3c0983aedec2b5cef3714d357b4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "世界从上次埃博拉疫情中吸取了教训，但差距依然存在",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T09:25:40.795Z"
-    },
     "ca0362a7afd66d804c17986658b7d89b0a72bc191368b15979636621e3bb32e3": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -3179,17 +3190,6 @@
       "translated": "围绕普京大型会议的一个问题：战争能否结束？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-05T17:54:36.081Z"
-    },
-    "1bdc62fa798af8d6b95436f1e990ff6e2f3f819848d4c2d78b8bc0cb5cfccebd": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4014711d9950601405b222dd322fe017e01886aa7d34b74223321b3c63c13829",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "科学家称，俄罗斯卫星一直在干扰欧洲各地的GPS信号",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-05T15:54:01.755Z"
     },
     "2b00c5663ec74ed2fa4a2ee6095fc759c009e6328cff2149b05c3af5f6b7d29f": {
       "targetLanguage": "zh-CN",
