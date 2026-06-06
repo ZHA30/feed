@@ -1,6 +1,39 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e2aad30ecab4705d0442b5b99a2dcda73ba6bf657b444b10de909503d72dbf10": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e221d2469d2ff510d1168c9317af53f72194616445eef9958e037e2a4c27493b",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "通用内存协议 – 代理内存的共享格式",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:03:41.545Z"
+    },
+    "604bc83f3cc8757d1593b386586ec0348d5523c8765ce91de796e63851be6d39": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "aeb603b1eec271fa21189c6801c44e972c40b83ed902e6e5e9b8ce2a790c7e03",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Computex 2026：我们是否即将进入代理PC时代？ – EE Times",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:03:41.545Z"
+    },
+    "e9d583f1d2b432a5fc92e268c7c606d2fea98823d8d66efde2481b912b807425": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "54f925eb06ff70c399779fa4c5564aef39e47d653b74f9e1ab460fdb2623d238",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Ntsc-rs – 模拟电视和VHS伪影的开源视频模拟",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:03:41.545Z"
+    },
     "a7d354bc3ca85eaca019a816a5d0b0c0dbf0217ac027085e86ce0108b1db16be": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -166,17 +199,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T06:52:13.150Z"
     },
-    "a0180f87072e2d0bc7b07bd6dc066f2817c4b2294e8c9889f9c601f873c0b4a8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a4c0a9efd35f1e562e308ee106ea2cde362739acd87bc6310813332e7ec8b140",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "世界观构建者的前现代军队，第一部分：为何而战",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T06:52:13.150Z"
-    },
     "6a71d509d1c6496b34390f6cb045c8a7636ba1f02cb8c7b3ab3a29d077b6526a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -199,17 +221,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T03:23:31.227Z"
     },
-    "776cb585370cd71b57436742f10a45435563835aabe51fcbc168b16001cbcd1d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a95178f883838e9761fbb85153f8642550c91ad63f1aadc28a72f24880674eb9",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "SQLite中UUID主键的风险",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T17:13:24.163Z"
-    },
     "a4a14a56e58a0b2130c094016ff71daa26f4f75cffc49d53a99a3a30a42901e0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -220,17 +231,6 @@
       "translated": "向汽车艺术家山田次郎致敬（1960-2025）[视频]",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:14:50.562Z"
-    },
-    "bb727ac18c7f05045d56aea7bb33cb152218216fce5817ef8cfdb666774d5771": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3b018d4b849aa4249a305cf2e4e59d4cdac56a38d0f0807247a8c2ecb2b0841e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "pg_durable：微软开源数据库内持久执行",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-05T17:54:10.827Z"
     },
     "0aa8552642fa0668ddaec58f771f24e4c817bd37803584d0260c21971266d952": {
       "targetLanguage": "zh-CN",
@@ -276,16 +276,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T19:21:53.798Z"
     },
-    "75f3c8a1b5eb19cf1357af6cd764d788011a86560dcc320785969c9eae5f5fc6": {
+    "cdd83d2ca7cfe9ce54308420052c054b2d8a6fa2ff7a2e02ef30ae62ed9b9e66": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "aff24bf456e2af0f79d507fd16f5bebd9226df7587403f0931bfefbbd5980c43",
+      "sourceHash": "16ddcf33469b8ba58137903316cdcfec20ec225a5fa259a874b158476fe782eb",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "教皇利奥开始访问西班牙，赞扬政府",
+      "translated": "乌克兰无人机袭击圣彼得堡，俄罗斯称此为‘前所未有’",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T19:22:10.107Z"
+      "createdAt": "2026-06-06T11:26:38.466Z"
+    },
+    "03017285635d13ab7573f125bf59fe878b139b946e7d8dc804ebd6fd4164512a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5b4032c352046003554725b61e89b21b0de49804ca79a1efbdba240b1f81494c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "赫格塞斯在诺曼底登陆日演讲中抨击欧洲，称移民“入侵”其海滩。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:04:02.688Z"
+    },
+    "dcc0d272207853bb2dc72075e50e1919e9b2042f1c4cb2bf41c4556182b70e20": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e489aae93109f059cf60748b8460bb4b3bd8411a8e54a617186c204e9ce90ec0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "“我想感谢自己”——安德烈耶娃的大满贯荣耀之路",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:04:02.688Z"
+    },
+    "4f75f63a408fcc6e65161331566997593f8ce569b36a7c24bac0cf9801bf2543": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9de0491d39bebf6a88d800042d815e6f8deac323e335ff79d374c87b54a0eaaa",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "教皇开始访问西班牙，赞扬该国反对战争和支持移民的立场",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T21:04:02.688Z"
     },
     "4980546151f84910b6105ed385757453e399e31eae9d2f60118f1edeab3dc160": {
       "targetLanguage": "zh-CN",
@@ -309,17 +342,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T06:52:23.858Z"
     },
-    "cdd83d2ca7cfe9ce54308420052c054b2d8a6fa2ff7a2e02ef30ae62ed9b9e66": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "16ddcf33469b8ba58137903316cdcfec20ec225a5fa259a874b158476fe782eb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "乌克兰无人机袭击圣彼得堡，俄罗斯称此为‘前所未有’",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T11:26:38.466Z"
-    },
     "9c5c2e826c803238bd7dffbbcd136474798bbc639ba3dcc860fa7791d6860c85": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -328,17 +350,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "碳酸饮料罐因可能意外破裂被召回",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T17:13:39.198Z"
-    },
-    "9c24523cea1334645dd14d97250acf3831359c9a71ab003226d15e4deb398f39": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f403b7bb4befca6c72b761ae3e18ccd981a5c081076bcb63d11f4b799910d77b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "英格兰队在潮湿的罗德板球场更接近战胜新西兰",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T17:13:39.198Z"
     },
@@ -364,16 +375,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T17:13:39.198Z"
     },
-    "8f00792d1762e02a0c38d8484fa03bff22fc2c45b1b05766f3f6bfd17dae1637": {
+    "3bc0802073d4216ad3216ff675c1e8e4382db341d93613703340e9fe41a1751a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "4d5a220bfa8cd441f46fbd6f8e63d05b6e81ab7f02eb28070ed7e428b7a5b1ec",
+      "sourceHash": "6a919b9369583c8947e8470b0be639b9529ecdc1de739f137e7b3208818b9aba",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "安德烈娃赢得法国网球公开赛，赫瓦林斯卡的童话落幕",
+      "translated": "亨利·诺瓦克谋杀案会改变警务方式吗？",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T15:15:10.766Z"
+      "createdAt": "2026-06-06T21:04:02.688Z"
     },
     "9568a6718a51ac2ea6cddc8ad8b603d9158a149408c62571506d84dbb980ad90": {
       "targetLanguage": "zh-CN",
@@ -418,17 +429,6 @@
       "translated": "沙利文在指控发生后从西汉姆联辞职",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T13:41:10.324Z"
-    },
-    "5fa630d2e299c1698845e3cb4b02dd4e0c32f90b1a9ffc6beca8a2204fde8e82": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b8be5d64117f4b3f25cc47923e35c246c52dda60e99459edc9693c0c0df2140d",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "向在湖泊悲剧中去世的'有爱心的'男子致敬",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T17:13:39.198Z"
     },
     "81d7d6f67e744999679f643df724c5aabaf50b404dc7ba6c833a4a4dea655e58": {
       "targetLanguage": "zh-CN",
@@ -540,16 +540,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T19:22:10.107Z"
     },
-    "83685ec14de01a361ddb7f49f8780378d583939fea252e6199200cfe96afd444": {
+    "becd12c4b54076f91c30361755f34eae4120cb7201692ab4416b7f8d63f85b19": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "fcbb2c9f6f9044f42a6e4aa52bbf33f770c6b283bae5d394b5b9c84a7074cb62",
+      "sourceHash": "c0f50285528debd99f6003603a1d191825ed51502b800c9719781543990045db",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "这会是唐纳德·特朗普的世界杯吗？（与足球日报合作，第1部分）",
+      "translated": "探索一个科学、政治与文化交汇的地方",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T19:22:10.107Z"
+      "createdAt": "2026-06-06T21:04:02.688Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
@@ -2916,17 +2916,6 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
-    "40793b8ac5571515c064d18670576f3f52daa28dee1be92fce6708102af31e05": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4d20dfab86969667b8e4d2417daceca2d2ccbe8d7d01c225fdf84342c988932a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "持有金条的CIA官员据称创建了虚假间谍项目。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T19:22:22.267Z"
-    },
     "373fc1c99ef41ece6ae0bacf1ba3de4924a69706dd8314fbc90d4582429079b2": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2937,6 +2926,17 @@
       "translated": "巴勒斯坦官员称以色列军队向约旦河西岸一辆汽车开火致一名婴儿死亡",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T15:15:18.806Z"
+    },
+    "40793b8ac5571515c064d18670576f3f52daa28dee1be92fce6708102af31e05": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4d20dfab86969667b8e4d2417daceca2d2ccbe8d7d01c225fdf84342c988932a",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "持有金条的CIA官员据称创建了虚假间谍项目。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T19:22:22.267Z"
     },
     "afc86c0186325208b0438165ef1282cdc00f88831b50f9c131c933be1823f84d": {
       "targetLanguage": "zh-CN",
