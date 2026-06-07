@@ -1,6 +1,28 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e6a9a92ec3aa7127b661181764f2f84ed4116350ec85455f3484179ebb5de943": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d581a7a07720e2abe209e3ab8333656d7b9b51596be94538875ea2d28da6b5f4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "9 Mothers (YC P26) 正在招聘",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:32.841Z"
+    },
+    "cc84715d9bb40920ac9ba03476fefddcecb8e3fd0c1bbc930a2f5f25dc678505": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "38662dd3bbafa441938b36d7491f889f0478bac5841642ba84359e5f92c20b94",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Firefox 确认正在开发自己的广告拦截器 [视频]",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:32.841Z"
+    },
     "4d4806587631b315985fec6dac1bd0cb0154808efa0e04bd58c50b0bfb8796c6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -11,6 +33,17 @@
       "translated": "科学家因分发期刊重印本而被逐出糖尿病会议",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:38.873Z"
+    },
+    "425ac893641a628cfdc30ee7e4d6d4ceb301dbf14976990bdc5fc6f2099dafeb": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9e0175a2dff013d5caac46b08d38ccac03d0a85b8230d0d7af7763a04903d4e3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "高效且无需训练的单图像扩散模型",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:32.841Z"
     },
     "f861d70e58f743278ca1fa7e7fa03ce246f1e592625e000b0157e5f81b9b7b67": {
       "targetLanguage": "zh-CN",
@@ -66,17 +99,6 @@
       "translated": "阈限主义如何成为我们这个时代定义性的美学",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:27.939Z"
-    },
-    "01fa617e117ada0200876993c407f95cfd4f05bd2dcdf74e5b655621bf0399c8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8b550d998173325462908e77ffb41abae0f3ec9837eb456650e98586b0446261",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Show HN：Oproxy – 从浏览器检查和修改网络流量",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:50:47.897Z"
     },
     "b064a28edd5c155347d6131e822f23ec81fbb17bb1bfd2251259657fb62eced4": {
       "targetLanguage": "zh-CN",
@@ -177,17 +199,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T17:13:24.163Z"
     },
-    "90627a47dfcf5927c0aab9ed9d395655d87668b6ec0c3f0d820d015f41612f97": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f17096e0eaed64e189476b74d30789bac75e3def4d8dcd3898695cffdba4b9fa",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "《宝可梦 绿宝石》已移植到WebAssembly（10万FPS）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T13:40:56.877Z"
-    },
     "3d96f33fa854583ff0fbeb82a1d2a6fc0f8a550e764cb4f27ab2f79c593a3aaf": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -265,25 +276,47 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:38.873Z"
     },
-    "dea3277a8c240be37adad245df818e1b1fb9266c5191bd355515bae3a2430679": {
+    "3e5d6a59d1bff96e80325e1bf8067514288377465fa1ead2933c2de634fee9b2": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "97d3501885c759fec58de19e9328638a90a82f38ca35aadde91507c402cd6ada",
+      "sourceHash": "a6cace51211ba56bf68d4c59e70cc777f14a9d36e81e5873219d48647b8d6e31",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "程序间的游戏：竞争规则学",
+      "translated": "英格兰在首场测试赛中击败新西兰，开始灰烬重建",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:38.873Z"
+      "createdAt": "2026-06-07T12:20:40.866Z"
     },
-    "c817c76ac6c3f694ec0113901a4c2a69048c25ac2be7e301f877d9b64ef86724": {
+    "1ad2ba2f4a5e02b616e0ac6f900d1aaf06a42d8c75e0b6093a6204da184d1a82": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "0d5675059f272544fbffffc88ce36f810ae6e5f4729fd5c2fe1277cdf3c7729f",
+      "sourceHash": "d66f26ad61beb9c980cc9fbff27923361a6c9acca71c45f76c68c753478d16c9",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "大批人群涌向马德里街道参加教皇的露天弥撒",
+      "translated": "英格兰击败新西兰开始灰烬重建",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
+    },
+    "9286b84b26ca1fb4d00e6aba707ff222960a4068d33e0c2fbe697f125203e267": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f9822d182b6740ecfa69e46ae99cbc691c5e0ab8b84e1f14d257f309b95416ff",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "16岁女孩等五人因诺瓦克抗议被捕，三人被起诉",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
+    },
+    "e74ca43c140a5ac6526d21537a4440eec21523e4561dfa405413beb703a56e3a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "11d6b7c5b2afd9f319ba8295182bb630c0c811fe19a5f11090ee2103d8842046",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "谁是NHS护士、最新王室成员哈里特·斯珀林？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:45.010Z"
     },
@@ -297,6 +330,39 @@
       "translated": "拉米说，他告诉JD·万斯，他对诺瓦克的评论是“错误的”",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:45.010Z"
+    },
+    "bb1187ee09ca9c31d6d201e41196f4f345c69bf67cd298867cf2a9404b8a8e38": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9aaa27ee312e00059b7a7f9e0445c0043216e90a482b3e2908a529deff162fb5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "赫格塞斯用海滩'入侵'诺曼底登陆演讲抨击欧洲移民问题",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T03:51:01.466Z"
+    },
+    "1263c9ab7dd981c23786161a06d3213157d329a3cf96a5077daa42d75c969acc": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8b9c6956683df1f1484af7c2e2f95534a5270fa0b43149d1e1680f10928b3188",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'又一个！' 英格兰接近胜利时，Tongue早早出击",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
+    },
+    "0a433a81fbacebf8933d01c3d300dd35c76169d712989b6136f99071b56579c9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7406404c736fecb78b332229ded5d97fcc30ef4818f6863324774c8818340b82",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "大批人群涌上马德里街头参加教皇露天弥撒",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
     },
     "e5160a89a9bf68f8458fd0e44fd66555a69932c87647de03d8bee926b8e45938": {
       "targetLanguage": "zh-CN",
@@ -319,28 +385,6 @@
       "translated": "俄亥俄州节日附近12人遭枪击，警方追捕嫌疑人",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:41.085Z"
-    },
-    "e74ca43c140a5ac6526d21537a4440eec21523e4561dfa405413beb703a56e3a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "11d6b7c5b2afd9f319ba8295182bb630c0c811fe19a5f11090ee2103d8842046",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "谁是NHS护士、最新王室成员哈里特·斯珀林？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
-    },
-    "bb1187ee09ca9c31d6d201e41196f4f345c69bf67cd298867cf2a9404b8a8e38": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9aaa27ee312e00059b7a7f9e0445c0043216e90a482b3e2908a529deff162fb5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "赫格塞斯用海滩'入侵'诺曼底登陆演讲抨击欧洲移民问题",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
     },
     "5dc0a0cf52788a8c6974f4e8af8c216b7caadb6c3d4bda006d25c699e209ff55": {
       "targetLanguage": "zh-CN",
@@ -397,6 +441,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
     },
+    "5f84c968fa110a5a32fba032184976d19e2f7ade7297eab40436f342083d1ed8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7309636970933bb8c274acd7b2df4083443faaa3ad0d8ed9ea2fca8647f8f6d6",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "为什么学生们在最后一天定制离校衬衫",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
+    },
     "880d06562f3ffa414c24efa1861a00d51b5557bafb62fbd0cb8b721eed7f92d1": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -416,28 +471,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "我申请了数百份工作——这个技巧帮我得到了一个",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "56cd5758db6b3d586407c4efaed0ecde4f9e3e418ddd29b9b5b51d7d3bd7c524": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "eb76a25978ca8173551fbe40919655dd58aefd2290a24890c9d60260f52231ab",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "这是一场训练赛——英格兰和图赫尔现在需要认真起来",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "c8c6c580e3ef7794280efbe98145db6d3d13f52cc4cd8eb2e04884d7176cf428": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "0ee11f5e398102e4c49c222b3f63daf3beb337b1b5d62ae466be9710548a202f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "耐心、精准、冷静——苏格兰准备好留下世界杯印记了吗？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
     },
@@ -474,17 +507,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
     },
-    "2acb70db52a9b2d7283d4a620e46960f0582f07e6047c9732582531a9f178531": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "21f164a1e519dec2fe0cddfea3a7700d6ff98c0f84e9c93dfc39c50d28695c5e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "秘鲁总统大选竞争激烈，选民担忧不安全和不稳定",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
-    },
     "956fbc062079bfcb22555d1b1f32940a35f311440603f4f3c391bd62e0f46fd4": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -495,17 +517,6 @@
       "translated": "化妆品厌食症：女孩如何陷入护肤的兔子洞",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "dcc0d272207853bb2dc72075e50e1919e9b2042f1c4cb2bf41c4556182b70e20": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "e489aae93109f059cf60748b8460bb4b3bd8411a8e54a617186c204e9ce90ec0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "“我想感谢自己”——安德烈耶娃的大满贯荣耀之路",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T21:04:02.688Z"
     },
     "6dc3dee53d45feb9bded9bea57d70f5ee93dd699fad4dc1b1c284d545311b7ce": {
       "targetLanguage": "zh-CN",
@@ -518,28 +529,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:41.085Z"
     },
-    "4980546151f84910b6105ed385757453e399e31eae9d2f60118f1edeab3dc160": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "eaa1d210b11ea9156ff3fb76a8d5e89da19a389777964e5756f8e652d75bd956",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "拉塞尔抵达摩纳哥后对困境感到困惑，玩心理游戏",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T19:22:10.107Z"
-    },
-    "82dc68e62898a136c027a215be640bf79fe3ab17a6bdb83014084faba3d9d281": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4e53972cb8edd992c174325586068a6227cc993c065ea6a2e7936f1112860114",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "视频：雨中的皇家婚礼——头纱、礼服和雨伞",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T23:03:13.096Z"
-    },
     "3bc0802073d4216ad3216ff675c1e8e4382db341d93613703340e9fe41a1751a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -550,6 +539,17 @@
       "translated": "亨利·诺瓦克谋杀案会改变警务吗？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:45.010Z"
+    },
+    "8f71caf18ce3d9f9392f61dd9b2623768c5a9434ea7c277f356256d1722f292e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4093fb3939845be376d4464dbda6b35c587041636c7ec14ebcbb333f6e479647",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Anthropic：AI可能脱离人类控制",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T12:20:40.866Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
@@ -2916,6 +2916,17 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
+    "8f5844f2195517878177ec8ea7193c132312ca74c92c5fd05f2aa937b7de7360": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7d42f1edbf7c910af2ab96f3a5e09ab1da8ad55cd23a58c2829aa2e34a215b1e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "尽管有抗议，Ye仍为数千欧洲粉丝登台演出",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T03:51:12.887Z"
+    },
     "926eca0c38f5cd12c1fe49e0d3e2ddd7ffe5d21a75e14a9e2964a71154bc21de": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -3025,17 +3036,6 @@
       "translated": "特朗普的国防部认为来自以色列的间谍威胁日益增长。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T17:13:44.185Z"
-    },
-    "8f5844f2195517878177ec8ea7193c132312ca74c92c5fd05f2aa937b7de7360": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "7d42f1edbf7c910af2ab96f3a5e09ab1da8ad55cd23a58c2829aa2e34a215b1e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "尽管有抗议，Ye仍为数千欧洲粉丝登台演出",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:12.887Z"
     },
     "e04564186712618ec700beee5c9b5a5e7e45cf8c1ae7c748dbe02c03c8d2ef34": {
       "targetLanguage": "zh-CN",
