@@ -1,6 +1,39 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "db6204e7fddf5d2f9aa60ac57436f5c6a3e3826193229d6f6839717748935912": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "25f37872fa57e6a2279f2b04d30a448607235e2a19972a14fad412534456c2d3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Netlify CTO Dana Lawson：编写代码不再是工作",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:51:33.009Z"
+    },
+    "91b2407c9fd0320bbe3f56159b2be87d846d6ddb05113eb3c523307ed1852db2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ce1df54077a258d89a1dcb2141e472fbc33bf29449723582a7a747e5a22bc92d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Anthropic，请为Linux发布官方的Claude Desktop",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:51:33.009Z"
+    },
+    "765c31a2be6036139cd0a3f6f3661038aa5453e103e350006d95fb855090d1c2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9519edde5f9d1bc92dcc1f7e01f75cd4891cd33b4cb49f07e4805ecf155a1ef3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "LLM正在侵蚀我的软件工程职业生涯，我不知道该怎么办",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:51:33.009Z"
+    },
     "e6a9a92ec3aa7127b661181764f2f84ed4116350ec85455f3484179ebb5de943": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -12,16 +45,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T12:20:32.841Z"
     },
-    "cc84715d9bb40920ac9ba03476fefddcecb8e3fd0c1bbc930a2f5f25dc678505": {
+    "1ad1e0446144c69c491a9fe51f64a1e7feadb24451f07adf568863941ff2608f": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "38662dd3bbafa441938b36d7491f889f0478bac5841642ba84359e5f92c20b94",
+      "sourceHash": "3b1e14d0241930038814a70fb56f47ae89e70e2e5a06b109078d7220ef84ad2e",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Firefox 确认正在开发自己的广告拦截器 [视频]",
+      "translated": "最好的关系是包罗万象的。",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T12:20:32.841Z"
+      "createdAt": "2026-06-07T14:51:33.009Z"
+    },
+    "6cb91a00fc002faacf5ccfca9d45751d99770fb102df7b4fbec37fe796bca81d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3eb2105069e3239c73ff3a1e43608670fbce0b81f1823b20f55916dd49867840",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN: Lathe – 使用LLM学习新领域，而不是绕过它",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:51:33.009Z"
     },
     "4d4806587631b315985fec6dac1bd0cb0154808efa0e04bd58c50b0bfb8796c6": {
       "targetLanguage": "zh-CN",
@@ -45,6 +89,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T12:20:32.841Z"
     },
+    "9af85626eac92beb0fb18769b6b7a4314a6496fad7dcdba834383301f0cdcc85": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "2d8caa2adc2ca2e7f8e4b6da43f7b14cdc3326e2b007946e65d752d9285e6369",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN: Kyushu – 一个用于JavaScript工作者的自托管WASM沙箱",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:51:33.009Z"
+    },
     "f861d70e58f743278ca1fa7e7fa03ce246f1e592625e000b0157e5f81b9b7b67": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -53,17 +108,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "第29届国际混淆C代码大赛（IOCCC）2025年获奖者",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:27.939Z"
-    },
-    "e3cbd38c0ef160f8e54ac33a79fa2794eeeebfec733185b3ebbde012a51a7f96": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d65d10c0a2a489d99f9be3cf5afaed9721a10e732bd03d38d7dc292360481154",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我现在用Claude设计比Figma多",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:27.939Z"
     },
@@ -122,17 +166,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:50:47.897Z"
     },
-    "328ba7ed6d7b1be89b4089441fe6d179e149c38bb3618211214456c050563220": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f85ee185ec38012aef807badeab000335986d4b388be4c75b11792aa59eba7f2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Sem：代码理解的新原语——不是LSP，而是Git之上的实体",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T23:03:05.291Z"
-    },
     "e9d583f1d2b432a5fc92e268c7c606d2fea98823d8d66efde2481b912b807425": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -143,39 +176,6 @@
       "translated": "Ntsc-rs – 模拟电视和VHS伪影的开源视频模拟",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T21:03:41.545Z"
-    },
-    "a7d354bc3ca85eaca019a816a5d0b0c0dbf0217ac027085e86ce0108b1db16be": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a41a87255f047a09b3d3fe65b1d73d8c1d923233daa6647fdf1faabe981389db",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Meta确认数千个Instagram账户因滥用其AI聊天机器人而被黑",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T19:21:53.798Z"
-    },
-    "e44175bc0649c4acf948bc3ccfd7cb086c22cf1516c3e913e5ad361d34957846": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8d2bed68d9b8c4754d963abb4675ce76ba3931708155baebc31f7f0e664d1421",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Zeroserve：一个可以使用eBPF脚本编写的零配置Web服务器",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T17:13:24.163Z"
-    },
-    "73115e2e443e8187933684a63afc1ef5749a220f4f335e5a10f0a6dbd933211b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "464e96d5d95c9d444552d4d5f67f272fa5d71a578b815af0bd05ea89084c6315",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "摩托罗拉毫无解释地将其全线WiFi路由器变砖",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T23:03:05.291Z"
     },
     "d94fc91376da7ee7d8543962acdc1830dc386a769e7b3277652827e1ce0a5c46": {
       "targetLanguage": "zh-CN",
@@ -199,16 +199,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-06T17:13:24.163Z"
     },
-    "3d96f33fa854583ff0fbeb82a1d2a6fc0f8a550e764cb4f27ab2f79c593a3aaf": {
+    "f79475b115c890d48a2e5f2aa530f0999a1aa5f29dd5b2b93cf36d830721ddc7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "64dd37de32c3306fdce57a46e87af1cee9754dd562e1d9643ffd18daa3ddf99d",
+      "sourceHash": "21bdb29a4c7b95467d1e9675821876f8b4fb9f331002c26ad8e5b5b1cf204b3f",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "谷歌将每月向SpaceX支付9.2亿美元，用于xAI数据中心的计算能力",
+      "translated": "Warren抽象机：教程重建",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:50:47.897Z"
+      "createdAt": "2026-06-07T14:51:33.009Z"
     },
     "05d132d1c74d85283a48e981b1aebd44150cc2cbe9f7d559389ecde8cc0a2919": {
       "targetLanguage": "zh-CN",
@@ -254,16 +254,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:27.939Z"
     },
-    "a0d6aad355ded0bdc355afe8f2c59018e993e95e1a79e495090e7269eff28178": {
+    "3fe335d997b008e3505bb2c94fea4ca7ddf4abbb6c2918ee311eefd0bfa09b1a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "9ecc3aa5e0ef5042dc0f0458a869d192946c1c5de418e95f907eec3260f91551",
+      "sourceHash": "1c16c4cbfb52e7e772f628b16d7bd97a657646a27bd8091095a2dbc9c6816d9a",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "问HN：你使用生成式AI时的“卧槽”时刻是什么？",
+      "translated": "Yon – 一种面向拓扑的语言，具有内容寻址的格堆",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:27.939Z"
+      "createdAt": "2026-06-07T14:51:33.009Z"
     },
     "d1896af622ed3cee03209103ecea4a4522d07aa6f538aa422f0940d287461646": {
       "targetLanguage": "zh-CN",
@@ -275,6 +275,94 @@
       "translated": "介绍硼巴基球：B80笼子无法制造的理论被推翻",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:38.873Z"
+    },
+    "48574dcac59d32649c2fefa802459bb62e271820863ea9b7f8ac2ccaa6d3d315": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "27c816f83ddf0a7c259506a8fc2f415014b8c75f87df9487df75b380527150c5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Son 呼吁伊朗与英国二人进行囚犯交换",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "b1d1bc7d3350550e7ac63e3bfc3b5bdee055bcd034acf1d33c68dfa15153d87f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "db2e52d16051681cee66ea0ad6515c29485fdb44c2beb976e329f9503e1e0a64",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伊朗世界杯球队在美国签证争议中抵达墨西哥",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "7a7949cb1fd0ae2129807a89dd3d6d958fdbbca9774a5f8827d59001afd4d502": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0154419a985126a96ecb6e102392ff73f6981a84ecea8cf95074064359634753",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "西蒙·拜尔斯在‘几乎死亡’后透露健康恐慌",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "73c76382b6f866f641a96fb836307695142b23d120ec9b7d2df62887e30cd09f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3588d7c68c039ae3dd73b16da3210298db5b096090ce0f19157333e44bee0340",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "拜尔斯在‘几乎死亡’后透露健康恐慌",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "166a28860652021a97a9a1b6a1dacc87be57bfa3863df8927719299c76383955": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4e2fb50011ebf05c147330f24dfd3e2af4f7461a957aad1371efc01e7c1392bc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "阿特金森拿下五记三柱门，英格兰击败新西兰赢得首场测试赛",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "96a9b1a9101061ea0ad1436d5513e1d88d4397a0b701d08c7ce15eb32824aca8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fed8314171ea65d5476a7115c1e1c14bc627ad79185a476d9d2da4c0a89622ef",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "戴维·拉米告诉JD·万斯他在移民言论上错了",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "41d9f4e796b3f6091ff49bef20a0a7be12bcfd02865a0182b978a49d0272f233": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f03fc0bd57c706eb99fb7baad153c721fd6732533e2a8f24b4f4fc1180d83fc9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "M&S 为1000名年轻人推出新实习计划",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "72ca399bc09504fd2d7c21b8b0b5a501d53adec61d8d39b5df7f8d40c634c07e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "34e001a7a471ac590b4b70af301c7ca912f37253841ec96d94308efbc7a9498e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "泽连斯基在伦敦会谈前批评‘卑劣的’切尔诺贝利无人机袭击",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:21.722Z"
     },
     "3e5d6a59d1bff96e80325e1bf8067514288377465fa1ead2933c2de634fee9b2": {
       "targetLanguage": "zh-CN",
@@ -331,28 +419,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:45.010Z"
     },
-    "bb1187ee09ca9c31d6d201e41196f4f345c69bf67cd298867cf2a9404b8a8e38": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9aaa27ee312e00059b7a7f9e0445c0043216e90a482b3e2908a529deff162fb5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "赫格塞斯用海滩'入侵'诺曼底登陆演讲抨击欧洲移民问题",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "1263c9ab7dd981c23786161a06d3213157d329a3cf96a5077daa42d75c969acc": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8b9c6956683df1f1484af7c2e2f95534a5270fa0b43149d1e1680f10928b3188",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'又一个！' 英格兰接近胜利时，Tongue早早出击",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T12:20:40.866Z"
-    },
     "0a433a81fbacebf8933d01c3d300dd35c76169d712989b6136f99071b56579c9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -374,28 +440,6 @@
       "translated": "议员称国防计划延误损害英国信誉",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "48199907bd79284aaa45ef7019cd56ff83c41f66e09c4568cad01db1bed29a4b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "af7fc44fce12388804e8f49687884c031facfb78edba9d02612dd9bec4da8a25",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "俄亥俄州节日附近12人遭枪击，警方追捕嫌疑人",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:41.085Z"
-    },
-    "5dc0a0cf52788a8c6974f4e8af8c216b7caadb6c3d4bda006d25c699e209ff55": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c0db7926babacc1974964ddfdeb2079d5ae1b81db1ea9347871a92b206b4d8c3",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "烤肉串公司因出售主要含皮和脂肪的羊肉被罚50万英镑",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:41.085Z"
     },
     "68043d605811b95f55eaa40ba30d41601b87a66e090c6ec426bba6b1088710f0": {
       "targetLanguage": "zh-CN",
@@ -419,38 +463,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:45.010Z"
     },
-    "ab85f46c5218002b21aef24488adb0585cbb9e506fe49649e594a430a513a263": {
+    "485dc6d79aba34bf2ab13a963d913e66c4c964e93accf0069b322e93142c50c0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "319587c09921256d78767a939779f7e3c3f618e9e69de701f10c874619ca278e",
+      "sourceHash": "8c1263bc04ea85eca8b627af7f9396705ce40e6a87c21ff0d68d268a97a36c6b",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "'我的曾祖父救了你的命'——阿伯凡幸存者在学校访问时震惊",
+      "translated": "生于利兹，铸于挪威：哈兰德如何成为国家超级巨星",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "cc1d6360b21ae7d25d6b9f4f10504802a199ec52d5530222f161fb39e3bc2282": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "93b46f6bf8de987d894b8d09104dad071d82560bb17b1899d85c5071b329147a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "斯塔默告诉支持者他将在任何领导权竞争中抗争",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "5f84c968fa110a5a32fba032184976d19e2f7ade7297eab40436f342083d1ed8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "7309636970933bb8c274acd7b2df4083443faaa3ad0d8ed9ea2fca8647f8f6d6",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "为什么学生们在最后一天定制离校衬衫",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T12:20:40.866Z"
+      "createdAt": "2026-06-07T14:52:21.722Z"
     },
     "880d06562f3ffa414c24efa1861a00d51b5557bafb62fbd0cb8b721eed7f92d1": {
       "targetLanguage": "zh-CN",
@@ -517,28 +539,6 @@
       "translated": "化妆品厌食症：女孩如何陷入护肤的兔子洞",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "6dc3dee53d45feb9bded9bea57d70f5ee93dd699fad4dc1b1c284d545311b7ce": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b176bfa68c0a56ff54876de4717642b3b05d6810212a7cdeba67d729150dd61f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "当法网悬而未决时，友谊将被遗忘",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:41.085Z"
-    },
-    "3bc0802073d4216ad3216ff675c1e8e4382db341d93613703340e9fe41a1751a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6a919b9369583c8947e8470b0be639b9529ecdc1de739f137e7b3208818b9aba",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "亨利·诺瓦克谋杀案会改变警务吗？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
     },
     "8f71caf18ce3d9f9392f61dd9b2623768c5a9434ea7c277f356256d1722f292e": {
       "targetLanguage": "zh-CN",
@@ -2916,6 +2916,17 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
+    "01303c4517c84460d06f36a239f51ee97319497171549e99f4658d185a4f9519": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "03270a1b5b50a439d8a96ca9c6e681f2198a55f9ef1b533ed0321e9cb5c23460",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "阿拉伯枪手在以色列中部袭击中杀死一人",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:27.081Z"
+    },
     "8f5844f2195517878177ec8ea7193c132312ca74c92c5fd05f2aa937b7de7360": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2926,17 +2937,6 @@
       "translated": "尽管有抗议，Ye仍为数千欧洲粉丝登台演出",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:51:12.887Z"
-    },
-    "926eca0c38f5cd12c1fe49e0d3e2ddd7ffe5d21a75e14a9e2964a71154bc21de": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8c8091b209c6cc3157dd4e665f658a9339b57823ea37c7448f88edecd35ba25b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "枪手在以色列中部袭击中造成至少一人死亡",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:55.961Z"
     },
     "4bd77a0a4957e27ac3d54d0180cee39d4bcfe98bd1db00464f438454f726564e": {
       "targetLanguage": "zh-CN",
