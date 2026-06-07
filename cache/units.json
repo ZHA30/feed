@@ -1,6 +1,39 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "68e125f74c4c7f07b0b1de70bcf0f8a72ceb8f92d106777c31d27dd31ec8cd7d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e3915850f8954e681a16b571a4105daddcb0337fad78f308ee65d4e6abedc02e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "为IBM 604的模块加电：1948年的电子计算器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:47.596Z"
+    },
+    "9baf2df58622d10c45947a741f8ac3a3fa8c980a3eb7e1d065e2cadbe2c2bbb4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "05356201be4ebd68bf17acbaee88c2bf4a1a93084eee81430b8bdc3438164d60",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Proliferate (YC S25) 正在招聘以构建开源 Codex",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:47.596Z"
+    },
+    "b5705f53aed3eb8f40a92b0f40d248c200a6f7071a23b950ca863955b21c8fb3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "dadb0a2880e34226efb3a8a80491e9a826954a092fe65f2178cf75bc60ce6e24",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "玩家们挑战行业，阻止其关闭游戏",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:47.596Z"
+    },
     "186d1321b5f3c549596cc02932efa292321d17f621f98b81478d1dc20a576ae7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -12,27 +45,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T16:14:55.818Z"
     },
-    "052ea9f953ae10359bcac002216aeecf077a9fdff96c62eb801db871b2d128a6": {
+    "fa58d59c41c71b8765a08afcbe32cf6842a82ae05f69b6ffb9b79f2b8b8ca98b": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "bbb14c4c63a771f75761626ac6a021654fbfc64ae9ef58278ec82d1c173c0107",
+      "sourceHash": "254de14f6732551fd71c667ccf752674221422eed0071b9a2760afe6615321a8",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "美国AI的OnlyFans经济",
+      "translated": "Podman 6：机器可用性改进（2025）",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:14:55.818Z"
-    },
-    "1b221b0b2fcd58e465aefda0f4c13ceb9c78b1dd390a31a05cb4a679ee8666e3": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3359ebe15fe64c2babd81dada1b1fe08de6f017551eba4587bc0751c62cfe247",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Podman 6：机器可用性改进",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:14:55.818Z"
+      "createdAt": "2026-06-07T18:03:47.596Z"
     },
     "91b2407c9fd0320bbe3f56159b2be87d846d6ddb05113eb3c523307ed1852db2": {
       "targetLanguage": "zh-CN",
@@ -55,17 +77,6 @@
       "translated": "LLM正在侵蚀我的软件工程职业生涯，我不知道该怎么办",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T14:51:33.009Z"
-    },
-    "e6a9a92ec3aa7127b661181764f2f84ed4116350ec85455f3484179ebb5de943": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d581a7a07720e2abe209e3ab8333656d7b9b51596be94538875ea2d28da6b5f4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "9 Mothers (YC P26) 正在招聘",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T12:20:32.841Z"
     },
     "1ad1e0446144c69c491a9fe51f64a1e7feadb24451f07adf568863941ff2608f": {
       "targetLanguage": "zh-CN",
@@ -177,17 +188,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T03:50:47.897Z"
     },
-    "e9d583f1d2b432a5fc92e268c7c606d2fea98823d8d66efde2481b912b807425": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "54f925eb06ff70c399779fa4c5564aef39e47d653b74f9e1ab460fdb2623d238",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Ntsc-rs – 模拟电视和VHS伪影的开源视频模拟",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T21:03:41.545Z"
-    },
     "7a261252bac0212419966b439f313928b464d2e17db18d165d6339b5766d7d9c": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -209,17 +209,6 @@
       "translated": "Warren抽象机：教程重建",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T14:51:33.009Z"
-    },
-    "05d132d1c74d85283a48e981b1aebd44150cc2cbe9f7d559389ecde8cc0a2919": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "986fe87079bdc108ab97d59cc98d9fd1e6355d48ca65dc54b9f4e68500fee7f5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "驾驭工程：在智能体优先的世界中利用Codex",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:50:47.897Z"
     },
     "1f1b6aec3351de2575f7a60bc524c3994e9ef87849aff01a3e6a09fa91a202b1": {
       "targetLanguage": "zh-CN",
@@ -254,6 +243,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:27.939Z"
     },
+    "8e137dbbf6d5420a5190985b31dc6f2c64da60e1e36eaaeb9a47d3de0b53e959": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "efb043e55592a997b213a4c930dac17f2c9cb9ea37c0983f6d36a27289fa86aa",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Linux 和 Unix 中 lost+found 文件夹的用途是什么？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:47.596Z"
+    },
     "cf09e313f6b45312367f84d28a49092536f3fed963e0d3dc40cf8b12ebcb0628": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -265,16 +265,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T16:14:55.818Z"
     },
-    "3fe335d997b008e3505bb2c94fea4ca7ddf4abbb6c2918ee311eefd0bfa09b1a": {
+    "58a9775bfcec0980ba582702feed234206a43b1c2dca464af83f4357f12fe226": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "1c16c4cbfb52e7e772f628b16d7bd97a657646a27bd8091095a2dbc9c6816d9a",
+      "sourceHash": "9899cb6430190c1d99a24c91fa16b9c9b6c2dc6c5dd0c6b28dd1d2a04228d0b8",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Yon – 一种面向拓扑的语言，具有内容寻址的格堆",
+      "translated": "QQuickItem 变得可见需要多长时间？",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:51:33.009Z"
+      "createdAt": "2026-06-07T18:03:47.596Z"
+    },
+    "7422ba103e55678a7d4621b4599106cb7493f7aa1190a963b0517bde391034e7": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "827da6f90e95716e62c2ccc2b3dbfc8d52c4e40b8ee33076125c65c3be266418",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "观看：今日测试第四天亮点",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:57.996Z"
     },
     "71c4dadbb961a0465967dcd84387ce252da5de52b457ce67c415256a60e1413d": {
       "targetLanguage": "zh-CN",
@@ -298,16 +309,60 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T16:15:16.382Z"
     },
-    "72ca399bc09504fd2d7c21b8b0b5a501d53adec61d8d39b5df7f8d40c634c07e": {
+    "47f0f09c13e403341eeef69e55c5ba30915ef5382de279000b38d9073429ece9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "34e001a7a471ac590b4b70af301c7ca912f37253841ec96d94308efbc7a9498e",
+      "sourceHash": "de8f7e9fcf1a70b87deb452545ebf3756a482b13d364b35c9c5f7bf50ff8c3cb",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "泽连斯基在伦敦会谈前批评‘卑劣的’切尔诺贝利无人机袭击",
+      "translated": "兹维列夫在紧张的法网决赛中击败科博利，夺得首个大满贯冠军",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:21.722Z"
+      "createdAt": "2026-06-07T18:03:57.996Z"
+    },
+    "6ae78b24ae69651df4ff76b1ef157ff69fbe0d0ca93c29a2ea780f566c6105fa": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "258ff68809b8fdb5d014f05ac72dbc9af271aad9f318ac5705603c7264a63844",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "霍奇金森尽管跑出个人最好成绩，但仍被韦罗击败",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:57.996Z"
+    },
+    "75c971bfcfc11b107d012ac3a3daa50103a9bda039f799d0187356d945bf3bd9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3a6c4c4062663f9888b066da13af574e4e80b064b1bd4af03fb4e4ce5b7cb80c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "泽连斯基抵达英国，与欧洲领导人在唐宁街会谈",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:57.996Z"
+    },
+    "5d4afee8f54d7aee4847e583f2102df4a96b3206b52a7ee5ae067dc48c7290ef": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c0cb76c5f0ea232dbe2e6e21bb075668872cce9ba976f1e002ea725c755efbd9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "以色列在美斡旋停火数日后袭击贝鲁特郊区",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:57.996Z"
+    },
+    "27c2cd98b879ec7bf622f7eb444024014dc09f9e52f5487b0c1d3146c48f6b24": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b3657efc54c65f1985fc533dc41e8d3704c8064d4f9ef086f31b9af30039f789",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "男子在利兹青少年谋杀案22年后被捕",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T18:03:57.996Z"
     },
     "a0fa68f9aae1df9b4f4c94ee9d757c7a038dc6048d1d962ff481972052055e46": {
       "targetLanguage": "zh-CN",
@@ -495,61 +550,6 @@
       "translated": "Steve Rosenberg：俄罗斯经济论坛因无人机袭击圣彼得堡而黯然失色",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:41.085Z"
-    },
-    "3f94741e7755a22a73f61c97cfcaa9b4cf24ab9eb2f454d5a8a8409b151f4ab7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c76bae519465d796fd4f1d0e88698ae2c7b11b0807a59b95bd5c27a8534a116c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "没有C罗的葡萄牙更好吗？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
-    },
-    "880d06562f3ffa414c24efa1861a00d51b5557bafb62fbd0cb8b721eed7f92d1": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d2ff8a1239ce41fbadc779156c07466f043b9b11a74f3474cd81190d5df79e06",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "蛋糕亭让烘焙师每周赚1000英镑，但梦想可能结束了",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
-    },
-    "8244ac488e23613647010085ae34d0e04294d4695006c731ce980bf4b368614c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "db43c1038b912ebe58071e8137c74e05e8d734739b30f3e87120794f4cbefe3b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我申请了数百份工作——这个技巧帮我得到了一个",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
-    },
-    "fe78a15df1f14882e53b3f0ce3c117893045e70a0792a679380863aee249d296": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1b4dabcef009f6a4f18b98efed78d4d55e55df82768ba8165acd77cce32507ee",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "美国《爱情岛》节目中的警察面临家乡强烈反对",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T07:54:41.085Z"
-    },
-    "dc7eb84f598ded8e670dbbcb9be3d562b01e6317a3aacad77d8acbae59d92775": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c9e161846b2d674abbee7c587a98b652b86a792477b3135214e9c609d9c5b079",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "不是足球迷？这里教你如何装得像世界杯专家",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:51:01.466Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
@@ -2916,6 +2916,17 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
+    "01303c4517c84460d06f36a239f51ee97319497171549e99f4658d185a4f9519": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "03270a1b5b50a439d8a96ca9c6e681f2198a55f9ef1b533ed0321e9cb5c23460",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "阿拉伯枪手在以色列中部袭击中杀死一人",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T14:52:27.081Z"
+    },
     "b3a8b7be1b9dfadc95a5102425f71dc80dd7e96c8b0dee0185269fe283dab3c4": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2970,17 +2981,6 @@
       "translated": "墨西哥城机场为2026年世界杯进行了5亿美元的翻新。这够了吗？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:55.961Z"
-    },
-    "01303c4517c84460d06f36a239f51ee97319497171549e99f4658d185a4f9519": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "03270a1b5b50a439d8a96ca9c6e681f2198a55f9ef1b533ed0321e9cb5c23460",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "阿拉伯枪手在以色列中部袭击中杀死一人",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:27.081Z"
     },
     "8f5844f2195517878177ec8ea7193c132312ca74c92c5fd05f2aa937b7de7360": {
       "targetLanguage": "zh-CN",
