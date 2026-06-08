@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "904a13f097ef627ea55c997d56f40178f9c64d71c2a7cba9c930c5b112b79957": {
+    "7de482d96aa97f1f10b70d3665c90729bbc086a955d82f37e3cbda50336f3a98": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "cd690bf0c40c0251d9956e40ec0e7f9e52e9bcfd76eb5b104ff720ab4492cbf9",
+      "sourceHash": "607b21562e38f9705d81bf2b4d1c217ec3ece767616a70606555a81f1f51e884",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "数据中心消耗了2640亿加仑水，因为干旱袭击了美国近63%的地区。",
+      "translated": "Firefox 合并 Vulkan 视频解码支持",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:34.423Z"
+      "createdAt": "2026-06-08T00:06:35.253Z"
     },
-    "e4f25087f8f29055bb255443c1e56d17003083b356f47e4810dd8761b75734a8": {
+    "65535bd274740a67cdc4dff30510414ef286f9f1207948b2b8a96f353e962b20": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "7ca472c7732dfeadde7fb158326b63f8bbadf36028ebfc2e96e07e582f5d8794",
+      "sourceHash": "70ded9dc0597be7dbb2692713858be9ec319ee7ba60f874f6acb9c8cfaf4e3e2",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "互联网的架构给民主带来了风险。",
+      "translated": "VibeOS：首个 AI 原生操作系统",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:34.423Z"
+      "createdAt": "2026-06-08T00:06:35.253Z"
     },
     "a57b0e8f9def8963ce666b271572492caaff13f36b52efbaee9fb729ad20ba8e": {
       "targetLanguage": "zh-CN",
@@ -56,17 +56,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T22:03:34.423Z"
     },
-    "dc2817dad6f224dc16296674996730eabf6a4609fc8d42cb543caa4668e417d9": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "cde83f96c2ae4e9fc28c0c53bc1314953d46d7a10f0b862ce8d69a703b7ad50a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "低蛋白饮食的奇特案例",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T20:11:17.219Z"
-    },
     "2e6fea59aa6772f07598509a9fa23967e8ab6841db3cdcf484fb97deb4079aa6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -99,17 +88,6 @@
       "translated": "与未实现的梦想和解（2023年）",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T22:03:34.423Z"
-    },
-    "633b02dda4bff3e37640672bb7564d52d073237d305a7b7c22fe79337fbb4bb6": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9c99da350704086de63669961cca500e14a0e8f0f0cb16b8b783ba3c3f16d773",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "完整的IPv4地址空间映射",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T20:11:17.219Z"
     },
     "23a9f6b10859adc43bfcc2667229e908fa679c13c39650be27e5f1c957659433": {
       "targetLanguage": "zh-CN",
@@ -144,17 +122,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T18:03:47.596Z"
     },
-    "756ce860e4ae3f51d1060bc3074fe6bb5f25b0fd5fce1f28771c7ca43f81b2d7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "df5a402c44939150f6bd86be7372c4dab2b138ee38397a2b7b567626bba3d4ed",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "在一家工具如宣传般有效的初创公司，我迷失目标的那一周。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:34.423Z"
-    },
     "b5705f53aed3eb8f40a92b0f40d248c200a6f7071a23b950ca863955b21c8fb3": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -176,17 +143,6 @@
       "translated": "Podman 6：机器可用性改进（2025）",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T18:03:47.596Z"
-    },
-    "1098e55418925999e1b7c2c75d520fa818ecb49249593cad163d0f02750ff3fb": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "82098e172833904a187bdf85a25aa82cf5b9f9006bae16f2d9738a897001a01f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "sqlite：SQLite/SQLite3的无CGo移植",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T20:11:17.219Z"
     },
     "91b2407c9fd0320bbe3f56159b2be87d846d6ddb05113eb3c523307ed1852db2": {
       "targetLanguage": "zh-CN",
@@ -232,16 +188,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T07:54:27.939Z"
     },
-    "591572782b1697c02d2a803f5211cda96ff0692eb2520b8dada897c5db912ad4": {
+    "e3cbd38c0ef160f8e54ac33a79fa2794eeeebfec733185b3ebbde012a51a7f96": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "310e8e380cf883fae158b6ebc1d9f6869395a65b9d98379de03ec1f96a2ab0c3",
+      "sourceHash": "d65d10c0a2a489d99f9be3cf5afaed9721a10e732bd03d38d7dc292360481154",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "公有领域图像档案",
+      "translated": "我现在用 Claude 比 Figma 更多",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T03:50:47.897Z"
+      "createdAt": "2026-06-08T00:06:35.253Z"
+    },
+    "291ace7586017856e1e7d7060a7c1bfbbee2f40f3874f85e9a0ee30204932ac5": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f6c5c6682819c934f349f0a8eddabf1f9f7c4aa5f741e73883b9741d5e196a6b",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "俄亥俄河谷一个 10 万瓦的 FM 信号在光天化日之下被切断",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:35.253Z"
     },
     "7a261252bac0212419966b439f313928b464d2e17db18d165d6339b5766d7d9c": {
       "targetLanguage": "zh-CN",
@@ -276,6 +243,138 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T10:28:38.873Z"
     },
+    "2aa981a9bf857af9d4f516201289008690bddcd43d6d5951480a54fc8d354643": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7353bf103355b34b4f87dd85bd109d87c451eb026eec361da66f88f48a11f198",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Linux 和 Unix 中 lost+found 文件夹的用途是什么？（2014）",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:35.253Z"
+    },
+    "cabb195e1aa444fe6b1da10baf93eae363d3773ae099cc090f8b1033ee887207": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3cc5b6acfb7f16fde061fa5e68aabc62e1dd15b8e70e3fbb4ee9a6f67fcdb9ec",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN：我推导出了一个煎饼",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:35.253Z"
+    },
+    "dca6942ec7ffb3ee82b6cdcafe4ab3d98220edefc53a954fe876bff6cacee28a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "480ea38be34e4f2a3beda555267dedcfdf2913832b6945b7cc2b3f6c15b07f35",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "撞车并改进悬停检测",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:35.253Z"
+    },
+    "6d3ea569b55d80c2e3f3d8947a374784e5a1b3998bb0941ab6c4caf97e6760fd": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "dc5819350f2e356a189f873d6a8f6037616af8511ac1da37a2c33f0c35526fad",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "我的饮酒时代结束了——以下是我对无酒精世界杯的建议",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "615b59c74fb6cad924e6239b7c2c4909714994f264c6f8ebb8bd6300dcbcae5a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "433b339f0078b76745de31f4a1dcb4c84e96e0959af8458d885e14d32f119669",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "你可能在不知不觉中为退休存钱。如何检查",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "d351cbd727ae375e2ed507999a6be5361fdc48226da75b229699decd0801aba9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0f8d307df38beef91e79cea21d0205196b339dfb3a700b6a5df76b626b37cc15",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'没有死胡同'：荷兰在应对青年失业问题上能教我们什么",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "2108144413e923bf478ab6f421504957f0679d90713e78698644aa4cb4bc570e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5ea43c2bee8c452919aab6d92eb4d54af0f5b71846fe3e25789a21d386a279b4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "西班牙游客数量创历史新高，游客避开中东",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "0dde3851f9ec96142de846a8a253b0bc0540bb6c0660428c6b71f18daaa013e1": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "eee2bd97e742bf0d1f181482018cfdd2d8479272f0a45995765fb65d340a60ea",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'是他们的世界杯，不是我们的'：球迷对美国旅行禁令和签证限制感到愤怒",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "c1dd3044f4a946bf39e4b48a72b787e2787b987a41bf2f7ae1cdbd04aebbe637": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e95bf9e02eb42fb1cc0a93535e7c006cc2660be44271215adb7fb5c089cdfd3b",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "商业街如何成为我们政治不稳定的窗口",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "ae1d017b41ac883dbe95a01a85e6980b5afa10e4c786a94194a6425b9bdee482": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8d67cd2f0ea7a81ce833c2b217400076b62a7bc8d6b6c81126161f827aee343d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "报纸摘要：'伊朗发射导弹弹幕'和'新埃里克森地狱'",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "a88e9170c0a5f8ec446beed180e922922149f61ce7ab4299786924daffd535b6": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "713457faebe60359949617a8cdc64dc4ec15689af08421ea9f5813e13341dc43",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "友谊还是筹码：习近平为何要去朝鲜？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
+    "6043933432df819f6a126392ac51c837d5f95286672cc0a6f0f2a816dd790084": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "ed9ed9da30e7e2167c30487fa6ec9ab149d19f384cd7f8989c73bfcbde3918b4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "'我们不再看天空了'：印度航空坠机事故中不在飞机上的受害者",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
+    },
     "41d9f4e796b3f6091ff49bef20a0a7be12bcfd02865a0182b978a49d0272f233": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -286,6 +385,17 @@
       "translated": "M&S 为1000名年轻人推出新实习计划",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T14:52:21.722Z"
+    },
+    "40d2808c2875f4824b84556a2d546808df7b2eab4560ec5b591bb9e83e240197": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fa9f39e38fe88ddd96d2a06a0f67a4e6c198d72f1854e23be1f68a6658e8cf9d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "南非总统宣布打击非法移民",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T00:06:43.647Z"
     },
     "bbdde6cc9a952be2229fb1beed7aa05866748b532c187b302fe64aac33422c40": {
       "targetLanguage": "zh-CN",
@@ -419,137 +529,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T20:11:32.977Z"
     },
-    "71c4dadbb961a0465967dcd84387ce252da5de52b457ce67c415256a60e1413d": {
+    "5642d046ab707259cebb1241f7c9a3aa26c3dd48a6a62f2c99e3bf65a42f29be": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "359c43715c6340b55a9df05e0f4fa530ec784702af2f4744e7b6104c203b54a6",
+      "sourceHash": "db0784c8319438940cad60e6ba7c31d705553d3b67460a28d178ec8a176b715e",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "安东内利在戏剧性结局后击败汉密尔顿赢得摩纳哥大奖赛",
+      "translated": "从耀眼边锋到几乎不跑动的老将——梅西的演变",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:15:16.382Z"
-    },
-    "27c2cd98b879ec7bf622f7eb444024014dc09f9e52f5487b0c1d3146c48f6b24": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b3657efc54c65f1985fc533dc41e8d3704c8064d4f9ef086f31b9af30039f789",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "男子在利兹青少年谋杀案22年后被捕",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T18:03:57.996Z"
-    },
-    "a0fa68f9aae1df9b4f4c94ee9d757c7a038dc6048d1d962ff481972052055e46": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ab1183b6b254bf11c0a7154ccbdbce93e02caca223731b6ac4330df001635732",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "皇家邮政将新父母杂志迟了19年送到父亲手中",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:15:16.382Z"
-    },
-    "d60945a2b16307720d8192380f85b9ef8e53ca44c0fc6001ad41be5e055abc27": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "33fd43042d67823984d614bee22706a9212b0701c22b36abf43852ae85b064bf",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "非凡的唐是英格兰首屈一指的投球手——阿格纽",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T20:11:32.977Z"
-    },
-    "f6ebc71fecef6d8114e549d2b7ac62f82e9883f0343964515947b0449b2ecdf1": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ad92660ef9d6d310399fb9155ee9bd4af765af517f4cec6ee582ee1066acf70b",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "斯托克斯在英格兰战胜新西兰后表示，洛德球场并不有利于测试板球",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:15:16.382Z"
-    },
-    "48574dcac59d32649c2fefa802459bb62e271820863ea9b7f8ac2ccaa6d3d315": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "27c816f83ddf0a7c259506a8fc2f415014b8c75f87df9487df75b380527150c5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Son 呼吁伊朗与英国二人进行囚犯交换",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:21.722Z"
-    },
-    "b1d1bc7d3350550e7ac63e3bfc3b5bdee055bcd034acf1d33c68dfa15153d87f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "db2e52d16051681cee66ea0ad6515c29485fdb44c2beb976e329f9503e1e0a64",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "伊朗世界杯球队在美国签证争议中抵达墨西哥",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:21.722Z"
-    },
-    "7a7949cb1fd0ae2129807a89dd3d6d958fdbbca9774a5f8827d59001afd4d502": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "0154419a985126a96ecb6e102392ff73f6981a84ecea8cf95074064359634753",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "西蒙·拜尔斯在‘几乎死亡’后透露健康恐慌",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:21.722Z"
-    },
-    "96a9b1a9101061ea0ad1436d5513e1d88d4397a0b701d08c7ce15eb32824aca8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fed8314171ea65d5476a7115c1e1c14bc627ad79185a476d9d2da4c0a89622ef",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "戴维·拉米告诉JD·万斯他在移民言论上错了",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T14:52:21.722Z"
-    },
-    "9286b84b26ca1fb4d00e6aba707ff222960a4068d33e0c2fbe697f125203e267": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f9822d182b6740ecfa69e46ae99cbc691c5e0ab8b84e1f14d257f309b95416ff",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "16岁女孩等五人因诺瓦克抗议被捕，三人被起诉",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T12:20:40.866Z"
-    },
-    "e74ca43c140a5ac6526d21537a4440eec21523e4561dfa405413beb703a56e3a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "11d6b7c5b2afd9f319ba8295182bb630c0c811fe19a5f11090ee2103d8842046",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "谁是NHS护士、最新王室成员哈里特·斯珀林？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
-    },
-    "96ef119410d075b62e9ed2efeffe9356335cb8f03cd8c67ae0dc499b4a2907d2": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f65a27477d3f77360a14647672e780b456163dd2c47019cf733ba19da7e847b2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "拉米说，他告诉JD·万斯，他对诺瓦克的评论是“错误的”",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T10:28:45.010Z"
+      "createdAt": "2026-06-08T00:06:43.647Z"
     },
     "3c598d787fc59731b3548d7401c059ef427f7fb83acdc204ba7ed51c3c1235aa": {
       "targetLanguage": "zh-CN",
@@ -2916,28 +2905,6 @@
       "model": "deepseek-v4-flash",
       "createdAt": "2026-06-03T15:12:17.645Z"
     },
-    "506433522dae361f6c0ab35048e6f8ef16200b767a76e02d1a81d3bd969c5b84": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "98813526edf4fb973c7b4a2bfdb552446f30d4e75607a018886247f9b5372524",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "美国退出和平谈判调解，乌克兰转向欧洲",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T16:15:31.475Z"
-    },
-    "fe19632f99f89153a145d5cdae328896fbd749a3f6548b3c3faa217900e9f80c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d1ae4187ec31ca41463719d4e92108ac00286a0a1c2fb5d6ba4fde5792e19cd8",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "一位总统、他的总理以及分裂塞内加尔的严重分歧",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-06T06:52:30.798Z"
-    },
     "27ac1be8fc51b6afe2fc934c3c63ecca301e49b2dcaf6e04acb0bdf18f6cb261": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2959,6 +2926,28 @@
       "translated": "这是最新消息。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T22:03:51.783Z"
+    },
+    "506433522dae361f6c0ab35048e6f8ef16200b767a76e02d1a81d3bd969c5b84": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "98813526edf4fb973c7b4a2bfdb552446f30d4e75607a018886247f9b5372524",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国退出和平谈判调解，乌克兰转向欧洲",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T16:15:31.475Z"
+    },
+    "fe19632f99f89153a145d5cdae328896fbd749a3f6548b3c3faa217900e9f80c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d1ae4187ec31ca41463719d4e92108ac00286a0a1c2fb5d6ba4fde5792e19cd8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "一位总统、他的总理以及分裂塞内加尔的严重分歧",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-06T06:52:30.798Z"
     },
     "bb6924f4130cea7f8270fdc75b51b725c0daaefabb14a3b117ebd4c2967d2c81": {
       "targetLanguage": "zh-CN",
