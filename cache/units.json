@@ -1,16 +1,71 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "9e54786934e97edcda14fcff6451955f1f18546e2ea579329a0cf8bcde96d974": {
+    "5e87b4e21c6844fbebebecf62221e869bf81cb094eb20537f15183bd9639911e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "72eef608bfd91bdcb35c35a1087e1ea5219bdbc7f254cc36b1d77d5246e3edab",
+      "sourceHash": "0f4e2a7f29db3078d8da1ee618bf900a7469e538f18fed2bf0ec8543b57c9718",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "谷歌的20%“项目”已演变为AI的120%“注意力”",
+      "translated": "如果Claude Fable停止帮助你，你永远不会知道",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:56:57.545Z"
+      "createdAt": "2026-06-09T22:25:56.206Z"
+    },
+    "84da1cdc808bdec2e72d0014e095814f9e079043af3aa90bd2020e109a30d4e2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fff5ee1dfb90fc8effc425ce3c3143fd4c23cf7a2203832e66c08848cc0b6037",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Exif走私",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:25:56.206Z"
+    },
+    "ec2a625e5f229f6a8c2ddeb46ac8e1e0628cd9cfdce14ae3a8e2debb3bbb0986": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3e85c91fe80ec5101fc1c1f7c6b754c856196939590a0aae617446cdde0f62c4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "公司将在ALPR中添加手机、AirPod和智能手表追踪器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:25:56.206Z"
+    },
+    "1776dcc42e6f98522cad051c2bb2b8a9bd0fb12db4f5d2234492161f383f8682": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "cf056787ae59df8169a70f4c5e44f275760dace7680fab251a067ccee4d23ec8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "NPM v12即将到来的重大变更",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:25:56.206Z"
+    },
+    "a6e0f13238c4a031b2aac3722c67b893a0f6361eeca424e1a8e5f5ab2205de66": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0caacaa3a045140e5898cdedb7b4ef44e01ee2037bb829c2480e24a78097b7b9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Alpine Linux 3.24.0 发布",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:25:56.206Z"
+    },
+    "bd20be0464aacb2ccc794048b51912f1502b05acd5be1eeeaadc631c190b0f8d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a28a97d7f4f006767f57fe499fc13a787c86c76b252f9b039b832fb811b87fe2",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Grit：用Rust和Agent重写Git",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:25:56.206Z"
     },
     "d1db7acc88fa0aa1bd95f6bca3934382ceb4ed20f5d05fcb31fc45f68f147ad6": {
       "targetLanguage": "zh-CN",
@@ -44,28 +99,6 @@
       "translated": "认为AI能取代员工的首席执行官只是糟糕的CEO",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:56:57.545Z"
-    },
-    "a36a1e4431868fe90515c118f754b998323a7a03aa9a7eab9b0a86b0cd3ba413": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "255844b6650144a3fb1588818c84b2fe6c36b714c8d4102306246666c0daf836",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "GPT-2：过于危险而无法发布（2019）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:56:57.545Z"
-    },
-    "9664ee25bac7fe2627d5df98d8f9f4fa6e1c90c284aa5c799f3553651778d5a9": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3b883564a2dbbfcb2193958e3544abd7b39afc67d42b2672305827b135b9f731",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "AI就业危机在哪里？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:39.020Z"
     },
     "c59281359ce4fc5ed1022776e593c41d527e1eccfbd65bafca58d5c0deee79e9": {
       "targetLanguage": "zh-CN",
@@ -144,28 +177,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
-    "b618b71bbb585d93eb9feb2df9bd7623c7fc9d487118bc16d3217d6631a031fd": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "65e8eda9491f64060e1d34db8a5a9008cf74ddd900c67e5098bcee5678d0c24d",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "LLMs能否超越经典超参数优化算法？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:54:55.857Z"
-    },
-    "a12a837d80136293b77c6a0276e8deb2919c92ce2ae2d187335aa2f3ed581615": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "be0e4373509836cd4825ca937e2a9d3d07b546efc170e99b723aa6da0c421c8e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "利用LLM实现统一可控且精确的文本到CAD生成",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:54:55.857Z"
-    },
     "fc4118540150c6c977a9cabbb9191dc15d95192a92f99efa08ad015a8a25d25f": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -232,17 +243,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
-    "cc987fc9127f7757b003d9cc4b21a1db65b341bec6b76b419d548ed83d2fa9cb": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "e392ec7b575c22b0ca147224d82ed3ff73eb68ba211987a373a76e6b90031fd8",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "永葆青春：一种分子如何让植物保持年轻状态（2025）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T12:36:40.120Z"
-    },
     "c48438e2cb6f0f5b5ab3928bffabce0611ecccd8a588af43b13954c8ed5cd223": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,6 +276,39 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
+    "aea5a747c1e3d8f2a89056750686a5ece8352e852813722fbe7fe984e82302a0": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "cd4bb49c594dae565240062bb3ee4c071ed723977dc6fb462ab2ec30020b214e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "大卫·沙利文自2023年起被禁止与西汉姆联女足和青年队接触。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T18:04:49.885Z"
+    },
+    "5bad54fe7bcdebb0ed8cd6b64846e41add6162e3af4bf6240ea3114a77c00e3b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0185e8534d7e0fbf2254ae74f0daf0d04c09a340c73b558e015c143a33d58cf6",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "缅甸内部，叛军节节败退，军方强征壮丁",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:26:05.468Z"
+    },
+    "e820be8b89c4e941e3db7b8dc14a04a8fd27c29b4f87f4b5d72ed3879e91bd06": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d917460dbffdb41b4e7bf5502d10fbe51086054b648bdc631b1ddd70be447dcc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "图赫尔称英格兰必须敢于梦想，对萨卡持谨慎态度",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:26:05.468Z"
+    },
     "edc8f83dc7ead43a2936bb36291a9097fed5a4174bb595b0db08458eaabb5fac": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -286,17 +319,6 @@
       "translated": "威廉姆斯在女王俱乐部获胜回归",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:08.924Z"
-    },
-    "3ed3703d55055deee711cb92b931cd0dc0fc625737b3fcfb87d9f7a85e30a64f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f44505f5a02f6d803e755f138504ed15a73e3a348633f56f8fe0a8d4e0d45e50",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "特朗普称伊朗击落美国直升机并誓言报复。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:49.885Z"
     },
     "1464b5c773fffce84ca9f02cb1e5fceb68f26d61cd8b2f727462918263b62956": {
       "targetLanguage": "zh-CN",
@@ -372,17 +394,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "裁判案件是否表明国际足联已失去对世界杯的控制？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:49.885Z"
-    },
-    "aea5a747c1e3d8f2a89056750686a5ece8352e852813722fbe7fe984e82302a0": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "cd4bb49c594dae565240062bb3ee4c071ed723977dc6fb462ab2ec30020b214e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "大卫·沙利文自2023年起被禁止与西汉姆联女足和青年队接触。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:49.885Z"
     },
@@ -507,28 +518,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:49.885Z"
     },
-    "e94cc833aa3ffc4e86430e9f8f0bd6479b63f5ce81f1ce523497a65bdf152b5c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "45b7673b208700d97844677c9a80c1cf4288c5843711c212d6abf5109e150652",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "根据拟议的新法律，伊朗团体可能被定为国家安全威胁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:55:16.894Z"
-    },
-    "4011b141d7569ebb9f93029dcaaba262fcfd30053b5082f67d63f9eed836dcb1": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6b47e11830fd35712a9745449c9714d5a56560dd64a1f670b3061cd18b481a5c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "世界杯最年长男子面临死亡风险——行走奇迹戈登",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:55:16.894Z"
-    },
     "0ed201e148124bd7f61bc1e2191d0735b072b1ba45b68d7755d8f168ecb97dd5": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -539,6 +528,17 @@
       "translated": "法德战斗机项目取消导致盟友在防务未来上分歧",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T15:55:16.894Z"
+    },
+    "061f634d2e667e38e20de1334f77d706389e9063c8b0eab61c492720bf11f12a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "534cee519c00bd099a0b05b1a84d043225fd835e26814d5079aeecb01110e971",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "沙利文指控后，西汉姆联何去何从？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:26:05.468Z"
     },
     "59f1ccef1005dd4560dbfc84365a4669c829c12dfe93f68bac49bccbe736d9e4": {
       "targetLanguage": "zh-CN",
@@ -2927,6 +2927,50 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:10:16.192Z"
     },
+    "d2f20c90236b38a59f1dcfcc940fd0cc7c51a8072e74f9ceb705e21ef07d0649": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0dc97394412de7e1a97c3d4ab5dd265c9f25710030548cd295f3af5697bb76da",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "索马里裁判称，美国拒绝入境后，他的世界杯梦想破灭",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T12:37:11.945Z"
+    },
+    "e1e185b061f73dcd7f6023837d799c88a4150d3a910ac51e8b8130cbc671d7f9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f259ddd588194b97440c5330c3cea13c99c50c15c6ce78e39303f94e4fd593fa",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伊朗战争最新动态：美国对伊朗发动打击，报复被击落的直升机",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:26:10.083Z"
+    },
+    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "这是最新消息。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T22:03:51.783Z"
+    },
+    "0d503bdd0b88585e3ad8357fa2f1214c62f75950ca5edbbaa03c459ff0a6c1b8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "68abe12e10ce3c21c279e4eb2f4a860be66e9ae069c6228ee172679fabd8f571",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "特朗普誓言报复被击落的直升机后，美国打击伊朗",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T22:26:10.083Z"
+    },
     "3463f9577e6dfa250bdeddb4680d2d2ed0907adea60a9c01c884b72ff15537f8": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2937,17 +2981,6 @@
       "translated": "教宗利奥会见Bad Bunny",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:23.059Z"
-    },
-    "683b569b44b25509ddabe35c3b6ea58c04ba3201f635285b66837e4e31616879": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c91d76410457fe4605619fc02c97814209e3490420df92cd8d023d1cb11cd7df",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "伊朗战争实时更新：特朗普称伊朗击落美国直升机并誓言报复",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:56.781Z"
     },
     "af7aed5ae28e922c8a27a64fc8228e657807c7d49c18f1f35d79e247cd9406e2": {
       "targetLanguage": "zh-CN",
@@ -2971,17 +3004,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:23.059Z"
     },
-    "bf60f989c34ba2897f3b275ccb69606f0572214f03ae6127aa1f8cdab3470b0b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "768cfc2ff934f0e1e6fee3cd2c5155bb64827475386515e708cd13f71896e71a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "特朗普指责伊朗击落美国直升机并誓言报复",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:23.059Z"
-    },
     "4e384348303d19de4f690ce254c422e690c8435d5a2e9afda7679bb59df6dc07": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2992,17 +3014,6 @@
       "translated": "你要前往美国参加2026年世界杯吗？我们想听听你的意见。",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:23.059Z"
-    },
-    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "这是最新消息。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:51.783Z"
     },
     "ade08bdd3ff8b201db5975d6b1f7ff7c220fabd8e1ed8b163f86cb03405146f9": {
       "targetLanguage": "zh-CN",
@@ -3155,17 +3166,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "内塔尼亚胡屈服于特朗普的伊朗压力引发新的批评",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T12:37:11.945Z"
-    },
-    "d2f20c90236b38a59f1dcfcc940fd0cc7c51a8072e74f9ceb705e21ef07d0649": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "0dc97394412de7e1a97c3d4ab5dd265c9f25710030548cd295f3af5697bb76da",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "索马里裁判称，美国拒绝入境后，他的世界杯梦想破灭",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T12:37:11.945Z"
     },
