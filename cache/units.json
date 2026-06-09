@@ -1,6 +1,17 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "9de57be08f5e7ea7ede1cdf2eab40a18b76501357cbcf39667d69db2fa7f0b39": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a03649e2cd1a8fc7109bbe5c54249699ce2af0f36b74c2ba941c3b8157be01e4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Show HN: Mach – 一个正在寻找贡献者的编译型系统语言",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:09.969Z"
+    },
     "5bf86a76e335376c51882424d44235c9289d22c4c4218ae83770d960651f3916": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -20,17 +31,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "FrontierCode",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T22:26:14.445Z"
-    },
-    "41b83e15f7fc1907fbba9e21618a7edcac39041bb3144135d6bf6c4710bdacaa": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ad3e12ba796a55478b3c85a347db23eb7e627755421dbada4133ff72e2dae802",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我正在构建一个平行互联网，它叫做Thinnernet",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T22:26:14.445Z"
     },
@@ -111,17 +111,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T20:13:52.697Z"
     },
-    "c5095e6452fda678234e595a2ba519b1fbfa55ed1d90e58f958f103858f9d1b6": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "120d0a8359a969c8c714f51a5f2f7ac59b28280523ce3d7585c6c24226dad840",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "苹果WWDC 2026",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T22:26:14.445Z"
-    },
     "c6d3e38ec9d7a377d4ddcc5e02c0e64d9762b982aad126b46a34caafa86c3262": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -144,16 +133,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T17:52:24.312Z"
     },
-    "6408263f078cf68c432128781c5c0dd453d00967dc780f418ffe2f72b906b6a0": {
+    "dfd4c5d02524f3d65fe3ea63882374f6afb3eb6db9a5a1f4e77244c65e633f58": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "b4b9f10c53f2efba8ceef0d44e497f9142e44cfaa3ef21f967c38f2396028e57",
+      "sourceHash": "a4c9dc7242766d2052c07aacd7bd32eae90b9b4c93791de29747a91f0320a010",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Show HN: Gitdot——一个更好的GitHub。开源、反AI、用Rust编写",
+      "translated": "Show HN: Gitdot – 一个更好的 GitHub。开源，使用 Rust 编写",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T22:26:14.445Z"
+      "createdAt": "2026-06-09T00:05:09.969Z"
     },
     "4101551cec3a30f9c4db4b2e68e889778c2d1f2bce942468377fe1ea9ed50647": {
       "targetLanguage": "zh-CN",
@@ -221,6 +210,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T14:48:17.022Z"
     },
+    "c8ac2d8ae9912e529b47d6d385b29aa0401b34c67d67c6268f0267ce6665ed17": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "de7a0c740afb0c29f9be6ae71493aedcaca4565189bed280506d5cb4eaa2e2f9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "你现在需要运行五个 Python 类型检查器吗？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:09.969Z"
+    },
     "9d1ee1cc17f21b950589feef4f92cd1dfa1575a47e02919764eb84b233a23a24": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,6 +276,127 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T22:26:14.445Z"
     },
+    "ce864f5fd0ef36b5d966231611d57f93ace8d21910e467bca7ed57f9f4a7f5e4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "97e1002d82d5aac620e30d128e4eb934b25383bd7f73515d0b4c5226f5ddfa3d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "以色列和伊朗的紧张局势考验特朗普的控制力，并可能增强德黑兰的谈判筹码",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "1bb4a8f0401d3ad9c98e9cb73e0f30aa5f7327e1797db2fcab999fbf304f7e7f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a45faffeceec87cdf3528355f721ac42df803c700e6465763e1bacab7f2c0f38",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "随着乌克兰加强对被占领土的打击，俄罗斯的燃料危机加剧",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "a4cae1e6da747b63f1f93c10c27d8fb5a4480fe930be4be097e58ca9a5062a10": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "1e6ae9edaf63ce079ca3f0ad781c0ad9ec2487bfd496eeeccfc0ddf28eccbb5c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "SpaceX 股票市场的爆发可能是马斯克迄今为止最大的赌注",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "22e06a95aa804abd45318ef53a6bffe036616f6d8e635b40c22dbacf3d99f5bc": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e08f60a3744b4008c8f07332cdc1f1ba8f8df66f4783f2df6ba12133de612d56",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "BBC调查后，未受监管的婴儿睡眠行业仍存在生命危险",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "207f9767e8db268ebff636066a76b7be6f4884ac113a47f4dbf44154740d1ff3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "975bf574776e5e3d830defc5ec0645c02819c579451b66de1b2aecb89b905626",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "数千人缺席后，驾驶考试预订规则收紧",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "607bb93e3afdcdaafa842200d81918c7b01728c39baf6440373ac8386bdf5ff2": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "11930f413845c3ce1179e528e628833523164821829edcabf87760ed09eac4ee",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "警方警告：毒品团伙每周“鸠占鹊巢”数百户人家，我成了家中的囚犯",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "874a5e288c571caa69f0b19ae91933a347000e6cbad6b299417ffc80a66e9881": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "624aa2436c5db8283311d8f841246b6b79a76546ccedc7006d0325c934cc4a90",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "伊朗和以色列称将暂停打击，但警告若再次违反停火将进行报复",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-08T22:26:23.197Z"
+    },
+    "5c3f716d2151e8e918bf42e6a7cbcae701fe10a3a35a432810c64277451fa8b9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c059dc4c705f3f0adc6087e8170ea79e079fdd9c9c3f99f596fc4b0132033fdd",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "印度最成功的女政治家之一如何失去她的政党",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "24efe244d04eb8a6876fcd9afc51acb044f0cc2b8b75c777279d66b300dadb29": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "39c2fa4a962dea35133b47f037c9425ec3f0fd317d897c1eec16b72ac1609cc8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "泽连斯基在会见国王后感谢英国“铁一般的”支持",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "fbc95a6240891b430a1c845939d801eead99d8554ab680fb1a9102516740057d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "55ea6b70b49cf56c0195f13a6abd45ba19fa70932049b1c6363263f7fa5e1e61",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "观看：特朗普告诉BBC，内塔尼亚胡没有违抗他",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
+    "8673177e3fcf47998d7def0ef0d1346a11a268eee08f0b7091baf02c09071910": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "fe09d82938f81cc38bed074c4f19f9b43a873806d2f64a5feabfeecf32878e1b",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "巴德诺赫表示，公共服务领域的法律平等义务应被废除",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
     "8795dd1fd531cc064240f7c057a7e620a7abe7ff4ce0d0e5f69bbd8babb5a316": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -287,6 +408,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T22:26:23.197Z"
     },
+    "d2f630f9e9cbfa921ba677dd2cc83b2e65ee8bc6b4a9afdd2ca06be8b627f67c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b2c501e32fac1109f972efc1b2612fa992f64caa916bcf1b38ee774a37d08567",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "索马里裁判阿尔坦被禁止入境美国",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T00:05:24.780Z"
+    },
     "5f842265b0b4600fba0cf1fb2af3be5f0314fba4051edd8bea3b843734d236c2": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -295,17 +427,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "索马里裁判阿尔坦因被禁止进入美国而将错过世界杯",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T22:26:23.197Z"
-    },
-    "874a5e288c571caa69f0b19ae91933a347000e6cbad6b299417ffc80a66e9881": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "624aa2436c5db8283311d8f841246b6b79a76546ccedc7006d0325c934cc4a90",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "伊朗和以色列称将暂停打击，但警告若再次违反停火将进行报复",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T22:26:23.197Z"
     },
@@ -353,17 +474,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T20:14:20.536Z"
     },
-    "42d1954030c199a2f5a9761b20982d13951804433b9d9cd8bfbe39c44f564632": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "50cf42346b319f024d9971c96ab2e10d21bd060b772ca5bd07a9b80e60d8d11e",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "前奥运选手的妻子“害怕他会杀了她”",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T20:14:20.536Z"
-    },
     "3d8b7db3aa7af05ef39b597ba58d6fa441a7a762589f18e2fecc1b53b31deed9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -397,28 +507,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T17:52:50.327Z"
     },
-    "d9df66a05358dc836fad175e4d599a1f44daa6104edc3e18b9440d7dadaeaa84": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8e1ab584ad680098e9fd5cecd65868af3e0abf3bf3dc8767751165f61bb7ee52",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "特朗普否认承诺过“不发动新战争”——但他竞选时以此为主张",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T20:14:20.536Z"
-    },
-    "79ac47136930405b19541982520b66bd7b32f63833e379b59361c318b2658c88": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "37558abd7187d718538675f1f6ee93f922b849ef25101586c31a39e4379fa632",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "威尔士新的普通中等教育证书（GCSEs）可能因倦怠问题发生重大变化",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T20:14:20.536Z"
-    },
     "7a5c2e7a495df2b09e34e2c6a15b50a64aeac1a5fb6c12a7a0988599bd6f8b21": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -430,39 +518,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T17:52:50.327Z"
     },
-    "51d5415d3126d644d3f2549ebe270c1cad94b753929eeddc36ae4e02678c3164": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f828129dc4ab7bbcf78940c853548b5f6fdf56fa4fa2e56fe2fe2995e260d907",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "菲律宾南部发生强烈地震，至少35人死亡",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T17:52:50.327Z"
-    },
-    "539853742da7d9bea408eb9565de3325674b27e6300c9d91158c31d0e7d234a2": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f403a5ced24362f21f932f15eed42ee12056f128bf2bd38108a7c6bc02a992c3",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "被监禁的加密货币创始人山姆·班克曼-弗里德寻求特朗普赦免",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T20:14:20.536Z"
-    },
-    "2ffb18211a6878f1d68dc4b0daff2f36965a9af630a2fc6a6be571dfbad5d304": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "2c0d051d359d74c6c62f094c981381ed10811c7920deb9d3755ce094a68f9300",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "帮助老板虐待儿童看护者被判25年监禁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T17:52:50.327Z"
-    },
     "923878d70d5fbd5b197e73311ab7c07b90af7df0bd9a14797c66551ece8a0ab6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -471,28 +526,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "克里斯蒂安·埃里克森的心脏装置如何发挥作用",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T17:52:50.327Z"
-    },
-    "18f0bfcc4860af67967cbe13a7807c37ca5b3c88e521484ac29538abe124e26b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3365d25786df5fbe47cef8145860fd6392e9cade6255589f25541f3d35ad0161",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "诺丁汉袭击案调查揭示司法不公，受害者母亲称",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T10:52:33.712Z"
-    },
-    "25aa7467001934a2aa94a3bead1703067a57094a165af2fba8ad1e41255c2f46": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "63b747272bf885f669118d2db4957c76cd52365e47e48f4afcfc8fa88a0b129a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "克里斯蒂安·埃里克森在家中，倒地后“情况良好”",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T17:52:50.327Z"
     },
@@ -515,28 +548,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "拉什福德“肯定是我首发” - 沃尔科特",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T17:52:50.327Z"
-    },
-    "b90c41b9f1332560f5ed6b313e072e380c8e810da0c5ddda863935ab7e65aa33": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "350d43e0d7f74e854cd41ce8b15fe84587cb9b76ac9792949dca8d89d3a1252a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "大卫·沙利文是谁？足球老板、“色情大王”和涉嫌性侵犯者？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T17:52:50.327Z"
-    },
-    "20db8438b0270d45ce0476e0714ce957f1000eee999972e2534299857894fea0": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "38e8198c2238d786e80448c27027591af37029e175b2da87992c54ea6bb449f0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "西汉姆联亿万富翁联合老板被控滥用权力、以女性为性猎物",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-08T17:52:50.327Z"
     },
