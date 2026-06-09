@@ -36,3 +36,10 @@ feeds:
     targetLanguage: zh-CN
     fields:
       - title
+
+  - path: /lithub/feed
+    url: https://lithub.com/feed
+    targetLanguage: zh-CN
+    fields:
+      - title
+      - description
