@@ -1,7 +1,7 @@
 {
-  "runId": "27206534601",
-  "startedAt": "2026-06-09T12:36:30.755Z",
-  "finishedAt": "2026-06-09T12:37:12.227Z",
+  "runId": "27218593135",
+  "startedAt": "2026-06-09T15:54:47.196Z",
+  "finishedAt": "2026-06-09T15:55:51.372Z",
   "status": "success",
   "feeds": [
     {
@@ -12,8 +12,8 @@
       "inputItems": 25,
       "outputItems": 25,
       "units": 25,
-      "cacheHits": 19,
-      "translated": 6,
+      "cacheHits": 14,
+      "translated": 11,
       "failedUnits": 0,
       "issues": []
     },
@@ -25,8 +25,8 @@
       "inputItems": 25,
       "outputItems": 25,
       "units": 25,
-      "cacheHits": 12,
-      "translated": 13,
+      "cacheHits": 7,
+      "translated": 18,
       "failedUnits": 0,
       "issues": []
     },
@@ -51,8 +51,8 @@
       "inputItems": 25,
       "outputItems": 25,
       "units": 25,
-      "cacheHits": 19,
-      "translated": 6,
+      "cacheHits": 20,
+      "translated": 5,
       "failedUnits": 0,
       "issues": []
     },
@@ -81,16 +81,29 @@
       "translated": 0,
       "failedUnits": 0,
       "issues": []
+    },
+    {
+      "path": "/lithub/feed",
+      "sourceUrl": "https://lithub.com/feed",
+      "outputPath": "dist/lithub/feed.xml",
+      "limit": 25,
+      "inputItems": 10,
+      "outputItems": 10,
+      "units": 20,
+      "cacheHits": 0,
+      "translated": 20,
+      "failedUnits": 0,
+      "issues": []
     }
   ],
   "totals": {
-    "feeds": 6,
-    "renderedFeeds": 6,
-    "inputItems": 114,
-    "outputItems": 114,
-    "units": 384,
-    "cacheHits": 359,
-    "translated": 25,
+    "feeds": 7,
+    "renderedFeeds": 7,
+    "inputItems": 124,
+    "outputItems": 124,
+    "units": 404,
+    "cacheHits": 350,
+    "translated": 54,
     "failedUnits": 0
   },
   "issues": []
