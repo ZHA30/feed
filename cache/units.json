@@ -1,27 +1,60 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "789c400473878cd8d9e96905eb8d6dff49b51a16c2dadcead50e80bf67c01d67": {
+    "a95a0de29d876809185bcf73615e1975ddd45b48040405a565fc188b53cbed97": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "fb42973d98776deae3af00e0a29743489d3039c682cbc2a025e68e1f780ae426",
+      "sourceHash": "23e702e7ffc51efb32247a287d42db8b0270e58fdef542da5a848d18029725e4",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Show HN：Nucleus – 一个安全加固的、原生支持 Nix 的容器运行时",
+      "translated": "'More Like This' 的演进",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-10T00:12:50.585Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
-    "2c0806b56ef46738bfadbca3c520c25e0f85f6fe38392dd4347b8e5e07b3ed2d": {
+    "598dfbd1e10f2a2e12a11252eba34b86308780a4d3085ed48ef6353a8c36ba77": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "c466d7a2a399a4cf00c5e58e81962cce96ff8393476860497b1175b7b2f0fc0c",
+      "sourceHash": "c9908e8b31169e3bbc3416fde56b8ec158ae3b5411752cf1a7be1f46d98efa0a",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "AI 误识别导致错误逮捕；男子寻求正义",
+      "translated": "Rich Sutton 谈 AI 创造力与发现",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-10T00:12:50.585Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "13a3e0378675939227c5452a88cbcc238527ea800e2c97d26f097f3395e6c43f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5c3bde23ceffba4d76e4f5fac30b47b5d2e369c8cbd9ec0bf4dc3f7604fcfa05",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "德国裁决宣布 Google 对 AI Overviews 中的虚假答案负有责任",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "70494d0ce7946a12675abeaad11b8db0a2dfeeb6bc8e42628d1f0510e9bd3980": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "76b635e865cf3ce31c36590eefdf979260e1b5e41fc6565103f4d7ea7a492c02",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "macOS 容器机器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "356ebb3ee9ad84d10a32f2a10361208f2f1810ba5eb6491e31e4a932cbca8996": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "da8652d5205e388fcc067be64da4ad98fdec3f40640506b9c6cc333a42cdafd1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "这是死亡",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
     "014f59664448f1e00d0557094b040ea38262b692b964af1c2e76e3b549b3d755": {
       "targetLanguage": "zh-CN",
@@ -34,6 +67,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-10T00:12:50.585Z"
     },
+    "2547c9553ce09d6a900abf9cac520182d73a762c32e3c60b21374bd19f65b81a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8e63d829deb83bb0cfcf9854b9dc6e16057cbe0d54d9c0458be3b9e5f317bc10",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "惊喜，支付 1000 美元",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
     "5e87b4e21c6844fbebebecf62221e869bf81cb094eb20537f15183bd9639911e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -45,49 +89,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T22:25:56.206Z"
     },
-    "84da1cdc808bdec2e72d0014e095814f9e079043af3aa90bd2020e109a30d4e2": {
+    "321e0936419aedf2c7fe4713d01c263001edf92613a4054fb16c3c23f8c5b793": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "fff5ee1dfb90fc8effc425ce3c3143fd4c23cf7a2203832e66c08848cc0b6037",
+      "sourceHash": "0e388fbf557e6c1db32d17711fb9820e4122a8c68def947410dbc31b97fb6fca",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Exif走私",
+      "translated": "Exif 走私（2025）",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T22:25:56.206Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
-    "ec2a625e5f229f6a8c2ddeb46ac8e1e0628cd9cfdce14ae3a8e2debb3bbb0986": {
+    "7c3c20fd2c141ed3b27fa38a6e0eeac9033f7c15e38fe1ea930bfdcc24e50ade": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "3e85c91fe80ec5101fc1c1f7c6b754c856196939590a0aae617446cdde0f62c4",
+      "sourceHash": "79ecdedfb104cac997dd31611b0087b9e70526ad10205d6c91cb309518c880fa",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "公司将在ALPR中添加手机、AirPod和智能手表追踪器",
+      "translated": "npm v12 即将到来的重大变更",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T22:25:56.206Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
-    "1776dcc42e6f98522cad051c2bb2b8a9bd0fb12db4f5d2234492161f383f8682": {
+    "3e4bfa9d9c0741dbca887a222eabd736240981bd22788cba9a577f499b0841ad": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "cf056787ae59df8169a70f4c5e44f275760dace7680fab251a067ccee4d23ec8",
+      "sourceHash": "35173a42344e3e391235259bb82cc5a238a672e1309000ff0e4f444b78126f76",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "NPM v12即将到来的重大变更",
+      "translated": "Grit：用 Rust 和代理重写 Git",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T22:25:56.206Z"
-    },
-    "bd20be0464aacb2ccc794048b51912f1502b05acd5be1eeeaadc631c190b0f8d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a28a97d7f4f006767f57fe499fc13a787c86c76b252f9b039b832fb811b87fe2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Grit：用Rust和Agent重写Git",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T22:25:56.206Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
     "d1db7acc88fa0aa1bd95f6bca3934382ceb4ed20f5d05fcb31fc45f68f147ad6": {
       "targetLanguage": "zh-CN",
@@ -100,27 +133,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:56:57.545Z"
     },
-    "aa4a80035b68ca5af95ebd3d4f5f988e9f7fbff997b88056de77a37fa2c4709c": {
+    "6eaa44b686929aeb7435b17fb61d892b44ce3c873edb155a1a0fc2c69277b972": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "5cfde64e95b8bce95588ea201797f4343648c8217c5b42d126773171d686c5b7",
+      "sourceHash": "10eccd46319bf92f34c11089e75933f4610f1c9ae510933466dc1ab953b87dae",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "问HN：你还在使用Vision Pro吗？",
+      "translated": "认为 AI 会取代员工的 CEO 只是糟糕的 CEO",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:56:57.545Z"
-    },
-    "6ea72279a2f9abe606b88aaed70a7fc1244db6dc9eb8ac79023de908e5fa2de6": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ddeeb4d39e88bc5f02000836e3756d2b5f676ca9a7609a0153c98f9bf4886e3f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "认为AI能取代员工的首席执行官只是糟糕的CEO",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:56:57.545Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
     "c59281359ce4fc5ed1022776e593c41d527e1eccfbd65bafca58d5c0deee79e9": {
       "targetLanguage": "zh-CN",
@@ -132,6 +154,17 @@
       "translated": "LD_DEBUG环境变量（2012）",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
+    },
+    "c3117ba58b44adb7c002a82610839dbca41a112b4e6f78c88b747808189ba48b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "1488501f632040da3d5f6b4180e03b1080e4288ae77a0098bc25d48522c83fd3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "与 Mythos 合作的感觉",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
     "ec429a31199785d66ea0102588d4893c8670905f103464dde5c1fbaee01689ea": {
       "targetLanguage": "zh-CN",
@@ -155,28 +188,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
-    "632eea120bd0b6817155297e351754ae4721217cd933f2a557b1fffb044f3c33": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "97916d90ed7539dd7a36c5968aff0516b4653ba35035ff953090acf73e6596f2",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Apple在豁免请求被拒后决定不在欧盟推出Siri",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:39.020Z"
-    },
-    "83535966f818375032966e328e2b884fa50b195426f74819e12f35ac5e88e67f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "136342b7a94c8b0e7be78f6c9c2ad801a3a010bf3a91eb21df910c5a971c67ec",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Biff.core：Clojure Web应用的系统组合",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:39.020Z"
-    },
     "97c73594e4adb45d08959f3d0d88e3bea8b520dd467bc4f1c3d71d44a84782d6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -188,38 +199,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
-    "fc4118540150c6c977a9cabbb9191dc15d95192a92f99efa08ad015a8a25d25f": {
+    "775deb90cf3827fba91c97e9517d6805f5ffefbe9b192462298b27038e5f14bc": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "da2e2699cefc74ee5855dc48d747e2e35512128558e8477efab28488273fb532",
+      "sourceHash": "9c8c90f0ff041a5168fad5a4fed3f04995702f59268407f992d9085233c7e27d",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Grep够用吗？Agent Harnesses如何重塑智能搜索",
+      "translated": "WWDC 2026：苹果正在折叠",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:54:55.857Z"
-    },
-    "ad9d357f107cbe3583cd3d3beb259e9f8cc8ee32b7e764d04153ff301dba648e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b33fe3b65379121f760bfcb4bc7516efa3a5b79e8c207b168b3ed508fb25cc50",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Emerge Career (YC S22) 正在招聘一位创始增长营销人员",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T12:36:40.120Z"
-    },
-    "308be3e7427059cf7c6ee2c7b8c501de06c72e852583ee56cd8f960e1de1dfb4": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "995517eb95999e0f12d411124d8a9d7c7966e5e055290caa9e0a83442668a7ff",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Show HN: Gravity – 交互式太阳系模拟器，从牛顿到爱因斯坦",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:54:55.857Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
     },
     "d4d541ecd017a8bf9230ce898bc0ce15654872839036817181c9eae9788c548a": {
       "targetLanguage": "zh-CN",
@@ -243,28 +232,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T12:36:40.120Z"
     },
-    "8f98c1db9c2b182983d529fd6cd39259c1c8bc5aaf0880139397d9359c63993a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "54b3d7ae2e196817478459e14a883dbde5ecab47e9358a6cca7c98052d3789c0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "iPhone的最后一场战斗？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:39.020Z"
-    },
-    "687970f719e0609c168988011edd87e75d84933336ed83f408d357d0f63cf0b8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "07a7bfc8483db2315249b0892b0ad6fcfef2d568e17dc1a570f6ad836aa55276",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "亚马逊的大规模扁平数据中心网络",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:56:57.545Z"
-    },
     "ae7d1cced17fb02765419248eb1f5b6ce5dc013d08e82d8688748bf45fe04541": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,16 +243,93 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:39.020Z"
     },
-    "627d4f7462abb6114c2603318d17399d8b75460f2f9c15468519f391650182e7": {
+    "3bdb56228dbae6e88a43ffb76dbe2f5aa1f20d3abd067b0438c7de4268d3cc7d": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "7a1d32a2548294a8f16d3fd35b3d2dc0170aa1243b87e0a90d56e2c75514c5b8",
+      "sourceHash": "4122b83a67e21b5201dd824e20f9d438f920a9f49d027679bc762eb1cfb9a74e",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "前列腺癌的先进放射治疗将疗程从20次减少到5次",
+      "translated": "一颗巨星可能在最罕见的爆炸中自毁",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-10T00:13:10.849Z"
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "f4136f04fc2f173ce00b3a967b35df89de53382d5088ea1d6f5df88df3faf5be": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "17177ebf54b1364aa996078e8401183870f497b1656e9bffd6410ecf3a1890b8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "使用 AI 软件证明欧拉和结果的经验 [pdf]",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "e4f55f9461ba6ef10a7125c8f04ad57a912ba7dec35bdf2e1104a5a28ef090ba": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e35dc987d4c9c9661ee040afb1a046c6c8f342a665787978df818759a6d1ed53",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "我们对自己说的关于电子邮件地址的谎言",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:48.696Z"
+    },
+    "8db2f6c8120b9a7fd8d7481c9a12bbdb056a1577f2edc15d90a8495549dbd5fb": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "286c29d6f156e796a0c6d70c80874ee931c27f121fc736a85c765bc80e560415",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "指控坎耶·韦斯特掐她脖子的模特告诉BBC，她感到“窒息和恐惧”。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "863dcca6405764083704e0d1cbddf2ba1dcd0f87a3c93a336c28ba22a0acb660": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d733a4b9d3f43fd2479fa23e685f4f2a444e012b3451be18c826b0c2b4c2d1f4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国巡逻直升机在霍尔木兹海峡被击落后，美伊交火。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "9712f33f18027cdaf1fc482cddf6550dcf367b4734249acbb071b422308003b6": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4db1384d3ee00aade119eccebdc80cd473d0b04882a52178d4f0c8a0f4eaef96",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "观看：贝尔法斯特汽车和房屋起火，居民逃离。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "62560013b2ec11fe55d7c8748e192716cd37ff1b0c00e8eb9772cdf61b88efe4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "01ae668dd9c6622be59e82d7aa5c4aeacf094a62ac1ad5b7a76f04abb9328425",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "因BBC推动的法律变更，非法小超市将被关闭长达12个月。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "be9b835b59d0413b0aeb830ab881b7499974184331bf1e388c833739e5bd608d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e44d6f6cd59693fef88033fcbc684e09cdd95ebeead15fead285fd9ba78943c4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "邦迪海滩枪击案嫌疑人被控另外19项罪名。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
     },
     "3a77770a95ecd37eaa73fd666a95a983fc57e0c4c65efbf8760c4a0c8f4441af": {
       "targetLanguage": "zh-CN",
@@ -298,16 +342,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-10T00:13:10.849Z"
     },
-    "a8e7bc26a8a3149e555c1b86e0f07d61af827fc0616ccec05afcd5d04664ec49": {
+    "2bcf07b6d0987844e887b0150f900b6ee11f29bd5074e03f1434fcc858b90c46": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "d9596704bf960b39d15a552bf6fe696909796318ff5a5ee0ca8601a54cc22256",
+      "sourceHash": "03c0f3901b42408d58a0f890c697f2ee6a6c284e7a0bc4da1de77ed8dc9e0724",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "贝尔法斯特发生骚乱，此前一名男子被控持刀袭击",
+      "translated": "我妻子“无法被领养”的婴儿被遗弃在未婚母亲之家等死。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "ac67bbb11a01ceca6647f75040fc64ec12e6656e8d10beedfaf7ae6eedd79023": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7abeff687ac4fb1c01c18e89844071f9e7d9b457851baaf9b319617d872935c1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "慈善机构警告：隐性无家可归女性未被官方数据统计。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "627d4f7462abb6114c2603318d17399d8b75460f2f9c15468519f391650182e7": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7a1d32a2548294a8f16d3fd35b3d2dc0170aa1243b87e0a90d56e2c75514c5b8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "前列腺癌的先进放射治疗将疗程从20次减少到5次",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-10T00:13:10.849Z"
+    },
+    "20722cf07d32921a20eb674c2edd9006622761c6f18f7c453ffaead073bd7006": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "0460824b9b3e9e7187a6de663fba162313563bb2bc42c0c70f735b2f32c3c745",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "虽然没参加世界杯，中国球迷力挺“爱出红牌”的裁判。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
     },
     "8448559e7c7a75244bdb6044f3c712ef7bb8648e2cdeed96d945f390007df6a3": {
       "targetLanguage": "zh-CN",
@@ -319,6 +396,28 @@
       "translated": "账单债务飙升，但许多人不知道有援助可用",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-10T00:13:10.849Z"
+    },
+    "3331a5bce5983045ce3ab560c4fe0b771937f9b25b12db9a9c29016249e7f399": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "05e81918617be7f0605b33bdff171bab48d15111347ea538cbb96ef09b13f1b7",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Beauty Pie LED面膜广告因误导性的抗皱声明被禁。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
+    },
+    "70e6e3c8adb6bf1827922b7e1e473037722250edeaefcb56df4e902ec1d098c4": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e14dfadc2d5467391355f8fd62f92e60d84c4415ca1aac4cb385a5ea229ac8ad",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "如何享受世界杯——同时让老板满意。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:17:58.083Z"
     },
     "e364c04f25925919071faf480eac94dc44a353dfdf997b528d7f9211ea061e21": {
       "targetLanguage": "zh-CN",
@@ -408,17 +507,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:08.924Z"
     },
-    "62bc2e352a7c5c27d01d4f95e2ce9f65a64d1130e1710cb61f47160daffe6b2d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "45d85b4099423ebdd93f8133bd026d086a23818d052b5a9051d02e802aa07216",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "塞雷娜·威廉姆斯在女王俱乐部回归中展现当年风采",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.924Z"
-    },
     "5c00dd9189e11f86dfbbf902215295acbecc4650429493ec6da9b2e99a3a95d0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -427,17 +515,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "'大概C-？'——威廉姆斯的获胜回归表现如何？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.925Z"
-    },
-    "a4feda8710aab11416764a1bf52ad941ddcfb39ccd4867b50e058aad05e80b72": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f410e8037c636f1e7dc656a0db396c3404014534bf7bd7c7e0f536bee17ff462",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "被指'过于强大而不适合公众'的AI工具版本已向公众发布",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:08.925Z"
     },
@@ -473,72 +550,6 @@
       "translated": "裁判案件是否表明国际足联已失去对世界杯的控制？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T18:04:49.885Z"
-    },
-    "98cddbc044dc0e50f6df680e5d311f8fe0a66dd58a5797eb96bc044e2548af53": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "a0f8dcf40510051ff56a34366873f1a2c0939df8a36b245339cc5da901a7c6c1",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "国际足联正努力解决伊朗球票被撤销问题",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.925Z"
-    },
-    "f5a86267aba42798f7690931f2a8526ed41f1f48f9b0b528d4d8f035d7c6b002": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "2315b7ba767b85b90c51c169b0725b9f5fcaa888ebe4f6d9a5e11f1a833be4ac",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "以色列空袭黎巴嫩提尔市，无视伊朗停止攻击的警告",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T15:55:16.894Z"
-    },
-    "b355e7c6f341e93502c40faade02059936787ff21c189be78277462c3613f5be": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "265ebff53163ea7f9ad512666ad0b3e2312897251770977b8ae95072630d7cbf",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "NASA任命下一批阿尔忒弥斯登月计划宇航员",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.925Z"
-    },
-    "96c91dbecbbc27a1684d1dd15df2f137e9bb52d3cd92ca805f34e7b6f29e58eb": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "419d4662bba8c82b23f7f6ca4552990dcbd8a9aafec12292b28541c80732f7fd",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "NASA已确定阿尔忒弥斯III号团队——他们的任务是什么？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.925Z"
-    },
-    "94edf9639eda0933d31c835371257e53db689c116831702aaec45955517439b5": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1b06436fc505b2ddfc5b5d8366527092081c83e5dae11df3761fc2e7429333c5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "男子因在亨利·诺瓦克抗议活动中暴力行为被判入狱。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T18:04:49.885Z"
-    },
-    "0a50c94ed5113ecca2b49dc315fbc835409d55d35655ae5e6eeb422db0b675b8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8faf4c2a1b19da2f9909c42e2a48b4659904fefffab574b1b4c58755c509c8e3",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "我们目前对贝尔法斯特持刀袭击事件的了解",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:08.925Z"
     },
     "59f1ccef1005dd4560dbfc84365a4669c829c12dfe93f68bac49bccbe736d9e4": {
       "targetLanguage": "zh-CN",
@@ -2927,16 +2938,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:10:16.192Z"
     },
-    "e1e185b061f73dcd7f6023837d799c88a4150d3a910ac51e8b8130cbc671d7f9": {
+    "e4d02b563de6d406751e4009454f23c2aa8dc0043ef15c5da25ee368602fafe7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "f259ddd588194b97440c5330c3cea13c99c50c15c6ce78e39303f94e4fd593fa",
+      "sourceHash": "40da10e93065745b5f08998b7eac72742f7759850ca972461de4bc666813221a",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "伊朗战争最新动态：美国对伊朗发动打击，报复被击落的直升机",
+      "translated": "伊朗战争实时更新：美国对伊朗发动打击；德黑兰声称袭击美国舰队",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T22:26:10.083Z"
+      "createdAt": "2026-06-10T05:18:07.726Z"
+    },
+    "68267c016b4ef3af6675d162a52d8145c29fbf6a7ac17f4c1bc5f4854707c64b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "29a758f50cafd35690107ec19d4b92d9536e8ecb284757f3bc3bc376d1ed2cac",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "AI政治",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-09T20:57:23.059Z"
+    },
+    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "这是最新消息。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-07T22:03:51.783Z"
+    },
+    "579cdd3bb159e966e9cd21469545fab53b22b5f9fa0871bbb28d90d4ca5cab01": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "cd0fd51318e7eae0f3bed19eb2e5a29ecb82d37f8bd1378643e9a978acf046bc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "特朗普对华急转弯：视中国为同级强国",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-10T05:18:07.726Z"
     },
     "af7aed5ae28e922c8a27a64fc8228e657807c7d49c18f1f35d79e247cd9406e2": {
       "targetLanguage": "zh-CN",
@@ -2982,17 +3026,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-10T00:13:19.139Z"
     },
-    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "这是最新消息。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:51.783Z"
-    },
     "0d503bdd0b88585e3ad8357fa2f1214c62f75950ca5edbbaa03c459ff0a6c1b8": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -3023,17 +3056,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "教宗利奥会见Bad Bunny",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-09T20:57:23.059Z"
-    },
-    "68267c016b4ef3af6675d162a52d8145c29fbf6a7ac17f4c1bc5f4854707c64b": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "29a758f50cafd35690107ec19d4b92d9536e8ecb284757f3bc3bc376d1ed2cac",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "AI政治",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T20:57:23.059Z"
     },
@@ -3190,17 +3212,6 @@
       "translated": "内塔尼亚胡屈服于特朗普的伊朗压力引发新的批评",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-09T12:37:11.945Z"
-    },
-    "8595d693e98e79dced8d0b6f5a4e731ac010e3e56abfbd777c5c718f73a737bf": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c5d4cdba10b8d843f317c677a37fee782973f35e14b99ee37f628aacc05dceca",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "一个是教皇，另一个是无神论者。他们都反对特朗普。",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-08T05:50:45.600Z"
     },
     "2b00c5663ec74ed2fa4a2ee6095fc759c009e6328cff2149b05c3af5f6b7d29f": {
       "targetLanguage": "zh-CN",
