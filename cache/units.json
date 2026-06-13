@@ -1,16 +1,60 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "df8ba89d90ab58827071b44d96be40a3a53756d6d28ff507a9a028c42c22269f": {
+    "69aa38f8f9f5695f3d6e52fc0b810424ba4646d30388d04056d01b5e470f7744": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "f59d559c202561a1312f75527549ac6dabb7860c9d9575a3b2bd8dc7fde140d1",
+      "sourceHash": "e611da01be39fa553385ba57ba6a73c75a9287ba1a34c4a0763b87503f9cf865",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "正统C++",
+      "translated": "Show HN: Verso – 一款 $14.99 的 Mac 文字处理器，无需订阅",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T16:24:03.306Z"
+      "createdAt": "2026-06-13T18:07:01.252Z"
+    },
+    "fc69ba3caaa27a06086a9ccdf1f9edd3faab315c30f4148f4b6ea4f97ca79c61": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d3251d2d28a76e5d1f2f473fab3b1d82379a3ea45ac2ab62175b1432ad446f29",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "亚马逊CEO与美国官员的会谈引发对Anthropic模型的打击",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:01.252Z"
+    },
+    "b71f7c3d9a4a0408b3a70df53be316befa2186c88ce9ce7e8ae1aebbd0c50610": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "98557acf1bcd11ba1ae374400e221383c8b0b39d2fad5ae81db3b7ddc9b17e5e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "英特尔8087浮点芯片核心的加法器",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:01.252Z"
+    },
+    "33762660f55822bcbbb06f1ecb645adecc508791d916e494837d9cc342ad893e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d427bafe7eae3b2e46ef1eeded5f543a38c9ad788c8a2203df6d8141822c498f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "在家进行AI编程，无需倾家荡产",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:01.253Z"
+    },
+    "bbe3015479231e08a954f72a878ff7bf282739570eecc43eba00a23b52081815": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "9a4f550bf2ebdb0c60b13e02052ba7f9b1bd7f449151ce50a031b6235fd32c09",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "GLM 5.2 发布",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:01.253Z"
     },
     "5895311d299ae3012c764081f53b99d0a31ff002be0d8f37570f0809557b62a6": {
       "targetLanguage": "zh-CN",
@@ -53,17 +97,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "英特尔Kira Boyko专访：Xeon 6产品总监",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T14:59:56.507Z"
-    },
-    "6182023beb4dbd948a7abaf4dc5152a7d040895a3016ae0d9c7a3aa30977a629": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "69d486a41c492ce7506a53cceffedc96f92d7225ef80d3797a6d14ce5737f8bb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Sam Bankman-Fried在FTX案中失去对欺诈定罪的上诉机会",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T14:59:56.507Z"
     },
@@ -166,17 +199,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "f667b76d1692ae9485b86b27b4e612abddcdecd196db62cd833e22900ac15469": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "be8314ba36c9f0ea518bde5eebabf66dd8f7d711448d047d6361476a63fcfb6c",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "有一片阴影笼罩着这个Fable项目",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T07:46:16.608Z"
-    },
     "bc3dcce684f190b98910f0131bc83d9febb3befc474571559c5831f2c8172c5a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -210,17 +232,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T23:16:23.375Z"
     },
-    "6154384f3c01e1a358ef2231d6c607ac23fb7b58ba181d5f878583b068f180ed": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "32ec390f485f43c0b1858dea948a3a8fe92094019798ae3a20d7272e0fc5e198",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "FFmpeg 中的二十一个零日漏洞",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
-    },
     "d4afa14e95885b57664c57491da0655374c996d885b10253c5e49d04257a7e2f": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -231,17 +242,6 @@
       "translated": "不含稀土的电动机",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T07:46:16.608Z"
-    },
-    "0ccd5a23d23f8586b0cf9589cd926753812c5438088dac21679fca0fa1b356d7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f5d59c572ea4cc79e4e75708446a7718710de5e9f62cb4ea9730afbe4cb3c584",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Apple 的 Swift：迁移TrueType提示解释器",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
     },
     "20f403cee09e5d2ececfe7a2132c13ab139b37b5fcf3c19b55ea8893ac3eb8ae": {
       "targetLanguage": "zh-CN",
@@ -254,17 +254,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:43.696Z"
     },
-    "da1fbae5cafc9f9fa4a6e7f1d2fdfcc190fd0d435f42f7498486d7b0c664ec1e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f76d764e1ee2b3e2da5b9e1d0a7b80836e04960ba7637b93e56c15cb4907a7b6",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "CRISPR技术选择性撕裂癌细胞，包括“不可成药”的癌症",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T19:04:32.055Z"
-    },
     "68a15b38345508ccddec9a595e39ceaeaa4b0de2875a214d28bf8c9e30dea4f2": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,6 +265,50 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:37.926Z"
     },
+    "5f5acd8cf9613bced2b271ac834c2e0cf45b24097af731547be7ae7ba1853491": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c6524043c26e5ac63cfd99bab2315cdbd18d9e22ca3cd70861a5eaaaada2b283",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "H.R. 6028 将根本性地改变美国版权局",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:01.253Z"
+    },
+    "a40099a779c050e5b74fa3fe89503fcb0814be2cd1c3834b0d20ff3253f2b235": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c1361bd0090d1624095963f4920d6260b512380ee003078f5a02e7f815fff61e",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "特朗普称美伊协议定于周日签署",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:09.179Z"
+    },
+    "a3cdeafb20686eb708f2bf52e69d77405bf0e8fd12cd1c5e2e358ccf9e0b32e9": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8fcf22899f1b8fd2676f8e92b366f634dc25c00a71f1d65df749faf8763376f8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "莫莉·拉塞尔的父亲称首相仓促推行社交媒体限制“可悲”",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:09.179Z"
+    },
+    "ce10e70932250f99528b08d4ea4080f806327ab3a3b1861da16782d95bb51695": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4de1612801eb2b3475389b02dff3396450302992ddf3f68af0a29220d0a23900",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "富勒姆正在谈判任命阿韦洛亚接替席尔瓦",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:09.179Z"
+    },
     "b55612a6fd66300f145d178c74c8052ba3153ab1002efd74932c443e3ff53cb9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -286,6 +319,28 @@
       "translated": "法院命令后，特朗普的名字从肯尼迪中心移除",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "dacc5247cd6f9f59935e9898c7fab768496664c9ac08634474fe915203361443": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c30208ebe6ce476edda68cf96bdfef5b428fa3726e52506af86f4d9cd95ba2b0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "骚乱后数千人在贝尔法斯特参加反种族主义集会",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T15:00:17.467Z"
+    },
+    "975fdb2ec7e594e13dbc5e9d21f2e4c21f29f1016a5dda614b86052485b3db90": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b2bc1b1f7c4a9b1db5c624411ad3ac1234fed63bb7760cd91d87942f1e07c842",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "Anthropic因美国政府安全担忧暂停新AI工具",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:00.081Z"
     },
     "4f226368c20c799301c42cea86c5644253558532bb88a662f69dfaeaad2140ad": {
       "targetLanguage": "zh-CN",
@@ -320,28 +375,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:00.081Z"
     },
-    "2f62baf489265640d0e5cf910c136448e020af6beb988022b5b01edfc0c7a56d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1d92fdd2390c386828b8491f4e2e6421afd38ee14c5e5050388c615a228d2ff9",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "被盗的英格兰训练装备已追回",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T15:00:17.467Z"
-    },
-    "dacc5247cd6f9f59935e9898c7fab768496664c9ac08634474fe915203361443": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c30208ebe6ce476edda68cf96bdfef5b428fa3726e52506af86f4d9cd95ba2b0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "骚乱后数千人在贝尔法斯特参加反种族主义集会",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T15:00:17.467Z"
-    },
     "d40edba24f318a5007503db28743eac1ba04ae71587821ab13954fa902c8347b": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -374,17 +407,6 @@
       "translated": "图片：皇家军队阅兵庆祝国王官方生日",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T12:25:31.695Z"
-    },
-    "975fdb2ec7e594e13dbc5e9d21f2e4c21f29f1016a5dda614b86052485b3db90": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b2bc1b1f7c4a9b1db5c624411ad3ac1234fed63bb7760cd91d87942f1e07c842",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Anthropic因美国政府安全担忧暂停新AI工具",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:00.081Z"
     },
     "17a35993c727151e5703ba3c5bb645c678cb60483de39e3da5b2979d66f30723": {
       "targetLanguage": "zh-CN",
@@ -429,6 +451,17 @@
       "translated": "特朗普与伊朗谈判核心的核挑战",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "b22ccc5a82beaa5caa37cb8c72709f69a5f2e4f0116529f4affaac581a4bfec1": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c29ba77e2a2567f7d56af98e715cd8da68cba8563d37ef3161fa322dc104edbe",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "拉杜卡努苦战晋级女王杯四强，博尔特出局",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T18:07:09.179Z"
     },
     "97d5ab51e061eb9730eb144dfc56b4033627c9eb2b2d0f90818fa180f5120212": {
       "targetLanguage": "zh-CN",
@@ -496,17 +529,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
     },
-    "9c0fc5a425bc663adf045206a773d063835db4b00fc5679fc3e1329b44015bc7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "963d6b8e036703b0002bcc2d5e2b4b1eba9bb3fd32f3690dff5335a41c98a0bd",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "以色列对黎巴嫩发动空袭，官方媒体称伊朗声称与美协议接近达成",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T12:25:31.695Z"
-    },
     "6da8c32ad3d82c967d83b04d5286d773312d8288b614962d68af56e7f86a743a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -528,28 +550,6 @@
       "translated": "橄榄球明星辛菲尔与作家布莱克曼、唐纳森领衔荣誉名单",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:57.689Z"
-    },
-    "ec560d5f132a189780f20317a37e120adf70b184adfc07f21b6fc2645b59cc57": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "634530fb38c09a343d381c57086790445241c25be234882bb040049b1e99e336",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "林肯公园将在英国最大摇滚音乐节上创造历史",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:00.081Z"
-    },
-    "3eae203aba30aa753ef63f89ecc4bf81146c9c709b6a75b560d99fb2363cefaf": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "730281f7e9917cd37e2ceddcb9d49352f9feec3fdcc01e6d971f9fa3e2aa34bb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "慈善机构警告：16岁以下青少年社交媒体禁令将无法执行",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:00.081Z"
     },
     "59f1ccef1005dd4560dbfc84365a4669c829c12dfe93f68bac49bccbe736d9e4": {
       "targetLanguage": "zh-CN",
@@ -2938,38 +2938,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:10:16.192Z"
     },
-    "8a65da90aa2881b499e475c8262e74b555a40cd7427ae9553dcce44a01426906": {
+    "61561c5174a238d76b757e90ffd5d84686de70a771f115b233622d03ba0a84dc": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "5bcaf60fcc05aa2b82e131e60695c50c7240cd1f05740f482125ad9a56dc395f",
+      "sourceHash": "77510e7487b75bcd1bf35f7befe09e53dbd7642b9efe80dd10e954a66c091e0c",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "协议似乎接近达成，美国面对一个更愿承受压力的伊朗",
+      "translated": "伊朗战争实时更新：特朗普称和平协议将于周日签署，但伊朗质疑时间表",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
+      "createdAt": "2026-06-13T18:07:13.686Z"
     },
-    "603a7f99d6530a3e3fb9fcba492c31b194c50197f4d4216560196a3ebf437636": {
+    "a3c025694c6209f9f5bf6a2c3cd994c3d5a08d80001301ea6dcaf3c414656667": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "252ed7fca91ae764b52a0512b02807e5f094528feec8e1c3d6bfae7ed3b920e7",
+      "sourceHash": "22222aa6278adec9bc747ebbbb04a83335aae255a9d2367e0c5288b93a27d113",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "伊朗战争实时更新：调解人称和平协议可能在24小时内敲定",
+      "translated": "科学家争相测试治疗方法，埃博拉疫情持续扩大",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T12:25:36.421Z"
+      "createdAt": "2026-06-12T19:05:05.900Z"
     },
-    "9edab3824c15fa8b0d2b64a70e1293d80831580cc772f085213ef590b4bb59de": {
+    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "f44d0bfad367832b7cffbb67ef9742ce347977551c7c5a3ae65fac083a905ee5",
+      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "关于埃博拉疫情需要了解什么",
+      "translated": "这是最新消息。",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
+      "createdAt": "2026-06-07T22:03:51.783Z"
     },
     "8555b5e22b35a1321042f17e94292cab80fd77dcbab7bed9899ec97858d2549c": {
       "targetLanguage": "zh-CN",
@@ -2982,16 +2982,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:10.091Z"
     },
-    "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
+    "fed75b5614f3050cefeecb1136b6d9aacd846c7c0ffeb5f52158c7059e74c51d": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
+      "sourceHash": "1bc36aba9ab3358cb2898aacd112d70d9c22405b3dbcea430567dc098d3ad436",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "这是最新消息。",
+      "translated": "美国和委内瑞拉称，联合打击中一名Tren de Aragua头目被击毙",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-07T22:03:51.783Z"
+      "createdAt": "2026-06-13T10:28:10.091Z"
+    },
+    "7d3663b5db65f2af414b9f135ef61f97f89779b2e889d649643cb0c3b7f859b0": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3cf5afe5c061d795af8a4fbc489110f77ad5e1a0953c4352bd9df4db8e5d22a4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "埃博拉侵袭刚果最脆弱的儿童",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:10.091Z"
+    },
+    "8a65da90aa2881b499e475c8262e74b555a40cd7427ae9553dcce44a01426906": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5bcaf60fcc05aa2b82e131e60695c50c7240cd1f05740f482125ad9a56dc395f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "协议似乎接近达成，美国面对一个更愿承受压力的伊朗",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:10.091Z"
+    },
+    "9edab3824c15fa8b0d2b64a70e1293d80831580cc772f085213ef590b4bb59de": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f44d0bfad367832b7cffbb67ef9742ce347977551c7c5a3ae65fac083a905ee5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "关于埃博拉疫情需要了解什么",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:10.091Z"
     },
     "dbc3447df176de5e227b942815d6be33dd11702097e8bc40e80fdcdabbae0c90": {
       "targetLanguage": "zh-CN",
@@ -3026,17 +3059,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:10.091Z"
     },
-    "fed75b5614f3050cefeecb1136b6d9aacd846c7c0ffeb5f52158c7059e74c51d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1bc36aba9ab3358cb2898aacd112d70d9c22405b3dbcea430567dc098d3ad436",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "美国和委内瑞拉称，联合打击中一名Tren de Aragua头目被击毙",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
-    },
     "bafb787b411c63aa751d8a3d1de15770d0f4901593c6360f07d38bfcd99a562f": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -3056,17 +3078,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "巴西人重拾世界杯仪式为国家队助威",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
-    },
-    "7d3663b5db65f2af414b9f135ef61f97f89779b2e889d649643cb0c3b7f859b0": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "3cf5afe5c061d795af8a4fbc489110f77ad5e1a0953c4352bd9df4db8e5d22a4",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "埃博拉侵袭刚果最脆弱的儿童",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:10.091Z"
     },
@@ -3091,17 +3102,6 @@
       "translated": "缅甸一个因地雷而支离破碎的家庭",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T07:46:36.536Z"
-    },
-    "a3c025694c6209f9f5bf6a2c3cd994c3d5a08d80001301ea6dcaf3c414656667": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "22222aa6278adec9bc747ebbbb04a83335aae255a9d2367e0c5288b93a27d113",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "科学家争相测试治疗方法，埃博拉疫情持续扩大",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T19:05:05.900Z"
     },
     "9e0319a0e06e5594b7d376908e24cb94bf2b13828dd7cef3fa960d22153e72ec": {
       "targetLanguage": "zh-CN",
