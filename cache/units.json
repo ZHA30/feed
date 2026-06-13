@@ -1,60 +1,93 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "a5eb3bce0fb7451595d9ab50922263644ec9be088562507ec41a5ec18e68900f": {
+    "654b47c21c01d006d6110536e4a79b5d7608f2332d94d83b208585ba50cbce83": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "c912a8d2ae51887964d8ed9edd62bdb34ac987cdbc2f1d95d6bcae7e23f19051",
+      "sourceHash": "f31c9cac039e1b90b7de023562e48db436638614d92e595c60134c2482321fcc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "离开Mozilla",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:16.608Z"
+    },
+    "50ed5e1f5e0f8d83a52a6f87bcb7f746094ac0d13faba9d253d7a9d93c5572d5": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "e44a3a6695a75cff46b72e93a0f0d19d602a21f438f806fae8f63bff4dd886c4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "牧羊犬：最危险AI模型开发的游戏",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:16.608Z"
+    },
+    "f667b76d1692ae9485b86b27b4e612abddcdecd196db62cd833e22900ac15469": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "be8314ba36c9f0ea518bde5eebabf66dd8f7d711448d047d6361476a63fcfb6c",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "有一片阴影笼罩着这个Fable项目",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:16.608Z"
+    },
+    "552229568a3d16a186dc9b08b1518efaab3c0485cda634e1bd8bf0db3a29c9d8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d4fbe1680345ee7592aa7e55aab3374fa9501aa574c362f28087893d00f296ff",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "关于CPU物理与CPU周期",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:16.608Z"
+    },
+    "7b048a16731c48f70f9c9f125f318f4dbbd877480bf904106fd0872a4c8292c3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "7128e4e67d67a9e20c3b22b65a65b9b9d845fb71ec72b344cf5b5880b30d6e30",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "一个不存储容量且无需结构体的C语言通用动态数组",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:16.608Z"
+    },
+    "bc3dcce684f190b98910f0131bc83d9febb3befc474571559c5831f2c8172c5a": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "eeeac20db5285d1f023b0637e3a0c5a08878d276f3d75ca26e586a8503d22de7",
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "开源AI必须胜利",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:37.926Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "469c3ac675b9819a3a7778e742f4237ea8684d5faaa560ce15ef8fc963f60913": {
+    "ad7b6cd87e20406b6d0c0dc79b420e511ddd0e8feff58ffe691515b56aa440ef": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "304784060b6b162afab84def61fa8ddf3790fa11c819ae7dad4c7fbfa2b5d684",
+      "sourceHash": "3c53488ac2386baebe8d73bee3521b89270c9d9a674113eb85a04bbcc950f57b",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "由于美国政府的指令，我们暂停了对Fable 5的访问",
+      "translated": "TycoonLE：一个用于长期规划的Jax强化学习环境",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:37.926Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "d57fb06423b8f4f1a36decd19bab43afa872017b508e9ba0f8a7e226ef918191": {
+    "49f09bfb62717cb8ffabb29e031555aea6209e3b8965813e7f445849f2064f7e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "f685158aa5f6ce980f410a1a3d9a15c6d3aaa28848bc8d8bc8a486e37aeecd47",
+      "sourceHash": "e5b2d04c984448a2ce11e289a68c172798cc3276d007c8afe755e7f5654a40af",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "我们已暂停对Claude Mythos 5和Claude Fable 5的访问",
+      "translated": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:37.926Z"
-    },
-    "4c46ba1f242a502c8ee16ba4127e49cf6952610bc09793d4e3e7fa6622bc8db0": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d531b1f3471c005fccaa246f61f31a3fcf69c0532b7a69043520a0ffd6d055aa",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "美国政府指令暂停对Fable 5和Mythos 5的访问",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:37.926Z"
-    },
-    "5da910c97683e50d6b44218c69c4d182ec4087eb7af6360f835d3ef589096c42": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "0494a76af9a40cedc336884116a69ab634caae3d7b6bbc3c7e26eb1c32bf81b0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "AMD拖欠研究人员1万美元漏洞赏金",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:37.926Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
     "104642055b038d61a9a0f58987986610239094ba3bfd2581e738f9c8f9708230": {
       "targetLanguage": "zh-CN",
@@ -78,16 +111,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T23:16:23.376Z"
     },
-    "8902975bcb5b63b6ccec6cec6423556b42e0bc50aac64d2b73678d56589e2705": {
+    "d4afa14e95885b57664c57491da0655374c996d885b10253c5e49d04257a7e2f": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "69ee5ded7c3de1784dc98a96fde8015f591fb8e57c7ee9b64b9b7d27c2044e3a",
+      "sourceHash": "ed2c92ab771101f3900a8efc1c5441f687f500979ed794e5d5ff2c86be751029",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "Renault：不含稀土材料的电机",
+      "translated": "不含稀土的电动机",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
     "3bfdfa054d569086fb8b5cb364038424348903005214ee41c6a4af93020ce26d": {
       "targetLanguage": "zh-CN",
@@ -111,17 +144,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:43.696Z"
     },
-    "4e9853a93296f2343f9d4452159b596b5a1b372653aa6b973e5aabc7422cbd0c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6b02c197f703f85219fdaae9b78e184ddd5dd5af5889f912127fd577ce1901a7",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "/architect：将Fable代币减少80%，Fable编排/审查，Codex构建",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
-    },
     "0ccd5a23d23f8586b0cf9589cd926753812c5438088dac21679fca0fa1b356d7": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -132,28 +154,6 @@
       "translated": "Apple 的 Swift：迁移TrueType提示解释器",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T23:16:23.376Z"
-    },
-    "ca447a1d176448db42c4dbbe69013f220b8f3bc31c21db8bc8a311b3335ce24a": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ad287e314d2fe347bdd7546524a32f1d1f80e24063c95fc08fff779fa9c46c68",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "最美丽的遗嘱（1936）",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T21:43:43.696Z"
-    },
-    "0f632582303e1802aa71bbfa5558f530b04c94128bdac5c3035868643487304e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "b5c4386f5e1ee731e233e2479235f5a21fe53664f6babd60c986a86065f28d73",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "\"你不就是把它上传到ChatGPT吗？\"",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T19:04:32.055Z"
     },
     "20f403cee09e5d2ececfe7a2132c13ab139b37b5fcf3c19b55ea8893ac3eb8ae": {
       "targetLanguage": "zh-CN",
@@ -188,28 +188,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T19:04:32.055Z"
     },
-    "5c75d5d841c54e642392f9d80a50210cf32b336060a63770542da4f808fbfc72": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "4f53403bfca973b2f2059a3fcfb7e6c13df1f408342b73d90c3c5e9cf1fcb990",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "自适应PDF",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
-    },
-    "9dd64268433b2ba7e3e9fe0b47824fb009a8fb5d548b0ce44ea4b576f3f9ed9d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "9cb8603e1fcd89c6b8e65b2e67607961bd341f9514a6443b734797a7901e69a6",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "地球的海洋从哪里来？也许是自己形成的",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T16:17:27.110Z"
-    },
     "da1fbae5cafc9f9fa4a6e7f1d2fdfcc190fd0d435f42f7498486d7b0c664ec1e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -243,17 +221,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T16:17:27.110Z"
     },
-    "3c4d7adfe098c2377c76ff771cc07a78a5a532c47e8992d6c9c31ec82d8ffa3e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "886ab6d6194218731dcfbb0858e9cd1a827345406980782f850fe7fb3350dc19",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Maxproof",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:23.376Z"
-    },
     "15ed7cec4d955fd41c8503b034bb77c8bdd8f825a888b061b5fe5ea2766cb773": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -276,49 +243,71 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:37.926Z"
     },
-    "9b5933a3b28d2ba1b1622a833e942a6312dd0f7a06810eee4c2701ae653a35a6": {
+    "95e572028263b6ff05f8ec844c880a428ce5023d51c4241af09ad8ebf1c18f3c": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "012f0e1e216f6983589932475a6b847eee8d089b07a193e40207c9d8635a86a5",
+      "sourceHash": "8716c50ed03fcc9c97f05673c614639d32924c5704f0d795a35a8c9ca7e8a9a8",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "华纳兄弟以1110亿美元出售给派拉蒙的交易获美国司法部批准",
+      "translated": "血肉炼金术师：将人类变成石头的人(2025)",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "f7dc7c59e03c624688c5542fdd3a01c1a00593aaad6c821a9bdb2a1758abb269": {
+    "5f5acd8cf9613bced2b271ac834c2e0cf45b24097af731547be7ae7ba1853491": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "185ca297587f8fc2c53678e435c554da9284d3ff28c2cc9efbdafdcee87a9571",
+      "sourceHash": "c6524043c26e5ac63cfd99bab2315cdbd18d9e22ca3cd70861a5eaaaada2b283",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "托普里亚在林肯纪念堂前推搡盖奇，超前于UFC自由赛事",
+      "translated": "H.R. 6028将从根本上改变美国版权局",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "ef5af365c4a197fa83dfedb0f4c5cbc2ad8321fef00de5279920d6cf2e41ca72": {
+    "73c27973847efd5d32e7338d4a7ccc14d4d2049c1efa118aeb08378187095bf6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "9f67cb136e083a849d490e0c24ead3ff4061a8b8fb93d7ee22f87eb2eb096ccb",
+      "sourceHash": "984ddc790e12d43ee46b2e0301f68668ac5eccb121e355e1946b5cccf8a8cd50",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "美国在空袭中击毙委内瑞拉特伦德阿拉瓜帮派头目，特朗普称",
+      "translated": "一个用于Linux的按键重映射守护进程",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
+      "createdAt": "2026-06-13T07:46:16.608Z"
     },
-    "4dadb9d1e07989b923b230fdb5d25f68d739b2f3a25a67ccc16af2c7009e760c": {
+    "9c738bd267d98b4c6bd66556d5f1c0020eb6400725a11fd401e2314d2e94eea3": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "971546c20bdaec88f37e8dc75d92536e5de98fb73c9131f507674c4b92319b50",
+      "sourceHash": "0c87ca59530ac1d312f8bba0e5d17b0baee9548adfd8e1053f50667684b73b9b",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "巴洛贡打入精彩进球，美国队大胜",
+      "translated": "苏格兰终于重返中心舞台，在必须赢的世界杯揭幕战中",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "1c0048fcbb96482c30c9090f59083c399c4f1cdb4cd35be7203f64f3968f48d8": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "d064c7471f79aa89639db8b835c1bc6bcdcabdaf17df443be12e472386913555",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "“他们全都在谈论这个”：苏格兰陷入足球狂热",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "ffac9a78daa2bd0f280a46d3199c26d3a860718104c6d781cc46c7485565b839": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "24925ac5ee5bf1619b400b1ce4cf3af04351a915ac33e5be7bf9eebfb61ad0d0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "克里斯·梅森：斯塔默在国防开支争议后态度强硬",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "e9c4d85951176d9b1ecfb62c9d452645f6a378a719ac8d1be0c21fd4ae194946": {
       "targetLanguage": "zh-CN",
@@ -330,6 +319,72 @@
       "translated": "橄榄球明星辛菲尔与作家布莱克曼、唐纳森领衔荣誉名单",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:57.689Z"
+    },
+    "d92263246a317cd19241de608f6ad66bbab7b8477d59a54bd37bc72ebaacd7af": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "cbf9d86560c97effd3fb4d599b5e5731a3caef9152c58fc4d66325f3ec1f3fe0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "《澳大利亚一见钟情》明星未被告知伴侣有毒品和暴力犯罪前科",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "668cd31d6dac4c4bf75ed5936ffd50d60c6071615a41332ec9f39764020c8509": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "6d46e685eedf9145916d608a24c30df2736468c196b034ac35eb203598ee7b96",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国队以出色表现开始锦标赛——但他们最终能跻身精英行列吗？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "257696049f68e42378a238619fdf408564d87141481bae02d810ab16ba69575b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "89b4f1669db8ac62f08e5d32509b46693bf4563e8c88b7067affa2221c9c3d9d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国队以出色表现开始世界杯——但他们最终能跻身精英行列吗？",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "7dbf792651a260566f28a5d766b0fac92e28c16970d7181bb179c3230ce15003": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a7f196f5025b10907507c838bdd4043a2d3f7c5d8db833b431fdfa60327b925f",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "巴洛贡在美国队令人印象深刻的战胜巴拉圭的比赛中大放异彩",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
+    },
+    "46d2c1005ac2aac6ca0a65a66ce0599fe2383610b947eb5a0aab80b9a6cd091c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "5e5d7062df148a6c1c3fd0bdc7a5299b15abd3374e7c5ba462fedcf1a0199296",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "报章摘要：‘斯塔默准备应对离职潮’和‘艺术巨匠’",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T03:37:52.098Z"
+    },
+    "fce823fc39d4e7d3b6db881492f06336f49246b1009254e59df1ec33d234ee3e": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "285d2c6fb209fcd017572860369b43dd7d48099d97c218092781173610de43d3",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "世界杯在美国开幕，凯蒂·佩里、Future和Tyla进行表演",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "ea8800c6e7e9e408ff98b64dbf3282341daed00c828c2aadc175a6df61999e54": {
       "targetLanguage": "zh-CN",
@@ -353,16 +408,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:52.098Z"
     },
-    "be60efbf65d6c28c56a170208c9c3ea5b0de983a9e9addc6178181b1525948ee": {
+    "360cf72cead69b02f754e739ca82a039c336251928cb3b4514600e332100f0ab": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "098e113bc941c2ca18abd5ca64439c3a773f05c59b473bf8c9a12337c1ebf79d",
+      "sourceHash": "67dc8704ad40009bd38fb18f2285f39151c01570752ccd509b36839f666e8b07",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "熬夜看球？以下是如何在世界杯通宵中保持精力",
+      "translated": "熬夜看比赛？以下是如何熬过通宵的方法",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
+      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "74a2a25c7198517225f9fcd92bc601e17234d561e1e29e9d7efb0de5d25d2796": {
       "targetLanguage": "zh-CN",
@@ -383,17 +438,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "大卫·霍克尼在同性恋仍属犯罪时描绘了一个‘和平的同性恋天堂’",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
-    },
-    "0fa96a53b82b8416b07eb4bb0f7f594b7ec468e617fc7c5b4fc3fdf138a789c6": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "6af3068283759488732e8a980ef341ca28e623b5d5ede69d34197ba8aa353a12",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "尼亚加拉大瀑布：还有更好的观看世界杯比赛的地方吗？",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:52.098Z"
     },
@@ -419,39 +463,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:57.689Z"
     },
-    "0bac3d81460d42d4cc6f9d07b73a8d12f28d74eb2fa1ab387d363ce72c475e12": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "fb30c6a857e11803b6a6bd8a8097545381f54be7fc465223e5b313d6d28dc813",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "美国著名影评人吉恩·沙利特去世，享年100岁",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
-    },
-    "46d2c1005ac2aac6ca0a65a66ce0599fe2383610b947eb5a0aab80b9a6cd091c": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "5e5d7062df148a6c1c3fd0bdc7a5299b15abd3374e7c5ba462fedcf1a0199296",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "报章摘要：‘斯塔默准备应对离职潮’和‘艺术巨匠’",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
-    },
-    "b9b6038fc56d2c322b2a75a18f33895a901c2c479ecc437efbde818497a941ed": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "294fc38880db231620abcd94c32f1694dc95f8a8d1f560f3d2a31fbc81aaf0ff",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "‘妈妈百岁’让怀亚特-霍奇迎来应得的辉煌时刻",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T03:37:52.098Z"
-    },
     "597c2cdb3ded3c90e04d4a07ad27164b8b3aeda22ebfb62e313331feb4abf8d6": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -462,17 +473,6 @@
       "translated": "埃隆·马斯克跻身万亿富豪的惊人崛起——图解",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:52.098Z"
-    },
-    "0e2a0545cce5288cba5bbf21477a36565c4271376d05bd3f27286f06df52e53f": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "72e549625be205af1a3e35fd875fb80991e7366901429dcabe23b22ed926ef6a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'明显红牌'对波斯尼亚还是'赢得球权'？BBC评论员意见不一",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:42.190Z"
     },
     "b3132c83046187d870d59b73ff100c8c366fd0cbdf5ac29729b48ad59d9ab91c": {
       "targetLanguage": "zh-CN",
@@ -507,16 +507,16 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T23:16:42.190Z"
     },
-    "ef990f2e7ed2e380faf829f2d7dc038aa6bcc679372c461095e345eb04cb0175": {
+    "79e41a2b401c661886b96ffd3e68e093fb01365385bcab14cc99533114786c2c": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "cec586bcfb34a33f22d5ef9ec667b1fec51e55cfe35a428382aa710670073ff1",
+      "sourceHash": "fa30f37b2135859ed879e838f16c1861df1cb32c43dc1584f8d6aa022e11dc18",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "拉林的扳平球为加拿大赢得首个世界杯积分",
+      "translated": "俱乐部因指控撤销米克尔森会员资格",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:42.190Z"
+      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "b4124d63ab6f98961ce816b315542e66c54ebf06a6c0302052215d8808a0f16b": {
       "targetLanguage": "zh-CN",
@@ -529,17 +529,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:57.689Z"
     },
-    "226d8f8137425c760a44227699dd7fe609f3b4c56039fb717e72ffc85e8c42a7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f28840c181737c55265aeaa98cc611d7634891113d04f1e4084973ab53fc17d1",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "'这是他们谈论的全部话题'：苏格兰陷入世界杯热潮",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T23:16:42.190Z"
-    },
     "b09e30091b759c1619fef58829e679ac87d5c97071349fc37dbba6eb7368d1a0": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -550,6 +539,17 @@
       "translated": "卡伦·布雷迪明知沙利文女队禁令仍留在西汉姆联",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T23:16:42.190Z"
+    },
+    "41220f651783a629db741282ffa89b22454c6aabe630d59a60086458dfde3ff3": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "b576609f515f73760886019d0e7e75e105a9d5f6a3a4140704796823cefdd9ba",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "《凯尔·斯塔默专访：分析》",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "59f1ccef1005dd4560dbfc84365a4669c829c12dfe93f68bac49bccbe736d9e4": {
       "targetLanguage": "zh-CN",
@@ -2938,16 +2938,38 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:10:16.192Z"
     },
-    "84ed632fa28b4a5ee78621db25ab7d400b52a68a229d1afee2acb77fca364a06": {
+    "a9b530a1902a8789932833d7f9ab1e3da5515765717ec63fd7da3dfa28240a21": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "5ecd3585f5e47720070f646634bee18d241f334cf4f4da814c0b0e7d818a5b6e",
+      "sourceHash": "1ef18ad4399dffc4279277d1e6ff130493369457718fe69d1b5adb50ed534bb0",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "伊朗战争实时更新：官员称停火协议似乎即将达成",
+      "translated": "官员称停火协议似乎即将达成",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T21:44:04.664Z"
+      "createdAt": "2026-06-13T07:46:36.536Z"
+    },
+    "207bfb891b8c363d3e57e47fe89d1cc915e33c9237eebe85720f9c764a2069f6": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "dcde0677df4cb9aaa942052d26b3f9e45c530428bf8a4c0be4b81464766d16e8",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "缅甸一个因地雷而支离破碎的家庭",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:36.536Z"
+    },
+    "a6ed15a33087f50fd8117277f775e7b8b83a174a6c519ee0a32ebfcd481fe250": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "a00e6e885b9583d84dc6c2098b56c72f972527ae684f04a2a218ab207515e837",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "瑞士应该将人口限制在1000万吗？由选民决定。",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T07:46:36.536Z"
     },
     "a3c025694c6209f9f5bf6a2c3cd994c3d5a08d80001301ea6dcaf3c414656667": {
       "targetLanguage": "zh-CN",
@@ -3190,28 +3212,6 @@
       "translated": "带上孩子吃点烧烤：乌克兰无人机比赛的一天",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T12:19:33.131Z"
-    },
-    "71737f3c4df816dcb5381cc7a353a2b05a17a940210dce5e5b000026a9db5c05": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "8091f2174c039ebb72bad517b007a41e7ff715d6f4cedcac5b766ba141cec69a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "全球儿童艺术收藏可能失去其场馆",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T12:19:33.131Z"
-    },
-    "11ab770f6c99f02050276f2b74fadcc1bd1d4d799e92e87118ef679ea054f591": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "35bd9ef86cf331d7cebdbe9dbc01dec0854ce439247378a30ea7bbc3b0b63494",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "NOAA发布厄尔尼诺警报",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-11T18:13:15.574Z"
     },
     "2b00c5663ec74ed2fa4a2ee6095fc759c009e6328cff2149b05c3af5f6b7d29f": {
       "targetLanguage": "zh-CN",
