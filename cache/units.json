@@ -1,6 +1,39 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "df8ba89d90ab58827071b44d96be40a3a53756d6d28ff507a9a028c42c22269f": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f59d559c202561a1312f75527549ac6dabb7860c9d9575a3b2bd8dc7fde140d1",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "正统C++",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:03.306Z"
+    },
+    "5895311d299ae3012c764081f53b99d0a31ff002be0d8f37570f0809557b62a6": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "6ccf22dec815a080e8b494070cd112d927568e3e0d69162d7a56c9c6aeb57d7a",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "美国禁止在人口普查数据中使用差分隐私",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:03.306Z"
+    },
+    "f22b294cf99777eb9265469713d53743890d222723831eb91ab54d7a605a69fb": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4f5ecf40ee38928d81e2e9e91bf25b25b7b0c24c571592500f9d5758baa8dff7",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "治疗胰腺肿瘤可能揭示了癌症的主开关",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:03.306Z"
+    },
     "3a91c9692f5def1c165907ca5c1123fcee1b431be72bf33b477907ea5a33ac8a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -111,6 +144,17 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:27:52.829Z"
     },
+    "654b47c21c01d006d6110536e4a79b5d7608f2332d94d83b208585ba50cbce83": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f31c9cac039e1b90b7de023562e48db436638614d92e595c60134c2482321fcc",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "离开Mozilla",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:03.306Z"
+    },
     "50ed5e1f5e0f8d83a52a6f87bcb7f746094ac0d13faba9d253d7a9d93c5572d5": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -210,28 +254,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T21:43:43.696Z"
     },
-    "143a35a0653021e356520eca658c3b81aa3a35fffb4d264d67df608ee4233ba7": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ba60410c4e9d025d68d0231dbc6c7b246d74506e5c52b1f0e46086a3c2d24265",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "海盗，一款受席德·梅尔的海盗启发的海战游戏",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T19:04:32.055Z"
-    },
-    "7ebe5c75a8e9e7b0d22f5296cc86b0f8558592941ed8fed2e4fc42dbf9fc5cb4": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "ab6e1988e63ddc97ee09f4d0f036305cb0eb84422c19f25a14561c019bcea29a",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "Launch HN：BitBoard（YC P25）——智能体分析工作空间",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T19:04:32.055Z"
-    },
     "da1fbae5cafc9f9fa4a6e7f1d2fdfcc190fd0d435f42f7498486d7b0c664ec1e": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -242,17 +264,6 @@
       "translated": "CRISPR技术选择性撕裂癌细胞，包括“不可成药”的癌症",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-12T19:04:32.055Z"
-    },
-    "ee8ab10f15456fc9a2f521a7770f379144b22ab85bacf401e3df22f50f58000e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "93ee8c3e3665b526bc866e325639481b3a712f0793a8205c5c0762a7c9da15a8",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "略微减少AI生成前端代码的粗糙度",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-12T16:17:27.110Z"
     },
     "68a15b38345508ccddec9a595e39ceaeaa4b0de2875a214d28bf8c9e30dea4f2": {
       "targetLanguage": "zh-CN",
@@ -265,16 +276,49 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T03:37:37.926Z"
     },
-    "5f5acd8cf9613bced2b271ac834c2e0cf45b24097af731547be7ae7ba1853491": {
+    "b55612a6fd66300f145d178c74c8052ba3153ab1002efd74932c443e3ff53cb9": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "c6524043c26e5ac63cfd99bab2315cdbd18d9e22ca3cd70861a5eaaaada2b283",
+      "sourceHash": "6dca4726a223e0dad8a0bfdf97b0b8724de29f5eaf59531d719e7624efa4a18c",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "H.R. 6028将从根本上改变美国版权局",
+      "translated": "法院命令后，特朗普的名字从肯尼迪中心移除",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T07:46:16.608Z"
+      "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "4f226368c20c799301c42cea86c5644253558532bb88a662f69dfaeaad2140ad": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3b126f30c7a8ca039e7f088de0099f63186a6a31bbc33a9ca880e65e4195fa06",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "拉塞尔击败汉密尔顿夺得巴塞罗那杆位",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "c9520719bf111704ee7465d4963c91df3d869d26b71ade05d55d5a855fb179f0": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "44737cc4e5de9c4a0f4071db27452780ee988910345e98c1ca36eb37992a26ce",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "新规则层出不穷——为什么VAR假摔判罚虽然感觉正确却是错的",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "b3708ee4b0d7c6aee2c328c66cc4a1a830e3bb523f54ff8e8443507728e3568d": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "574fa63063c09212b18b155c894d16a5f3ca510f64fd9b4c755aa9e54e89d8eb",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "BBC获悉：希利希望英国加入全球防务银行",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:00.081Z"
     },
     "2f62baf489265640d0e5cf910c136448e020af6beb988022b5b01edfc0c7a56d": {
       "targetLanguage": "zh-CN",
@@ -286,6 +330,39 @@
       "translated": "被盗的英格兰训练装备已追回",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
+    },
+    "dacc5247cd6f9f59935e9898c7fab768496664c9ac08634474fe915203361443": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c30208ebe6ce476edda68cf96bdfef5b428fa3726e52506af86f4d9cd95ba2b0",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "骚乱后数千人在贝尔法斯特参加反种族主义集会",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T15:00:17.467Z"
+    },
+    "d40edba24f318a5007503db28743eac1ba04ae71587821ab13954fa902c8347b": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "4fde07c5e799a5610fb1acb4a791e79abab392ac2c9f3707b9d89ee1d86051f9",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "为什么足球在美国和加拿大被称为“soccer”",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "8973997f4d359740e4eee3441b1174d4c256c19cfcd61f45fd47ba009796faf6": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "8e1dda0eb904a8c14b619181786977fa22fc596e4996999a3501a1649c5530b4",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "女子在悉尼海滩鲨鱼袭击中受重伤",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:11.253Z"
     },
     "f174b0deabc0c3291ad3eca71083d6c2f0be55adb60469869b78cc8cfa0e8d54": {
       "targetLanguage": "zh-CN",
@@ -320,17 +397,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
     },
-    "b3708ee4b0d7c6aee2c328c66cc4a1a830e3bb523f54ff8e8443507728e3568d": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "574fa63063c09212b18b155c894d16a5f3ca510f64fd9b4c755aa9e54e89d8eb",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "BBC获悉：希利希望英国加入全球防务银行",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:00.081Z"
-    },
     "07971368f810849973248028d2bdd676486f330e6d3bf237df5965bb36c86fee": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -353,16 +419,27 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
     },
-    "d18d405375f8c41d3a8b99630b2b202ef158cfae0db4c3cfd1bb6b38c3d8ecf4": {
+    "61f035daa9f733674f89e0ac5c42ad3e5919bb0c36027ef470dc80afa1e1074c": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "d341912510601fe90540d308cb43d989ece1e18eb6340c9e6327371c719313c8",
+      "sourceHash": "d7b88485809fadea1e217c0e3fac253bf76c3f6f3e75b5b60fdd0e6222208172",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "法官命令后，特朗普的名字从肯尼迪中心移除",
+      "translated": "特朗普与伊朗谈判核心的核挑战",
       "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T15:00:17.467Z"
+      "createdAt": "2026-06-13T16:24:11.253Z"
+    },
+    "97d5ab51e061eb9730eb144dfc56b4033627c9eb2b2d0f90818fa180f5120212": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "c0ff8737e01af63c2ff5586342ae1d5f226b3f902223d44a1a677523b3cf609d",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "波士顿在世界杯揭幕战前成为“迷你苏格兰”",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T16:24:11.253Z"
     },
     "e1a182fee9b1048c3ff5f687f1de75b91b73af93372b7b9b810979620568ecaf": {
       "targetLanguage": "zh-CN",
@@ -372,17 +449,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "苏格兰是否会在对阵海地时在中场使出奇招？",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T15:00:17.467Z"
-    },
-    "dacc5247cd6f9f59935e9898c7fab768496664c9ac08634474fe915203361443": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c30208ebe6ce476edda68cf96bdfef5b428fa3726e52506af86f4d9cd95ba2b0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "骚乱后数千人在贝尔法斯特参加反种族主义集会",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
     },
@@ -452,17 +518,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T15:00:17.467Z"
     },
-    "75b082452676c9f276b02266e183d9ad7334fdd496df9317a76994c881829416": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "c33051e4d51ce70bb47bd7e5312248e93ad7b2de6521b7718263ead808430dca",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "14岁男孩是男子被杀案中的谋杀嫌疑人之一",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T12:25:31.695Z"
-    },
     "e9c4d85951176d9b1ecfb62c9d452645f6a378a719ac8d1be0c21fd4ae194946": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -495,50 +550,6 @@
       "translated": "慈善机构警告：16岁以下青少年社交媒体禁令将无法执行",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:00.081Z"
-    },
-    "1c0048fcbb96482c30c9090f59083c399c4f1cdb4cd35be7203f64f3968f48d8": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "d064c7471f79aa89639db8b835c1bc6bcdcabdaf17df443be12e472386913555",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "“他们全都在谈论这个”：苏格兰陷入足球狂热",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T07:46:31.352Z"
-    },
-    "7ed9dc61861f50506761c6d06f7198c77df9488d64ea86fad5288b645660647e": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "484374a5e76feb511abe28cccb89c217352c4f277747c94027dab43cf752f473",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "店员因制服疑似偷培根者被解雇",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:00.081Z"
-    },
-    "9c1c21a6afef29484f3859502ffb47ff6a42416dd90abed313369d2571a85442": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "1831b53d79ad2f53485a47c24cce03b1c3687aa7817552bd2125aa164df5ec18",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "2026年世界杯面临的成本与挑战",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T12:25:31.695Z"
-    },
-    "d92263246a317cd19241de608f6ad66bbab7b8477d59a54bd37bc72ebaacd7af": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "cbf9d86560c97effd3fb4d599b5e5731a3caef9152c58fc4d66325f3ec1f3fe0",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "《澳大利亚一见钟情》明星未被告知伴侣有毒品和暴力犯罪前科",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T07:46:31.352Z"
     },
     "59f1ccef1005dd4560dbfc84365a4669c829c12dfe93f68bac49bccbe736d9e4": {
       "targetLanguage": "zh-CN",
@@ -2927,14 +2938,14 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-03T17:10:16.192Z"
     },
-    "8555b5e22b35a1321042f17e94292cab80fd77dcbab7bed9899ec97858d2549c": {
+    "8a65da90aa2881b499e475c8262e74b555a40cd7427ae9553dcce44a01426906": {
       "targetLanguage": "zh-CN",
       "kind": "text",
       "field": "title",
-      "sourceHash": "3b8517ea52c7dd09c29fe14e3d979bf2615a381348b17fb2a99d2f3a9801ef45",
+      "sourceHash": "5bcaf60fcc05aa2b82e131e60695c50c7240cd1f05740f482125ad9a56dc395f",
       "promptVersion": "v1",
       "extractionVersion": "v1",
-      "translated": "在加拿大银幕奖上，业界走出好莱坞的阴影",
+      "translated": "协议似乎接近达成，美国面对一个更愿承受压力的伊朗",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:10.091Z"
     },
@@ -2949,6 +2960,28 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T12:25:36.421Z"
     },
+    "9edab3824c15fa8b0d2b64a70e1293d80831580cc772f085213ef590b4bb59de": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "f44d0bfad367832b7cffbb67ef9742ce347977551c7c5a3ae65fac083a905ee5",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "关于埃博拉疫情需要了解什么",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:10.091Z"
+    },
+    "8555b5e22b35a1321042f17e94292cab80fd77dcbab7bed9899ec97858d2549c": {
+      "targetLanguage": "zh-CN",
+      "kind": "text",
+      "field": "title",
+      "sourceHash": "3b8517ea52c7dd09c29fe14e3d979bf2615a381348b17fb2a99d2f3a9801ef45",
+      "promptVersion": "v1",
+      "extractionVersion": "v1",
+      "translated": "在加拿大银幕奖上，业界走出好莱坞的阴影",
+      "model": "deepseek-v4-flash-free",
+      "createdAt": "2026-06-13T10:28:10.091Z"
+    },
     "e00886a03ab7db36266ade94b010d2edbdb427a9b5a04ebf5848b2596a86c55a": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2960,17 +2993,6 @@
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-07T22:03:51.783Z"
     },
-    "8a65da90aa2881b499e475c8262e74b555a40cd7427ae9553dcce44a01426906": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "5bcaf60fcc05aa2b82e131e60695c50c7240cd1f05740f482125ad9a56dc395f",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "协议似乎接近达成，美国面对一个更愿承受压力的伊朗",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
-    },
     "dbc3447df176de5e227b942815d6be33dd11702097e8bc40e80fdcdabbae0c90": {
       "targetLanguage": "zh-CN",
       "kind": "text",
@@ -2979,17 +3001,6 @@
       "promptVersion": "v1",
       "extractionVersion": "v1",
       "translated": "科学追求完美世界杯球场",
-      "model": "deepseek-v4-flash-free",
-      "createdAt": "2026-06-13T10:28:10.091Z"
-    },
-    "9edab3824c15fa8b0d2b64a70e1293d80831580cc772f085213ef590b4bb59de": {
-      "targetLanguage": "zh-CN",
-      "kind": "text",
-      "field": "title",
-      "sourceHash": "f44d0bfad367832b7cffbb67ef9742ce347977551c7c5a3ae65fac083a905ee5",
-      "promptVersion": "v1",
-      "extractionVersion": "v1",
-      "translated": "关于埃博拉疫情需要了解什么",
       "model": "deepseek-v4-flash-free",
       "createdAt": "2026-06-13T10:28:10.091Z"
     },
