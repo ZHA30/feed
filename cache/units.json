@@ -25,18 +25,6 @@
       },
       "createdAt": "2026-06-15T02:49:11.340Z"
     },
-    "47c0561883780dd9953539a618c28d901a64bba8e1ac55d095a6fb57c6f89172": {
-      "feature": "translate",
-      "sourceHash": "cfab1a35d2c7221aff0283cf970144ad007e002cacf412a4eb2894c676b59604",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "你的ePub没问题。Kobo不同意。都怪Adobe。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T02:49:11.340Z"
-    },
     "bf68366689f3425c405e5c82c35c87b238f8f354411aaceec6a44e4fb06769aa": {
       "feature": "translate",
       "sourceHash": "32b40c375948e54539c212dced3a803731753704f51c38df6b12ce1e9bf7d088",
@@ -102,18 +90,6 @@
       "sourceHash": "a6a261d09ccee28ab2c478b6e6d591b7bf6997d01447f61af8645bafc8e047cf",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "Ask HN: 你在做什么？(2026年6月)",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T02:49:11.340Z"
-    },
-    "03db22462674e1e7352cc5932ec90edc328c0f0cc80dc7128e5d98509a3b34ad": {
-      "feature": "translate",
-      "sourceHash": "22857562a63aa819d140b007b58bd7e34dc8ef4e69704c62b6b3fd2f837bcb94",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Linux 7.1",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -205,18 +181,6 @@
       },
       "createdAt": "2026-06-15T02:49:11.340Z"
     },
-    "479a13a29bc904452ec4b49dd591fb3141adfad09edb5a70f5b6468dd2909b78": {
-      "feature": "translate",
-      "sourceHash": "ad97b32fc4d9f24b24785cb866c94e3b8e2fce730e558096071095d3f231cd13",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "如何赚取十亿美元",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T02:49:11.340Z"
-    },
     "8eff3b2f2ea5167dbf8d64fc56660978256a2f1283d2791c3c35a3c466881120": {
       "feature": "translate",
       "sourceHash": "8f7bea9a23e74f4f8b3abe4bb7a2b069035ed7515967caa2b79e4bc7e039018f",
@@ -265,18 +229,6 @@
       },
       "createdAt": "2026-06-15T02:49:11.340Z"
     },
-    "1993aeb5567ca429d6d90cba6c772ffcca961fec0b381ce813be9d11b3de3556": {
-      "feature": "translate",
-      "sourceHash": "f69994fcb22f17d9bd981d9b773c8bb7309d30b3b1a887eb3df93d5b41a793b0",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "为什么你的CPU很快但程序很慢：理解内存墙",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T02:49:11.340Z"
-    },
     "31fb880ce0a447f691c706f46b75a4f4479726ca8385a9915e711da9d43596f0": {
       "feature": "translate",
       "sourceHash": "d7844f98a842e35d5426c18a3bea8928bbac65c6da838816d8967ae6f1fb7857",
@@ -301,23 +253,59 @@
       },
       "createdAt": "2026-06-15T03:17:21.532Z"
     },
-    "e571e64a91e66243660dbfcdb838fa5375b6feef495dd1db3e1ebf423302b778": {
+    "cf68a8bb8d9a675e0522c4ab7d7890649ba0a548e908cd4c7b6470ed258f1f1a": {
       "feature": "translate",
-      "sourceHash": "89285086d9e0abc110ddc2f94889988114713d9f908cf02c6555973a5aeaa53a",
+      "sourceHash": "680f1a4f47ee2ca2b003beab88a392b818961f477a64070a127b03eb1bcb40d7",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "特朗普在白宫草坪举办UFC笼斗比赛",
+      "output": "Emacs 附带了更多内置功能",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-15T02:49:34.531Z"
+      "createdAt": "2026-06-15T04:23:50.768Z"
     },
-    "7f36e9d491eb4cdddc3b35aed0828ba368669a89faaf33953d0d2baba6c762c5": {
+    "12ed533329b0c98c36e47fbf0f3645850e5df2f425967f0629839a7219f1a945": {
       "feature": "translate",
-      "sourceHash": "66e0de4001ec8c8fc02e52b7d6b5e5f2a83944cc72ede3c9aa0da31a74606b60",
+      "sourceHash": "998985bbbcd0faff9bead10a205c8755a0581514daaa69330df25a497b42167c",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "阿马德补时绝杀，科特迪瓦击败厄瓜多尔",
+      "output": "您的 ePub 没问题",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T04:23:50.768Z"
+    },
+    "8444d504bf707e5f13642809f660deb00e9ee6982014d845cefdfe5755fd9d62": {
+      "feature": "translate",
+      "sourceHash": "bfda8046c8ef0bcfcc596c5ca3536135889d49447d2eef885ca526a757e6086a",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "David Sacks 谈 Anthropic 出口管制",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T04:23:50.768Z"
+    },
+    "b7cbf1c13b87c9dfbaa154f59acd7a51747b90c7e5efd268ffab7c66520ad53a": {
+      "feature": "translate",
+      "sourceHash": "29096d009570bb676244150fd7f4e90a12c8908aa2f7f7455ac464a5ed5e3f74",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "通过赢得抓娃娃机证明你是人类",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T04:23:50.768Z"
+    },
+    "5dd047a12e5d2cac0dd6b68a643f0dd8b70f18604d4210e64ebbf7adc9656846": {
+      "feature": "translate",
+      "sourceHash": "3ad9b8170339e5b4eb02b3e7b64608155b0c341ed8f87b4c144dcf872b635920",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "报章摘要：'澳大利亚+'社交媒体禁令与'俄罗斯入侵'",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -337,11 +325,35 @@
       },
       "createdAt": "2026-06-15T02:49:34.531Z"
     },
-    "5dd047a12e5d2cac0dd6b68a643f0dd8b70f18604d4210e64ebbf7adc9656846": {
+    "75e041cb8574820aeaf93f04b45c6c8e6d790480b46c7b1395cf99e56b19d129": {
       "feature": "translate",
-      "sourceHash": "3ad9b8170339e5b4eb02b3e7b64608155b0c341ed8f87b4c144dcf872b635920",
+      "sourceHash": "61ad83201dc00f173db37a819ee29c9823fce9a7bef31b71af4c45ec8f4f7bc4",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "报章摘要：'澳大利亚+'社交媒体禁令与'俄罗斯入侵'",
+      "output": "英吉利海峡扣押俄罗斯油轮后逮捕一名嫌疑人",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T03:17:26.407Z"
+    },
+    "e571e64a91e66243660dbfcdb838fa5375b6feef495dd1db3e1ebf423302b778": {
+      "feature": "translate",
+      "sourceHash": "89285086d9e0abc110ddc2f94889988114713d9f908cf02c6555973a5aeaa53a",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "特朗普在白宫草坪举办UFC笼斗比赛",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T02:49:34.531Z"
+    },
+    "7f36e9d491eb4cdddc3b35aed0828ba368669a89faaf33953d0d2baba6c762c5": {
+      "feature": "translate",
+      "sourceHash": "66e0de4001ec8c8fc02e52b7d6b5e5f2a83944cc72ede3c9aa0da31a74606b60",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "阿马德补时绝杀，科特迪瓦击败厄瓜多尔",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -505,18 +517,6 @@
       },
       "createdAt": "2026-06-15T02:49:34.531Z"
     },
-    "256b5ec6790cb288f6fc05f46fda1b3cfadb40d9e122d3af4b9a664897153f68": {
-      "feature": "translate",
-      "sourceHash": "ea321f7425146f21cecd473535c632a77890321290037a1d01d8099b50e7aa4f",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "法拉奇誓言禁止外国人使用社会住房",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T02:49:34.531Z"
-    },
     "dd80bf1a80afd131a0fb22d979c72aa2b8169e1f5b4f30f87820da4307b0d3d3": {
       "feature": "translate",
       "sourceHash": "b23da105d247024ee538afe761ff2fd69a3a4743fe472953573bd165c5e798d7",
@@ -529,65 +529,53 @@
       },
       "createdAt": "2026-06-15T02:49:34.531Z"
     },
-    "26a5184865afb23723aaa01f9ad4ca4a0ed12d7d63f940366dd7fd0bc5e631aa": {
+    "c44e8410fcbe86a17f79c085a1bed4ed713df4bfde85a8a108d9c450fcd5f9f1": {
       "feature": "translate",
-      "sourceHash": "c1a4fa6b21f5cee6cecba782f583e5abfd92d62de56518bb3115d515b03e2e4a",
+      "sourceHash": "a2da74de337c0174e3fdc51336d92ad752ce05225cca2cb19976a29c8ffd6728",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "视频：G7峰会前夕抗议者与警察在日内瓦发生冲突",
+      "output": "官员称俄军袭击乌克兰致九人死亡，历史大教堂受损",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-15T02:49:34.531Z"
+      "createdAt": "2026-06-15T04:23:56.916Z"
     },
-    "53ad1459d890e666591b55051337edceff48ac38c7283bd0786cf8047158a835": {
+    "cee7a5c650c8bddade97eab0896c9c12154215474fc792892fea8009e7baa0e8": {
       "feature": "translate",
-      "sourceHash": "5ec2ccbc810ef5fee15602ab7f99518946ab6c29a8a8c904f33065232ed12ffb",
+      "sourceHash": "7449e80c47a9f1d9f76fffbd6ae0a07c82d0ce9a87df8347ac5054c0874ca34c",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "汉密尔顿法拉利首胜：向自己和F1宣告实力",
+      "output": "“难以解读”的贝林厄姆批评——亨德森",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-15T02:49:34.531Z"
+      "createdAt": "2026-06-15T04:23:56.916Z"
     },
-    "98591593fd05ad55d8d734b041f57baec0a1d7cc0b30ce2f227ccb0e49019349": {
+    "7b9cf23dc9989abc68c7677d1b8152745d8b712e6acf3ccdc5aa003c3377f1fc": {
       "feature": "translate",
-      "sourceHash": "d5e7d25384e52c301ee4337ef68b9e9c2a9cd89845a3f4d9580bb00c22aa976a",
+      "sourceHash": "d287baadc77f7fb6402021b408539a4ee8a112b5470cc163ee6e4a11be5fa651",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "'新艾玛'——拉杜卡努从女王杯到温网可借鉴的积极因素",
+      "output": "特朗普欢呼伊朗协议，但疑问与风险仍存",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-15T02:49:34.531Z"
+      "createdAt": "2026-06-15T04:23:56.916Z"
     },
-    "9715ab110b4a9291e00f2e6075bf97f8cf2a94fb55b632a6dab100ecc38b9892": {
+    "7b0185f49c8a220db7b8d090d9ac293c490390d38667cc55af27e6aab67514bb": {
       "feature": "translate",
-      "sourceHash": "732c13655dcfa405bad35c9b99a2bd075bcfa33c050143ab7c5c8b9d16576f55",
+      "sourceHash": "8ca04ae68c1474425ecdae8e6279fa593e880e2536d2b58cb6268a0b1844ced5",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国电动汽车销售目标或将放宽",
+      "output": "“我会靠边站”——索斯盖特谈世界杯解说",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-15T02:49:34.531Z"
-    },
-    "75e041cb8574820aeaf93f04b45c6c8e6d790480b46c7b1395cf99e56b19d129": {
-      "feature": "translate",
-      "sourceHash": "61ad83201dc00f173db37a819ee29c9823fce9a7bef31b71af4c45ec8f4f7bc4",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英吉利海峡扣押俄罗斯油轮后逮捕一名嫌疑人",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T03:17:26.407Z"
+      "createdAt": "2026-06-15T04:23:56.916Z"
     },
     "fb6bc584b850b0613f1d98ba98a5da9f1481346ca993818859355b76f2890219": {
       "feature": "translate",
@@ -3229,17 +3217,17 @@
       },
       "createdAt": "2026-06-15T03:17:41.168Z"
     },
-    "e09b28bd9dfd4a883cba0116d067338c14b0caf367fb884e16ee4ef35da88a1e": {
+    "d8c6b6813bdc54486ad73f73a7b799c988c3743205d9bc621e3c6af4621110f4": {
       "feature": "summary",
-      "sourceHash": "0700821a08da4c0e4f888abadcaa641144d84c386c7f23a7247e6b5632b11a88",
+      "sourceHash": "27ebd1b612e573cf8058333b8f2c0e0401f90e7be5f664001d052c63bdd4468d",
       "promptHash": "e1a91c89003a602220782cc46182203bada52488938f748bfc2b2cc7840c5233",
-      "output": "本期Wisereads以“单任务处理”为主题，强调深度专注的价值，同时探讨AI时代硅谷的恐惧与焦虑，并反思过度优化的弊端。重点推荐David Epstein关于成功的文章、Jasmine Sun对硅谷底层阶级的分析，以及Thoughtworks的技术雷达。整体价值在于帮助读者在信息过载中找回专注力，并理性看待技术变革与个人优化。",
+      "output": "本期Wisereads的核心主题是通过实践卓越之道来应对现代人的异化与疲惫，重点推荐了Brad Stulberg的新书《卓越之道》，并探讨了信息流造假、友谊悲伤、AI使用鸿沟等话题。整体价值在于提供深度内容和实用智慧，帮助读者在混乱世界中找到方向与满足。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "sourceField": "content:encoded",
         "extractionVersion": "v1"
       },
-      "createdAt": "2026-06-15T03:17:49.591Z"
+      "createdAt": "2026-06-15T03:17:53.617Z"
     },
     "d2cd971d6aa7307d9a59c0b50d3b61a6f58ba3ffedd7bc8ac3d4a966ab933092": {
       "feature": "summary",
@@ -3253,17 +3241,17 @@
       },
       "createdAt": "2026-06-15T03:17:52.495Z"
     },
-    "d8c6b6813bdc54486ad73f73a7b799c988c3743205d9bc621e3c6af4621110f4": {
+    "e09b28bd9dfd4a883cba0116d067338c14b0caf367fb884e16ee4ef35da88a1e": {
       "feature": "summary",
-      "sourceHash": "27ebd1b612e573cf8058333b8f2c0e0401f90e7be5f664001d052c63bdd4468d",
+      "sourceHash": "0700821a08da4c0e4f888abadcaa641144d84c386c7f23a7247e6b5632b11a88",
       "promptHash": "e1a91c89003a602220782cc46182203bada52488938f748bfc2b2cc7840c5233",
-      "output": "本期Wisereads的核心主题是通过实践卓越之道来应对现代人的异化与疲惫，重点推荐了Brad Stulberg的新书《卓越之道》，并探讨了信息流造假、友谊悲伤、AI使用鸿沟等话题。整体价值在于提供深度内容和实用智慧，帮助读者在混乱世界中找到方向与满足。",
+      "output": "本期Wisereads以“单任务处理”为主题，强调深度专注的价值，同时探讨AI时代硅谷的恐惧与焦虑，并反思过度优化的弊端。重点推荐David Epstein关于成功的文章、Jasmine Sun对硅谷底层阶级的分析，以及Thoughtworks的技术雷达。整体价值在于帮助读者在信息过载中找回专注力，并理性看待技术变革与个人优化。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "sourceField": "content:encoded",
         "extractionVersion": "v1"
       },
-      "createdAt": "2026-06-15T03:17:53.617Z"
+      "createdAt": "2026-06-15T03:17:49.591Z"
     },
     "8dbee7a5575e7311dc553382d740f47bf7fbac9e80647e62f694d2871d833a1c": {
       "feature": "summary",
@@ -3313,11 +3301,11 @@
       },
       "createdAt": "2026-06-15T03:18:12.577Z"
     },
-    "c1346848d51657551663dff6eff2d9050a785e472eed30ce4ec1cd102e8de426": {
+    "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
       "feature": "translate",
-      "sourceHash": "a1c5aa2cbf14a957218a7fa0844b8b42bac2535f7d584919389eb7c48ce96378",
+      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "伊朗战争最新消息：美国与伊朗达成停火协议",
+      "output": "以下是最新消息。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -3330,18 +3318,6 @@
       "sourceHash": "8b28651e628fb3dbe98498a51610354c97dde6ae8930772325f597af3327cae4",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "世界各国领导人欢迎霍尔木兹海峡可能很快重新开放的消息。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-15T03:05:54.731Z"
-    },
-    "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
-      "feature": "translate",
-      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "以下是最新消息。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -3612,6 +3588,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-15T03:05:54.731Z"
+    },
+    "49d69b798b9eea02d7689a94d72eaf6ea90d5e788f6ad68b92926501e61da088": {
+      "feature": "translate",
+      "sourceHash": "b94a59ed6d6b05f5b952e581424f8e962bdd91a5a539cbbc5618bc1eda23d9c8",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "伊朗战争最新消息：美国与德黑兰达成和平框架",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-15T04:24:01.431Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
