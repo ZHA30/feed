@@ -1,45 +1,70 @@
+translate:
+  systemPrompt: |
+    You are a translation engine.
+    Translate the input into the target language.
+    Output plain text only.
+    Do not add commentary or formatting.
+
+summary:
+  systemPrompt: |
+    你是一个摘要生成器。
+    根据输入内容生成摘要。
+    只输出 Markdown 正文。
+    不要输出标题、标签、解释或 HTML。
+
 feeds:
   - path: /ycombinator/news
     url: https://news.ycombinator.com/rss
-    targetLanguage: zh-CN
-    fields:
-      - title
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
 
   - path: /bbc
     url: https://feeds.bbci.co.uk/news/rss.xml
-    targetLanguage: zh-CN
-    fields:
-      - title
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
 
   - path: /readwise
     url: https://wise.readwise.io/feed
-    targetLanguage: zh-CN
-    fields:
-      - title
-      - content:encoded
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - content:encoded
+    summary:
+      sourceField: description
+      prompt: |
+        提炼这期内容的核心主题、重点推荐和整体价值，控制在 2-4 句。
     limit: 10
 
   - path: /nytimes/world
     url: https://rss.nytimes.com/services/xml/rss/nyt/world.xml
-    targetLanguage: zh-CN
-    fields:
-      - title
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
 
   - path: /typesetinthefuture/feed
     url: https://typesetinthefuture.com/feed/
-    targetLanguage: zh-CN
-    fields:
-      - title
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
 
   - path: /construction-physics/feed
     url: https://www.construction-physics.com/feed
-    targetLanguage: zh-CN
-    fields:
-      - title
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
 
   - path: /lithub/feed
     url: https://lithub.com/feed
-    targetLanguage: zh-CN
-    fields:
-      - title
-      - description
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
