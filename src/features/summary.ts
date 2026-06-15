@@ -13,8 +13,7 @@ import type {
 import { generateFeatureOutputs } from "./shared.js";
 
 const EXTRACTION_VERSION = "v1";
-const SUMMARY_LABEL = "摘要";
-const SUMMARY_HINT = "点击展开";
+const SUMMARY_LABEL = "Summary";
 
 export async function runSummaryFeature(
   items: NormalizedItem[],
@@ -195,8 +194,6 @@ function renderSummaryDetails(summaryMarkdown: string): string {
     new Element("details", { class: "feed-summary" }, [
       new Element("summary", { class: "feed-summary-toggle" }, [
         new Element("span", { class: "feed-summary-label" }, [new Text(SUMMARY_LABEL)]),
-        new Text(" "),
-        new Element("small", { class: "feed-summary-hint" }, [new Text(SUMMARY_HINT)]),
       ]),
       new Element("div", { class: "feed-summary-body" }, bodyNodes),
     ]),
