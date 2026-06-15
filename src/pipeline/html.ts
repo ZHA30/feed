@@ -60,12 +60,12 @@ export function reinsertHtmlTranslations(html: string, translations: Map<string,
   const document = parseDocument(html, { decodeEntities: true });
   markTranslatableBlocks(document.children);
   for (const node of DomUtils.findAll((node): node is Element => node instanceof Element, document.children)) {
-    const blockPath = node.attribs["data-transfeed-block"];
+    const blockPath = node.attribs["data-feed-block"];
     if (blockPath === undefined) {
       continue;
     }
     const translated = translations.get(blockPath)?.trim();
-    delete node.attribs["data-transfeed-block"];
+    delete node.attribs["data-feed-block"];
     if (!translated) {
       continue;
     }
@@ -93,7 +93,7 @@ function markTranslatableBlocks(children: Element["children"]): HtmlBlock[] {
     if (!isUsefulText(text) || isLowValueBlock(node, text)) {
       continue;
     }
-    node.attribs["data-transfeed-block"] = String(index);
+    node.attribs["data-feed-block"] = String(index);
     blocks.push({
       blockPath: String(index),
       text,
