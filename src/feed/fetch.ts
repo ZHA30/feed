@@ -4,7 +4,7 @@ export async function fetchText(url: string, timeoutSeconds: number): Promise<{ 
   try {
     const response = await fetch(url, {
       headers: {
-        "user-agent": "transfeed/0.1 (+https://github.com/)",
+        "user-agent": "feed/0.1 (+https://github.com/)",
         accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
       },
       signal: controller.signal,

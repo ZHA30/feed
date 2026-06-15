@@ -138,7 +138,6 @@ function meta(config: FeedConfig, xml: string, sourceFormat: "rss" | "atom", fin
     feedId: config.feedId,
     sourceUrl: redactUrl(config.url),
     finalUrl: finalUrl ? redactUrl(finalUrl) : undefined,
-    targetLanguage: config.targetLanguage,
     sourceFormat,
     fetchedAt: new Date().toISOString(),
     sourceHash: sha256(xml),
@@ -262,9 +261,6 @@ function asArray(input: unknown): unknown[] {
 }
 
 function firstRecord(input: unknown): Record<string, unknown> | null {
-  if (Array.isArray(input)) {
-    return firstRecord(input[0]);
-  }
   return isRecord(input) ? input : null;
 }
 

@@ -1,26 +1,59 @@
 export const ITEM_FIELDS = ["title", "description", "content:encoded", "summary", "content"] as const;
 
 export type ItemField = (typeof ITEM_FIELDS)[number];
+export type FeatureKind = "translate" | "summary";
+export type PipelineStage =
+  | "config"
+  | "fetch"
+  | "normalize"
+  | "feature"
+  | "render"
+  | "write"
+  | "publish"
+  | "commit-state";
+
+export interface FeatureSystemConfig {
+  systemPrompt: string;
+}
+
+export interface TranslateFeatureConfig {
+  kind: "translate";
+  targetLanguage: string;
+  fields: ItemField[];
+  systemPrompt: string;
+}
+
+export interface SummaryFeatureConfig {
+  kind: "summary";
+  sourceField: ItemField;
+  prompt: string;
+  systemPrompt: string;
+}
+
+export type FeedFeatureConfig = TranslateFeatureConfig | SummaryFeatureConfig;
 
 export interface FeedConfig {
   path: string;
   pathKey: string;
   feedId: string;
   url: string;
-  targetLanguage: string;
   limit: number;
-  fields: ItemField[];
+  features: FeedFeatureConfig[];
+}
+
+export interface AppConfig {
+  feeds: FeedConfig[];
 }
 
 export interface PipelineIssue {
-  stage: "config" | "fetch" | "normalize" | "window" | "extract" | "translate" | "render" | "write" | "publish" | "commit-state";
+  stage: PipelineStage;
   severity: "info" | "warning" | "error";
   code: string;
   message: string;
   path?: string;
   itemKey?: string;
   field?: ItemField;
-  unitId?: string;
+  feature?: FeatureKind;
 }
 
 export interface NormalizedFeed {
@@ -31,7 +64,6 @@ export interface NormalizedFeed {
       feedId: string;
       sourceUrl: string;
       finalUrl?: string;
-      targetLanguage: string;
       sourceFormat: "rss" | "atom" | "unknown";
       fetchedAt: string;
       sourceHash: string;
@@ -78,68 +110,79 @@ export interface NormalizedItem {
   };
 }
 
-export interface TranslationUnit {
-  unitId: string;
-  path: string;
-  pathKey: string;
-  feedId: string;
+export interface FeatureContext {
+  feed: FeedConfig;
+  cache: OperationCache;
+}
+
+export interface FeatureRunStats {
+  kind: FeatureKind;
+  units: number;
+  cacheHits: number;
+  generated: number;
+  failed: number;
+  usedCacheKeys: Set<string>;
+}
+
+export interface FeatureRunResult {
+  items: NormalizedItem[];
+  stats: FeatureRunStats;
+  issues: PipelineIssue[];
+}
+
+export interface OperationUnit {
+  id: string;
   itemKey: string;
   field: ItemField;
-  unitIndex: number;
-  kind: "text" | "html-block";
-  sourceText: string;
-  normalizedSourceText: string;
-  sourceHash: string;
   cacheKey: string;
+  sourceHash: string;
+  sourceText: string;
+  feature: FeatureKind;
+  unitKind: "text" | "html-block" | "summary-source";
   blockPath?: string;
 }
 
-export interface ExtractedField {
-  field: ItemField;
-  kind: "text" | "html";
-  sourceValue: string;
-  sourceHash: string;
-  unitIds: string[];
-}
-
-export interface ExtractedItem {
-  itemKey: string;
-  sourceItem: NormalizedItem;
-  fields: Partial<Record<ItemField, ExtractedField>>;
-}
-
-export interface ExtractedFeed {
-  path: string;
-  pathKey: string;
-  feedId: string;
-  targetLanguage: string;
-  limit: number;
-  items: ExtractedItem[];
-  units: TranslationUnit[];
-  issues: PipelineIssue[];
-}
-
-export interface TranslationUnitResult {
-  unitId: string;
-  path: string;
-  itemKey: string;
-  field: ItemField;
+export interface OperationResult {
+  id: string;
   cacheKey: string;
-  status: "cached" | "translated" | "failed" | "skipped";
-  translatedText?: string;
+  status: "cached" | "generated" | "failed" | "skipped";
+  outputText?: string;
   attempts: number;
-  translatedAt?: string;
   errorCode?: string;
 }
 
-export interface TranslationResult {
+export interface OperationCacheEntry {
+  feature: FeatureKind;
+  sourceHash: string;
+  promptHash: string;
+  output: string;
+  model: string;
+  metadata: Record<string, string>;
+  createdAt: string;
+}
+
+export interface OperationCache {
+  schemaVersion: 1;
+  entries: Record<string, OperationCacheEntry>;
+}
+
+export interface FeedRunReport {
   path: string;
-  pathKey: string;
-  feedId: string;
+  sourceUrl: string;
+  outputPath?: string;
   limit: number;
-  targetLanguage: string;
-  units: TranslationUnitResult[];
+  inputItems: number;
+  outputItems: number;
+  featureStats: FeatureRunStatsReport[];
   issues: PipelineIssue[];
+}
+
+export interface FeatureRunStatsReport {
+  kind: FeatureKind;
+  units: number;
+  cacheHits: number;
+  generated: number;
+  failed: number;
 }
 
 export interface RenderedFeed {
@@ -148,27 +191,9 @@ export interface RenderedFeed {
   feedId: string;
   outputPath: string;
   limit: number;
-  targetLanguage: string;
   itemCount: number;
   xml: string;
   issues: PipelineIssue[];
-}
-
-export interface TranslationCacheEntry {
-  targetLanguage: string;
-  kind: "text" | "html-block";
-  field: ItemField;
-  sourceHash: string;
-  promptVersion: string;
-  extractionVersion: string;
-  translated: string;
-  model: string;
-  createdAt: string;
-}
-
-export interface TranslationCache {
-  schemaVersion: 1;
-  entries: Record<string, TranslationCacheEntry>;
 }
 
 export interface RunReport {
@@ -182,24 +207,7 @@ export interface RunReport {
     renderedFeeds: number;
     inputItems: number;
     outputItems: number;
-    units: number;
-    cacheHits: number;
-    translated: number;
-    failedUnits: number;
+    featureStats: FeatureRunStatsReport[];
   };
-  issues: PipelineIssue[];
-}
-
-export interface FeedRunReport {
-  path: string;
-  sourceUrl: string;
-  outputPath?: string;
-  limit: number;
-  inputItems: number;
-  outputItems: number;
-  units: number;
-  cacheHits: number;
-  translated: number;
-  failedUnits: number;
   issues: PipelineIssue[];
 }

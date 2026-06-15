@@ -3,11 +3,11 @@ import { writeTextFile } from "../lib/files.js";
 import { renderReadme } from "../state/readme.js";
 import { stateFilePath } from "../state/paths.js";
 
-const pageUrl = process.env.TRANSFEED_PAGE_URL;
+const pageUrl = process.env.FEED_PAGE_URL;
 
 if (!pageUrl) {
-  throw new Error("TRANSFEED_PAGE_URL is required");
+  throw new Error("FEED_PAGE_URL is required");
 }
 
-const feeds = await loadConfig();
-await writeTextFile(stateFilePath("README.md"), renderReadme(feeds, pageUrl));
+const config = await loadConfig();
+await writeTextFile(stateFilePath("README.md"), renderReadme(config.feeds, pageUrl));

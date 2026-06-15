@@ -1,48 +1,116 @@
 import { readFile } from "node:fs/promises";
 import { parse } from "yaml";
 import { z } from "zod";
-import { ITEM_FIELDS, type FeedConfig, type ItemField } from "../types.js";
+import { ITEM_FIELDS, type AppConfig, type FeedConfig, type FeedFeatureConfig, type ItemField } from "../types.js";
 import { shortHash } from "../lib/hash.js";
 import { stateFilePath } from "../state/paths.js";
 import { expandEnvTokens } from "./secrets.js";
 
 const DEFAULT_FEED_LIMIT = 25;
 
-const rawFeedSchema = z.object({
-  path: z.string(),
-  url: z.string().min(1),
-  targetLanguage: z.string().min(1),
-  limit: z.number().int().positive().optional(),
+const translateSystemSchema = z.object({
+  systemPrompt: z.string().trim().min(1),
+});
+
+const summarySystemSchema = z.object({
+  systemPrompt: z.string().trim().min(1),
+});
+
+const feedTranslateSchema = z.object({
+  targetLanguage: z.string().trim().min(1),
   fields: z.array(z.enum(ITEM_FIELDS)).nonempty(),
 });
 
-const rawConfigSchema = z.object({
-  feeds: z.array(rawFeedSchema).nonempty(),
+const feedSummarySchema = z.object({
+  sourceField: z.enum(ITEM_FIELDS),
+  prompt: z.string().trim().min(1),
 });
 
-export async function loadConfig(path = stateFilePath("config/feeds.yaml")): Promise<FeedConfig[]> {
+const rawFeedSchema = z.object({
+  path: z.string(),
+  url: z.string().trim().min(1),
+  limit: z.number().int().positive().optional(),
+  translate: feedTranslateSchema.optional(),
+  summary: feedSummarySchema.optional(),
+}).refine((feed) => !!feed.translate || !!feed.summary, {
+  message: "feed must enable at least one feature",
+});
+
+const rawConfigSchema = z.object({
+  translate: translateSystemSchema.optional(),
+  summary: summarySystemSchema.optional(),
+  feeds: z.array(rawFeedSchema).nonempty(),
+}).superRefine((config, ctx) => {
+  if (config.feeds.some((feed) => !!feed.translate) && !config.translate) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: "global translate.systemPrompt is required when any feed enables translate",
+      path: ["translate", "systemPrompt"],
+    });
+  }
+  if (config.feeds.some((feed) => !!feed.summary) && !config.summary) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: "global summary.systemPrompt is required when any feed enables summary",
+      path: ["summary", "systemPrompt"],
+    });
+  }
+});
+
+export async function loadConfig(path = stateFilePath("config/feeds.yaml")): Promise<AppConfig> {
   const content = await readConfigFile(path);
   const parsed = rawConfigSchema.parse(parse(content));
   const seen = new Set<string>();
 
-  return parsed.feeds.map((feed) => {
-    const pathKey = normalizePath(feed.path);
-    const url = normalizeUrl(expandEnvTokens(feed.url));
-    if (seen.has(pathKey)) {
-      throw new Error(`duplicate feed path: ${feed.path}`);
-    }
-    seen.add(pathKey);
+  return {
+    feeds: parsed.feeds.map((feed) => {
+      const pathKey = normalizePath(feed.path);
+      const url = normalizeUrl(expandEnvTokens(feed.url));
+      if (seen.has(pathKey)) {
+        throw new Error(`duplicate feed path: ${feed.path}`);
+      }
+      seen.add(pathKey);
 
-    return {
-      path: `/${pathKey}`,
-      pathKey,
-      feedId: shortHash(`${pathKey}|${url}|${feed.targetLanguage}`),
-      url,
-      targetLanguage: feed.targetLanguage,
-      limit: feed.limit ?? DEFAULT_FEED_LIMIT,
-      fields: [...feed.fields] as ItemField[],
-    };
-  });
+      const features: FeedFeatureConfig[] = [];
+      if (feed.translate) {
+        features.push({
+          kind: "translate",
+          targetLanguage: feed.translate.targetLanguage,
+          fields: [...feed.translate.fields] as ItemField[],
+          systemPrompt: parsed.translate!.systemPrompt,
+        });
+      }
+      if (feed.summary) {
+        features.push({
+          kind: "summary",
+          sourceField: feed.summary.sourceField,
+          prompt: feed.summary.prompt,
+          systemPrompt: parsed.summary!.systemPrompt,
+        });
+      }
+
+      return makeFeedConfig(pathKey, url, feed.limit ?? DEFAULT_FEED_LIMIT, features);
+    }),
+  };
+}
+
+function makeFeedConfig(pathKey: string, url: string, limit: number, features: FeedFeatureConfig[]): FeedConfig {
+  const featureKey = features.map((feature) => serializeFeature(feature)).join("|");
+  return {
+    path: `/${pathKey}`,
+    pathKey,
+    feedId: shortHash(`${pathKey}|${url}|${featureKey}`),
+    url,
+    limit,
+    features,
+  };
+}
+
+function serializeFeature(feature: FeedFeatureConfig): string {
+  if (feature.kind === "translate") {
+    return `${feature.kind}:${feature.targetLanguage}:${feature.fields.join(",")}:${feature.systemPrompt}`;
+  }
+  return `${feature.kind}:${feature.sourceField}:${feature.prompt}:${feature.systemPrompt}`;
 }
 
 function normalizeUrl(input: string): string {
@@ -59,7 +127,7 @@ async function readConfigFile(path: string): Promise<string> {
   }
   catch (error) {
     if (isNotFound(error)) {
-      throw new Error(`missing feed config: ${path}. Initialize config/feeds.yaml in the state branch.`);
+      throw new Error(`missing feed config: ${path}`);
     }
     throw error;
   }

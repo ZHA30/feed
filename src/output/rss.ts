@@ -33,7 +33,6 @@ export function renderRss(feed: NormalizedFeed, config: FeedConfig, renderedItem
     feedId: config.feedId,
     outputPath,
     limit: config.limit,
-    targetLanguage: config.targetLanguage,
     itemCount: renderedItems.length,
     xml: `<?xml version="1.0" encoding="UTF-8"?>\n${builder.build(document)}`.replace(/&apos;|&#x27;/g, "'"),
     issues: [],

@@ -22,14 +22,14 @@ function readSecretMap(): SecretMap {
   if (secretMap) {
     return secretMap;
   }
-  const raw = process.env.TRANSFEED_SECRET_ENV;
+  const raw = process.env.FEED_SECRET_ENV;
   if (!raw) {
     secretMap = {};
     return secretMap;
   }
   const parsed = JSON.parse(raw) as unknown;
   if (!isSecretMap(parsed)) {
-    throw new Error("TRANSFEED_SECRET_ENV must be a JSON object with string values");
+    throw new Error("FEED_SECRET_ENV must be a JSON object with string values");
   }
   secretMap = parsed;
   return secretMap;

@@ -5,7 +5,8 @@ export function renderReadme(feeds: FeedConfig[], pageUrl: string): string {
   return `${feeds
     .map((feed) => {
       const href = `${baseUrl}${encodePath(feed.pathKey)}.xml`;
-      return `- [${feed.path}](${href})`;
+      const featureList = feed.features.map((feature) => feature.kind).join(", ");
+      return `- [${feed.path}](${href}) (${featureList})`;
     })
     .join("\n")}\n`;
 }

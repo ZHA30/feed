@@ -1,13 +1,13 @@
 {
-  "name": "transfeed",
+  "name": "feed",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "transfeed:build": "tsx src/cli/build.ts",
-    "transfeed:update-readme": "tsx src/cli/update-readme.ts",
-    "transfeed:commit-state": "tsx src/cli/commit-state.ts",
+    "feed:build": "tsx src/cli/build.ts",
+    "feed:update-readme": "tsx src/cli/update-readme.ts",
+    "feed:commit-state": "tsx src/cli/commit-state.ts",
     "check": "tsc --noEmit"
   },
   "dependencies": {

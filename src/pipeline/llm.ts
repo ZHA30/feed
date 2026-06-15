@@ -1,5 +1,3 @@
-import type { TranslationUnit } from "../types.js";
-
 export interface LlmConfig {
   provider: string;
   baseUrl: string;
@@ -7,9 +5,14 @@ export interface LlmConfig {
   apiKey: string;
 }
 
-export interface LlmTranslation {
+export interface LlmBatchItem {
   id: string;
-  translatedText: string;
+  input: string;
+}
+
+export interface LlmBatchOutput {
+  id: string;
+  output: string;
 }
 
 export function loadLlmConfig(): LlmConfig | null {
@@ -27,28 +30,28 @@ export function loadLlmConfig(): LlmConfig | null {
   };
 }
 
-export async function translateBatch(config: LlmConfig, targetLanguage: string, units: TranslationUnit[]): Promise<LlmTranslation[]> {
+export async function runStructuredBatch(
+  config: LlmConfig,
+  systemPrompt: string,
+  userPrompt: string,
+  items: LlmBatchItem[],
+): Promise<LlmBatchOutput[]> {
   const payload = {
     model: config.model,
     messages: [
       {
         role: "system",
         content: [
-          `Translate sourceText into ${targetLanguage}.`,
+          systemPrompt.trim(),
           "Return strict JSON only.",
-          "Return shape: {\"items\":[{\"id\":\"...\",\"translatedText\":\"...\"}]}",
-          "Preserve URLs, code fragments, numbers, product names, and proper nouns when appropriate.",
-          "Do not add explanations.",
-        ].join("\n"),
+          "Return shape: {\"items\":[{\"id\":\"...\",\"output\":\"...\"}]}",
+        ].join("\n\n"),
       },
       {
         role: "user",
         content: JSON.stringify({
-          targetLanguage,
-          items: units.map((unit) => ({
-            id: unit.unitId,
-            sourceText: unit.sourceText,
-          })),
+          prompt: userPrompt,
+          items,
         }),
       },
     ],
@@ -74,19 +77,20 @@ export async function translateBatch(config: LlmConfig, targetLanguage: string, 
   if (!content) {
     throw new Error("llm response missing message content");
   }
-  return validateTranslations(content, units);
+  return validateBatchOutput(content, items);
 }
 
-function validateTranslations(content: string, units: TranslationUnit[]): LlmTranslation[] {
+function validateBatchOutput(content: string, items: LlmBatchItem[]): LlmBatchOutput[] {
   const parsed = JSON.parse(stripCodeFence(content)) as unknown;
   if (!isRecord(parsed) || !Array.isArray(parsed.items)) {
     throw new Error("llm response must contain items array");
   }
-  const expected = new Set(units.map((unit) => unit.unitId));
+  const expected = new Set(items.map((item) => item.id));
   const seen = new Set<string>();
-  const results: LlmTranslation[] = [];
+  const results: LlmBatchOutput[] = [];
+
   for (const item of parsed.items) {
-    if (!isRecord(item) || typeof item.id !== "string" || typeof item.translatedText !== "string") {
+    if (!isRecord(item) || typeof item.id !== "string" || typeof item.output !== "string") {
       throw new Error("llm response item has invalid shape");
     }
     if (!expected.has(item.id)) {
@@ -96,18 +100,20 @@ function validateTranslations(content: string, units: TranslationUnit[]): LlmTra
       throw new Error(`llm response contains duplicate id: ${item.id}`);
     }
     seen.add(item.id);
-    const normalizedTranslatedText = item.translatedText.trim();
-    if (!normalizedTranslatedText) {
-      throw new Error(`llm response item has empty translatedText: ${item.id}`);
+    const normalizedOutput = item.output.trim();
+    if (!normalizedOutput) {
+      throw new Error(`llm response item has empty output: ${item.id}`);
     }
     results.push({
       id: item.id,
-      translatedText: normalizedTranslatedText,
+      output: normalizedOutput,
     });
   }
+
   if (seen.size !== expected.size) {
     throw new Error("llm response missing ids");
   }
+
   return results;
 }
 

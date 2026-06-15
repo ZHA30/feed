@@ -123,7 +123,7 @@ Repository Secrets：
 
 抓取超时、抓取并发、LLM 并发和批次大小先作为代码常量，不进入配置文件。
 
-敏感 URL 参数不能直接写入 `state/config/feeds.yaml`。推荐在配置中使用 `${RSSHUB_KEY}` 这类占位符，并在 GitHub Secret `TRANSFEED_SECRET_ENV` 中保存 JSON 映射：
+敏感 URL 参数不能直接写入 `state/config/feeds.yaml`。推荐在配置中使用 `${RSSHUB_KEY}` 这类占位符，并在 GitHub Secret `FEED_SECRET_ENV` 中保存 JSON 映射：
 
 ```json
 {
@@ -131,7 +131,7 @@ Repository Secrets：
 }
 ```
 
-运行时先从同名环境变量读取，再从 `TRANSFEED_SECRET_ENV` 映射读取。缺少占位符对应值时构建失败。运行报告中的 `sourceUrl` 只保存脱敏 URL，query 参数值和 URL 用户认证信息会替换为 `***`。
+运行时先从同名环境变量读取，再从 `FEED_SECRET_ENV` 映射读取。缺少占位符对应值时构建失败。运行报告中的 `sourceUrl` 只保存脱敏 URL，query 参数值和 URL 用户认证信息会替换为 `***`。
 
 ## 4. 总体流水线
 
@@ -772,7 +772,7 @@ reports/
 - 提交前必须校验 staged 文件路径，不允许 `dist/`、XML 或其他文件进入提交。
 - 空 diff 直接跳过提交。
 - 禁止 force push。
-- 状态提交使用可跳过 workflow 的 commit message，例如 `chore(transfeed): update state [skip ci]`。
+- 状态提交使用可跳过 workflow 的 commit message，例如 `chore(feed): update state [skip ci]`。
 
 ## 14. GitHub Actions 与 Pages 发布
 
@@ -791,7 +791,7 @@ on:
     - cron: '*/30 * * * *'
 
 concurrency:
-  group: transfeed-pages
+  group: feed-pages
   cancel-in-progress: false
 
 jobs:
@@ -822,27 +822,27 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run transfeed:build
+      - run: npm run feed:build
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          TRANSFEED_STATE_DIR: state
-          TRANSFEED_SECRET_ENV: ${{ secrets.TRANSFEED_SECRET_ENV }}
+          FEED_STATE_DIR: state
+          FEED_SECRET_ENV: ${{ secrets.FEED_SECRET_ENV }}
           WEB_TRANSLATE_FALLBACK: "1"
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
       - id: deployment
         uses: actions/deploy-pages@v4
-      - run: npm run transfeed:update-readme
+      - run: npm run feed:update-readme
         env:
-          TRANSFEED_STATE_DIR: state
-          TRANSFEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-      - run: npm run transfeed:commit-state
+          FEED_STATE_DIR: state
+          FEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+      - run: npm run feed:commit-state
         env:
-          TRANSFEED_STATE_DIR: state
+          FEED_STATE_DIR: state
 ```
 
 GitHub 官方文档要求 Pages 部署 job 至少具有 `pages: write` 和 `id-token: write` 权限；`deploy-pages` 会部署由 `upload-pages-artifact` 上传的 Pages artifact。

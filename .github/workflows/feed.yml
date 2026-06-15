@@ -1,4 +1,4 @@
-name: Build Transfeed
+name: Build Feed
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: '0 * * * *'
 
 concurrency:
-  group: transfeed-pages
+  group: feed-pages
   cancel-in-progress: false
 
 jobs:
@@ -43,15 +43,15 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Build translated feeds
-        run: npm run transfeed:build
+      - name: Build feed outputs
+        run: npm run feed:build
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          TRANSFEED_STATE_DIR: state
-          TRANSFEED_SECRET_ENV: ${{ secrets.TRANSFEED_SECRET_ENV }}
+          FEED_STATE_DIR: state
+          FEED_SECRET_ENV: ${{ secrets.FEED_SECRET_ENV }}
           WEB_TRANSLATE_FALLBACK: "1"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
@@ -61,11 +61,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Update state README
-        run: npm run transfeed:update-readme
+        run: npm run feed:update-readme
         env:
-          TRANSFEED_STATE_DIR: state
-          TRANSFEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          FEED_STATE_DIR: state
+          FEED_PAGE_URL: ${{ steps.deployment.outputs.page_url }}
       - name: Commit state
-        run: npm run transfeed:commit-state
+        run: npm run feed:commit-state
         env:
-          TRANSFEED_STATE_DIR: state
+          FEED_STATE_DIR: state
