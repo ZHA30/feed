@@ -18,6 +18,7 @@ const summarySystemSchema = z.object({
 
 const feedTranslateSchema = z.object({
   targetLanguage: z.string().trim().min(1),
+  mode: z.enum(["translation", "bilingual"]).default("bilingual"),
   fields: z.array(z.enum(ITEM_FIELDS)).nonempty(),
 });
 
@@ -76,6 +77,7 @@ export async function loadConfig(path = stateFilePath("config/feeds.yaml")): Pro
         features.push({
           kind: "translate",
           targetLanguage: feed.translate.targetLanguage,
+          mode: feed.translate.mode,
           fields: [...feed.translate.fields] as ItemField[],
           systemPrompt: parsed.translate!.systemPrompt,
         });
@@ -108,7 +110,7 @@ function makeFeedConfig(pathKey: string, url: string, limit: number, features: F
 
 function serializeFeature(feature: FeedFeatureConfig): string {
   if (feature.kind === "translate") {
-    return `${feature.kind}:${feature.targetLanguage}:${feature.fields.join(",")}:${feature.systemPrompt}`;
+    return `${feature.kind}:${feature.targetLanguage}:${feature.mode}:${feature.fields.join(",")}:${feature.systemPrompt}`;
   }
   return `${feature.kind}:${feature.sourceField}:${feature.prompt}:${feature.systemPrompt}`;
 }

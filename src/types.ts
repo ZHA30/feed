@@ -2,6 +2,7 @@ export const ITEM_FIELDS = ["title", "description", "content:encoded", "summary"
 
 export type ItemField = (typeof ITEM_FIELDS)[number];
 export type FeatureKind = "translate" | "summary";
+export type TranslateMode = "translation" | "bilingual";
 export type PipelineStage =
   | "config"
   | "fetch"
@@ -19,6 +20,7 @@ export interface FeatureSystemConfig {
 export interface TranslateFeatureConfig {
   kind: "translate";
   targetLanguage: string;
+  mode: TranslateMode;
   fields: ItemField[];
   systemPrompt: string;
 }

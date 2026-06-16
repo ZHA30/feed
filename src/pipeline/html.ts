@@ -2,6 +2,7 @@ import * as DomUtils from "domutils";
 import renderDom from "dom-serializer";
 import { Element, Text, type AnyNode } from "domhandler";
 import { parseDocument } from "htmlparser2";
+import type { TranslateMode } from "../types.js";
 
 export interface HtmlBlock {
   blockPath: string;
@@ -52,7 +53,7 @@ export function extractHtmlBlocks(html: string): HtmlBlock[] {
   return markTranslatableBlocks(document.children);
 }
 
-export function reinsertHtmlTranslations(html: string, translations: Map<string, string>): string {
+export function reinsertHtmlTranslations(html: string, translations: Map<string, string>, mode: TranslateMode = "bilingual"): string {
   if (translations.size === 0) {
     return html;
   }
@@ -67,6 +68,10 @@ export function reinsertHtmlTranslations(html: string, translations: Map<string,
     const translated = translations.get(blockPath)?.trim();
     delete node.attribs["data-feed-block"];
     if (!translated) {
+      continue;
+    }
+    if (mode === "translation") {
+      node.children = [new Text(translated)];
       continue;
     }
     node.children.push(new Element("span", { class: "translated" }, [

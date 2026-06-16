@@ -68,7 +68,7 @@ export async function runTranslateFeature(
         const unit = makeTextUnit(context.feed.pathKey, item._meta.itemKey, field, sourceValue, feature.targetLanguage);
         const translated = outputById.get(unit.id);
         if (translated) {
-          next[field] = `${translated}¶${sourceValue}`;
+          next[field] = formatTextTranslation(sourceValue, translated, feature.mode);
         }
         continue;
       }
@@ -82,7 +82,7 @@ export async function runTranslateFeature(
           blockTranslations.set(block.blockPath, translated);
         }
       }
-      next[field] = reinsertHtmlTranslations(sourceValue, blockTranslations);
+      next[field] = reinsertHtmlTranslations(sourceValue, blockTranslations, feature.mode);
     }
 
     return next;
@@ -100,6 +100,10 @@ export async function runTranslateFeature(
       usedCacheKeys: generation.usedCacheKeys,
     },
   };
+}
+
+function formatTextTranslation(sourceValue: string, translated: string, mode: TranslateFeatureConfig["mode"]): string {
+  return mode === "translation" ? translated : `${translated}¶${sourceValue}`;
 }
 
 function makeTextUnit(pathKey: string, itemKey: string, field: TranslateFeatureConfig["fields"][number], sourceText: string, targetLanguage: string): OperationUnit {

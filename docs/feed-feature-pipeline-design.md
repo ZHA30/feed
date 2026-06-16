@@ -31,6 +31,7 @@ feeds:
     url: https://wise.readwise.io/feed
     translate:
       targetLanguage: zh-CN
+      mode: bilingual
       fields:
         - title
         - content:encoded
@@ -65,3 +66,15 @@ feeds:
 - Input: source field is normalized to plain text / markdown-ish text before LLM
 - Output: LLM returns Markdown summary text only
 - Rendering: pipeline converts summary text into HTML and prepends it to the original field inside `<details><summary>摘要</summary>...</details>`
+
+## Translate Output Mode
+
+`translate.mode` controls how translated fields are written back into the feed.
+It defaults to `bilingual` for backwards compatibility.
+
+- `translation`: output translated text only.
+- `bilingual`: output translated text plus original text.
+
+For plain text fields, `bilingual` writes `translated¶original`.
+For HTML fields, `bilingual` appends translated text to each translated block.
+`translation` replaces each translated block with translated text while preserving the outer block element.
