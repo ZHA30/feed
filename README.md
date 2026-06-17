@@ -1,6 +1,6 @@
 - [/ycombinator/news](https://zha30.github.io/feed/ycombinator/news.xml) (translate)
 - [/bbc](https://zha30.github.io/feed/bbc.xml) (translate)
-- [/readwise](https://zha30.github.io/feed/readwise.xml) (translate, summary)
+- [/readwise](https://zha30.github.io/feed/readwise.xml) (translate)
 - [/nytimes/world](https://zha30.github.io/feed/nytimes/world.xml) (translate)
 - [/typesetinthefuture/feed](https://zha30.github.io/feed/typesetinthefuture/feed.xml) (translate)
 - [/construction-physics/feed](https://zha30.github.io/feed/construction-physics/feed.xml) (translate)
