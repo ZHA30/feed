@@ -1,23 +1,59 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "9ae463cd39bb013f6ded8972ddaf5f764426c0b3358e414a6cb4efc814ca2f9b": {
+    "74d02a77c37659913e4895efbce7cdcdf6109fa8bcb17526629815754b7b6a02": {
       "feature": "translate",
-      "sourceHash": "66b457628fe5b50a818f16628557e2790037cb3cc61ac25ed910bd73eb4ecc4e",
+      "sourceHash": "69487d2c4d946f786c81da722402b674f268b5112fd1f7deb926cdd444cf77e5",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Frood，一个 Alpine Initramfs NAS（2024）",
+      "output": "Wolfram 语言和 Mathematica 版本 15，AI 助手，符号音乐，更多",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T22:09:58.973Z"
+      "createdAt": "2026-06-17T00:14:34.848Z"
     },
-    "ad7eca9a9c81160a952b425b1b58723e0270eff53db240dbca697fbced5324d9": {
+    "9f1f0347a05691b2ee4a31c1f1fd3f67f7bd711630b3ced2a23c1203d89e6282": {
       "feature": "translate",
-      "sourceHash": "8749686f79c702b971d6406b83e88b29ebdaeedbc304e81ab9b7fa5a33553492",
+      "sourceHash": "2ab1ee3fe638ac5d7d0877a7c5c637fca0c79eb3cfb23d4abd3ec2575a2b1054",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Show HN：VoiceDraw – 说出系统设计，图表自动绘制",
+      "output": "为乐趣和牢狱之灾羞辱 IIS 服务器",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T00:14:34.848Z"
+    },
+    "555fb7d0b914644ccea139e5dbcb997b34e7c07f2f6c3c0ff5535978429c2434": {
+      "feature": "translate",
+      "sourceHash": "379896b789639dac7960ce20d8813815628abd82952c510f51fe1f3cbc07bc5b",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "GrapheneOS 已移植到 Android 17",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T00:14:34.848Z"
+    },
+    "0c4578dbaa7732d76421f35a7cd553328e9ad72eaaf13b8464872ec73b32f475": {
+      "feature": "translate",
+      "sourceHash": "58b39c392cf1bc6057d9dd0bf7a1103890d70df91c94f04d5517ab95454b7da7",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Show HN：cuTile Rust：在 Rust 中实现安全、无数据竞争的 GPU 内核",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T00:14:34.848Z"
+    },
+    "9ae463cd39bb013f6ded8972ddaf5f764426c0b3358e414a6cb4efc814ca2f9b": {
+      "feature": "translate",
+      "sourceHash": "66b457628fe5b50a818f16628557e2790037cb3cc61ac25ed910bd73eb4ecc4e",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Frood，一个 Alpine Initramfs NAS（2024）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -109,18 +145,6 @@
       },
       "createdAt": "2026-06-16T19:33:01.101Z"
     },
-    "f76b63906d3a7282e28183b4fb92facde1928719f3c92d777f7e657f0a22f281": {
-      "feature": "translate",
-      "sourceHash": "987ad6ea70c8b28a15cb549f05515d4a441053e294c27b64a92b6d7f8ce60dc3",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "让 ast.walk 速度提升 220 倍",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:01.101Z"
-    },
     "5b04591f075d793dfd4c2fb2af1db997fc58d4dd91ab310b0dbe846748bb2bac": {
       "feature": "translate",
       "sourceHash": "cba5774ee66077ed525d4b68df7b80017b33e1426b7fd5a290976e17b90a355f",
@@ -144,18 +168,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-16T19:33:01.101Z"
-    },
-    "d986e77f37d76c6007d4936384a80b082ac68608f84b40756f25c0a107d71972": {
-      "feature": "translate",
-      "sourceHash": "92991cc4081d621c24698b90d21756c6727b0f89fb9e41660b2bd4f71f7fcda8",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "SubQ 1.1 小型版",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:01.102Z"
     },
     "6fd29acbe422e7f18a9e4d8c7b6ab1c5137a5880b66d2528f21f4d3d391b271d": {
       "feature": "translate",
@@ -217,101 +229,89 @@
       },
       "createdAt": "2026-06-16T19:33:01.102Z"
     },
-    "356549d7cba21eca3238db35f24efb8378f58ece4544347a4a7aff4a84b1622a": {
+    "c6748dd56e477e95a5fda95320c084826bf77288791389995dafb6baaccf5ac5": {
       "feature": "translate",
-      "sourceHash": "93ba1d0af6dcc2b650e9d327e4546c780e8b2d062093f7c662a8296f2df8da3b",
+      "sourceHash": "32c33ffb1ada02e41db2bd3ff4e1b7c9c02f1bfd1e660dad8b4602ab45247398",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "《杀戮尖塔2》中的相关性随机",
+      "output": "苹果计划更改“隐藏邮件地址”功能，可能使其效果降低",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T15:04:36.868Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "74d02a77c37659913e4895efbce7cdcdf6109fa8bcb17526629815754b7b6a02": {
+    "6f773c127f668c447ea23921efb8faa6ce8d1f0ec9f9e0e2f9b27307a115232b": {
       "feature": "translate",
-      "sourceHash": "69487d2c4d946f786c81da722402b674f268b5112fd1f7deb926cdd444cf77e5",
+      "sourceHash": "add439b847c33b4b6c8f227c752087d92b9a441d818c0c7ab7bc0464537903bf",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Wolfram 语言和 Mathematica 版本 15，AI 助手，符号音乐，更多",
+      "output": "NetNewsWire 状态",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "f4a3ca402862beccddc0661be4df555f0cd3bb4cb625d159a948c7b3a6756c5f": {
+    "ecc3c3353ed60b21ecbd784fe14e985adc74be6687b4080d2c81810aecbc41d7": {
       "feature": "translate",
-      "sourceHash": "e1f1267de42f47af5e3ba7b9006ebe0c353131df473fae61d6216749e20ec783",
+      "sourceHash": "ad1460cdae2870fb70d62dfa00d0b4a1fff0490587c33ae2ad9771508ae5ed71",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "NLnet 宣布为另外 67 个开源项目提供资助",
+      "output": "美国司法部声称 xAI 的燃气轮机涉及“国家和能源安全”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "9f1f0347a05691b2ee4a31c1f1fd3f67f7bd711630b3ced2a23c1203d89e6282": {
+    "ee3c3926fff60cb5baf4d08269a7bd4e493812c437759affb8cd7827c2d6ba61": {
       "feature": "translate",
-      "sourceHash": "2ab1ee3fe638ac5d7d0877a7c5c637fca0c79eb3cfb23d4abd3ec2575a2b1054",
+      "sourceHash": "c8fee8a6e0e2c466bddb3662a09012fe1b1d95ee0cd66ade55fd8187448fa420",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "为乐趣和牢狱之灾羞辱 IIS 服务器",
+      "output": "停止杀戮游戏活动未能获得欧盟法律支持，尽管有130万签名",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "aa352271b72d39a1d76d03d6a13481df332f2db3353c3fc01164b5921e109513": {
+    "31caecef3e157265b1f2e35d5e79e8e83416009d90c778bd0f2efbacbe4e8602": {
       "feature": "translate",
-      "sourceHash": "c6804c7045423771a562bccfc844411c9a4da4908de27840b208a8ae5334c994",
+      "sourceHash": "3e287dc626a2a3ded41cb2f4ef79ebac51a2c077140dd7af4af31ad863e80636",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国的青少年社交媒体禁令是政治作秀，而非儿童安全政策",
+      "output": "PDP-11简介：史上最具影响力的迷你计算机（2022）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "555fb7d0b914644ccea139e5dbcb997b34e7c07f2f6c3c0ff5535978429c2434": {
+    "fc95a632df99343f433b23fa27e1a0774fef891d383e87bced5fa6b805fdc5c5": {
       "feature": "translate",
-      "sourceHash": "379896b789639dac7960ce20d8813815628abd82952c510f51fe1f3cbc07bc5b",
+      "sourceHash": "5454f9c1f0de27ef92feb0a83b4683e80c77579709bf1098616b9f65dc46a744",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "GrapheneOS 已移植到 Android 17",
+      "output": "印度尼西亚的两栖村民",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
+      "createdAt": "2026-06-17T06:08:44.141Z"
     },
-    "0c4578dbaa7732d76421f35a7cd553328e9ad72eaaf13b8464872ec73b32f475": {
+    "ffa4f5f94772e70064f108236949ed8579dc25a6386642ecf89a1ad9349b5cc6": {
       "feature": "translate",
-      "sourceHash": "58b39c392cf1bc6057d9dd0bf7a1103890d70df91c94f04d5517ab95454b7da7",
+      "sourceHash": "92049619107762925f96247420c4bcf04da146faf0571815e2df39e92b34c8c4",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Show HN：cuTile Rust：在 Rust 中实现安全、无数据竞争的 GPU 内核",
+      "output": "马斯克的SpaceX超越亚马逊成为全球第五大最有价值公司",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:34.848Z"
-    },
-    "d830b2955da1e7920e0166be5f57196f990f15cd9d97e22da069121b98a8388f": {
-      "feature": "translate",
-      "sourceHash": "ff63a7787cd590f9f07a3afab5660f4416d096700f30b8072fa3b19751a70e72",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "亮点：姆巴佩闪耀，法国击败塞内加尔",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T22:10:10.322Z"
+      "createdAt": "2026-06-16T19:33:25.096Z"
     },
     "83032f01a3d2f4f17e6538c4fade7cc6d53149556b5c97fcb33d84ba74872fd0": {
       "feature": "translate",
@@ -324,6 +324,30 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-16T22:10:10.322Z"
+    },
+    "954f592acac207226dd53199203d97a5ef1ae44bb05896b573f5eb472123d13b": {
+      "feature": "translate",
+      "sourceHash": "bc4d9a75dcb07f722fbefda8180df10e9665b716e46ddd87a256bdf8f9c4fab8",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "'我们为自己的生命感到恐惧'——移民离开南非的最后期限临近",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T00:14:57.006Z"
+    },
+    "3f711f99ee0e8f76286cb71ecd1c291463a89017bed191f2340437f74696240d": {
+      "feature": "translate",
+      "sourceHash": "85ca565ac01107d11ce07e0b32e95659a5636e8d405129cfcd65a0a17f8aee5d",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "吉百利巧克力所有者亿滋国际为留在俄罗斯辩护",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T00:14:57.006Z"
     },
     "bef7cb07aaee53a59f63c8f004c7e02813b049e77181370f2a7f01e18c48d9bd": {
       "feature": "translate",
@@ -349,18 +373,6 @@
       },
       "createdAt": "2026-06-16T19:33:25.096Z"
     },
-    "49f84b10b2fe02fe64fc195a1e4aa716c9ccae66c4403e5e6351156ebb6783cd": {
-      "feature": "translate",
-      "sourceHash": "04e7a86cae9ec99f91b3c0e9e58e1c7686f5dd99eabdf9ca7ee327d005f2c1ca",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "被杀害的Preston Davey的生父在守夜活动中讲述痛苦",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T22:10:10.322Z"
-    },
     "8521a1c28576c142b647539eb5d31519cff44b33008e170bcbc3020d63df4ecd": {
       "feature": "translate",
       "sourceHash": "07d93ef375878b40ac613eb88b1896f5a5aea20aebf8747bd2603807b7b6b404",
@@ -372,18 +384,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-16T22:10:10.322Z"
-    },
-    "96592c21209c8075b2a1300036c70af4bbff982d7266dc63e0efe0baac18a4b3": {
-      "feature": "translate",
-      "sourceHash": "e7527f11aa660a52c015e6eb2ae841b6940bdc0dac4c8b6cec2f7c6db29b4fb5",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "德国广播公司在埃隆·马斯克采取法律行动后移除电视开场白",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:25.096Z"
     },
     "b41507473cdab2dbcf4e8468c6374d1e50da2b25f614a84b9be5ca790b4776d2": {
       "feature": "translate",
@@ -409,66 +409,6 @@
       },
       "createdAt": "2026-06-16T19:33:25.096Z"
     },
-    "b5c8ee4587314270fc1e2e7c4977a83d824d10d90c651f8171219fd9cb7825cd": {
-      "feature": "translate",
-      "sourceHash": "6adb7325857303dcd72630072926d38f3ed0eaba466ae299cfd0dd982c834003",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "国防首脑警告：没有更多资金，英国军队将面临行动削减",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T15:05:43.308Z"
-    },
-    "95d45405b3f2a8c1bd04273534103ac644421cdc27b77ab11540039339c2e7de": {
-      "feature": "translate",
-      "sourceHash": "604664943558a03199fd61cafbbe9e354ebbd1dd1e1d5ef2b9d7d2cb5d7b2b68",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "乔治王子将从九月起就读伊顿公学",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T15:05:43.308Z"
-    },
-    "ef348109f1caecd7b9d1470df1a8e6116e33f42fd6a64adcbf628ab4b504d6c2": {
-      "feature": "translate",
-      "sourceHash": "6945042145b0884d9defaf79733e0a3066ba06bc0b4cff7997f7e0b5c43a8310",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "娜奥米·坎贝尔在慈善禁令上诉中指责律师欺诈和欺骗",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:25.096Z"
-    },
-    "ffa4f5f94772e70064f108236949ed8579dc25a6386642ecf89a1ad9349b5cc6": {
-      "feature": "translate",
-      "sourceHash": "92049619107762925f96247420c4bcf04da146faf0571815e2df39e92b34c8c4",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "马斯克的SpaceX超越亚马逊成为全球第五大最有价值公司",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:25.096Z"
-    },
-    "e701b8cb712bf23df9073ee5f85dff566f8e1a09ff3a29752d8a551bae5a4d29": {
-      "feature": "translate",
-      "sourceHash": "97842337188df3546ac350c1a73bd4ef23bf408baff2a1f3747fd82afe155eeb",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "黎巴嫩局势脆弱平静，美伊停火协议留下诸多疑问",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T19:33:25.096Z"
-    },
     "6c7dc242f6ff53ad188a49d28c4d71d38b66a8ef1965b097de1ea57dc72c7033": {
       "feature": "translate",
       "sourceHash": "554b796d3cbd01c72f5ddaa423cf371405f5ec5a9e3c65447ba41da2ef18aedd",
@@ -481,125 +421,173 @@
       },
       "createdAt": "2026-06-16T19:33:25.096Z"
     },
-    "6776a81f5e00d1e1a1060a42568d335a184192a2ffd7587f263c234937704f4b": {
+    "ee1d54d78ed8ea85df12c644aa6ff9300590aaf29d0af6f59b9ea18b7ed83398": {
       "feature": "translate",
-      "sourceHash": "6183fa485375348488b2ab8ba5cc836dbd546d1682e5558d4478712756235a85",
+      "sourceHash": "666155896ce3b809d9417b3f39d951f97fdb2ff29bc0155890c16877509f9cd7",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "关于可能宰杀达特穆尔山地小马的争议",
+      "output": "Jeremy Clarkson在节目中透露癌症诊断",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T19:33:25.096Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "d29f94a3cfc87e28222a19c2817ecb2bcded4f01ac01c057ed8c0bb4761b095d": {
+    "53943e0873a7375fc6b843fd01f033df84b5aa41c1c4c049db25ad53f9abd54c": {
       "feature": "translate",
-      "sourceHash": "62a03602ce6fea210c94fe4f231e20b927e8db369f2b3e841ab03794cfdd1515",
+      "sourceHash": "d44211e83aa5f38aeb2e7ba0462eb6ad857875e159fcf0a5f709732f7c5befa8",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "德黑兰将与美国达成的协议标榜为胜利——但对伊朗人而言这是不得已之举",
+      "output": "《报纸》：'海峡中“可怕”冲突'和'哦，护卫舰！'",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T19:33:25.096Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "a5a330732054b98189519d21d59cf021c6a8e007394b1470f85f6bf86e2f264a": {
+    "43554fa777d2d7742bc5dde677b1f2b4f643b66d8a08260ea5147ced8999fb95": {
       "feature": "translate",
-      "sourceHash": "634159531a1f7e6a0d9e9bfd84a0c7d0fef5dd5656bc3fea0ee64650eba169fc",
+      "sourceHash": "abafcc572be77be6cd477633e35494d804030d5a070c1585dee01732947794f6",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国社交媒体禁令对游戏和YouTube意味着什么",
+      "output": "非凡的梅西在千古大师课中创造更多历史",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T15:05:43.308Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "6501fbda3e6fa404cd8b26b857fd943f768887e4992deeab4294e0e8ba5e1737": {
+    "86433d3b5aedda880c92d0d705b53063376e7d442a7ca2d1356367adcb1540a8": {
       "feature": "translate",
-      "sourceHash": "562ed69b5cc26e6cdd7d3bb4f147ff41ac6dcaa90ec27057d83e287bf20ae5c2",
+      "sourceHash": "1fe460da678f94008895cd46765c021cbd5cf49adf75cf50074a3058d02cec31",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英格兰球迷抵达达拉斯观看对阵克罗地亚的世界杯比赛",
+      "output": "“精彩绝伦”——梅西上演帽子戏法，追平克洛泽进球纪录",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "954f592acac207226dd53199203d97a5ef1ae44bb05896b573f5eb472123d13b": {
+    "d4ec8d0e825b9b79daf9e23ed1335ef51e2f040c7e4626f4ed6a56dc18bafbf9": {
       "feature": "translate",
-      "sourceHash": "bc4d9a75dcb07f722fbefda8180df10e9665b716e46ddd87a256bdf8f9c4fab8",
+      "sourceHash": "84a9df3ef1f43ba23692bd7c2087016fc8294046a4480af5ac9e04838aa94211",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "'我们为自己的生命感到恐惧'——移民离开南非的最后期限临近",
+      "output": "没有舞台太大——哈兰德在世界杯上闪亮登场",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "17f9454d11daeeddcdd78dee32e9fa64b7253fbae4e487327e8676e9ebd1bf33": {
+    "45ddc83ccfa07282e326e5a577009759cd059741879459f0d5e8f3bd638d8e5b": {
       "feature": "translate",
-      "sourceHash": "bde7209a008045f282d2c446796c96144cd7ab325a22d80a96527d278b057923",
+      "sourceHash": "868e27b5ea3da35c4dd5cd157bf5697faff1081949b0bdb1e22070ee2d0133a0",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "青少年表示社交媒体有风险但也给了我们机会",
+      "output": "尽管美国酷热，图赫尔表示英格兰不会改变风格",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "536540846c53844097659f03b6ca0b50808397fcfc2a14d4abdd44e0222d22f7": {
+    "46fea5f4b54bd2a53dcfb417ce21f6f2b67d6f5aeb03876926d4b7bfce09880d": {
       "feature": "translate",
-      "sourceHash": "0fb457edb7855663378759421663af72a2d4b72d61d5bc8375004db9eaf0f87d",
+      "sourceHash": "ab5c6393eea7ab1d4f53bd81e14489614bdfc69330ea8fdc1a957d3e1db42624",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "'海峡“可怕”冲突'和'哦，护卫舰！'",
+      "output": "尽管美国炎热，英格兰不会调整风格——图赫尔",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "b5f32f794a958f66c4b4ab4a614caea27e23d8d4f12fc8d745531cf290ee0207": {
+    "79fee08afb98853d972886c08a799d68ed10be0bd6b051655eedf750ff3652ad": {
       "feature": "translate",
-      "sourceHash": "a418b0f67419e985a74c6e11b8df0408af2111fd9b0265a12002dce00bea210a",
+      "sourceHash": "7e4d19f0f8e2e9d61172dd12cef57f7a86cb16486899790b7f83ca74e1302437",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Sciver-Brunt淡化受伤恐慌，但英格兰队长将接受扫描",
+      "output": "斯特里廷表示，他准备最早在下周触发领导权竞争",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "3f711f99ee0e8f76286cb71ecd1c291463a89017bed191f2340437f74696240d": {
+    "69b74a52059ffc82a4af4b507efed64f2048971155b8fc1c7938d18016fe402c": {
       "feature": "translate",
-      "sourceHash": "85ca565ac01107d11ce07e0b32e95659a5636e8d405129cfcd65a0a17f8aee5d",
+      "sourceHash": "61899832b93450a016af18f9a062ebd71ee3f38a9cda3bb2ff75b4a572105548",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "吉百利巧克力所有者亿滋国际为留在俄罗斯辩护",
+      "output": "巴西判决雅伊尔·博索纳罗之子在其父亲的法律诉讼中寻求美国帮助",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
-    "d932145c1ce89ed82b1e0cf28d420cfb579b27ce7a047a6e14a40e98747c966b": {
+    "6cf6ef7054ce234efeceb49cc8d7bea51ee0be6f55580587fe74178535bc5edf": {
       "feature": "translate",
-      "sourceHash": "9da8812cf025009602aedba7637033a91220d151ce89d4e4076316c3a8862887",
+      "sourceHash": "ad57bbac0f8121b7322df5e35ecd7452ba8e92f239d4e14daf258895a9a034d3",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "帕尔特伊就之前的逮捕误导加拿大官员",
+      "output": "英格兰球迷抵达达拉斯，观看对阵克罗地亚的比赛",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T00:14:57.006Z"
+      "createdAt": "2026-06-17T06:09:31.016Z"
+    },
+    "4e7fa7a6de71be9e86cc65e71dae8add74b61b9688ee3f23e66d16283cb95f89": {
+      "feature": "translate",
+      "sourceHash": "41765cfbacbba956e8e5ce120becca15178c19c5bf8ff7d1302e252c18724921",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "华盛顿特区新整修的反思池为何布满藻类？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T06:09:31.016Z"
+    },
+    "77fdbcc54222e6b6e6b20491e9d948dbb1ae57c19151a48c21ce9e4db38df3a6": {
+      "feature": "translate",
+      "sourceHash": "4bec284b8ef3bd9d97a6779547eba7e2b2e89d4f6d6a8f7ff7df081065d34c18",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "社交媒体有风险，但也给了我们机遇，青少年网红说",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T06:09:31.016Z"
+    },
+    "5ce51c4063ba3c503ff1a3d92b5c00fee24fb29bdcfac4652d5f49612f3ab9f8": {
+      "feature": "translate",
+      "sourceHash": "5c946caf2da63427a9744ea8bb1d18b9ece3cec9a3fa8d000891171138d81bfa",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "FBI称，团体计划使用狙击手和无人机攻击在白宫举办的UFC赛事",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T06:09:31.016Z"
+    },
+    "c46e1feecb93930bab09d067980b5e53cafd6302dcddeb06a02265feb0a40271": {
+      "feature": "translate",
+      "sourceHash": "a2b26292fa162437d2241d69a5d0a2e01b8c48517b418f46dce5064d76a9201e",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "观看：特朗普为何对内塔尼亚胡空袭黎巴嫩感到愤怒？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-17T06:09:31.016Z"
     },
     "fb6bc584b850b0613f1d98ba98a5da9f1481346ca993818859355b76f2890219": {
       "feature": "translate",
@@ -3205,6 +3193,30 @@
       },
       "createdAt": "2026-06-15T03:04:35.221Z"
     },
+    "e8b01f7b2bb9335407880811997523f18c7d389cbdff31e78932b4e1cf20bee6": {
+      "feature": "translate",
+      "sourceHash": "9ab2aa2677faedad3c8e0128a8e08d44d264aeb0c2a0ed91e00019c96fb8823d",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "特朗普与莫迪会晤能重塑美印关系吗？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-16T09:25:39.773Z"
+    },
+    "a0a07e1b193c9af3a00ddefbc6a9158e3afa609c41be621d46f2bb23795c01fb": {
+      "feature": "translate",
+      "sourceHash": "25db4f5bac23a5e707f276148162c97444682374d64efadc947f5f660dc26310",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "漫长的康复之路",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-16T22:10:17.728Z"
+    },
     "34eb2a68a274a00490d062388b5b5bab93db5603b60b28b24b3705ec6ba572e6": {
       "feature": "translate",
       "sourceHash": "fe5d4e332913c4bfa03f57d384d3028984e0e3555155c907035c59fc65db4168",
@@ -3234,18 +3246,6 @@
       "sourceHash": "23e4d9601bf276f6b2e8c8147580d75c31a6a1f905abd784694dbde4660d2598",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "罗伊·哈特斯利，英国政治的前线战士，逝世享年93岁",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T22:10:17.728Z"
-    },
-    "a0a07e1b193c9af3a00ddefbc6a9158e3afa609c41be621d46f2bb23795c01fb": {
-      "feature": "translate",
-      "sourceHash": "25db4f5bac23a5e707f276148162c97444682374d64efadc947f5f660dc26310",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "漫长的康复之路",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -3445,18 +3445,6 @@
       },
       "createdAt": "2026-06-16T09:25:39.773Z"
     },
-    "e8b01f7b2bb9335407880811997523f18c7d389cbdff31e78932b4e1cf20bee6": {
-      "feature": "translate",
-      "sourceHash": "9ab2aa2677faedad3c8e0128a8e08d44d264aeb0c2a0ed91e00019c96fb8823d",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "特朗普与莫迪会晤能重塑美印关系吗？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-16T09:25:39.773Z"
-    },
     "18364a175373641b127b585667d415f579a3b7591dc822b13a3c510c9581e385": {
       "feature": "translate",
       "sourceHash": "3abe95ddecb59cad4efb901bd4dd24b3bce8e1cfe7c353f51382567a59df88e2",
@@ -3481,17 +3469,17 @@
       },
       "createdAt": "2026-06-16T09:25:39.773Z"
     },
-    "7099b5fa745e0813ae6450ac772c2b278604e08ce60bad19a696a2fe0eaea972": {
+    "cebbca426a13d9340e048d8758e620eb99cb6cf2ce45645a895c4cc5904d98c5": {
       "feature": "translate",
-      "sourceHash": "d7d00f2c02ad61b344dbe6d6050ef4556ba0fa283ed2dbc709d22beff8d4b684",
+      "sourceHash": "1cc93519b2c79b55d5ed45232fb29ddce0d2f918295fce296985613050c4fad1",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "伊朗将带着底气进入与特朗普政府的核谈判",
+      "output": "美伊协议使黎巴嫩的命运变得扑朔迷离",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-16T19:33:53.142Z"
+      "createdAt": "2026-06-17T06:09:37.149Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
