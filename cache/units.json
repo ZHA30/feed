@@ -1,95 +1,11 @@
 {
   "schemaVersion": 1,
   "entries": {
-    "a486e4d3a381abef553f205745478cbac0458aff89836a1e10a10cf07a02f63f": {
-      "feature": "translate",
-      "sourceHash": "1bf9d9685aded65958c5abe953573f31855987bf3ef19d4f1de61d5b4cc91205",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "医院和大学以90%更低的成本重新利用药物",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:23:58.984Z"
-    },
-    "2661f2c660ff7b40ce8a6ef25a7b3ab24cdfb9a9a1820df070a0eb9016f12e5b": {
-      "feature": "translate",
-      "sourceHash": "d4f03b1aef8ff5b5f26ca605e127532515e245dbcf54275b5a40bd8f0f465fb2",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "七次完美洗牌能随机化一副牌。但不完美洗牌需要多少次？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:23:58.984Z"
-    },
-    "b0d01642d391598c6202d88cbdf072ac78b3dddd1cc60d80418339c4275232fa": {
-      "feature": "translate",
-      "sourceHash": "21c0369087cf3f1288e407fd30e8777069fbf90329fbf94c1e075991eaf4cd3c",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "DeepSeek 推出 Vision",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T08:44:35.734Z"
-    },
-    "2d283c35eb082dc4b4a84cb079fc4249c6cf747969d3b74dfa6d7822e5fa259c": {
-      "feature": "translate",
-      "sourceHash": "e3ef570961558a53bdb6cf1f97810804d19d3523e8263e00091da77a4459dedc",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "本地 Qwen 并非更差的 Opus，而是不同的工具",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T08:44:35.735Z"
-    },
-    "d897322a86d50bf8648c77bdd22d44e18bb730dfcf48f1e97683da9de46bc1a4": {
-      "feature": "translate",
-      "sourceHash": "823597b8778aac883ec00dd507d912ec28b87f913d45a27259232f3919830866",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Midjourney 医疗",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T03:41:01.056Z"
-    },
-    "eba06cded9094e0317884bbc3d06a82f58d099ab068848a7ef213bd38d28a3f1": {
-      "feature": "translate",
-      "sourceHash": "d694c4055c177870aa4fd45529beb3906988e9bdbb5f3f73aaa0cc74c4e95841",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "美国暂不将DeepSeek列入黑名单，逾100家公司被视为安全风险",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-17T18:13:37.540Z"
-    },
     "20d51cbf938c0dad15b2ac575ab32eb4ede10d7c6a3249dabe97c7c035b9fd18": {
       "feature": "translate",
       "sourceHash": "7eb71b443f0631e8ad5a295bf555a8142f5c2893b4dc954cb06250e1d24609cc",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "原宿时刻",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:29:46.145Z"
-    },
-    "56b8e52405f2563a01c0eb52476528867ef561533df38a513093c43e5b8640c8": {
-      "feature": "translate",
-      "sourceHash": "2a1a1ae66bc1d38972acb57e09743d7523f5655572e0572af43d22cfb304880d",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Show HN: 来自Coding Harnesses与LLM-wiki的10倍更佳性能",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -126,18 +42,6 @@
       "sourceHash": "d85491817f9311d9e783debe081f3b96977e667da7a1388775589b71c7ab3668",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "Launch HN: TesterArmy (YC P26) – 测试Web和移动应用的智能体",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:29:46.145Z"
-    },
-    "813b39116d2f4d5efde800c0192827e68446dcbccea2ae0fb0da01314efd932d": {
-      "feature": "translate",
-      "sourceHash": "d32d6bf1390dd71f7e2e167604b1e4e8cd0ffc7125f121e3fd48e319fb977a41",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Windows 2000的用户界面有什么优点",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -229,18 +133,6 @@
       },
       "createdAt": "2026-06-18T16:29:46.145Z"
     },
-    "3149cf09319c6b1214b3edd77eb0b5349fa94840ce7e8a3d408099ac480271c9": {
-      "feature": "translate",
-      "sourceHash": "b4b3217af4b826234b8112fcaaf730916121a5df64039f9af9bbbcbe54d42968",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Emacs 31即将到来：我日常使用的各项改变",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:29:46.145Z"
-    },
     "66a0a7d60d303ed806614f2b60596db9559dae55a44b944591e19176439d64c8": {
       "feature": "translate",
       "sourceHash": "17da5109ff2ca57a7568b596765ccfe3c4562002c11afd2e63f9883900c8986f",
@@ -289,6 +181,18 @@
       },
       "createdAt": "2026-06-18T16:29:46.145Z"
     },
+    "a486e4d3a381abef553f205745478cbac0458aff89836a1e10a10cf07a02f63f": {
+      "feature": "translate",
+      "sourceHash": "1bf9d9685aded65958c5abe953573f31855987bf3ef19d4f1de61d5b4cc91205",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "医院和大学以90%更低的成本重新利用药物",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:23:58.984Z"
+    },
     "15b166ca1f178fba274b22c02c30992def49a6c725bd46870de92bb0c3afc878": {
       "feature": "translate",
       "sourceHash": "ac0691c45149d23fa430b81f36f7eb0e3df5e92b77a492a20a436b981659442a",
@@ -301,71 +205,131 @@
       },
       "createdAt": "2026-06-18T16:29:46.145Z"
     },
-    "e4e63e97ff58e6a82bae78eca3b4350d1377b69d5441a0937183529a02b2d672": {
+    "b0d01642d391598c6202d88cbdf072ac78b3dddd1cc60d80418339c4275232fa": {
       "feature": "translate",
-      "sourceHash": "4bdfbf82d84b6daa083463aa525dcd9d89d85656d5b2ffc382ea7184266fe425",
+      "sourceHash": "21c0369087cf3f1288e407fd30e8777069fbf90329fbf94c1e075991eaf4cd3c",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "射门最多？最佳盘带？世界杯迄今数据盘点",
+      "output": "DeepSeek 推出 Vision",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T12:24:27.934Z"
+      "createdAt": "2026-06-18T08:44:35.734Z"
     },
-    "ad12ba5a65f6cef135f7159206fa121cfd8074f5c9a9fa72bee660314191e2ff": {
+    "2d283c35eb082dc4b4a84cb079fc4249c6cf747969d3b74dfa6d7822e5fa259c": {
       "feature": "translate",
-      "sourceHash": "9161101c634859dea88a21dca57d7b000def15f6a24dc88cf88e8c9b88bcccee",
+      "sourceHash": "e3ef570961558a53bdb6cf1f97810804d19d3523e8263e00091da77a4459dedc",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国发布琥珀色高温健康警报，气温将升至30摄氏度以上。",
+      "output": "本地 Qwen 并非更差的 Opus，而是不同的工具",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T12:24:27.934Z"
+      "createdAt": "2026-06-18T08:44:35.735Z"
     },
-    "6ebdab497330d831ca66ef126bd28ef389c6f0cc94bdad9c56bd3bc607a015fa": {
+    "1c513575d795caf30202d99b949f49dd66bc607c8a3b01f7951eb841e9d3adb6": {
       "feature": "translate",
-      "sourceHash": "167d6209343eb3fb558253e6790a537a77a06c750cd51fdcb2a1bd998e17e045",
+      "sourceHash": "d389a8d06b32535599d51204d69cda429dbb912def5b367b1d8c6d0a1b1fb371",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "战术分析：英格兰队令人兴奋，但如何加强防守？",
+      "output": "AI仇恨进展",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T12:24:27.934Z"
+      "createdAt": "2026-06-18T19:26:21.104Z"
     },
-    "23b24d0888b24439094ef86a2d1c5b86eceaf97cd6fc080bee5d87fba312d6c0": {
+    "b0cedea424fbfc55dc71c5ee08947d6d5feae9c5d9811b73dcb3866d1e26a8d6": {
       "feature": "translate",
-      "sourceHash": "37697372a497e15df0857d48ac694430747b9ef50660f95be163c29772974772",
+      "sourceHash": "cf03e36ede42cd668e51bc2debac8432f26825d571b33f434903aeeb0a523d39",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "波士顿市民感到困惑，苏格兰球迷用交通锥装饰城市雕像。",
+      "output": "从GNU Stow迁移到Chezmoi",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T12:24:27.934Z"
+      "createdAt": "2026-06-18T19:26:21.104Z"
     },
-    "e91c88437238c648b4ee7c93f77bda159430bdfb236d7f6c73a44e2e5e027138": {
+    "f5e21b2d01ee4fac0f4215c5ef45ac7669eb50a9cf77ce2fe6b9ab01e0f35155": {
       "feature": "translate",
-      "sourceHash": "dfeb36c74355e056885767f274cceef227ed80cb68cccfeb10f86c46f59543ef",
+      "sourceHash": "d9d4d61019bcd2b48f5427543a9a04e5e59b9de3284e4f3ac39e5b2f3d8b8dc0",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "年轻女性接种HPV疫苗后宫颈癌死亡风险‘几乎为零’。",
+      "output": "Craigslist创始人捐赠了5亿美元",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T12:24:27.934Z"
+      "createdAt": "2026-06-18T19:26:21.104Z"
+    },
+    "ba7ee15392d02078207de2e665ea8d668f427336a6e33c5b79c17e1ab8d681d6": {
+      "feature": "translate",
+      "sourceHash": "0be5bec807ca24bbb2101a16ac4b6234f8c472da2b051c0b67bd293000a4bdb4",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "韩国电信巨头处于Anthropic的Mythos争议中心",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:21.104Z"
+    },
+    "e9b9314d05133bd39506d31076d20f5b0c85690fbf22300eb79e0931ebd450bb": {
+      "feature": "translate",
+      "sourceHash": "bffd1fc861016c8eb89ea0022595a0787d76cc13e5cf05df81e0db2efcf9bbde",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Emacs 31即将到来：我日常使用的变化",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:21.104Z"
+    },
+    "eca67621a4b91c8aac15cb8b0ec10f5cbe3d7d1a36d66f6dc65b7af07658f300": {
+      "feature": "translate",
+      "sourceHash": "10c0de41e8340e6e15d71404c8361196e695406866c391264be4576d63d26bfe",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "我需要你的衣服、靴子和摩托车",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:21.104Z"
     },
     "73762e9e4bd79d09d522878c99a9a383b0a979eb5425b081964af7999bdbe602": {
       "feature": "translate",
       "sourceHash": "8260f5cc9a2c042efdba564ce2269b495a99d9c2e6d745b36027d8730f3b4175",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "男子因涉嫌谋杀未遂被捕，此前一名男孩在鳄鱼围栏内受伤",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:03.327Z"
+    },
+    "4856d8e5a9030f65baf7f00b04914fae67afb2d881009995dba013538be56a30": {
+      "feature": "translate",
+      "sourceHash": "1225d5f08113ea1f40406544a4e09df9741369b96490a19c926eaf9865387027",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "赫格塞斯再次批评北约，称美国将评估在欧洲的驻军",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:03.327Z"
+    },
+    "20cafee769833dac2ff10787ea611556dce5b63aa7a923d6f781690ae49a319c": {
+      "feature": "translate",
+      "sourceHash": "fe9a824fabeb3040b94dcb48274ffa35ce100728e21b382f65d2fa89eb92866f",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "穆卡莫尔调查发现，虐待行为使弱势患者生活变得“悲惨”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -414,42 +378,6 @@
       "sourceHash": "a199a776ffa7300d36c1ba5467ab6253f623b6a759b10ce29a0144f02cec068f",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "亲巴勒斯坦抗议者审判以陪审团悬而未决告终",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:03.327Z"
-    },
-    "cb266c814979e101c51821a9f55cd3c3524137f3a061bcdb11d1268e933cba9a": {
-      "feature": "translate",
-      "sourceHash": "905e1ac0a438b9ac04cd28c5c3652a7b472be6ea4575a7198bb85c9beb80af29",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "迪拜“不建议旅行”警告解除",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:03.327Z"
-    },
-    "20cafee769833dac2ff10787ea611556dce5b63aa7a923d6f781690ae49a319c": {
-      "feature": "translate",
-      "sourceHash": "fe9a824fabeb3040b94dcb48274ffa35ce100728e21b382f65d2fa89eb92866f",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "穆卡莫尔调查发现，虐待行为使弱势患者生活变得“悲惨”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:03.327Z"
-    },
-    "598e6e80fc43ce1370a94cf94ff6f250e3d5df3d42fbc0cee7ee00605eec807d": {
-      "feature": "translate",
-      "sourceHash": "bb1deb95d92002e6ae7889c195d719109a52503a2292b14fcffd4da02d000c66",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "莱因克尔称凯恩是英格兰最伟大的前锋",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -517,35 +445,11 @@
       },
       "createdAt": "2026-06-18T16:30:03.327Z"
     },
-    "544f57d26dd9f760c748f2ddbb6cb8cbd0505004d6cefdff21dba71b77d420f0": {
-      "feature": "translate",
-      "sourceHash": "1b07e9f0bfdcb7b472f61bce120158f11f21022ffd53711f7bdd22ea158fc576",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "世界杯上的难民之星",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:03.327Z"
-    },
     "b13293c54cda98cdb0fcec64cbf2430f9f5574df04080dba9cc72de991d39594": {
       "feature": "translate",
       "sourceHash": "b53d1c71a4751ebdbe0f12a0ac6649b8623b5d6b3342abfe8eee657a246aca2b",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "杀害养子的教师扭曲的人生",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:03.327Z"
-    },
-    "4856d8e5a9030f65baf7f00b04914fae67afb2d881009995dba013538be56a30": {
-      "feature": "translate",
-      "sourceHash": "1225d5f08113ea1f40406544a4e09df9741369b96490a19c926eaf9865387027",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "赫格塞斯再次批评北约，称美国将评估在欧洲的驻军",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -600,6 +504,102 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T16:30:03.327Z"
+    },
+    "7098c73eae620686269fcb0d0d5b51cdfa6c3eaf9a01544bf9dbc8cd4b4e7305": {
+      "feature": "translate",
+      "sourceHash": "841f46fdb51ea878f66047d915f35bc37edb04dda143d5994f9c779c96e9a80e",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "国王与演员斯坦利·图齐出席皇家阿斯科特赛马会，帽子与高级时尚成亮点",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "508f6974a73c956beb0db4baf7dfde8d4ca8839808fcaef6216c0904e24773d4": {
+      "feature": "translate",
+      "sourceHash": "4d297c432689b3a68d3a82741a7dee76f271df7c1706d5a03cfbbf40bd8c97f1",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "英格兰队在与新西兰的糟糕一天后陷入困境",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "401cfc4be29d31e3b821299a73a11a287a74c34b8d62bcef77c37df9a7ed9053": {
+      "feature": "translate",
+      "sourceHash": "181be6b807845ee901cb6f9bc3bdad61c9cc75c961021b0e58e28dd74a533b1c",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "图赫尔的投诉导致国际足联移动摄影师",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "4425239cc4609b3453da2048e44d1b62949d805e47b4c5116a66662cacbbaa19": {
+      "feature": "translate",
+      "sourceHash": "39efa12a31bb676d8835167d870927c4155625fc0d279db6b200cdb44bd5362a",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "博瑟姆勋爵批评斯托克斯违反宵禁",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "6c6afb3549855b9aa0dc82a4cf5056c8bb2e05ca865f398ed82b2f888eb62306": {
+      "feature": "translate",
+      "sourceHash": "e2e53afb7dab5e17a9ddaa2d46617736ef6af53af970712ff0c6676e56f45a00",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "尽管背部疼痛，赖斯预计仍可出战加纳",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "0adcbf71eb4631df96deb2e58327174515e03e89cd93f2bc156da5231526af2b": {
+      "feature": "translate",
+      "sourceHash": "eea5460f69a373dd1b2dfbd4a71e128bf3403c05663fd8c45bdc9e7a3585e6da",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "谁在美伊协议中获胜？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "304f28dbd2825b3b01f07832088ee0808ad65256f7362b2b12632462a540c727": {
+      "feature": "translate",
+      "sourceHash": "f502c38c3b2ce4ae324011ce108e44d19738fd7a0beff8ef13f98234b57d6161",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "外交部取消对迪拜的‘不要旅行’建议，但称局势不可预测",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
+    },
+    "d924be70659e846f37abb6b3f5bb7e49a0b9d5f57dec6315cedfa2340afdfcd4": {
+      "feature": "translate",
+      "sourceHash": "d542dd3a79414ae81c3722067542a314a9de8d5977c7e5f12e1c8f1d5951dd4e",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "为什么苏格兰队的麦金戴护目镜庆祝？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:38.237Z"
     },
     "fb6bc584b850b0613f1d98ba98a5da9f1481346ca993818859355b76f2890219": {
       "feature": "translate",
@@ -3205,6 +3205,18 @@
       },
       "createdAt": "2026-06-15T03:04:35.221Z"
     },
+    "1301f639cf336f17f48f82b70f9d8c5c3fcd04f8119cf7cf4ae7471cd0494419": {
+      "feature": "translate",
+      "sourceHash": "4d3b381ea4264922924a10ae1ace6e6cc398fb3e2d43f7515ec17d112eee949f",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "分析人士称，海湾国家因未能解决伊朗导弹问题而感到沮丧",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
     "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
       "feature": "translate",
       "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
@@ -3217,6 +3229,30 @@
       },
       "createdAt": "2026-06-15T03:05:54.731Z"
     },
+    "1e661ac07dfea5361a9b6c9abcf620b5eb992cfe5b4a60bf7cb18502cf12ef5a": {
+      "feature": "translate",
+      "sourceHash": "da55f314ab90be522b236f51c538d4086ace4bb8456a5099659d724047c566cb",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "在巨石阵附近的古坑中，科学家发现夏至仪式的线索",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
+    "dac86cd85d706979ac33e913769b568168ee309258c1dd0418f3b62e0715a6b2": {
+      "feature": "translate",
+      "sourceHash": "9ebbadcfaa14fedad4d28786dd233e8c556b1c42c1ac41592f78e1e81d2afa89",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "许多世界杯球迷宁愿跳过补水休息时间",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
     "e48d026ccbbb02b08578606930c56958cfc1f37d5d78b2d810d35baa0aee65b8": {
       "feature": "translate",
       "sourceHash": "744a9fd6b9ac5d2528591c1109701e64cb213f98f9dd4f5b333ff922a9bc9050",
@@ -3228,6 +3264,42 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T12:24:37.311Z"
+    },
+    "77c2721c3b1359944e2427f748cfdaf0d3456f6b375c26c46b1aada67a4fc00d": {
+      "feature": "translate",
+      "sourceHash": "6b0034e61666727e497d7eb6ad898d95dab4b553ba9f2ff7bd468b33829459e9",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "罗宾汉传奇中的古树“大橡树”已死亡",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
+    "3c5a03bfce8cb533c70418ed30c69259fc8df9301217adf320d72cb262ed3d01": {
+      "feature": "translate",
+      "sourceHash": "3a76fb4dea85abc6c8c762298b5be628c31ff8200c23fb7dd0e4f3c9329dfabb",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "报道称伦敦医院工作人员试图出售凯瑟琳王妃的医疗记录",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
+    "78013edf7d5dd8fa549e291172e0a38876536bc7a6c4c2d0d18d49df072fa6d1": {
+      "feature": "translate",
+      "sourceHash": "1d400219bf7b2184b511e363e731f842040d8c32c7bf3f3141cd661297c69cf5",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "伊朗和美国已达成谅解。这将促成协议吗？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
     },
     "a5517842e37ba96039917a03cc47ab7927a30b477c5fc92a4179cb1fd054517e": {
       "feature": "translate",
@@ -3337,6 +3409,18 @@
       },
       "createdAt": "2026-06-18T08:44:56.680Z"
     },
+    "d5617c25fb9dbcf275e0523d75d53cbbb3ac3795f1655cb5072434734c9e8b5f": {
+      "feature": "translate",
+      "sourceHash": "cb8faeefc1e08f9a74f8fc780a316ab99fe579b8bce869c87943ac1bbbde17b2",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "阿富汗发布禁令，禁止公务员和军人使用智能手机",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T16:30:17.849Z"
+    },
     "973788432b571dcac8f399a8706c0e39eb14ec737cc48962a31527028d713f75": {
       "feature": "translate",
       "sourceHash": "f319f8740089cc49593cc21088e1647263f121af718102a1e286930e92f26d8e",
@@ -3385,125 +3469,41 @@
       },
       "createdAt": "2026-06-17T21:04:38.434Z"
     },
-    "712a6c3b1f7d03a3b2a80c68266a4755645b729ba72334233d2af7d8a44dfd0f": {
+    "a1d79ad3f2468ad49c76aab217366dc39daf72d955795d1147ba6cde95555e38": {
       "feature": "translate",
-      "sourceHash": "122a595c05f317f036d66a6277802126f0e116bfbf6d5f67ce7b2e52e0863014",
+      "sourceHash": "1503cb1d73e47aa1ca7d981a6917ed98d173f349026e43da7dd7716dbc8f7944",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "特朗普为结束伊朗战争的协议辩护，细节浮现。",
+      "output": "伊朗战争实时更新：万斯在捍卫特朗普的交易时向以色列发出直率警告",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T23:22:18.190Z"
+      "createdAt": "2026-06-18T19:26:45.865Z"
     },
-    "1caafebfd308428d61a7a24274ffe525601726a9b292ad1a4b6add1201b9c097": {
+    "03a45c4d99a80ac0cfd018e5903c3173416b5e82c388311f2f81ca097db976ef": {
       "feature": "translate",
-      "sourceHash": "23bc3c3ab242acb7e6ff5f29632c999dbf9a538ae8772c9adf9b44739fc2d395",
+      "sourceHash": "6969bcdb0153866d145e2a3f5ee7f418a79dddb1202e4e425546992be966d4a6",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "特朗普与伊朗的协议与奥巴马的协议相比如何？",
+      "output": "枪手袭击尼日尔主要机场",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-17T23:22:18.190Z"
+      "createdAt": "2026-06-18T19:26:45.865Z"
     },
-    "80361630ad6f9735274dcf8564c2e13feb1b4ef2f016bacd70caa0ebc70e96b5": {
+    "3389be48ecad88327fc0ee4798a8c6d50c3f609c8f76ddbece6d00f21923a715": {
       "feature": "translate",
-      "sourceHash": "3bba67ba5dbe12b5d6b368743b03ca19af2773b03c21497f99cc084e98d680db",
+      "sourceHash": "128a2df34f0966b92ecae72175401f91271a163c3aab02b5eb32d5d628049b07",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "伊朗战争实时更新：万斯为伊核协议辩护，批评之声日益高涨",
+      "output": "领事馆枪击案19岁嫌疑人在多伦多机场被捕",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "77c2721c3b1359944e2427f748cfdaf0d3456f6b375c26c46b1aada67a4fc00d": {
-      "feature": "translate",
-      "sourceHash": "6b0034e61666727e497d7eb6ad898d95dab4b553ba9f2ff7bd468b33829459e9",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "罗宾汉传奇中的古树“大橡树”已死亡",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "3c5a03bfce8cb533c70418ed30c69259fc8df9301217adf320d72cb262ed3d01": {
-      "feature": "translate",
-      "sourceHash": "3a76fb4dea85abc6c8c762298b5be628c31ff8200c23fb7dd0e4f3c9329dfabb",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "报道称伦敦医院工作人员试图出售凯瑟琳王妃的医疗记录",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "78013edf7d5dd8fa549e291172e0a38876536bc7a6c4c2d0d18d49df072fa6d1": {
-      "feature": "translate",
-      "sourceHash": "1d400219bf7b2184b511e363e731f842040d8c32c7bf3f3141cd661297c69cf5",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "伊朗和美国已达成谅解。这将促成协议吗？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "1e661ac07dfea5361a9b6c9abcf620b5eb992cfe5b4a60bf7cb18502cf12ef5a": {
-      "feature": "translate",
-      "sourceHash": "da55f314ab90be522b236f51c538d4086ace4bb8456a5099659d724047c566cb",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "在巨石阵附近的古坑中，科学家发现夏至仪式的线索",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "dac86cd85d706979ac33e913769b568168ee309258c1dd0418f3b62e0715a6b2": {
-      "feature": "translate",
-      "sourceHash": "9ebbadcfaa14fedad4d28786dd233e8c556b1c42c1ac41592f78e1e81d2afa89",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "许多世界杯球迷宁愿跳过补水休息时间",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "1301f639cf336f17f48f82b70f9d8c5c3fcd04f8119cf7cf4ae7471cd0494419": {
-      "feature": "translate",
-      "sourceHash": "4d3b381ea4264922924a10ae1ace6e6cc398fb3e2d43f7515ec17d112eee949f",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "分析人士称，海湾国家因未能解决伊朗导弹问题而感到沮丧",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "d5617c25fb9dbcf275e0523d75d53cbbb3ac3795f1655cb5072434734c9e8b5f": {
-      "feature": "translate",
-      "sourceHash": "cb8faeefc1e08f9a74f8fc780a316ab99fe579b8bce869c87943ac1bbbde17b2",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "阿富汗发布禁令，禁止公务员和军人使用智能手机",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T16:30:17.849Z"
+      "createdAt": "2026-06-18T19:26:45.865Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
@@ -3853,126 +3853,6 @@
       },
       "createdAt": "2026-06-15T03:06:29.330Z"
     },
-    "60303816bce6d6d734f0922f0b4754c08157e5df592ea5b2e3af4ba3725ef7d6": {
-      "feature": "translate",
-      "sourceHash": "252057473d636035416d1f3e4c6a6411161ab9872bffb2668f83bcf638876173",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "狂热的白人们",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.067Z"
-    },
-    "92c5bde4b0b97524b29d533d8c7c1fec9c7b0b2b371d4abf823434fab4c70d04": {
-      "feature": "translate",
-      "sourceHash": "682b73819845d214c78f329ceae817bc28aa42ee52cf1b37497c182deff16285",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "1982年6月，三声敲门声从前门传来，西尔维娅·厄普肖和她的两个孩子正在穿鞋，准备去塔尔博特太太家。西尔的女儿GiGi，她的第一个孩子，透过",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.067Z"
-    },
-    "2305c62760c7d13d6a1d98fd941d73aa6afff98218d6c2a05f1ec129b50a9c34": {
-      "feature": "translate",
-      "sourceHash": "feb9b1b85fb78adfe11db59148c504d0e58b782c726662ea1240390751ae8486",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Lit Hub Daily: June 18, 2026",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.067Z"
-    },
-    "48fa4d1934957d70dbafdbf8bd08772ac6ae66e05d441873a91883e3e70dc13b": {
-      "feature": "translate",
-      "sourceHash": "bd49e4dc9a861692d0d326848561fe3f4c81ce2478a396a2d323a1434f149ca7",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "一层又一层的失落与悲伤中，Fatemeh Shams怀念Marjane Satrapi：“Marjane让我想起，正如她的作品常做的那样，在最黑暗的时刻，艺术、写作和人与人之间的联系是根本的修复之举。”| Lit Hub Deb Olin Unferth探讨了必要性",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "6ac8ba808011e1e1c0c6f594009b8b022448fdbd2baa3a36a9b66b2dfbfd6125": {
-      "feature": "translate",
-      "sourceHash": "ccffe59ac426515e18d616ee1d5585681b7a7fbc0931642a97b2ef00173306a0",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "承载我们的损失：致敬Marjane Satrapi",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "3c9e5c0235c89e3d055c77c006573239b5bb3b771a7e9bee9a6102dd5aa2d42f": {
-      "feature": "translate",
-      "sourceHash": "d9f73d6040ad2bc02ea39fe4a7f20315eac070d191d44a5d1e88a1f527c105b2",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "6月4日星期四早上，我醒来时听到了Marjane Satrapi去世的悲剧和令人震惊的消息。这不是我第一次在流亡中以最平常、最疏离的方式得知亲人的离去：半睡半醒时",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "d2c39485d3ef05892e8d82bdd4c189acc70e59d84759a3aabff2f8e561dc9102": {
-      "feature": "translate",
-      "sourceHash": "02846df3580164226a252d1d58b0786c5ed67661ca01196c8fcf1a2359375c0d",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "跟随敬畏：Deb Olin Unferth谈写作思辨小说",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "bceed38c88f4a3ce78efba52bfa7b1b2f3f0c9b0e6ce3c98e7435a7ff87eb6cf": {
-      "feature": "translate",
-      "sourceHash": "0d17bdb92b7766db58a16a7f290e8e91d08f4540f5207e9a9aee8f9e35e3db61",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "这篇文章最初发表于Lit Hub的《写作技巧》通讯——在此注册。我的大部分书都有超现实主义、科幻或奇幻元素——比如旅鸽神秘归来，或者一个角色有预知死亡的能力——但我",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "492a32467102dafe32eadb4b5d584ab54f863b55dcbae166f9f302f76e9b1d14": {
-      "feature": "translate",
-      "sourceHash": "793e54b0c4e6f95a2309804bd9de2417a9e6f5fbc8122eddb42db6083e2c1f70",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "如何在33天内写一部小说",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "4c986f4fcd4fe5e598e56653c59a53fa913bb0f25bfd408908475af5314b2129": {
-      "feature": "translate",
-      "sourceHash": "129ea91e3c82366c6082c9f03abef9dc4365cf861063884659f545ae1a4c8fb8",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "有一种流行的观点，受到无数好莱坞电影的推动，认为写小说是这样运作的：大致如此——作者灵光一现，坐下来疯狂打字，文字直接从天而降。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-18T12:25:37.068Z"
-    },
     "467be7a00902591b909091f08d7998f0e0713157e55243f44212b3940092b139": {
       "feature": "translate",
       "sourceHash": "0c232d6c40017bfef1a79af0f9a5efdd344e21e4f942ad86531b6ace7e8c7e2f",
@@ -4069,6 +3949,30 @@
       },
       "createdAt": "2026-06-18T16:30:50.320Z"
     },
+    "60303816bce6d6d734f0922f0b4754c08157e5df592ea5b2e3af4ba3725ef7d6": {
+      "feature": "translate",
+      "sourceHash": "252057473d636035416d1f3e4c6a6411161ab9872bffb2668f83bcf638876173",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "狂热的白人们",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.067Z"
+    },
+    "92c5bde4b0b97524b29d533d8c7c1fec9c7b0b2b371d4abf823434fab4c70d04": {
+      "feature": "translate",
+      "sourceHash": "682b73819845d214c78f329ceae817bc28aa42ee52cf1b37497c182deff16285",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "1982年6月，三声敲门声从前门传来，西尔维娅·厄普肖和她的两个孩子正在穿鞋，准备去塔尔博特太太家。西尔的女儿GiGi，她的第一个孩子，透过",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.067Z"
+    },
     "ea8698fc25e2b99f4e652d9edad1a81cc403c3f408064784ca11900b1cd65e45": {
       "feature": "translate",
       "sourceHash": "1f7725918f2a7e5e3a3d048f4a7f599ae0a1920933c4efd300095d167fa56843",
@@ -4092,6 +3996,102 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T16:30:50.320Z"
+    },
+    "2305c62760c7d13d6a1d98fd941d73aa6afff98218d6c2a05f1ec129b50a9c34": {
+      "feature": "translate",
+      "sourceHash": "feb9b1b85fb78adfe11db59148c504d0e58b782c726662ea1240390751ae8486",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Lit Hub Daily: June 18, 2026",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.067Z"
+    },
+    "48fa4d1934957d70dbafdbf8bd08772ac6ae66e05d441873a91883e3e70dc13b": {
+      "feature": "translate",
+      "sourceHash": "bd49e4dc9a861692d0d326848561fe3f4c81ce2478a396a2d323a1434f149ca7",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "一层又一层的失落与悲伤中，Fatemeh Shams怀念Marjane Satrapi：“Marjane让我想起，正如她的作品常做的那样，在最黑暗的时刻，艺术、写作和人与人之间的联系是根本的修复之举。”| Lit Hub Deb Olin Unferth探讨了必要性",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.068Z"
+    },
+    "6ac8ba808011e1e1c0c6f594009b8b022448fdbd2baa3a36a9b66b2dfbfd6125": {
+      "feature": "translate",
+      "sourceHash": "ccffe59ac426515e18d616ee1d5585681b7a7fbc0931642a97b2ef00173306a0",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "承载我们的损失：致敬Marjane Satrapi",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.068Z"
+    },
+    "3c9e5c0235c89e3d055c77c006573239b5bb3b771a7e9bee9a6102dd5aa2d42f": {
+      "feature": "translate",
+      "sourceHash": "d9f73d6040ad2bc02ea39fe4a7f20315eac070d191d44a5d1e88a1f527c105b2",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "6月4日星期四早上，我醒来时听到了Marjane Satrapi去世的悲剧和令人震惊的消息。这不是我第一次在流亡中以最平常、最疏离的方式得知亲人的离去：半睡半醒时",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.068Z"
+    },
+    "d2c39485d3ef05892e8d82bdd4c189acc70e59d84759a3aabff2f8e561dc9102": {
+      "feature": "translate",
+      "sourceHash": "02846df3580164226a252d1d58b0786c5ed67661ca01196c8fcf1a2359375c0d",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "跟随敬畏：Deb Olin Unferth谈写作思辨小说",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.068Z"
+    },
+    "bceed38c88f4a3ce78efba52bfa7b1b2f3f0c9b0e6ce3c98e7435a7ff87eb6cf": {
+      "feature": "translate",
+      "sourceHash": "0d17bdb92b7766db58a16a7f290e8e91d08f4540f5207e9a9aee8f9e35e3db61",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "这篇文章最初发表于Lit Hub的《写作技巧》通讯——在此注册。我的大部分书都有超现实主义、科幻或奇幻元素——比如旅鸽神秘归来，或者一个角色有预知死亡的能力——但我",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T12:25:37.068Z"
+    },
+    "e81f78b3695ce14b5f74eb22dab2258c249c11c60e75d900915691e76fb2a82a": {
+      "feature": "translate",
+      "sourceHash": "2f80bbb24938426835e74db6fa8e284e3a12d651ad0f2c9dbb46f82606e58dea",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "如果尼克斯队的胜利让你“对篮球产生好奇”，接下来该读些什么。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:50.719Z"
+    },
+    "b5d4fe5afd4e8f4e0a6ae20295a5810ea3ed3cd69ab387ba448c3b26341cefc7": {
+      "feature": "translate",
+      "sourceHash": "39c1d33e4f13bd7c7670f324f5e240631b6f07327e2d5ba8a071dd3251145dbb",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "今天在纽约，你无法到达下曼哈顿，因为街道被尼克斯球迷堵塞。我的城市仍因他们上周末历史性的冠军胜利而沸腾。那些连一个NBA球员名字都叫不出来的人",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-18T19:26:50.719Z"
     }
   }
 }
