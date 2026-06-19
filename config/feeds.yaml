@@ -64,15 +64,6 @@ feeds:
         - title
         - description
 
-  - path: /donga/politics
-    url: https://rss.20260501.xyz/donga/politics?key=${{ secrets.RSSHUB_KEY }}
-    translate:
-      targetLanguage: zh-CN
-      fields:
-        - title
-        - description
-      mode: translation
-
   - path: /kcna/kp/latest-news
     url: https://rss.20260501.xyz/kcna/kp/latest-news?key=${{ secrets.RSSHUB_KEY }}
     translate:
