@@ -1,6 +1,66 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4015c7af124469893caa76d625d50feb44d4669cf3dd5ef99374ca9929a78fb3": {
+      "feature": "translate",
+      "sourceHash": "1e61ff32f09e350c8dd5bef3af7ab023ecec8bf876c86d049446ae388c99f927",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "挪威批准首个全尺寸船舶隧道",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
+    },
+    "de10eae09b5c122ba0e1caf22d10b2b62c4bc184a750b0052aec205955fd1c11": {
+      "feature": "translate",
+      "sourceHash": "22e769ff0009bca0aefab68e5846d2b6df4fb5cc1d1a5f2dcfd7d6559bc52601",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Project Valhalla解析：十年成果如何融入JDK 28",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
+    },
+    "7651dcbac92301cf9d85acad4dffc325491c248a7c174fe3f552936834454481": {
+      "feature": "translate",
+      "sourceHash": "d30d3b54ec6c51c821a600ccb296f81f111ed6a06a0229ed94a28fec90504576",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "如何定义Well-Known URI",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
+    },
+    "7ac50d9637c2ee527f6639650260d399c3c270e4c7cb6b20fced735f81aeb155": {
+      "feature": "translate",
+      "sourceHash": "d15b3652bcbb67320312407f111d621ec704c6f699c934cc059490aaf3bbdea7",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "Fable将Pylint转换为Rust",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
+    },
+    "1ae5314cd8dae8feb0c822d701e905e700a4d41c3d32b0b0e60f9c980ec34e56": {
+      "feature": "translate",
+      "sourceHash": "c49a9c89e250171dacef8ce0e22b1396ce17023aaddbfac8e0995ee084db0295",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "年轻患者冰水淹溺生存案例（2025）",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
+    },
     "890f9f50202caeeabc848fd5aa87b7bb862e3e275d00b1e03ed205577778045f": {
       "feature": "translate",
       "sourceHash": "e02318a86618ee71509c633f9974ec3d10b2e876f88c046e5cca4fc487f2ce75",
@@ -24,6 +84,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T06:16:14.568Z"
+    },
+    "ed15c0e3e00120b6612afafc41e1115b37b4c1c99d5fbb4ae7d389feb8440dd6": {
+      "feature": "translate",
+      "sourceHash": "bb8dff028dcedf084b91cd6346fd2e8481c5b23d672b168d2e8e189e477f419b",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "AirPods效应",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
     },
     "ee2cffdec2dfca2a15f953bd5c1c6ab7861e991a51436c738b1ec378f2013226": {
       "feature": "translate",
@@ -96,6 +168,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T22:05:42.899Z"
+    },
+    "ba7ee15392d02078207de2e665ea8d668f427336a6e33c5b79c17e1ab8d681d6": {
+      "feature": "translate",
+      "sourceHash": "0be5bec807ca24bbb2101a16ac4b6234f8c472da2b051c0b67bd293000a4bdb4",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "韩国电信巨头陷入Anthropic的Mythos争议中心",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:13:45.319Z"
     },
     "66a0a7d60d303ed806614f2b60596db9559dae55a44b944591e19176439d64c8": {
       "feature": "translate",
@@ -181,90 +265,6 @@
       },
       "createdAt": "2026-06-19T06:16:14.568Z"
     },
-    "4015c7af124469893caa76d625d50feb44d4669cf3dd5ef99374ca9929a78fb3": {
-      "feature": "translate",
-      "sourceHash": "1e61ff32f09e350c8dd5bef3af7ab023ecec8bf876c86d049446ae388c99f927",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "挪威批准首个全尺寸船舶隧道",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "de10eae09b5c122ba0e1caf22d10b2b62c4bc184a750b0052aec205955fd1c11": {
-      "feature": "translate",
-      "sourceHash": "22e769ff0009bca0aefab68e5846d2b6df4fb5cc1d1a5f2dcfd7d6559bc52601",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Project Valhalla解析：十年成果如何融入JDK 28",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "7651dcbac92301cf9d85acad4dffc325491c248a7c174fe3f552936834454481": {
-      "feature": "translate",
-      "sourceHash": "d30d3b54ec6c51c821a600ccb296f81f111ed6a06a0229ed94a28fec90504576",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "如何定义Well-Known URI",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "7ac50d9637c2ee527f6639650260d399c3c270e4c7cb6b20fced735f81aeb155": {
-      "feature": "translate",
-      "sourceHash": "d15b3652bcbb67320312407f111d621ec704c6f699c934cc059490aaf3bbdea7",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "Fable将Pylint转换为Rust",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "1ae5314cd8dae8feb0c822d701e905e700a4d41c3d32b0b0e60f9c980ec34e56": {
-      "feature": "translate",
-      "sourceHash": "c49a9c89e250171dacef8ce0e22b1396ce17023aaddbfac8e0995ee084db0295",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "年轻患者冰水淹溺生存案例（2025）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "ed15c0e3e00120b6612afafc41e1115b37b4c1c99d5fbb4ae7d389feb8440dd6": {
-      "feature": "translate",
-      "sourceHash": "bb8dff028dcedf084b91cd6346fd2e8481c5b23d672b168d2e8e189e477f419b",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "AirPods效应",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
-    "ba7ee15392d02078207de2e665ea8d668f427336a6e33c5b79c17e1ab8d681d6": {
-      "feature": "translate",
-      "sourceHash": "0be5bec807ca24bbb2101a16ac4b6234f8c472da2b051c0b67bd293000a4bdb4",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "韩国电信巨头陷入Anthropic的Mythos争议中心",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:13:45.319Z"
-    },
     "bf9eb6650feed2419a6296bbd9780eb60d5b09b1b1ad33845617e3711cadcc50": {
       "feature": "translate",
       "sourceHash": "792fc05ab05500d3174914ba25ab34a82f242b928281ac4e5946dd2733b6fac0",
@@ -301,41 +301,17 @@
       },
       "createdAt": "2026-06-19T11:13:45.319Z"
     },
-    "d6284df277a5ba8bd6d92f300cbef4316c3524821cf9875f8ee2da12b4c72418": {
+    "42da88e4d6c733442981a70d2266563536ad8bbb524ababe52216a55c1633322": {
       "feature": "translate",
-      "sourceHash": "2847624cf13a7a174868b9c45ff4ebb6746d50ee07d96ce997d21bd9872be46b",
+      "sourceHash": "c010e6adc9bea8ac2b6005913bb2a9a0b9eb060d15fb08f0a86767b79f387a34",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "苏格兰保守党赢得50多年来首次威斯敏斯特补选",
+      "output": "英国数据和人工智能监管机构负责人因‘不当’幽默辞职",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-06-19T06:16:45.957Z"
-    },
-    "3a75e4c98eaf9afa1e44ffd0da41769f9b7014ef929d8bba16f3d76abe747c83": {
-      "feature": "translate",
-      "sourceHash": "42a6c6f1e7e86f33277ac3a0175ee441db24efed49d431f518e6755a68b7266b",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "克里斯·梅森：压倒性胜利让斯塔默面临重大领导决策",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T06:16:45.957Z"
-    },
-    "002d922e9546551bcfd34db7a7cdb35c904642db7eee53fa57c8ddfaee648bed": {
-      "feature": "translate",
-      "sourceHash": "3b5cea21c48b1339652b84d6099a846ec1835c4f747fa89d5da5fb60d411f11b",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "数千人在美以对伊朗战争中丧生——但专家称真实伤亡数字可能永远无法知晓",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T06:16:45.957Z"
+      "createdAt": "2026-06-19T11:14:07.762Z"
     },
     "bbbf435ebc3bdf6f2b6557e79fe20d4e6eaa8bdf19657729043b60a3b1b6569c": {
       "feature": "translate",
@@ -409,18 +385,6 @@
       },
       "createdAt": "2026-06-19T11:14:07.762Z"
     },
-    "3459c32083ab1f958e638e05cb9f85c4cefd80984e5ebeb4063550b32a27bec8": {
-      "feature": "translate",
-      "sourceHash": "6efbebc4e4a6d8a96c4de2b85993372d7971cbe4d72e00ee667d58fc13e6b821",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国气象局发布琥珀色极端高温预警，35度热浪来袭",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:07.762Z"
-    },
     "3f9c33166404b927e1591b15ab22830c0b7c1b7ac8b1fe6b98bbfe6648b5cee4": {
       "feature": "translate",
       "sourceHash": "899219ef6037012a78500c05606d70129c77772edd09d05cb346a90d883ee22a",
@@ -438,18 +402,6 @@
       "sourceHash": "97d7e162b04eeef668c29e2c2c291398f18cfe8bf3076bf05ee223ea4196d8d7",
       "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
       "output": "12岁男孩试图将病鸡送进埃塞俄比亚医院，赢得人心",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:07.762Z"
-    },
-    "42da88e4d6c733442981a70d2266563536ad8bbb524ababe52216a55c1633322": {
-      "feature": "translate",
-      "sourceHash": "c010e6adc9bea8ac2b6005913bb2a9a0b9eb060d15fb08f0a86767b79f387a34",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "英国数据和人工智能监管机构负责人因‘不当’幽默辞职",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -492,6 +444,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T11:14:07.762Z"
+    },
+    "d6284df277a5ba8bd6d92f300cbef4316c3524821cf9875f8ee2da12b4c72418": {
+      "feature": "translate",
+      "sourceHash": "2847624cf13a7a174868b9c45ff4ebb6746d50ee07d96ce997d21bd9872be46b",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "苏格兰保守党赢得50多年来首次威斯敏斯特补选",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T06:16:45.957Z"
     },
     "cdfcc8731bb8d38ad6c402d825013939ab3ea55efa8cea7a241403f045a6df3e": {
       "feature": "translate",
@@ -553,6 +517,18 @@
       },
       "createdAt": "2026-06-19T11:14:07.762Z"
     },
+    "3a75e4c98eaf9afa1e44ffd0da41769f9b7014ef929d8bba16f3d76abe747c83": {
+      "feature": "translate",
+      "sourceHash": "42a6c6f1e7e86f33277ac3a0175ee441db24efed49d431f518e6755a68b7266b",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "克里斯·梅森：压倒性胜利让斯塔默面临重大领导决策",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T06:16:45.957Z"
+    },
     "34c070932a39afa04b50bb7eae0b2b63bccd798937e5f266e3f3913f5a5a71c9": {
       "feature": "translate",
       "sourceHash": "7a839b6c0619ddc7397c9d1ccc242545054a852b6005bbf75a09ef9451e34db0",
@@ -564,6 +540,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T11:14:07.762Z"
+    },
+    "002d922e9546551bcfd34db7a7cdb35c904642db7eee53fa57c8ddfaee648bed": {
+      "feature": "translate",
+      "sourceHash": "3b5cea21c48b1339652b84d6099a846ec1835c4f747fa89d5da5fb60d411f11b",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "数千人在美以对伊朗战争中丧生——但专家称真实伤亡数字可能永远无法知晓",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T06:16:45.957Z"
     },
     "35b53f8f7ffcf48489717f59cf1cc9476c5bef3019bd32982573ebd138a3b99c": {
       "feature": "translate",
@@ -600,6 +588,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T11:14:07.762Z"
+    },
+    "7e381ea2bd7ec16911cafcbec518f5324aeb58ea312d3ec7fde14b76fdb8db92": {
+      "feature": "translate",
+      "sourceHash": "cd4cfd03464b5ee21583cddbfda2d66999fb3767a805e0d5c8a2590fa1c1e94e",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "随着35摄氏度热浪逼近，发布了琥珀色极端高温警告。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:20:48.427Z"
     },
     "fb6bc584b850b0613f1d98ba98a5da9f1481346ca993818859355b76f2890219": {
       "feature": "translate",
@@ -3205,6 +3205,30 @@
       },
       "createdAt": "2026-06-15T03:04:35.221Z"
     },
+    "510838be6549b9e73bcb22208c6c23c65cc32e5f4e73d8570cfc9d90f16dd471": {
+      "feature": "translate",
+      "sourceHash": "f6edc240cf7a399e863aab2ca1260b65aeea5e0d9ccbb04beb66e75a0ff427a0",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "中东最新消息：黎巴嫩袭击和谈判延迟考验美伊协议",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:16.638Z"
+    },
+    "02f9455d7201e59087283138867fedcce19ee3dbb846e2774a0ee911c5cab189": {
+      "feature": "translate",
+      "sourceHash": "77df5d3aa9eaf755f3b795d50580df2f46bcf57ced1751ac81175f5ef1f682fc",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "以色列在4名士兵被杀后对黎巴嫩发动空袭",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:16.638Z"
+    },
     "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
       "feature": "translate",
       "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
@@ -3217,6 +3241,18 @@
       },
       "createdAt": "2026-06-15T03:05:54.731Z"
     },
+    "202d12f2be727e2fc4166320176d4b6bd462f3cdcc8a718970685cc1b215f3ab": {
+      "feature": "translate",
+      "sourceHash": "51bc5563958809a25d8a0deaa60f8c17467522682fa6421b5c4e3b325aee2365",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "“游戏规则改变者”？为时尚早。但乌克兰在打击莫斯科时展现了实力。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:16.638Z"
+    },
     "fc34f08007111775f411b4da194009faf94802eb6bee8eeb993e19ca7ab958ec": {
       "feature": "translate",
       "sourceHash": "d93ce3c18d8dd58a8a244ddd86e75b812be2c2fb3d36b019b3a9fa0fcefaee28",
@@ -3228,6 +3264,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T06:16:55.081Z"
+    },
+    "1a2732829098c64fa6c74b954d3e44a1b308c89680ba24fbedbbf99a877084c6": {
+      "feature": "translate",
+      "sourceHash": "365f47dc9fa1c212ef3cf4f713c8fd29173c3680f941753560ee373338b5954d",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "墨西哥法律有了新目标：记者",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:16.638Z"
     },
     "46e7b91612e9246425676236cf5e504276ba469d37e30efbf8e92bd0559849e6": {
       "feature": "translate",
@@ -3252,6 +3300,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-19T06:16:55.081Z"
+    },
+    "1f2ef2a60517bb5436f8d164f62a27ff9f4c6b5540381be5c1eaff682b9aa2c2": {
+      "feature": "translate",
+      "sourceHash": "9bb0c657cfacd5926bc6a769f27539c6f91d24a0ef8c30121b8eef37f66215cc",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "瑞士官员称伊朗谈判暂时取消",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:16.638Z"
     },
     "568585f114fb5c803f9439a18012acd363c6540f0468c69269aa659a31315eb9": {
       "feature": "translate",
@@ -3432,66 +3492,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T16:30:17.849Z"
-    },
-    "510838be6549b9e73bcb22208c6c23c65cc32e5f4e73d8570cfc9d90f16dd471": {
-      "feature": "translate",
-      "sourceHash": "f6edc240cf7a399e863aab2ca1260b65aeea5e0d9ccbb04beb66e75a0ff427a0",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "中东最新消息：黎巴嫩袭击和谈判延迟考验美伊协议",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:16.638Z"
-    },
-    "02f9455d7201e59087283138867fedcce19ee3dbb846e2774a0ee911c5cab189": {
-      "feature": "translate",
-      "sourceHash": "77df5d3aa9eaf755f3b795d50580df2f46bcf57ced1751ac81175f5ef1f682fc",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "以色列在4名士兵被杀后对黎巴嫩发动空袭",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:16.638Z"
-    },
-    "202d12f2be727e2fc4166320176d4b6bd462f3cdcc8a718970685cc1b215f3ab": {
-      "feature": "translate",
-      "sourceHash": "51bc5563958809a25d8a0deaa60f8c17467522682fa6421b5c4e3b325aee2365",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "“游戏规则改变者”？为时尚早。但乌克兰在打击莫斯科时展现了实力。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:16.638Z"
-    },
-    "1a2732829098c64fa6c74b954d3e44a1b308c89680ba24fbedbbf99a877084c6": {
-      "feature": "translate",
-      "sourceHash": "365f47dc9fa1c212ef3cf4f713c8fd29173c3680f941753560ee373338b5954d",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "墨西哥法律有了新目标：记者",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:16.638Z"
-    },
-    "1f2ef2a60517bb5436f8d164f62a27ff9f4c6b5540381be5c1eaff682b9aa2c2": {
-      "feature": "translate",
-      "sourceHash": "9bb0c657cfacd5926bc6a769f27539c6f91d24a0ef8c30121b8eef37f66215cc",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "瑞士官员称伊朗谈判暂时取消",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:16.638Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
@@ -3841,6 +3841,30 @@
       },
       "createdAt": "2026-06-15T03:06:29.330Z"
     },
+    "3ca771cd938da8ecee2aacb71f4a706602c3c36a843f3e8be6666eceba103704": {
+      "feature": "translate",
+      "sourceHash": "8a619d41c8d8a95b97f319344f094fedd410b126b9dc9a8dad19aa7e890ba45c",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "另一边是三月",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:39.443Z"
+    },
+    "3703b620e6869ad0597395f54cbe0133575aeb3114e1fa34f26917aad81d103c": {
+      "feature": "translate",
+      "sourceHash": "2402d23c562ce2246ea23fede63e108eded83d05c10f1fbddea256429555a142",
+      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
+      "output": "我是一个六十出头的女人。介于‘晚了’和‘永不’之间。不再是那个事业女性、母亲、家庭主妇和情人，做所有事情，满足所有要求，甚至更多，只用左手。现在我是妻子、母亲、祖母，",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-06-19T11:14:39.443Z"
+    },
     "e81f78b3695ce14b5f74eb22dab2258c249c11c60e75d900915691e76fb2a82a": {
       "feature": "translate",
       "sourceHash": "2f80bbb24938426835e74db6fa8e284e3a12d651ad0f2c9dbb46f82606e58dea",
@@ -4056,30 +4080,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-18T12:25:37.068Z"
-    },
-    "3ca771cd938da8ecee2aacb71f4a706602c3c36a843f3e8be6666eceba103704": {
-      "feature": "translate",
-      "sourceHash": "8a619d41c8d8a95b97f319344f094fedd410b126b9dc9a8dad19aa7e890ba45c",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "另一边是三月",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:39.443Z"
-    },
-    "3703b620e6869ad0597395f54cbe0133575aeb3114e1fa34f26917aad81d103c": {
-      "feature": "translate",
-      "sourceHash": "2402d23c562ce2246ea23fede63e108eded83d05c10f1fbddea256429555a142",
-      "promptHash": "51cb275d5cdc951735262f3c08bb289ac2d8561831d916ee27a9b944bd01a95f",
-      "output": "我是一个六十出头的女人。介于‘晚了’和‘永不’之间。不再是那个事业女性、母亲、家庭主妇和情人，做所有事情，满足所有要求，甚至更多，只用左手。现在我是妻子、母亲、祖母，",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-19T11:14:39.443Z"
     }
   }
 }
