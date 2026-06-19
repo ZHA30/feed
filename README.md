@@ -5,7 +5,6 @@
 - [/typesetinthefuture/feed](https://zha30.github.io/feed/typesetinthefuture/feed.xml) (translate)
 - [/construction-physics/feed](https://zha30.github.io/feed/construction-physics/feed.xml) (translate)
 - [/lithub/feed](https://zha30.github.io/feed/lithub/feed.xml) (translate)
-- [/donga/politics](https://zha30.github.io/feed/donga/politics.xml) (translate)
 - [/kcna/kp/latest-news](https://zha30.github.io/feed/kcna/kp/latest-news.xml) (translate)
 - [/chosun/politics](https://zha30.github.io/feed/chosun/politics.xml) (translate)
 - [/yna/latest](https://zha30.github.io/feed/yna/latest.xml) (translate)
