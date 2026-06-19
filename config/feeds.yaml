@@ -9,8 +9,7 @@ summary:
   systemPrompt: |
     你是一个摘要生成器。
     根据输入内容生成摘要。
-    只输出 Markdown 正文。
-    不要输出标题、标签、解释或 HTML。
+    只输出 Markdown 正文，无需解释、开场白等。
 
 feeds:
   - path: /ycombinator/news
@@ -64,3 +63,66 @@ feeds:
       fields:
         - title
         - description
+
+  - path: /donga/politics
+    url: https://rss.20260501.xyz/donga/politics?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /kcna/kp/latest-news
+    url: https://rss.20260501.xyz/kcna/kp/latest-news?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /chosun/politics
+    url: https://rss.20260501.xyz/chosun/politics?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /yna/latest
+    url: https://rss.20260501.xyz/yna/latest?key=${{ secrets.RSSHUB_KEY }}&limit=10&mode=fulltext
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /nikkei/news
+    url: https://rss.20260501.xyz/nikkei/news?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /yomiuri/news
+    url: https://rss.20260501.xyz/yomiuri/news?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
+
+  - path: /nhk/news_web/latest
+    url: https://rss.20260501.xyz/nhk/news_web/latest?key=${{ secrets.RSSHUB_KEY }}
+    translate:
+      targetLanguage: zh-CN
+      fields:
+        - title
+        - description
+      mode: translation
