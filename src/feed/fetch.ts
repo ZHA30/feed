@@ -1,3 +1,13 @@
+export class FetchHttpError extends Error {
+  constructor(
+    readonly status: number,
+    readonly statusText: string,
+  ) {
+    super(`fetch failed: ${status} ${statusText}`);
+    this.name = "FetchHttpError";
+  }
+}
+
 export async function fetchText(url: string, timeoutSeconds: number): Promise<{ body: string; finalUrl: string }> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutSeconds * 1000);
@@ -10,7 +20,7 @@ export async function fetchText(url: string, timeoutSeconds: number): Promise<{ 
       signal: controller.signal,
     });
     if (!response.ok) {
-      throw new Error(`fetch failed: ${response.status} ${response.statusText}`);
+      throw new FetchHttpError(response.status, response.statusText);
     }
     return {
       body: await response.text(),
