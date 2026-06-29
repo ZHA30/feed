@@ -1,7 +1,7 @@
 {
-  "runId": "28398622092",
-  "startedAt": "2026-06-29T19:53:36.566Z",
-  "finishedAt": "2026-06-29T20:03:48.290Z",
+  "runId": "28403629049",
+  "startedAt": "2026-06-29T21:24:13.415Z",
+  "finishedAt": "2026-06-29T21:37:45.657Z",
   "status": "success",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 20,
-          "generated": 5,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 14,
-          "generated": 11,
+          "cacheHits": 18,
+          "generated": 7,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -123,8 +123,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 18,
-          "generated": 2,
+          "cacheHits": 20,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -153,26 +153,18 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 18,
-      "outputItems": 18,
+      "inputItems": 17,
+      "outputItems": 17,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 262,
-          "cacheHits": 147,
-          "generated": 115,
+          "units": 244,
+          "cacheHits": 234,
+          "generated": 10,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yna/latest",
@@ -184,9 +176,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 210,
-          "cacheHits": 0,
-          "generated": 210,
+          "units": 135,
+          "cacheHits": 14,
+          "generated": 121,
           "failed": 0
         }
       ],
@@ -210,9 +202,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 169,
-          "cacheHits": 83,
-          "generated": 86,
+          "units": 149,
+          "cacheHits": 7,
+          "generated": 142,
           "failed": 0
         }
       ],
@@ -228,9 +220,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 317,
-          "cacheHits": 269,
-          "generated": 48,
+          "units": 25,
+          "cacheHits": 0,
+          "generated": 25,
           "failed": 0
         }
       ],
@@ -246,9 +238,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 509,
-          "cacheHits": 360,
-          "generated": 149,
+          "units": 589,
+          "cacheHits": 367,
+          "generated": 222,
           "failed": 0
         }
       ],
@@ -283,8 +275,8 @@
         {
           "kind": "translate",
           "units": 1025,
-          "cacheHits": 1025,
-          "generated": 0,
+          "cacheHits": 1021,
+          "generated": 4,
           "failed": 0
         }
       ],
@@ -294,26 +286,19 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 15,
-    "inputItems": 272,
-    "outputItems": 272,
+    "inputItems": 271,
+    "outputItems": 271,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 3232,
-        "cacheHits": 2604,
-        "generated": 628,
+        "units": 2907,
+        "cacheHits": 2365,
+        "generated": 542,
         "failed": 0
       }
     ]
   },
   "issues": [
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
-    },
     {
       "stage": "fetch",
       "severity": "warning",
