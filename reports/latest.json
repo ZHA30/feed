@@ -1,7 +1,7 @@
 {
-  "runId": "28709225745",
-  "startedAt": "2026-07-04T14:27:27.402Z",
-  "finishedAt": "2026-07-04T14:37:37.665Z",
+  "runId": "28711693532",
+  "startedAt": "2026-07-04T15:59:58.594Z",
+  "finishedAt": "2026-07-04T16:18:13.946Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 20,
-          "generated": 5,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 17,
-          "generated": 8,
+          "cacheHits": 19,
+          "generated": 6,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 25,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 15,
-      "outputItems": 15,
+      "inputItems": 14,
+      "outputItems": 14,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 135,
-          "cacheHits": 127,
-          "generated": 8,
+          "units": 152,
+          "cacheHits": 112,
+          "generated": 40,
           "failed": 0
         }
       ],
@@ -182,10 +182,19 @@
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
+      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
+      "inputItems": 10,
+      "outputItems": 10,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 137,
+          "cacheHits": 0,
+          "generated": 137,
+          "failed": 0
+        }
+      ],
       "issues": [
         {
           "stage": "fetch",
@@ -195,18 +204,12 @@
           "path": "/yna/latest"
         },
         {
-          "stage": "fetch",
+          "stage": "feature",
           "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
+          "code": "batch_retry",
+          "message": "llm response contains duplicate id: 371f98c93b2b78f52c857ed00dc373e70fadbbf241a6a5aebd9857e11893af24",
+          "path": "/yna/latest",
+          "feature": "translate"
         }
       ]
     },
@@ -220,9 +223,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 128,
-          "cacheHits": 98,
-          "generated": 30,
+          "units": 130,
+          "cacheHits": 118,
+          "generated": 12,
           "failed": 0
         }
       ],
@@ -247,8 +250,8 @@
         {
           "kind": "translate",
           "units": 216,
-          "cacheHits": 184,
-          "generated": 32,
+          "cacheHits": 204,
+          "generated": 12,
           "failed": 0
         }
       ],
@@ -258,6 +261,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
         }
       ]
@@ -272,21 +282,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 525,
-          "cacheHits": 394,
-          "generated": 131,
+          "units": 582,
+          "cacheHits": 522,
+          "generated": 60,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bikerumor/feed",
@@ -316,9 +318,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 1317,
-          "cacheHits": 1268,
-          "generated": 49,
+          "units": 1329,
+          "cacheHits": 1302,
+          "generated": 27,
           "failed": 0
         }
       ],
@@ -327,15 +329,15 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 13,
-    "inputItems": 244,
-    "outputItems": 244,
+    "renderedFeeds": 14,
+    "inputItems": 253,
+    "outputItems": 253,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 3013,
-        "cacheHits": 2747,
-        "generated": 266,
+        "units": 3238,
+        "cacheHits": 2941,
+        "generated": 297,
         "failed": 0
       }
     ]
@@ -370,18 +372,12 @@
       "path": "/yna/latest"
     },
     {
-      "stage": "fetch",
+      "stage": "feature",
       "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
+      "code": "batch_retry",
+      "message": "llm response contains duplicate id: 371f98c93b2b78f52c857ed00dc373e70fadbbf241a6a5aebd9857e11893af24",
+      "path": "/yna/latest",
+      "feature": "translate"
     },
     {
       "stage": "fetch",
@@ -401,8 +397,8 @@
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
     }
   ]
 }
