@@ -1,7 +1,7 @@
 {
-  "runId": "28884741192",
-  "startedAt": "2026-07-07T17:12:04.263Z",
-  "finishedAt": "2026-07-07T17:24:49.902Z",
+  "runId": "28894227576",
+  "startedAt": "2026-07-07T19:51:30.393Z",
+  "finishedAt": "2026-07-07T20:11:53.510Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 10,
-          "generated": 15,
+          "cacheHits": 7,
+          "generated": 18,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 17,
-          "generated": 8,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -164,61 +164,80 @@
     {
       "path": "/chosun/politics",
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
+      "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
+      "inputItems": 19,
+      "outputItems": 19,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 230,
+          "cacheHits": 0,
+          "generated": 228,
+          "failed": 2
+        }
+      ],
       "issues": [
         {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
-        },
-        {
-          "stage": "fetch",
+          "stage": "feature",
           "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 6e5aa01d1235b1f0a5a945e5ddf9bc4efe687f030c68e7d6db7ac7216e8c30",
+          "path": "/chosun/politics",
+          "itemKey": "366ff29e982dd096372b45091ebe3509107da6b7e1665203c069e3c0c96e25f6",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "Unterminated string in JSON at position 259 (line 1 column 260)",
+          "path": "/chosun/politics",
+          "itemKey": "8ba0780aa868d01366bf41965099dd28b2113bfb7b9c747ebf410f8d689ff142",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains duplicate id: e86eef4827ba8643a2b34b2a67d02be5146b978e17d932e9d1d2f4b716c45b2f",
+          "path": "/chosun/politics",
+          "feature": "translate"
         }
       ]
     },
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
+      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
+      "inputItems": 10,
+      "outputItems": 10,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 159,
+          "cacheHits": 0,
+          "generated": 159,
+          "failed": 0
+        }
+      ],
       "issues": [
         {
           "stage": "fetch",
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
         }
       ]
@@ -233,41 +252,51 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 117,
+          "units": 96,
           "cacheHits": 39,
-          "generated": 78,
+          "generated": 57,
           "failed": 0
         }
       ],
-      "issues": []
-    },
-    {
-      "path": "/yomiuri/news",
-      "sourceUrl": "https://rss.20260501.xyz/yomiuri/news?key=***",
-      "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
       "issues": [
         {
           "stage": "fetch",
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
+          "path": "/nikkei/news"
         },
         {
           "stage": "fetch",
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        },
+          "path": "/nikkei/news"
+        }
+      ]
+    },
+    {
+      "path": "/yomiuri/news",
+      "sourceUrl": "https://rss.20260501.xyz/yomiuri/news?key=***",
+      "outputPath": "dist/yomiuri/news.xml",
+      "limit": 25,
+      "inputItems": 25,
+      "outputItems": 25,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 188,
+          "cacheHits": 0,
+          "generated": 188,
+          "failed": 0
+        }
+      ],
+      "issues": [
         {
           "stage": "fetch",
-          "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
         }
       ]
@@ -282,13 +311,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 351,
-          "cacheHits": 307,
-          "generated": 44,
+          "units": 344,
+          "cacheHits": 308,
+          "generated": 36,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -301,21 +338,12 @@
         {
           "kind": "translate",
           "units": 261,
-          "cacheHits": 179,
-          "generated": 82,
+          "cacheHits": 261,
+          "generated": 0,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response missing ids",
-          "path": "/bikerumor/feed",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/purplemanager/bikeradar-news",
@@ -327,9 +355,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 860,
-          "cacheHits": 830,
-          "generated": 30,
+          "units": 855,
+          "cacheHits": 844,
+          "generated": 11,
           "failed": 0
         }
       ],
@@ -338,16 +366,16 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 11,
-    "inputItems": 204,
-    "outputItems": 204,
+    "renderedFeeds": 14,
+    "inputItems": 258,
+    "outputItems": 258,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 1995,
-        "cacheHits": 1726,
-        "generated": 269,
-        "failed": 0
+        "units": 2539,
+        "cacheHits": 1823,
+        "generated": 714,
+        "failed": 2
       }
     ]
   },
@@ -374,75 +402,75 @@
       "path": "/kcna/kp/latest-news"
     },
     {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
-    },
-    {
-      "stage": "fetch",
+      "stage": "feature",
       "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 6e5aa01d1235b1f0a5a945e5ddf9bc4efe687f030c68e7d6db7ac7216e8c30",
+      "path": "/chosun/politics",
+      "itemKey": "366ff29e982dd096372b45091ebe3509107da6b7e1665203c069e3c0c96e25f6",
+      "field": "description",
+      "feature": "translate"
     },
     {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
+      "stage": "feature",
       "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
-    },
-    {
-      "stage": "fetch",
-      "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "code": "generation_failed",
+      "message": "Unterminated string in JSON at position 259 (line 1 column 260)",
+      "path": "/chosun/politics",
+      "itemKey": "8ba0780aa868d01366bf41965099dd28b2113bfb7b9c747ebf410f8d689ff142",
+      "field": "description",
+      "feature": "translate"
     },
     {
       "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "llm response missing ids",
-      "path": "/bikerumor/feed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
       "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains duplicate id: e86eef4827ba8643a2b34b2a67d02be5146b978e17d932e9d1d2f4b716c45b2f",
+      "path": "/chosun/politics",
+      "feature": "translate"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yna/latest"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest"
     }
   ]
 }
