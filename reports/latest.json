@@ -1,7 +1,7 @@
 {
-  "runId": "28907422700",
-  "startedAt": "2026-07-08T00:04:43.460Z",
-  "finishedAt": "2026-07-08T00:18:36.396Z",
+  "runId": "28916923391",
+  "startedAt": "2026-07-08T04:12:15.481Z",
+  "finishedAt": "2026-07-08T04:36:38.958Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,41 +15,12 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 1,
-          "failed": 2
+          "cacheHits": 14,
+          "generated": 11,
+          "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/ycombinator/news",
-          "itemKey": "eb09683fea995011bee8c5eebd8b7b5610ea917909566648aef96f7c2faae6da",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/ycombinator/news",
-          "itemKey": "673702cd49f793435575f87d270107826aeecfeb73ff2e7ef23fe46c91232cda",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/ycombinator/news",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bbc",
@@ -98,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 20,
-          "generated": 5,
+          "cacheHits": 21,
+          "generated": 4,
           "failed": 0
         }
       ],
@@ -195,107 +166,18 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 13,
-      "outputItems": 13,
+      "inputItems": 14,
+      "outputItems": 14,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 149,
-          "cacheHits": 129,
-          "generated": 12,
-          "failed": 8
+          "units": 165,
+          "cacheHits": 69,
+          "generated": 96,
+          "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: a5e885b0801e7c7296cb021b08302d3c6f1d05da77b55b761baa4027c0102a",
-          "path": "/chosun/politics",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yna/latest",
@@ -307,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 318,
-          "cacheHits": 13,
-          "generated": 305,
+          "units": 95,
+          "cacheHits": 9,
+          "generated": 86,
           "failed": 0
         }
       ],
@@ -333,9 +215,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 97,
-          "cacheHits": 0,
-          "generated": 97,
+          "units": 134,
+          "cacheHits": 9,
+          "generated": 125,
           "failed": 0
         }
       ],
@@ -345,6 +227,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/nikkei/news"
         }
       ]
@@ -359,9 +248,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 78,
-          "cacheHits": 58,
-          "generated": 20,
+          "units": 304,
+          "cacheHits": 1,
+          "generated": 303,
           "failed": 0
         }
       ],
@@ -372,6 +261,21 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: bf585ba58d61cafcc4b4accf1c636a0f1e909d4bc9a07a3880821fea30193c",
+          "path": "/yomiuri/news",
+          "feature": "translate"
         }
       ]
     },
@@ -385,13 +289,22 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 231,
-          "cacheHits": 209,
-          "generated": 22,
+          "units": 276,
+          "cacheHits": 34,
+          "generated": 242,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "Expected ',' or '}' after property value in JSON at position 154 (line 1 column 155)",
+          "path": "/nhk/news_web/latest",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -433,47 +346,19 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 252,
-    "outputItems": 252,
+    "inputItems": 253,
+    "outputItems": 253,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2420,
-        "cacheHits": 1938,
-        "generated": 472,
-        "failed": 10
+        "units": 2521,
+        "cacheHits": 1644,
+        "generated": 877,
+        "failed": 0
       }
     ]
   },
   "issues": [
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/ycombinator/news",
-      "itemKey": "eb09683fea995011bee8c5eebd8b7b5610ea917909566648aef96f7c2faae6da",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/ycombinator/news",
-      "itemKey": "673702cd49f793435575f87d270107826aeecfeb73ff2e7ef23fe46c91232cda",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/ycombinator/news",
-      "feature": "translate"
-    },
     {
       "stage": "fetch",
       "severity": "warning",
@@ -496,94 +381,6 @@
       "path": "/kcna/kp/latest-news"
     },
     {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "1219ea4d3ad34090e5377dff92faa460f390ad19b8fbdfd611ca7056f501ec24",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "a6d6649cb2152be238831dbcfd2846392a7f1978805b2e7e95b243585ce799ac",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response contains unknown id: a5e885b0801e7c7296cb021b08302d3c6f1d05da77b55b761baa4027c0102a",
-      "path": "/chosun/politics",
-      "feature": "translate"
-    },
-    {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
@@ -601,8 +398,38 @@
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: bf585ba58d61cafcc4b4accf1c636a0f1e909d4bc9a07a3880821fea30193c",
+      "path": "/yomiuri/news",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "Expected ',' or '}' after property value in JSON at position 154 (line 1 column 155)",
+      "path": "/nhk/news_web/latest",
+      "feature": "translate"
     }
   ]
 }
