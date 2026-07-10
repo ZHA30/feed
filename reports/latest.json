@@ -1,7 +1,7 @@
 {
-  "runId": "29058930214",
-  "startedAt": "2026-07-10T00:02:03.189Z",
-  "finishedAt": "2026-07-10T00:11:49.895Z",
+  "runId": "29069908620",
+  "startedAt": "2026-07-10T04:49:06.026Z",
+  "finishedAt": "2026-07-10T05:10:40.326Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 16,
+          "generated": 9,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 19,
-          "generated": 6,
+          "cacheHits": 6,
+          "generated": 19,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 25,
-          "generated": 0,
+          "cacheHits": 23,
+          "generated": 2,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 13,
-      "outputItems": 13,
+      "inputItems": 15,
+      "outputItems": 15,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 166,
-          "cacheHits": 113,
-          "generated": 53,
+          "units": 150,
+          "cacheHits": 63,
+          "generated": 87,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 157,
-          "cacheHits": 15,
-          "generated": 142,
+          "units": 145,
+          "cacheHits": 13,
+          "generated": 132,
           "failed": 0
         }
       ],
@@ -215,9 +215,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 96,
-          "cacheHits": 57,
-          "generated": 39,
+          "units": 113,
+          "cacheHits": 1,
+          "generated": 112,
           "failed": 0
         }
       ],
@@ -241,9 +241,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 80,
-          "cacheHits": 52,
-          "generated": 28,
+          "units": 234,
+          "cacheHits": 1,
+          "generated": 233,
           "failed": 0
         }
       ],
@@ -267,13 +267,22 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 210,
-          "cacheHits": 178,
-          "generated": 32,
+          "units": 391,
+          "cacheHits": 18,
+          "generated": 373,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "Unterminated string in JSON at position 5861 (line 1 column 5862)",
+          "path": "/nhk/news_web/latest",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -315,14 +324,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 252,
-    "outputItems": 252,
+    "inputItems": 254,
+    "outputItems": 254,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2274,
-        "cacheHits": 1971,
-        "generated": 303,
+        "units": 2598,
+        "cacheHits": 1631,
+        "generated": 967,
         "failed": 0
       }
     ]
@@ -369,6 +378,14 @@
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yomiuri/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "Unterminated string in JSON at position 5861 (line 1 column 5862)",
+      "path": "/nhk/news_web/latest",
+      "feature": "translate"
     }
   ]
 }
