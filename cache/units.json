@@ -1,6 +1,18 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5d2302ee6590bde90e0b033be6cc1f50b662492d83829aba820fc264ed850528": {
+      "feature": "translate",
+      "sourceHash": "a5aa94667c5c3809eb03de82afcf4c23976bc78485ab9fabc460607cb9251505",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "热带森林面临暴露于临界温度阈值的风险日益增加",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:02.876Z"
+    },
     "2c402e956f008a5caabae6a85aeecb87bd0e4008c31757c01d7ba45018dd3fc4": {
       "feature": "translate",
       "sourceHash": "58574c107f3056c68e51682a288ce41b70c7e77d17951bf0fc7ccaf9035b665c",
@@ -12,6 +24,30 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T15:55:43.785Z"
+    },
+    "d9ce9caeb9badc20d1c4ac99b19ff509762b7cdf5898a05ac441abd074336d46": {
+      "feature": "translate",
+      "sourceHash": "93787ff2e0bda327af2aa7aede56528c3390475e33e1a2b53974aec47b4e053b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "奇异值分解的早期历史 (1993) [pdf]",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:02.876Z"
+    },
+    "426ccbf01ffdd97dec0fd6a3e8b92cb4015bdca651879ca44006deeb79a933b6": {
+      "feature": "translate",
+      "sourceHash": "b0df470ae4ac1d39f191692b856e179e8e0c6684b6324608dddeabb345f39381",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "Show HN: 通过从零重建Redis、Git、数据库来学习",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:02.876Z"
     },
     "7911a74b92971e107617ce7930a6374175d54f8ee9a5b682deb87e8e4c57c092": {
       "feature": "translate",
@@ -37,18 +73,6 @@
       },
       "createdAt": "2026-07-11T15:55:43.785Z"
     },
-    "5702b0bb7edee43d8c86c709492138538e03ec74fa36df5131dcb1c08460ae65": {
-      "feature": "translate",
-      "sourceHash": "c4d94c99001e845973cdbd35f5ec745a9bf8f35dc41c7db30979a7ba4873240d",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "你的代码很快——如果你幸运的话",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T13:15:37.404Z"
-    },
     "1f7ede8e2b3f867a63eb889ddb39ceea323912213f4f0be35dc0d1e14d1ad11b": {
       "feature": "translate",
       "sourceHash": "90d5046f94978d741a2f3ada37a892b135c7885d13f451af198d8e9ebe660f47",
@@ -72,18 +96,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T15:55:43.785Z"
-    },
-    "a58d85e3e20827159c7f200399f538945f20beca85b6b2b647ea419271d322db": {
-      "feature": "translate",
-      "sourceHash": "090d81829f8492a414d261df769a61cef906810a6f7dff9465772d7d3c2e04af",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "苏联控制室的复古之美（2018年）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T07:53:05.582Z"
     },
     "80bfcd64ebaebabab92faf5a639fa90cd0e4ae216f6073c4a4cf132459930f1c": {
       "feature": "translate",
@@ -133,18 +145,6 @@
       },
       "createdAt": "2026-07-10T23:08:08.206Z"
     },
-    "cff67e923c4380e8a7382a765a0b185d47d7872c95399e3530ef3da87e5f115c": {
-      "feature": "translate",
-      "sourceHash": "5774f684704393e695633f9f2aeb9c1f7e119fa03194a89646ff0b5a7d8b48d7",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "《终结者2》的技术——口述史（2017）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-10T18:24:01.662Z"
-    },
     "d5af892904f05ef97651cb2e98efa13714a7aabb2b69410027535f31e3273d48": {
       "feature": "translate",
       "sourceHash": "02cb9f46c13c9fb8ba87ea3a9293bec497608339627afde0c21d4fbd10579236",
@@ -156,18 +156,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-10T16:57:10.612Z"
-    },
-    "030be35fd65340d1602e4aa1d9ab3ef873ae0717b416a951128b8e0add1695b9": {
-      "feature": "translate",
-      "sourceHash": "94868e10ed54e443594f8226b32fd69758e0682bb243e3111005ffdc28be9d32",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在生产中使用7年后，Scarf不情愿地离开了Haskell",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-10T23:08:08.206Z"
     },
     "bbd90f9604e8626127a9b36da3187ea526ca0df018fe7d167aaf9abae9003348": {
       "feature": "translate",
@@ -241,77 +229,125 @@
       },
       "createdAt": "2026-07-11T15:55:43.785Z"
     },
-    "6ccb137c5f495f73514f9ebaf5ebe398543c7c34c985b9e1ea23226a697cc622": {
+    "272c23b36322d2ee1826652f9d8c0c41a9f58dcd15deda5bc9f36c8c5b1789db": {
       "feature": "translate",
-      "sourceHash": "2c6c8115e3344684acbd0e7ba6d370f620384fdaf4a7d6f3b598ce521c1f3ebf",
+      "sourceHash": "d462c8230f7debb07c67ad9f62b56de7eba4eae698f3d25e0636fa303ee2c699",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Google 搜索让创作者更了解其覆盖范围",
+      "output": "极乐",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:04:39.496Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
     },
-    "fba177ed67ff5a708d56c2ae1e096b1c022aee07710c20061f8e415d27e1d7b7": {
+    "eb1172181df930554377779d4068d79df7814f0068df680b16aafdc4a3c3de84": {
       "feature": "translate",
-      "sourceHash": "ef642e138f999ad08ed510a6d512adb392eaa744ce80ca1cde49986b5a5a8651",
+      "sourceHash": "66971a0cc2088306f151f46e1ce48b6649f26e1b8f7236b288cdad88b911c4de",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "利用超声波的无声说话",
+      "output": "含铅汽油在发明之日就被认为是已知的毒物（2016）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T05:40:42.704Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
     },
-    "5d2302ee6590bde90e0b033be6cc1f50b662492d83829aba820fc264ed850528": {
+    "0af8493522b4aa2eb942c075e13b9ac04efefba8025c1b38cf93e702ac5beb65": {
       "feature": "translate",
-      "sourceHash": "a5aa94667c5c3809eb03de82afcf4c23976bc78485ab9fabc460607cb9251505",
+      "sourceHash": "2ff3e2ab969ad9903acccb0eaf102316a4f3145fc5c2f9eb372f0a228b5f0264",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "热带森林面临暴露于临界温度阈值的风险日益增加",
+      "output": "美国女划艇运动员完成从加利福尼亚到夏威夷的历史性单人旅程",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:02.876Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
     },
-    "d9ce9caeb9badc20d1c4ac99b19ff509762b7cdf5898a05ac441abd074336d46": {
+    "8b7faab7a9839b421beae1d674e57274909719fa9610c07af591743991c30586": {
       "feature": "translate",
-      "sourceHash": "93787ff2e0bda327af2aa7aede56528c3390475e33e1a2b53974aec47b4e053b",
+      "sourceHash": "4b6ab5159381181e65fb67a64480ef67a8650096b93b3e074d883749670f0ab4",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "奇异值分解的早期历史 (1993) [pdf]",
+      "output": "Sixtyfour (YC P25) 正在招聘",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:02.876Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
     },
-    "426ccbf01ffdd97dec0fd6a3e8b92cb4015bdca651879ca44006deeb79a933b6": {
+    "437a3614e2eee974317bee51983748b1a33516ac49706a9bcb229c14fc04eaf9": {
       "feature": "translate",
-      "sourceHash": "b0df470ae4ac1d39f191692b856e179e8e0c6684b6324608dddeabb345f39381",
+      "sourceHash": "4b9acfee0ac902acfe769db90eee3a9381d77630336b22591e60a5a3e1b74df6",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Show HN: 通过从零重建Redis、Git、数据库来学习",
+      "output": "现代装饰可能让人脑疲劳",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:02.876Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
     },
-    "133ba24cea3d26697263eb859791b4a242ade257f1b47f19a8eee2e7a8c15cf2": {
+    "8cd582dbb109c650ac072c4efd53b481eba2263c6084679a028cdce7ae24f5b2": {
       "feature": "translate",
-      "sourceHash": "134d9185ad5735da85726e8754675f244c05bc5ca2f97509f7536a92efde462a",
+      "sourceHash": "1177ab9c9223839c70f27ce45628212807bf01267e9475cfff76c33b73ee1c2a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "美国希望伊朗承诺停止在霍尔木兹海峡向船只射击",
+      "output": "AI无法重现Thrust游戏（但可以帮助你理解它）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T02:28:32.748Z"
+      "createdAt": "2026-07-11T17:55:38.968Z"
+    },
+    "f7807de1f3bec7287119ad9145c546c8aa03917f51f37907257edb93bca765cc": {
+      "feature": "translate",
+      "sourceHash": "bbdab05e5d8e859e0d025691653b535597ed078ca0e7a0839dcd69f7eb5ac1a3",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "哈里王子在英行程的最后一场活动中谈及悲伤、压力与失落",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:09.284Z"
+    },
+    "81c8461644aacb05f405f76d7261beb41bad9531b1a160d689490d29877cdcfa": {
+      "feature": "translate",
+      "sourceHash": "880cff7b09a579c68d1971a55297d993be64f8c36ae66eb30d173a6fdd3009fd",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "特朗普政府传唤《纽约时报》记者，涉及空军一号相关报道",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:09.284Z"
+    },
+    "412d62a003cce9c01409d51bb1cd9eed8b1c34abad112ce1ff0ff2963c521ce4": {
+      "feature": "translate",
+      "sourceHash": "156f2780b273f5dca491d30efb39744f64db7f6d56c7d01bec41bc89f4ef3848",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "哪些世界杯球星来自你家附近？试试我们的邮编查询工具",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:09.284Z"
+    },
+    "2d77f33a9ab30486f02c6a584b21f364741fa6e9a29e735fa035ad40ddf7d3d7": {
+      "feature": "translate",
+      "sourceHash": "a7ef5159ba1d9d7d4cc9621028564feb93a41b4cdf1d0c6fbccd21a0db5b837b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "英格兰队11次达阵大胜斐济，终结连败纪录",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:09.284Z"
     },
     "dbcde8669ed9e6e0b28ce20145304d84a6ee9a3bd7ed89bf416708913e902ff0": {
       "feature": "translate",
@@ -324,18 +360,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T13:15:50.371Z"
-    },
-    "ed21a9bf2b1b9d21bea59e424a3a880f2d443c244b5f344bc1e69166e7572903": {
-      "feature": "translate",
-      "sourceHash": "d569bd7ca1e2e21b53e5a9e9364c32d4a5587bcbfd04ae4ec49502d78ed22840",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "前利物浦主帅尤尔根·克洛普同意接替纳格尔斯曼成为德国队主教练。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T15:55:50.052Z"
     },
     "d64437111a8371eb16f801910c8aafb05d05bf0777c8d825787af856439a5cb1": {
       "feature": "translate",
@@ -396,18 +420,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T11:04:46.284Z"
-    },
-    "c4086577c721fa6fa9a4a56055932ad0519760b4ed7b0004fe8286f187b8b516": {
-      "feature": "translate",
-      "sourceHash": "aedcbb60e249f5e731f853c153d01faa34d21f79c77b37d31e473bcc2874e2b1",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中国做好准备迎接一周内第二个台风，预计巴威将登陆",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T13:15:50.371Z"
     },
     "62f013e2e518bcd26ea5fd72c14dbb1b1497651ff594712521fe9613d686b2d6": {
       "feature": "translate",
@@ -529,65 +541,53 @@
       },
       "createdAt": "2026-07-11T11:04:46.284Z"
     },
-    "e5d88f7b658723a2b19d58f703e495749ee2121e0b89e6bf87b7fec1c8ee1e72": {
+    "489f9b4f2625bfee98845d027f28842dbe2573814dee4e190f77cd00bed58fa6": {
       "feature": "translate",
-      "sourceHash": "176bd0ca88f257dfeb1370551af7588591947249bc5166804dafbe38f7fd05d9",
+      "sourceHash": "375bbac27f931aee098532f361702689f339e20e4af2fe92a9051bdf5ad45124",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "英格兰准备迎接迈阿密露天高温——但挪威是否占据优势？",
+      "output": "中国一周内第二个台风登陆",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T07:53:22.294Z"
+      "createdAt": "2026-07-11T17:55:59.826Z"
     },
-    "f7807de1f3bec7287119ad9145c546c8aa03917f51f37907257edb93bca765cc": {
+    "9eeaf82ac1040e8606965d698f0c996684757b0cf0453e889b65cfab07539f30": {
       "feature": "translate",
-      "sourceHash": "bbdab05e5d8e859e0d025691653b535597ed078ca0e7a0839dcd69f7eb5ac1a3",
+      "sourceHash": "31d9de2e04783b60ceefa1d55842bc290f162e0da5d5a79efd35c7a7f2c1e932",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "哈里王子在英行程的最后一场活动中谈及悲伤、压力与失落",
+      "output": "警方认为安·威德库姆在尸体被发现前约24小时遭到袭击",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:09.284Z"
+      "createdAt": "2026-07-11T17:55:59.826Z"
     },
-    "81c8461644aacb05f405f76d7261beb41bad9531b1a160d689490d29877cdcfa": {
+    "ebca58f85c2b335f21f85e02031a7f3357d9a81752d90c136e8637d0f8b4a4de": {
       "feature": "translate",
-      "sourceHash": "880cff7b09a579c68d1971a55297d993be64f8c36ae66eb30d173a6fdd3009fd",
+      "sourceHash": "a6618971332e46a1f1d8a6301314c24dd1da06eecfa828acc62247e857b172b9",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "特朗普政府传唤《纽约时报》记者，涉及空军一号相关报道",
+      "output": "美国官员表示，伊朗必须承诺停止在霍尔木兹海峡向船只射击",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:09.284Z"
+      "createdAt": "2026-07-11T17:55:59.826Z"
     },
-    "412d62a003cce9c01409d51bb1cd9eed8b1c34abad112ce1ff0ff2963c521ce4": {
+    "73743b0a2e0777d8abb2bc2f0ee36aa44aaceb4fa6a94ebc4221eb0e9ca8eb73": {
       "feature": "translate",
-      "sourceHash": "156f2780b273f5dca491d30efb39744f64db7f6d56c7d01bec41bc89f4ef3848",
+      "sourceHash": "f5e78c9111e445d7d20ebb15951ecb1aa360db235e3c9a20cffba4ae66fa9d51",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "哪些世界杯球星来自你家附近？试试我们的邮编查询工具",
+      "output": "随着“可怕的”安·威德库姆谋杀案细节曝光，村庄陷入震惊",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T16:58:09.284Z"
-    },
-    "2d77f33a9ab30486f02c6a584b21f364741fa6e9a29e735fa035ad40ddf7d3d7": {
-      "feature": "translate",
-      "sourceHash": "a7ef5159ba1d9d7d4cc9621028564feb93a41b4cdf1d0c6fbccd21a0db5b837b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "英格兰队11次达阵大胜斐济，终结连败纪录",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T16:58:09.284Z"
+      "createdAt": "2026-07-11T17:55:59.826Z"
     },
     "4668972467e173d1b9ccb6b63df324c53f966ba17f5b26c41f7509a2c13f1a8e": {
       "feature": "translate",
@@ -3217,6 +3217,30 @@
       },
       "createdAt": "2026-06-29T05:35:11.892Z"
     },
+    "fa9c5968d72300746b6fe1a27f616e93063c7c4370a95b7e86f9baf020a006c7": {
+      "feature": "translate",
+      "sourceHash": "2fad16409c0a48dc67bd60fa2bb4b067b02c510b437e904e3b8c144eb7b35b44",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "视频揭示了休斯顿ICE杀人案前的追捕行动",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:23.020Z"
+    },
+    "f7656aa03756bcc56cfc60f48dba002bc354f8cca3046d23e018c83be229d90b": {
+      "feature": "translate",
+      "sourceHash": "b9c8a3f93fdc121cf1503c6c6bd9985c91a27f2778a831a97ee36f5fda4ce418",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "穆杰塔巴·哈梅内伊誓言复仇，伊朗高级外交官在阿曼进行会谈",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T16:58:23.020Z"
+    },
     "5a51a5ef0afb75a8a7e70c06c4810123847905463a7eb9180ab136e0167b7176": {
       "feature": "translate",
       "sourceHash": "ee6702e984caf5589edbf3f4344da0f9aca89161706202deb0acdc0d863b31dc",
@@ -3492,30 +3516,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-10T18:24:37.945Z"
-    },
-    "fa9c5968d72300746b6fe1a27f616e93063c7c4370a95b7e86f9baf020a006c7": {
-      "feature": "translate",
-      "sourceHash": "2fad16409c0a48dc67bd60fa2bb4b067b02c510b437e904e3b8c144eb7b35b44",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "视频揭示了休斯顿ICE杀人案前的追捕行动",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T16:58:23.020Z"
-    },
-    "f7656aa03756bcc56cfc60f48dba002bc354f8cca3046d23e018c83be229d90b": {
-      "feature": "translate",
-      "sourceHash": "b9c8a3f93fdc121cf1503c6c6bd9985c91a27f2778a831a97ee36f5fda4ce418",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "穆杰塔巴·哈梅内伊誓言复仇，伊朗高级外交官在阿曼进行会谈",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T16:58:23.020Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
@@ -6145,30 +6145,6 @@
       },
       "createdAt": "2026-07-10T22:03:34.972Z"
     },
-    "3b14c6f62abed738c878bd5826fb34993d02807cd6ad1381a7cd54658778e0ea": {
-      "feature": "translate",
-      "sourceHash": "1427886c34076887cb5f0d611a374341785cf5009d9135217e77c0a22320c5a4",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "国民力量党议员金承秀/News1",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T16:58:34.188Z"
-    },
-    "9290893aca70986d59c84218a66b39c8569a1a22b14e4f77147bc66592ac95ca": {
-      "feature": "translate",
-      "sourceHash": "54c0d60e354993f8a2af4a5437b5626e0a3fef0f4c16633e686401f5ea7a24ce",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "议长们出差最多的国家是印度尼西亚（7次）。6位议长全部去过印度尼西亚。对此，外交相关人士解释说：“印度尼西亚是亚洲议会外交的中心，各种国际论坛频繁举行。”此外，日本（6次）、美国（5次）、中国（5次）、越南（5次）、土耳其（5次）、俄罗斯（5次）的访问次数也较多。议员金承秀表示：“为了避免国民产生公款旅游的误解，应当透明公开国会议长的出差明细。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T16:58:34.188Z"
-    },
     "d152a25cb0b4a37a486374d55f7178665594ac6ed675706f35a515d3b38ba30d": {
       "feature": "translate",
       "sourceHash": "8eb4db4ade34ebef421d3023fefc6738b9d1da4c57ad1e6849147319c12cb0a2",
@@ -6565,89 +6541,209 @@
       },
       "createdAt": "2026-07-11T17:00:19.817Z"
     },
-    "e18c4a5b3a14831424339e44cad11fb72c10d0d2e795cc9355fc316c9108169c": {
+    "cbd688505f06c0bdaba3fa23131de16a58db9093c7eacd9904c6c2d7c0cdb3b1": {
       "feature": "translate",
-      "sourceHash": "c8be0ac001e03637418a96f7ef31cd83fcd6bef60104e690a39c023c29e5ab23",
+      "sourceHash": "58977e0b0e2620a3ecf45a3aca7db6e8623e18599189408c8a828917dd25b6f7",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "[独家]花数十亿海外出差费用的国会议长",
+      "output": "韩东勋表示：“改革新党，必须公开郑义翰‘自导自演’的知晓时间” 李俊锡表示：“在选举期间完全不知情”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.573Z"
     },
-    "a8d25aac520c990a81667a3d92a14d009d2fb9ac800754fde17feec54f0e3a10": {
+    "2f55805f9dde664be8cf4eae80fdf475374362d38f2696a62c0aaf9ff6f70a2c": {
       "feature": "translate",
-      "sourceHash": "9ae24ac6cde6e2818a960dfa4eafa874dc0c745a45053fe980a651b5d6f56e97",
+      "sourceHash": "02077a8cf3511acedb9bb229899e7410a9a2f6b4f35ef3f690c68a0eb79c7b23",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "金振杓90亿、禹元植82亿等 前职6人80次出差，花费306亿",
+      "output": "无党派议员韩东勋在10日就警察在6·3地方选举前就已得知改革新党郑义翰候选人的“恐怖袭击自导自演”的媒体报道表示：“警察和改革新党必须公开他们何时知道‘自导自演’的事实。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.573Z"
     },
-    "97f7b2c912f3d7eceb6640786d48345e9ce447691b3437b166d87dc1e0052a43": {
+    "37495b1d152511a36083f25c65f910ec0fb2df8e906830c709ba5e5d7f54b301": {
       "feature": "translate",
-      "sourceHash": "525fc18d37e0e32d99b93b153a72f1a0916b7101e9196ccce841e586888aa1ef",
+      "sourceHash": "523062b4012fe8be8d8ee072869f9e992b42b21caebccf5c53bcc9372d27edea",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "国会大厦全景 / News1",
+      "output": "无党派议员韩东勋。/韩联社",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.573Z"
     },
-    "78766250f0525b7cc87d4efa69c3866642e79350ae83d538631e468c1ca78cd6": {
+    "38673bab835c76c8b8128011ba046d5464b6b790bf5136cd8c3e3544339fe77a": {
       "feature": "translate",
-      "sourceHash": "486209c2383502284c943d832680a42e74eabd93d4cc06bc2238ab60b13f3591",
+      "sourceHash": "821373db2422bc72bc3613ccffbc1335834888e16aa241ae61e7825183495ce2",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "9日确认，历代国会议长6人共进行了80次海外出差。出差预算统计为306.1519亿韩元。任期内出差最多的是金振杓前议长，每次出差平均预算最多的是禹元植前议长。",
+      "output": "韩议员当天在脸书文章中表示：“郑候选人因恐怖袭击的同情心获得了比应得票数更多的选票，釜山市民被骗投票，投票权被剥夺”，“如果在选举前就知道恐怖袭击是自导自演，那么投票给郑候选人的釜山市民会少得多，（釜山市长）选举结果可能已经改变。”接着表示：“如果警察在选举前就知道是自导自演，就应该公布事实，改革新党也应该坦白事实并让候选人退选。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.573Z"
     },
-    "525c90e4034abaa6f634fcdbb47b18b4d9ee4894ebcf1cf6dbc17aa1901ce0ed": {
+    "522f396e31b4a32ab65a18f69df710e573da88009f7e3b66b47d7fba4f8c6a18": {
       "feature": "translate",
-      "sourceHash": "52c23fa6a4a474f495c1d66b3297ee09a88c4a51a601c59d9175f502d78e1f98",
+      "sourceHash": "a8e6088086f28b917a3d82fa46680ad5dac14f8dd91ea108f9f65e10df104e16",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据国会事务处向国民力量党金承秀议员室提交的“国会议长海外出差现状”资料显示，金振杓前议长出差最多，达17次。其次是郑义和、禹元植前议长各14次，丁世均、朴炳锡前议长各13次，文喜相前议长9次。国会议长任期为2年，相当于平均每两个月出差一次。此次资料为2014年10月至今年5月的统计，期间除郑义和前议长外，其余5名国会议长均出身民主党。",
+      "output": "韩议员表示：“在6月选举后的采访中曾指出，如果警察掌握了自导自演的事实却不调查、不公开，那就是警察干预选举”，“如果在选举前就知道了，警察和改革新党应该对侵犯釜山市民参政权负责。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.573Z"
     },
-    "25a4ec5cabcc7758383349dec6a300eb5ca448e76402d062262a357cc7c069e3": {
+    "4048fed9ec7394d87b4e07fabbee972bb440ede98fea419aea19b6f7237084b7": {
       "feature": "translate",
-      "sourceHash": "39a8acbddec98a68e188fc326844293fa5862b8b83e990b965cabc8cd5e6332e",
+      "sourceHash": "38152bedbea6ef0929dc0b597e0f6319e62e30153a4cdfe0710f4e32b9841371",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "海外出差预算方面，金振杓前议长花费90.8063亿韩元，禹元植前议长花费82.8694亿韩元。分析认为，两位前议长组织了大规模随行团进行长途出差，因此出差费用相对较多。相比之下，其余朴炳锡前议长（41.7102亿韩元）、丁世均前议长（33.577亿韩元）、文喜相前议长（30.1541亿韩元）、郑义和前议长（27.5560亿韩元）的出差预算约为他们的一半。",
+      "output": "改革新党代表李俊锡10日在首尔汝矣岛国会与国务总理韩成淑见面致意。/纽西斯",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.574Z"
     },
-    "1c14fe21c64d5c7e2b062d65bd6f0b5e5002fa770d00697455d80fe345a82e2d": {
+    "c2432f0b6d132a98a06f66640b38c2641dff40e2f073221f67a0fd3fb52ca045": {
       "feature": "translate",
-      "sourceHash": "4910216d6f9d1c987686514702d05639f2f0bed330480832bfe0db7d526d68be",
+      "sourceHash": "26eac490ffcebfbe701ba6abd17fc4b13a2bd4d340fc1abe04db7efd954a88fd",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "禹元植前议长每次海外出差平均花费5.9192亿韩元，预算最多。其后依次为金振杓前议长（5.3415亿韩元）、文喜相前议长（3.3504亿韩元）、朴炳锡前议长（3.2084亿韩元）、丁世均前议长（2.5427亿韩元）、郑义和前议长（1.9682亿韩元）。特别是2024年11月禹元植前议长的巴西、巴拿马巡访耗资11.6961亿韩元，是当时单次出差的历史最高额。",
+      "output": "对此，改革新党代表李俊锡当天会见记者时表示：“（选举期间）完全不知道（郑候选人的罪行）”，“那样的人根本不可能告诉我们（他是嫌疑人身份），警察也没有正式通知我们，不是吗？”李代表表示：“虽然部分政界人士可以提出质疑，但我们既不可能知道，也确实不知道。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:00:19.817Z"
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "faa5954ba069b58e0ce83d84847227c222ca350d3ea5a47c07093864453fb503": {
+      "feature": "translate",
+      "sourceHash": "553a639f980d6b085144e9adfccc0c319f24673029be47f0655540357e3a782a",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "“金民锡CCTV”之谜...金於俊为何播放？如何获取？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "794818335bcd5d25e20fe01375b4529b1a49add702e894f4059645c112e24a37": {
+      "feature": "translate",
+      "sourceHash": "e6219fbf9d049a7650044732fedd4bf1125ccbd82e78e87c94dc228189145557",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在亲清派提出解严缺席论后...金於俊公开视频力挺金民锡。有人指出“这是与郑淸来决裂并与金民锡携手的步骤”。但没有人声称提供了视频...金於俊的获取途径也存疑。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "abf7ebe688d0da445a018b7817d76a4ac498027b1734ce1b8516015b9e1523b7": {
+      "feature": "translate",
+      "sourceHash": "46d8fdf7c216c0a2671ff556269a4d5c2b1c059c3f9173546bd9d2fda8bb1e1b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "2024年12月4日12·3紧急戒严当时，前国务总理金民锡为参加解严表决而晚些时候跑向国会全体会议场的安保摄像头视频于8日在YouTube上公开。/YouTube“金於俊的新闻工厂”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "4fbf07bea073f9c44d6cb46d94f4b8deae9ce6791c0f43138db0c87dea1b9301": {
+      "feature": "translate",
+      "sourceHash": "386eb2abe82493c3314fd8aa973549bd1a880409cff0f4356949b4a2345e43d4",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在共同民主党党代表选举前夕，亲清派攻击前总理金民锡缺席12·3解严表决，最近亲政府YouTuber金於俊公开了当时金前总理在国会内外奔跑的安保摄像头视频。主张是因毫厘之差迟到而未能参加表决。但此后政界对于金某如何获得该视频众说纷纭。因为安保摄像头视频只有国会事务处保管，而此前以个人信息保护和内乱相关调查、审判进行为由，仅极少数公开。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "13ecc2f2798b48ad7a31032c84c0e77a5095c3891e9d31d7c83b8c592411073d": {
+      "feature": "translate",
+      "sourceHash": "5d3a11f9ecb02557938f4eefe5271521b38626917b6c2d579fa9cb4a922cd0d2",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "作为党权候选人的金前总理8日出现在金某的YouTube上。金前总理当时正受到亲清派最高委员李成允的攻击，质问“到底为什么在戒严日未能参加表决”。此前金前总理对相关攻势一直回答称“吃了感冒药睡着了，醒来后立即前往国会”。当天金某为金前总理辩护称“表决时已经越过国会围墙进入国会”，金前总理也说“我迟了1秒”。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "a2b90fd34f9315751d5f0d87d63ce1714275b5de8a4eb1b21c383b33282ec1d0": {
+      "feature": "translate",
+      "sourceHash": "c497dd72096781d8041457e40fb4118d6444c47edc50484abfbd3728686839c9",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "然后金某说：“我们听了那个说法，实际上搞到了CCTV”，并播放了视频。画面是金前总理翻越国会围墙。金前总理略显惊讶地说：“那个只有国会才能拿到吧”，金某说：“是的，我们好不容易搞到的。”接下来的视频中出现了金前总理在表决前在国会主楼内奔跑的场景。金某说：“因为起得晚差一点没赶上”，并向提出质疑的李最高委员说：“请干脆地道歉。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "dcd837a0492e12e6a4dd60840dca93942a7d0cb1d69d68616cde0cf3ffef3b27": {
+      "feature": "translate",
+      "sourceHash": "275bc99c9a54773fdc1364ed2976cda8b3b63edc5b2a2ebe99f98596f23e4f8b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "前总理金民锡8日出演“金於俊的谦虚很难新闻工厂”，说明了前总统尹锡悦的解严表决缺席情况。/YouTube“金於俊的新闻工厂”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "0091f191d0f7fcb4b3461094abe5430eb8bd580efdb2fc70475f34bbb24e320f": {
+      "feature": "translate",
+      "sourceHash": "667302ffb2ce6850002c0d98ff2a9a3c83aa6d4a8d6df2281f019f8f6ad51ac5",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "金前总理的嫌疑似乎在一定程度上得到化解，但安保摄像头视频的获取途径引起了关注。国会事务处相关人士解释说：“只有在安保摄像头视频中出现的当事人直接请求时才能提供视频”，“第三方通过国会获取视频可能违反个人信息保护法。”也就是说，并非金某直接获取。实际上，根据个人信息保护法第4条、第35条，被拍摄者本人可以要求查看安保摄像头视频。但出演金某YouTube的金前总理却表示是第一次看到该视频。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "951f43be8e2827f4958edebed6d0c186d2b729360d9f3081b584a4b00e9ccce0": {
+      "feature": "translate",
+      "sourceHash": "2f62e5309183c620a4a1d887b52543f016ff0453615507a553b8b0b007638ba5",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "特别是，虽然视频来源肯定是国会事务处，但对于究竟是谁给了谁视频并最终流入金某手中，说法不一。现任国会议长丁世均方面相关人士表示：“据我所知，是在前任国会议长时期从事务处流出的”，而前任国会议长禹元植方面相关人士则表示：“完全不可能的事情。”不过两位前任和现任议长方面都确认：“该视频只有安保摄像头视频中出现的人才能获取。”国会相关人士表示：“戒严当时国会内外的安保摄像头视频量非常巨大”，“在只向调查机构和媒体公开部分的情况下，特定视频流出似乎有问题。所以只能进行真相游戏了。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
+    },
+    "5f88feefa6b02e605e5ae218279a9c5fd7ab35a3e7349ee36d34a9b5c41fb642": {
+      "feature": "translate",
+      "sourceHash": "70ef2cf46b6ca099806822029704c90029c27f8fc2b2d136377e48bef25d02b4",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "去年党代表选举时曾支持前代表郑淸来的金某播放该安保摄像头视频并力挺金前总理，对此执政圈内出现了“意外”的反应。金前总理在此次YouTube上当着金某的面用“贪心”等词汇批评郑前代表，但金某没有进行特别反驳。金某曾与金前总理公开对立。金某的民调机构“花”将金前总理列入首尔市长候选人，金前总理方面表示“遗憾”，金某则表现出不快称“我自己看着办”。另外，金某曾发表李在明总统在“培养金前总理为下一任人选”的言论，金前总理则回应说是“武侠小说”。执政圈核心相关人士表示：“支持者中甚至有人说金某抛弃了郑前代表，但金前总理和金某不都是因相互需要而携手吗？”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:56:53.574Z"
     },
     "b508491ec60b29fca5aa8816261e9d2c06677a21cba72f3fa6ef9153c799f601": {
       "feature": "translate",
@@ -6660,6 +6756,294 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T13:20:11.212Z"
+    },
+    "d9a65cceaf78bb46cacb39838e7177c271f6904c941fffe6753cec0496bfcff0": {
+      "feature": "translate",
+      "sourceHash": "01543ceb774ec3f42211207fdd41d60187004198f27ce9037777a0740c282c22",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "伊朗与阿曼外长会谈…\"讨论霍尔木兹安全通航保障方案\"",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "3a722c319e47ab8bc3976329ef799b6f44843e20f5d54885b7032dd7a207c035": {
+      "feature": "translate",
+      "sourceHash": "976a5dd94f710f1fc907623e4b34352cc847a41e9e07a796e70624dc7e9d221e",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "伊朗外长阿拉格齐（左）与阿曼外交大臣赛义德·巴德尔·布赛义迪（右）[阿拉格齐部长Telegram截图。禁止转售及数据库使用]",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "f80919ec5c36a3ec66c5f94fbc4511b1ccd4c539c2fbb3f82d13050793798178": {
+      "feature": "translate",
+      "sourceHash": "b10ed5d6258156a0042cb3102257e93826cb4b87ccba4838b9dabfaacdbf30fb",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "[阿拉格齐部长Telegram截图。禁止转售及数据库使用]",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "395e25496b0acf94ee1d061570213a9b98876a65e4d4dbe70b28e52849945fb4": {
+      "feature": "translate",
+      "sourceHash": "51894901c57c6ee7a045993511f3ac4324cc956f035e2dc663a4a0a8c0038f7b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "(开罗=韩联社)特派记者金相勋 = 在围绕霍尔木兹海峡控制权美伊发生武力冲突的情况下，伊朗外长阿巴斯·阿拉格齐11日（当地时间）表示，伊朗与阿曼在外长会谈中就保障海峡安全通航的方案交换了意见。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "6d728958473e93e4c57c2dde0d38ddf89d8eeeaf8381ab18f4f42f57e71b3010": {
+      "feature": "translate",
+      "sourceHash": "8f6b8344994d5ddc7052c3142d7178fa6acf12536c93e9f0ebd8487b27abd341",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "阿拉格齐部长方面通过Telegram频道传达了在阿曼马斯喀特与阿曼外交大臣赛义德·巴德尔·布赛义迪举行的会谈内容。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "451803f5f2dff7cbd674ec59889215d504629e5d1f1d50d33ea30f51b969b219": {
+      "feature": "translate",
+      "sourceHash": "a9246a997c56d9df13d6ce337c5ba56cc60121628551b96667e9af89e1821a35",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "他表示：“根据伊斯兰堡谅解备忘录第5条，我与布赛义迪大臣就确保通过霍尔木兹海峡船只安全通行的适当机制交换了意见。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "23443d4c3f3c699240c7174855b540434a232188481d993f8dd18d0b2d91a07d": {
+      "feature": "translate",
+      "sourceHash": "38a428cce2b4bd8041fc9f9ca50ee12bb2e2b86f3cab89bfe70c3b2d630bff1e",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "阿拉格齐外长还转述称：“阿曼外交大臣重申了利用外交防止地区紧张局势升级的立场，并表示希望伊美之间的停战谅解备忘录得到完全执行，地区安全状况得到改善。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "76318834edee9fc204284804c45f71009e48b9bd1bc4d9931348d355cd3ae851": {
+      "feature": "translate",
+      "sourceHash": "6dc1f7e819c4c7ea8665bea31aaf16f4f8d42fc733cb6f00cfab6b866fbff2c2",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "举报请通过KakaoTalk okjebo <版权所有者(c)韩联社，禁止擅自转载-转发、AI学习及使用> 2026年7月12日01:36发布 2026年7月12日01时36分发布",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "425b95273a991128bf1ac9e4a47ef82ef93bd36dffb39875c3dbdbe0d497489f": {
+      "feature": "translate",
+      "sourceHash": "a4c5640208149079b667612f04220699568ca804616ab77ac096523ebdf57da2",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "越南富国岛海域快艇倾覆…15名印度游客死亡",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "94335596697c83c78feaa775612955f6b006d3b685ebc6a85d6c78627d9a9689": {
+      "feature": "translate",
+      "sourceHash": "7bfc6deac19e1efbc6915496a76951ec8c6611f8a8dc76fb5f20f240c7462ce4",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "越南富国岛海域快艇倾覆…15名印度游客死亡 [VNExpress主页截图。禁止转售及数据库使用]",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "af33b3e13f0fe3fce8041a5b1a9ea2d04fa0b87167ad2b1fc34e807c4110770c": {
+      "feature": "translate",
+      "sourceHash": "dafae44aa6d091a20dd6f0a62d6f3c6dfaea804b8b9c1daab1ee4985e663eeff",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "[VNExpress主页截图。禁止转售及数据库使用]",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "f9f88571cdcd4ab7590d534bba000f4f59335159b999d738bf0dfdf54b66ca63": {
+      "feature": "translate",
+      "sourceHash": "468b0448bc56fd6b0caa01fe5aeae3b55273e146e9b193fa03b4e8f3dc19d666",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "(河内=韩联社)特派记者朴镇亨 = 在越南南部著名旅游胜地安江省富国岛附近海域，一艘载有游客的快艇倾覆，导致15名印度游客死亡。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "f0b3fe1217e25dfdd194b6cf9a77cffbb373f4fd4a11c0d4929f357d1c614417": {
+      "feature": "translate",
+      "sourceHash": "30ac260e01bc9b27ade013389e568e5706754bd213c8c7bd510e685e0e1430f2",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据11日（当地时间）越南官方通讯社（VNA）和VNExpress等当地媒体报道，当天下午1点左右，在富国岛以南约11公里处的小岛——Hon May Rut岛海岸，一艘旅游快艇翻覆。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "d455930d7d1e7f2955ba384b49fb64d65c3af023b9187bf41aac14d77205cfef": {
+      "feature": "translate",
+      "sourceHash": "4514824b1a29cf05ac749aab706ffb76b13fa0b50e92ee6c97fabd2f73df498f",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "当地当局表示，该船载有印度游客32人、船员3人、越南导游1人等共36人，从Hon May Rut岛出发前往富国港，航行约400米时因强风巨浪倾覆。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "a51993420d9a735a68d95c67f8bbbfdda5952ea44c9db8a863f74d78a00a7045": {
+      "feature": "translate",
+      "sourceHash": "9ffe3901747b6fe09c5816094c18f87146fba104c2c53e63c3cf11ce4c41c5ce",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "随后，附近船只展开救援，救起21人，但发现15名印度游客死亡。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "aa1efb73be7d91262442b6a257f5c7b6f88c6e100215d22e8a312ebf59c74584": {
+      "feature": "translate",
+      "sourceHash": "8cf6adb7a8f3ee99a20ab1a853f29d449b215e590b102a4a63b549371bf54cd9",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据悉，部分游客是印度一家电子公司的团体游客。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "0c16065286f822201c5a508167c26b78188050797878a72f376442712d903272": {
+      "feature": "translate",
+      "sourceHash": "6226b450457fb1f429f857219ad38ce95ddb1d14018ec73d58b4821ffe071f47",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "乘船的一名印度游客阿希什·库马尔告诉美联社，'快艇（出发）还不到500米时突然倾覆，我们大喊救命、救命'，附近船只立即展开救援，但'已经太晚了'。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "5d4b88a3d239f6683b1b7a3f1aed6bd417c589f2f0f02cfc21342bb54b72c915": {
+      "feature": "translate",
+      "sourceHash": "fc106db3279f920951254804bd1f9da3b593f947fd41777a350a26b261912c84",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "他还补充道，同行的3名朋友中，'听说2人死亡，1人情况危急'。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "a55f7a8a2cddc2348332b2dcb0d9ec572027397d6f817f75d94acd522771dc63": {
+      "feature": "translate",
+      "sourceHash": "73740771fdb4021cb5303a06961b2f960d4cc8c6f5beff41f48a940c5dd56e9f",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "一名参与救援的船主告诉VNExpress，倾覆的快艇内困住了许多游客，救援困难，'只有几名有意识的人被救出'。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "04efe6c55434c030e7103b5dd6e32f39b36510f6f0b23d3bd69b8d0c6da4f19a": {
+      "feature": "translate",
+      "sourceHash": "950fad75fb0381496f1416980c9e19f08c7711815b3071cad88d8498d136851b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "越南总理范明政指示公安部调查事故原因，并依法严惩责任人。他还要求相关当局支持遇难者家属和伤者，并检查事故海域的海上安全。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "925e8bb1add6522bae6649c74bb23f936b1d3669141c32baa0274f801b518637": {
+      "feature": "translate",
+      "sourceHash": "07edb38c816dc2cd0e0fe83fb137084165b6a9113a9a903a1a37d8ef839f3310",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "印度总理纳伦德拉·莫迪在X（原推特）上就事故消息表示'深感悲痛'，向遇难者家属表示哀悼，并称印度大使馆、领事馆正在提供一切支持。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "2458813311a8ef5e533a2afe6bbaa2444bc295f069cdfe3b075afcc3ed31c5e4": {
+      "feature": "translate",
+      "sourceHash": "eb33bb9f273c5e2975d1fe13421562e70b7e0af54f1d29a29564e2c96b6a3ce7",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "富国岛是韩国游客也常去的越南代表性休闲旅游地之一，今年上半年游客量达570万人次，比去年增加30%。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "351e7ef47b992baf088309a9554758b017b08732baa46f1ea7cd10737aeb72a6": {
+      "feature": "translate",
+      "sourceHash": "e54ad6620a191fb9f45810dcbb68c4e0e6f0088a76e47b98c08171989f17bac5",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "发生事故的Hon May Rut岛拥有白沙滩和清澈海水，是潜水和浮潜胜地，许多游客乘坐快艇往返于富国主岛和该岛之间。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
+    },
+    "35b1101f3366904ab6321b34be3eebc3ab9862da3e463344170ff8adf648f617": {
+      "feature": "translate",
+      "sourceHash": "14930648a33146988bbd7410ff8f9bc68197c5c3356209e7f7e264c26cd75388",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "举报请通过KakaoTalk okjebo <版权所有者(c)韩联社，禁止擅自转载-转发、AI学习及使用> 2026年7月12日01:06发布 2026年7月12日01时06分发布",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:00:52.761Z"
     },
     "db018a7a96c997e63a67bc8a1b18b1b1ff31de8128d6892ee8a387b5305bb51f": {
       "feature": "translate",
@@ -7693,821 +8077,425 @@
       },
       "createdAt": "2026-07-11T14:59:12.245Z"
     },
-    "c62e0ca90ec4591c1e263ddb4a55ae2f4eaba3e96dfdab56fe55f8a19704598e": {
+    "040df4699de4933cdf8a180d2af0c08074ad64143b49e6f6a165b2a24593f279": {
       "feature": "translate",
-      "sourceHash": "f4129a187e22e89129f38bffdb11a8988c002912287cadf4bf863757d7bdedce",
+      "sourceHash": "a2d561b88d1b109a9f7d1c1092058343e16c28a68de31516ec504ba763aecbb8",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "比利时，明年5月起道路收费…年度通行证最高21万韩元",
+      "output": "美众议院规则委员会阻止将‘韩国歧视美国企业报告’纳入NDAA",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "15446ab8780f4610b43af2c827a74c54fcba93506b9a952ef363140b2e9ccb57": {
+    "a1a363953e54d558606fb6fe3d91286188a66147ecafdf0d955682d4baa864e4": {
       "feature": "translate",
-      "sourceHash": "753f8b753cf74fae24df4d5cbffd1a330f304ce2ea677b3465b68359b3534eac",
+      "sourceHash": "7d40f232b86cc8e638690e9e2bb769d13a34ece9c316222a84ba4cff52edaa86",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "比利时高速公路 [EPA韩联社资料图。禁止转售及DB]",
+      "output": "美国国会 [路透社/韩联社资料图片。禁止转载及建立数据库]",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "5e96ec1fed2eb0c006aeb662588148008dea29c0903f7dd48fd778aca1a53563": {
+    "176d47325f43cd6051f41efc88277074b8a9a2779c0b1d326ba5fe24f7e58ed0": {
       "feature": "translate",
-      "sourceHash": "70866c30883a62f2f450141739ee89fcbbdf9f845c7092aab6c25c3f336667b5",
+      "sourceHash": "8273cb779daf63f7472db5deea26b2178bd01a251a26f1b8eb4fcd2a0d5ef2ac",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(布鲁塞尔=韩联社) 玄允景特派员 = 一直免费的比利时道路将从明年5月起收费。",
+      "output": "[路透社/韩联社资料图片。禁止转载及建立数据库]",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9a14ac39852792c5ab6b741f205d3da3a3a879333fa6b168aa9b6abf1d1cd312": {
+    "45812c9bc2573b6c6b170748c541038f990ba7792d400f22ac9b57bf136a21ec": {
       "feature": "translate",
-      "sourceHash": "929b9712e0e48b0e0629025c27e043cb2a3e7752a35802eab712acf4761e123a",
+      "sourceHash": "eedf69c152c830653da87275d7ece2ecabac18156ef74cca335afd23fb8a772a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据11日（当地时间）《布鲁塞尔时报》等当地媒体报道，首都布鲁塞尔、北部弗拉芒、南部瓦隆等比利时三个自治地区已达成协议，从明年起强制要求使用比利时高速公路和国道的国内外车辆购买定期通行证。",
+      "output": "(华盛顿=韩联社) 记者李由美 = 美国联邦众议院部分议员试图将评估韩国对美国企业的歧视对美国家安全的影响并向国会报告的内容纳入《国防授权法案》(NDAA)，但在规则委员会审查阶段受阻。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "ff621f6ed5ff2a88fa284590fb1a525d6d4b00bf95407648f2b4646bd13d405b": {
+    "2194e76c75198fe54d85ede562310231f2e1d56bab11e78f9817d7c15f836786": {
       "feature": "translate",
-      "sourceHash": "281c3c61bd03962415defe8f74398e32295bb23e92e32ca3ad574dae4f766c50",
+      "sourceHash": "8b9f5e0b2a33b97564938e809e572fd19cc8dddcb4faa408c394acd1030c3488",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "由此，驾驶员需在加油站或便利店等处购买被称为‘Vignette’的通行证，贴在车上或将车牌号登记在系统中。通行证种类多样，有一天、十天、两个月、年度等。年度通行证根据二氧化碳排放量，费用从最低90欧元（约15万韩元）到最高125欧元（约21万韩元）不等。",
+      "output": "11日（当地时间）据众议院规则委员会消息，共和党议员卡罗尔·米勒（西弗吉尼亚州）和民主党议员维森特·冈萨雷斯（得克萨斯州）提交了一项NDAA修正案，要求行政当局向国会报告“韩国的技术保护主义对国家安全的影响”，但该修正案在规则委员会审查中未能被列入全体会议审议范围。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "45449be9e1adad5cb28a31a9ff056f58760c83149d375ad187e3a35e9a57f401": {
+    "3040bdca15ce83a9a1f2ed51601bc5fe42e72c572c735614171e11394fe2607a": {
       "feature": "translate",
-      "sourceHash": "1c09d787e314daddacb078491ee439eb3408dc01b90767199bd70f26741a9a93",
+      "sourceHash": "83ffb8cde7ca579bb43c4dec880f22d5e2542c50b31c4ac4e56473878453f54d",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "摩托车和大型巴士等可免除粘贴Vignette。",
+      "output": "该修正案要求商务部长就韩国针对美国科技企业的歧视措施因有利于中国科技企业而引发的国家安全影响，向参众两院军事委员会等相关常设委员会作简报。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "995edef7a412b8dc21d221569fb507b46d7fcd9a4b491ec53ac5078d7c398528": {
+    "cc3ca538859a3ce02837b077a1606b737eb0c06fb948e35b3011fe6e054721a9": {
       "feature": "translate",
-      "sourceHash": "99c47b58fdc9d4ceea781bc16ee92526cc65a6db5be2894e30fd2b27d02142a5",
+      "sourceHash": "8a3447b9c3385e7f7536aed4b3ab6f0019c5c072ac37917ec7302f0513bb9eca",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "比利时当局计划将Vignette收入用于道路维护和修理。",
+      "output": "具体而言，要求报告包括韩国国会正在审议的《在线平台法》等针对或歧视美国科技企业的法律法规是否会对国家安全产生影响。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "a008a1a36c10d8224b941df182559e2d79722d22bd30ad2db7d0c0a0a5ff61a9": {
+    "3296f183c5c20637aa21e6e9e919966d344d27635c3e663db80fd849ac3b02c5": {
       "feature": "translate",
-      "sourceHash": "b5958cf528f3ba3bd51efb6d3a7b0cbe5b4514f6c08135f30751b43921986954",
+      "sourceHash": "6c3ffd1dde16a749b5efe90aaae655380d792c2a99ca0253aad3604c5d6f49cc",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "未粘贴Vignette的车辆被道路监控摄像头抓拍时，将处以70欧元（约12万韩元）罚款。",
+      "output": "此外，还要求报告针对美国企业的办公室搜查和起诉威胁等行为是否会导致与美国的不必要摩擦，并存在促进中国科技企业成长的风险。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "93923fcc1e916e5aa6e367d6c6dab800d77f303422602ac05dffc04eff447ea8": {
+    "d22040f2c75426fdda73ba7cac5eaac72ccb470d4dd0fcc708287cac14a49e12": {
       "feature": "translate",
-      "sourceHash": "9adcef470752f6dfcbceaae965967c8f9bd21351e5904b868d4ec1632782260d",
+      "sourceHash": "39757583aba0cba60e716179849d9f62b1a62ba6600e7555f5752174c113298a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "比利时当局曾在2009年也推进过道路收费，但当时因邻国荷兰的强烈反对等而告吹。",
+      "output": "美国行政当局和部分议员以Coupang大规模个人信息泄露事件等为契机，一直对韩国政府歧视美国企业表示担忧。对此，韩国政府明确表示不存在基于国籍的企业歧视。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "452c8c0a15d2f6cf6dc8c73625cd5457e6f2b5f28dee7ef971c21e4648fd7283": {
+    "54a4f223826d48378eb2adec752ec858706f67cda3278ccae2b0073909ca7cad": {
       "feature": "translate",
-      "sourceHash": "1e8681b6e27f84c0be4472d7a520b71fc4e2d781e9654daa3eb9e2338d9792bd",
+      "sourceHash": "5d52ee30b531eba77d2757a522d3fe88d91da49d98fb249cf4696b8a9ee5639c",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "另外，在欧洲国家中，德国、荷兰等极少数国家对国内外驾驶员免费开放高速公路；瑞士、奥地利、捷克等则运营按期通行的Vignette制度。意大利、法国、西班牙、克罗地亚等则像韩国一样按区间征收通行费。",
+      "output": "提出修正案的米勒议员是众议院筹款委员会的成员，并在今年1月的筹款委员会小组委员会听证会上声称，韩国阻碍数字领域的自由交易并推进针对美国企业的立法。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9093d48f278b9c478e71057b553b298d26b6c84f1c6d8e57378f43fbf7f16a74": {
+    "e873320b049b3f0777d4fc6496b32ac2511e2bc4d6ccd343cc04fdf0dd7f5916": {
       "feature": "translate",
-      "sourceHash": "d8d11be233f1a17daab845e4bd3ceb1457d20df7eb42a00e6cef56996f9bc53c",
+      "sourceHash": "150b269f1dc68482ad9cbf1f3e522566b7faebe89e08a7c2b54f80513a32542a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "举报请通过KakaoTalk okjebo <著作权人(c)韩联社，严禁擅自转载-再分发、AI学习及利用> 2026/07/11 23:42 发送 2026年07月11日23时42分发送",
+      "output": "NDAA是一项批准国防部预算支出和政策的年度法案，必须每年在国会通过。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "c79ea10ed6a3b0719ed16586fa390e8ca9074f41de10c7065b3ae888080cc9d8": {
+    "35c4a0474226149a666faddfb5bc2a03ce9a0fb22d239ca243a02a0481213058": {
       "feature": "translate",
-      "sourceHash": "b1555b3eac1a0f87d4607a3b23bc4598f60f79307e6bab5e6f7dac4b414994c2",
+      "sourceHash": "f30e3a67ab49db7ae6a32f2a526c39aacca43483cd9ba0172707d7af513269ff",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "最后一场蚕室全明星赛MVP韩华许仁瑞“人生最佳生日”",
+      "output": "因此，在众议院军事委员会通过后、全体会议审议前，通常在规则委员会审查阶段会有数百至数千项修正案涌现。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "8f6ab4739c06f231d22a8fa4ad3243cf9dda581c8bafded215ff7f46eb6cab30": {
+    "fd7dcfbac52010c0a8c558e21adea8787aa7c7a2c8f21c61dff2bfe77bb74575": {
       "feature": "translate",
-      "sourceHash": "d99337cb3ef8ff5a316d9387441376c24f5a0bef247e83a6177f9fa965641e37",
+      "sourceHash": "28426cb19b1d6100188f3ff6f66299276d7a30631953270e1001197e45216302",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "获得全明星赛MVP的许仁瑞 (首尔=韩联社) 崔载九记者 = 11日在首尔蚕室棒球场举行的KBO职业棒球全明星赛中，获得全明星赛MVP的韩华许仁瑞正在拍摄纪念照。2026.7.11 jjaeck9@yna.co.kr",
+      "output": "这是因为议员们不仅希望将与国防直接或间接相关的政策，而且希望将自己推进的各种政策纳入NDAA。在此过程中，不少与国防直接相关性较低的修正案也被提交。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "8bf3203878fdf950e5679a39ce3f40f5078660d4d924f1ae945e56662aef5710": {
+    "8b0b22e0c7905f2294caa566f92083c3c572b2839870f97b04bda931dcb180e9": {
       "feature": "translate",
-      "sourceHash": "5a01af72a1c1aa64f2b4f265103a96400d57e14901f5ae139b91186df9f25e75",
+      "sourceHash": "2dac0bb9029d0a029eb78354a7e82dc6a8dc54d366c11e50e8d927797b9cad26",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(首尔=韩联社) 崔载九记者 = 11日在首尔蚕室棒球场举行的KBO职业棒球全明星赛中，获得全明星赛MVP的韩华许仁瑞正在拍摄纪念照。2026.7.11 jjaeck9@yna.co.kr",
+      "output": "此次修正案未能在规则委员会审查中被纳入全体会议审议范围，似乎是因为被认为与国防的关联性不大。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "8426878f0ed9b18be26f57f289f7a2ecd785f154fcae63db67e5033944c6d089": {
+    "3bb23cdbc4171db86b74ebce59a87d3c13e7831a3dc485f0afa4ff5596d0a92a": {
       "feature": "translate",
-      "sourceHash": "b6e4712a994f4544e45d944fbcd38b7f23d776105143613be1042586e0d750be",
+      "sourceHash": "26f9fd68d587b5a84bcb7ef66496a07206601121c87d8babdb301c1b47c1b859",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(首尔=韩联社) 李大浩、金东汉记者 = 在蚕室球场举行的最后一场全明星赛的最优秀选手(MVP)正是当天迎来23岁生日的职业棒球韩华鹰队捕手许仁瑞。",
+      "output": "今年也有超过1300项修正案被提交，规则委员会只从中筛选出约300项进入全体会议审议范围。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "0702f9a63e80c174c3879de2f9356c48a6e594c8dbaf1f5af90e7d73274cfc53": {
+    "a3f48d325939e7b043226771f40a14372fbec1f46d243c332137c7b1492413ac": {
       "feature": "translate",
-      "sourceHash": "a9db223f1f07644f407b1e1f23e0fe5aac979db3ebcccf23d5c2d1c4c3df4a86",
+      "sourceHash": "2475a2cb9bf5e340a2401323ee6de4ec8be08cccf59490f3a0a977d7f144ba4a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁瑞在11日于首尔蚕室球场举行的2026新韩SOL银行KBO全明星赛中，作为由韩华、LG双子、起亚虎、NC恐龙、培证英雄组成的分享全明星队的第8棒捕手首发上场，取得5打席4安打1得分1打点的成绩，被选为MVP。",
+      "output": "新闻线索请通过KakaoTalk okjebo提交 <版权(c)韩联社，禁止转载、分发、AI学习及利用> 2026年7月12日 02:00 发送 2026年7月12日 02时00分 发送",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9beb737b9d18af0f10e8999a35c49ae528141b7767030119f5766503eadaa77b": {
+    "67a5bbaa31240930d974ffede90f88c303515dc9e9a9bcc411c4e5285a11026c": {
       "feature": "translate",
-      "sourceHash": "ef0685dd779509b51eaee66e071b213c4b2308730a1caeb5b9b1fa85340a4908",
+      "sourceHash": "1220d59a73853bd1fb86e267958ab821a0ec34975a5b535765f63a2bb7aee2c1",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他在记者团投票26票中获得13票，超越当天打出4安打的同队队友文贤彬（10票），职业生涯首次捧起全明星MVP奖杯。",
+      "output": "西班牙南部山火，担忧造成史上最严重损失……12人死亡·7人失踪（综合）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "b7ec1d7ef0d7bdcf47fa326705240a0994fd87b7d7da6bfdba9a74e4b691cb84": {
+    "c926a890baa7b648cefa95671893e6698749d4f3232c4b5099fda13c1588e087": {
       "feature": "translate",
-      "sourceHash": "e2b4798192b9e68a2975c24633a6454fbce5606a78559e33f244dab3f7b3428f",
+      "sourceHash": "dbcff4099a7a7def2745e33c1312ecbbbf5ba1b0d06497b6687483b6ce8bb17b",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁瑞和文贤彬分别在各自的前三个打席中击出安打，展开了激烈的MVP竞争。",
+      "output": "覆盖西班牙安达卢西亚地区的大规模山火 [法新社/韩联社资料图片。禁止转载及建立数据库]",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "95ba610beab92dd2bb2511cc85a4acf41d658b665b18b35c0521e7c20d23cfd2": {
+    "c37a8fa0129682fa7c94af889faf178b862c7133e7836c5faccdaa8ba410055d": {
       "feature": "translate",
-      "sourceHash": "79f4b7a9919eb3b29bfdb7575a736070f7451e9713308b19d92db5a322368530",
+      "sourceHash": "190c4f4a98e30306599ff4a4c227d985a489eafc116b321983a4e849a72702c7",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁瑞在第7局上第四打席也击出安打，率先完成4安打。",
+      "output": "(布鲁塞尔=韩联社) 记者玄润敬 = 据路透社等外媒报道，自9日（当地时间）袭击西班牙南部安达卢西亚地区的大规模山火造成死亡人数增加以来，当地消防部门正在全力扑救。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "0235c9fe1a504d92082f953e15175688a9a3089da48acc3b43f7df93e677cc1c": {
+    "61a682f18a10b5b0a38ca695d819cbc1da7f3302575c13e389e9423165500999": {
       "feature": "translate",
-      "sourceHash": "57b62af67079ee626e72f806e0cc3d9c3210335a3bf603e544a6e34970ac9da5",
+      "sourceHash": "35c3b3e5e24af42f5e43418e70bdea765bdcc3cd9806404f01cec020057f24d4",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "随后文贤彬也在第8局上击出右中间三垒打后得分，以5打席4安打结束比赛。",
+      "output": "安达卢西亚地方政府领导人胡安·曼努埃尔·莫雷诺11日（当地时间）表示，这场被视为史上最严重的山火目前已造成12人死亡、8人受伤。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "2865d9d1b551b8fa7bc945bac5a3984167f9fa5fdc851304a69d3ade38462792": {
+    "7c3b12617658632149b3bcd1844410ad4f8dd159672de939e6c325e30e524ecb": {
       "feature": "translate",
-      "sourceHash": "8cc4a30440aab112550737f40cbb78f4e989d87d8f06df4cfca55a85427e97a6",
+      "sourceHash": "ea9eb67a2ad422f8d3b6afd05d82214fa97f6e38a4e07702b0012c35cef4ff02",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁瑞在第8局上以二垒手腾空球出局，两人的最终安打数相同，但MVP归属许仁瑞。",
+      "output": "其中4名重伤者正在塞维利亚医院接受治疗。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9f6a3a97c664a86ca56d87a5ea05ee959447e16f87e3548b32d148f8032c77c7": {
+    "42e41eefe8663a9bf4020829826f0c643f0a927391addaab01753004a7fee4ec": {
       "feature": "translate",
-      "sourceHash": "de05302ec6748abd18f1c0263942a75c75e46174c0724af90d83e8dbaac010cc",
+      "sourceHash": "a5bdf8a35d10f1768a0b614cdc81b6583c1a826838bbdf7b64ea3a5a2a757cd8",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "韩华选手获得全明星赛MVP是自2023年蔡恩成之后3年来的首次。",
+      "output": "最初据报多达23人的失踪者，在大部分人下落得到确认后，减至7人。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "ae17f894017c5108ccc8547d775b8cc9dc529dffab24d4c57c9a23a86925459c": {
+    "e4daff33d4430f936861e4e9403b0cb1ecbdbb070c23468bb0001c3011601ca4": {
       "feature": "translate",
-      "sourceHash": "2b6a1d3dc1c3cb3eb70c341d850f320175e840ecc3b261be2e63c3e71730d503",
+      "sourceHash": "183049629c12f5d02d139a23c10aafd525043627af1d73f41b9a88e02a08d970",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "继去年被选为MVP的朴东源（LG双子）之后，连续两年捕手获得MVP。",
+      "output": "因山火从住宅撤离的人员也达到1400余人，据统计受灾面积达6600公顷（66平方公里）。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9431b03539a8568018a4e362ef54cae761d6465bb024f84336803dee765e7fd9": {
+    "5c808ecc53d1789664860eff0f75000ed30a08bb51dabaab43dbff62d4ff5424": {
       "feature": "translate",
-      "sourceHash": "26e1bb6a5afac6a018bf5d8417344d7896d2889c4da06c3f278d0828b15dd013",
+      "sourceHash": "0705d621e9a1e99a186379cb6305a5ed7f2e4f7897dc39e739d899bde15b91c9",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁瑞除奖杯外，还获得奖金2千万韩元和Bodyfriend的可穿戴人工智能(AI)健康护理机器人733按摩椅作为奖品。",
+      "output": "已完成尸检的12名死者的身份尚未确认，但当局表示他们大多数是英国和比利时国籍。当局根据4名死者被发现时所在烧毁车辆的驾驶座位于右侧，推测该车上的4名乘客可能为英国国籍。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:12.245Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "6c2e434b3f406463716b6031e341c4d5586dea8f5b6e9074fe1a0612a556fc2d": {
+    "f1a4c0bd2e5edf81d656d680dbbcd2d1537807e0fcaadbd5c3052c57d0ba68c6": {
       "feature": "translate",
-      "sourceHash": "80ec76c88d1b3010fdb4cacdedcbeef0c61425ea8c7594e5db93d61f32c978b2",
+      "sourceHash": "d9c8000b83d28f2753bcfd09352e3267302ab1cd354016d9b4ff25f24fef5ac1",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "巧合的是，这天是许仁书的生日。",
+      "output": "另外8名遇难者是在弃车沿着干涸的溪流疏散时遭遇不幸。当局推测，这条溪流因火势迅速蔓延而瞬间变成了“死亡陷阱”。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "d6ba044ec478fcf7403a88d0d39253fecd7295e14c94788cc04777862a88fae3": {
+    "b529ac5aa1ade8bd807b85079e2d852040a51617cfacdc329e33e9c9574be827": {
       "feature": "translate",
-      "sourceHash": "639725deed431e55c7ad1bc5afe6d489f95341749f908234cccdd79a44034287",
+      "sourceHash": "ed4ae2ca20740440e7e3b52703e8b470aa627bfb7c62139423c8493a9d3756ab",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书在全明星赛结束后接受记者采访时表示：“首次入选全明星就获得MVP，心情很好。”并说：“就像收到了生日礼物一样高兴。这是人生中最棒的生日。”",
+      "output": "安达卢西亚紧急当局悲痛地表示，大多数遇难者要么没有遵守当局“留在原地”的指示而强行逃离，要么没有遵循当局指引的疏散路线而丧生。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "9dd80c2bb8fadda276bbfd70bd3d26f224374b056ee59065acf1f69a13ca8ea7": {
+    "211f81caf94efd3d1df6d950a941d903fd6a39d503eedb832d0df7dd4f61f967": {
       "feature": "translate",
-      "sourceHash": "7a7466c4dbc912712e22f1428ca088a478f7c59afcc71106b24b9d0e379fe852",
+      "sourceHash": "c7ddd0d277eec7d4e2c6576bcbfc63c20b295f51c30f0552d4383989c49e5382",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他说，在看到一直竞争MVP的文贤彬在第8局上半击出三垒打的那一刻，并没有预料到自己会获奖。",
+      "output": "大多数遇难者居住的贝达尔镇当局解释说，“火灾发生后，我们逐户敲门疏散居民，或根据当时火势情况建议他们留在室内。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "f7207083957480433c44db2ef04afe303acd39e871b482e1881c522655a576be": {
+    "f81e1f3aea31c1fb3da252e033acf656412b033cea3a20848041560317b84bd3": {
       "feature": "translate",
-      "sourceHash": "09da36b61eb79ca573bb42f5ef801f68e588c9aa6f5ea76e5231e0835e766afb",
+      "sourceHash": "206c807c72b4f293046851deff1a2989a8f057ba79ec16b57791bd5f98a3fa44",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书说：“（文）贤彬在第8局上半打出三垒打时，我以为MVP会是贤彬。”并说：“结果出来后，贤彬还问是不是因为自己最后防守失误才没拿到。”",
+      "output": "据查，贝达尔村在此次山火中并未遭受重大损失。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "7a67b90c6e0a63258698769f22adbe15d9c1a4ea9aa833260639704bef01e8d3": {
+    "7dfc2289841e1116b5023262422924bebd9dd73f038f983e83af0a86d1d744cf": {
       "feature": "translate",
-      "sourceHash": "e091a064c5c382d394567e2072b1f75954c40ada9ad889b7b7809f6532f5149f",
+      "sourceHash": "e9f7a802f5e459d03e5f4f47ead32411edbf1cc94eec7d2306bd81359ff28085",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "接着他笑着说：“我并没有那么想，但贤彬说，当我站上打击区时，他表达了希望我打不好的意思。”",
+      "output": "莫雷诺首长表示：“这种山火会随着风向瞬间改变火势方向”，并呼吁“请务必始终听从当局的指示。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.141Z"
     },
-    "5ba92948d8eca017977f7999a29c58558dba3b8ef9933de7df09e30dccaff796": {
+    "48317e9d728fbcb4b4d1c1bebb54f5d5ba5f3101d67d97cfe18dd591abdfdb41": {
       "feature": "translate",
-      "sourceHash": "32d4f3d0ff9fd8d2410ee844d405256383a97347471cc6a2b01bd5ac9dbb109a",
+      "sourceHash": "5c6a60f89326697971b0f4c6fb54f0d05d0a8f2da2d5e258896a62a9b0c3d33c",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书在前一天举行的“Com2uS职业棒球全垒打大赛”预选赛中，与姜白虎（韩华）、吴太坤（SSG Landers）一样击出了7个本垒打。",
+      "output": "据路透社报道，主火势已被控制，但由于多处火源尚未完全扑灭，500多名消防员和救援人员正在现场奋力扑救。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.142Z"
     },
-    "237eae7a63b64e4eec20c85f184edeb21807f3fa248c9b6af4e7d1f93161ea08": {
+    "566808c81716d83b6f50fc655549f69b063a9e9c552fb5aa6ff203e3b6cadf35": {
       "feature": "translate",
-      "sourceHash": "b843248008f00d2571ae576956105fe52d6406c4b781368c28b04ac05b7258ab",
+      "sourceHash": "51ae36d9db078badb0061467be3c3e3a74e29f4824390e7ced9ed8d8eb50e015",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "但是根据本垒打数相同时以飞行距离决定两名决赛晋级者的规则，他未能站上决赛舞台。",
+      "output": "西班牙首相佩德罗·桑切斯将于13日前往火灾现场视察灾情，并慰问受灾居民。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.142Z"
     },
-    "e372c23395b48c0a82fe926964aa575c9a1b9205e3732b3f81ea42407c8bb947": {
+    "99715caf87c24f732f2c4f43aaa3dedce4d6952ba769886f93b026ffd958ac96": {
       "feature": "translate",
-      "sourceHash": "885f43c9c9cc612b072d852fd3462fc98b67b4021b42abaca2f857869411acaa",
+      "sourceHash": "c0ac49863418c4350ef22a3968121db919223b7e548e11dd97030f05dd711998",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书说：“一开始不知道打平的话会以飞行距离决定排名。我正准备再打一次，但名字没有被叫到。”他说：“看来我的本垒打飞行距离似乎稍显不足。”",
+      "output": "与此同时，据确认，此次山火发生在安达卢西亚的洛斯加亚尔多斯附近山区，正值创纪录的热浪期间，起因是附近高速公路的电线断裂。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.142Z"
     },
-    "d6f560b8e5bc8c286e3216ee7d8637a7f54794da6a1212865ddeb136cf9aada4": {
+    "acf01329a9a421c9892ed8ffd9a54811f2aee9d178e65f3fe7d4870ed10742f1": {
       "feature": "translate",
-      "sourceHash": "05f57f669bde1137f8b4e5c5ae60848770b7913b18ac59122544ff1fc086e233",
+      "sourceHash": "5234101c1c403c6ee8523fa2389c4e127214279229af3539e101fb9ca0a32b53",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "韩华鹰队许仁书 （首尔=韩联社）金东汉记者 = 11日在首尔蚕室棒球场举行的2026新韩SOL银行KBO全明星赛上，被选为最佳球员（MVP）后，韩华鹰队许仁书正在接受采访。2026.7.11 moved@yna.co.kr",
+      "output": "近年来，西班牙因热浪、强风和干燥天气叠加，夏季大型山火频发。西班牙历史上造成人员伤亡最严重的山火是1979年在巴塞罗那以北约一小时车程的海滨小镇洛雷特·德马尔发生的山火，当时造成21人死亡。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.142Z"
     },
-    "adf162bf128f1ee668fc787fce3d60e1897bb4e4994945327a8fdbdcb4ce7135": {
+    "148a3634e4d60989bb2b760f6cea8523fd1578a9e4f8a2e96ada172426c88375": {
       "feature": "translate",
-      "sourceHash": "cbd4a3a5fb2ab90f0396baee1d0527d8fabf623a0f8cc7057d6f92d4ac4f299d",
+      "sourceHash": "eda496f364e21b7bff7e5396a5870c8e0583cb9193b3746fdd96d19724ae73fd",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "（首尔=韩联社）金东汉记者 = 11日在首尔蚕室棒球场举行的2026新韩SOL银行KBO全明星赛上，被选为最佳球员（MVP）后，韩华鹰队许仁书正在接受采访。2026.7.11 moved@yna.co.kr",
+      "output": "新闻线索请通过KakaoTalk okjebo提交 <版权(c)韩联社，禁止转载、分发、AI学习及利用> 2026年7月12日 01:52 发送 2026年7月12日 01时52分 发送",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
+      "createdAt": "2026-07-11T17:59:25.142Z"
     },
-    "198dd7559d75ee34c6e01f0e825a6e42ba1de262c03405f32f753044f67e184f": {
+    "38598c84c1da03201b5fa05ed7c39337662fb587a8c6fa6cdb2be89ac9bc9dd3": {
       "feature": "translate",
-      "sourceHash": "528fe4a518b352131402a15f1648e8dfaca585f1a607eeba464005c248ab5254",
+      "sourceHash": "49d49f3fb65dc7d0ab24be8e30909ea7db19403cefcc398c001867b2fedec8dc",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "MVP奖金2000万韩元计划全部交给父母。",
+      "output": "【相关文章】",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "bb34d416648e3d04143d536947c8b31a023ee5cfbbdd054f24a6549cd4dba14f": {
-      "feature": "translate",
-      "sourceHash": "f9cc25190986dcd598fb04bfff303f5c7122baa01eca6ab7abe0510b5bfd674c",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书开玩笑说：“我打算先把奖金全部交给父母，然后再说让他们给我想要的数额。反正也算是重新拿零花钱，趁机确认一下父母的心思。”引得一片笑声。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "2a793fe05df82b445948429d15131d4564501c8c10278f3d08989fbfbaa3a998": {
-      "feature": "translate",
-      "sourceHash": "25e8ea2dbd2c780f4080b2b566b2fae66befdbfcac751e29066c7ee9ff48c80b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书截至本赛季前半程，击球率为0.292（212打数62安打）、12个本垒打、39得分、45打点。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "840139c3e83147aa54094562ac35501881801b9609b6f15976e4212ed7e2f54f": {
-      "feature": "translate",
-      "sourceHash": "8aab784525ba79cf96f097adef802eee6320fd9c0df5666bf6656899141bc7f5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在全明星赛上展现出良好打击手感的许仁书，决心与队友们一起在后半程瞄准更高的位置。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "10e97480749638de6e355cc10c3b36538b63646ebd4abc048c6357ea54fafa41": {
-      "feature": "translate",
-      "sourceHash": "7706e20cfe4401eaea97d3b154ae7b05104be10c4ef06a8801011928603c7007",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他说：“从今天的比赛来看，韩华队所有击球员的打击手感都很好。”并表示：“会延续这股良好势头，努力让球队在后半程更上一层楼。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "873ea0f7a06bcc0c8b2ffd3a607378ee08822121223b231025874098e6b542c3": {
-      "feature": "translate",
-      "sourceHash": "7d5d9b79463204b3b6d57a804375bce8dfc3862e502abc3a26f84eb4cb9047fc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "作为捕手需要改进的课题，他提到了阻止盗垒。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "ce48f9f22db65939ea6e9c6bd644ccb02b8d548f710cee33aaa18c302a390c0e": {
-      "feature": "translate",
-      "sourceHash": "f0d3ee2a7eac943bccb64a6d8e85d61bac768cf60259c9ffeeb9a30eb68b018a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "许仁书说：“我自己从未觉得传杀弱，但今年的阻止盗垒率确实偏低。”并表示：“会多研究问题出在哪里并进行改进。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "93da8efa0803ec9a64deac08ef5860260eb27a0cfe68018836c79eb57ebd7b00": {
-      "feature": "translate",
-      "sourceHash": "8cab9ebb4d40220a23744fab889c36281203da028199845e4b1f1c79693f5897",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "以허랄리cosplay进入击球区的허인서 (首尔=联合新闻) 记者최재구 = 11日在首尔蚕室棒球场举行的KBO职业棒球全明星赛中，나눔全明星队的허인서穿着cosplay服装进入击球区。2026.7.11 jjaeck9@yna.co.kr",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T15:02:38.923Z"
-    },
-    "fc18e1a09e8f04a3303a127de1a5beecfac7c88e727302a86522d2498258c048": {
-      "feature": "translate",
-      "sourceHash": "de0887d67dc1b8b244277a60df6e55d95954abc166dad99a6aae0116e935f92b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(首尔=韩联社) 崔载九记者 = 11日在首尔蚕室棒球场举行的KBO职业棒球全明星赛上，分享全明星队的许仁瑞穿着cosplay服装进入击球区。2026.7.11 jjaeck9@yna.co.kr",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T15:02:47.263Z"
-    },
-    "3b324a53326031951067247d4fa6909a0dea7e95e686171a3929735a8202f7f8": {
-      "feature": "translate",
-      "sourceHash": "4008bbb96563205b5ec2a01f78400240d8ccb98f0396e3c5290128bfcd3a2c75",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "举报请通过KakaoTalk okjebo <版权所有(c) 韩联社，禁止擅自转载、再分发、AI学习和利用> 2026/07/11 23:11 发送 2026年07月11日 23时11分 发送",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T14:59:14.333Z"
-    },
-    "d9a65cceaf78bb46cacb39838e7177c271f6904c941fffe6753cec0496bfcff0": {
-      "feature": "translate",
-      "sourceHash": "01543ceb774ec3f42211207fdd41d60187004198f27ce9037777a0740c282c22",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊朗与阿曼外长会谈…\"讨论霍尔木兹安全通航保障方案\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "3a722c319e47ab8bc3976329ef799b6f44843e20f5d54885b7032dd7a207c035": {
-      "feature": "translate",
-      "sourceHash": "976a5dd94f710f1fc907623e4b34352cc847a41e9e07a796e70624dc7e9d221e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊朗外长阿拉格齐（左）与阿曼外交大臣赛义德·巴德尔·布赛义迪（右）[阿拉格齐部长Telegram截图。禁止转售及数据库使用]",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "f80919ec5c36a3ec66c5f94fbc4511b1ccd4c539c2fbb3f82d13050793798178": {
-      "feature": "translate",
-      "sourceHash": "b10ed5d6258156a0042cb3102257e93826cb4b87ccba4838b9dabfaacdbf30fb",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "[阿拉格齐部长Telegram截图。禁止转售及数据库使用]",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "395e25496b0acf94ee1d061570213a9b98876a65e4d4dbe70b28e52849945fb4": {
-      "feature": "translate",
-      "sourceHash": "51894901c57c6ee7a045993511f3ac4324cc956f035e2dc663a4a0a8c0038f7b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(开罗=韩联社)特派记者金相勋 = 在围绕霍尔木兹海峡控制权美伊发生武力冲突的情况下，伊朗外长阿巴斯·阿拉格齐11日（当地时间）表示，伊朗与阿曼在外长会谈中就保障海峡安全通航的方案交换了意见。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "6d728958473e93e4c57c2dde0d38ddf89d8eeeaf8381ab18f4f42f57e71b3010": {
-      "feature": "translate",
-      "sourceHash": "8f6b8344994d5ddc7052c3142d7178fa6acf12536c93e9f0ebd8487b27abd341",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阿拉格齐部长方面通过Telegram频道传达了在阿曼马斯喀特与阿曼外交大臣赛义德·巴德尔·布赛义迪举行的会谈内容。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "451803f5f2dff7cbd674ec59889215d504629e5d1f1d50d33ea30f51b969b219": {
-      "feature": "translate",
-      "sourceHash": "a9246a997c56d9df13d6ce337c5ba56cc60121628551b96667e9af89e1821a35",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他表示：“根据伊斯兰堡谅解备忘录第5条，我与布赛义迪大臣就确保通过霍尔木兹海峡船只安全通行的适当机制交换了意见。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "23443d4c3f3c699240c7174855b540434a232188481d993f8dd18d0b2d91a07d": {
-      "feature": "translate",
-      "sourceHash": "38a428cce2b4bd8041fc9f9ca50ee12bb2e2b86f3cab89bfe70c3b2d630bff1e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阿拉格齐外长还转述称：“阿曼外交大臣重申了利用外交防止地区紧张局势升级的立场，并表示希望伊美之间的停战谅解备忘录得到完全执行，地区安全状况得到改善。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "76318834edee9fc204284804c45f71009e48b9bd1bc4d9931348d355cd3ae851": {
-      "feature": "translate",
-      "sourceHash": "6dc1f7e819c4c7ea8665bea31aaf16f4f8d42fc733cb6f00cfab6b866fbff2c2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "举报请通过KakaoTalk okjebo <版权所有者(c)韩联社，禁止擅自转载-转发、AI学习及使用> 2026年7月12日01:36发布 2026年7月12日01时36分发布",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "425b95273a991128bf1ac9e4a47ef82ef93bd36dffb39875c3dbdbe0d497489f": {
-      "feature": "translate",
-      "sourceHash": "a4c5640208149079b667612f04220699568ca804616ab77ac096523ebdf57da2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "越南富国岛海域快艇倾覆…15名印度游客死亡",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "94335596697c83c78feaa775612955f6b006d3b685ebc6a85d6c78627d9a9689": {
-      "feature": "translate",
-      "sourceHash": "7bfc6deac19e1efbc6915496a76951ec8c6611f8a8dc76fb5f20f240c7462ce4",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "越南富国岛海域快艇倾覆…15名印度游客死亡 [VNExpress主页截图。禁止转售及数据库使用]",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "af33b3e13f0fe3fce8041a5b1a9ea2d04fa0b87167ad2b1fc34e807c4110770c": {
-      "feature": "translate",
-      "sourceHash": "dafae44aa6d091a20dd6f0a62d6f3c6dfaea804b8b9c1daab1ee4985e663eeff",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "[VNExpress主页截图。禁止转售及数据库使用]",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "f9f88571cdcd4ab7590d534bba000f4f59335159b999d738bf0dfdf54b66ca63": {
-      "feature": "translate",
-      "sourceHash": "468b0448bc56fd6b0caa01fe5aeae3b55273e146e9b193fa03b4e8f3dc19d666",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "(河内=韩联社)特派记者朴镇亨 = 在越南南部著名旅游胜地安江省富国岛附近海域，一艘载有游客的快艇倾覆，导致15名印度游客死亡。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "f0b3fe1217e25dfdd194b6cf9a77cffbb373f4fd4a11c0d4929f357d1c614417": {
-      "feature": "translate",
-      "sourceHash": "30ac260e01bc9b27ade013389e568e5706754bd213c8c7bd510e685e0e1430f2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据11日（当地时间）越南官方通讯社（VNA）和VNExpress等当地媒体报道，当天下午1点左右，在富国岛以南约11公里处的小岛——Hon May Rut岛海岸，一艘旅游快艇翻覆。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "d455930d7d1e7f2955ba384b49fb64d65c3af023b9187bf41aac14d77205cfef": {
-      "feature": "translate",
-      "sourceHash": "4514824b1a29cf05ac749aab706ffb76b13fa0b50e92ee6c97fabd2f73df498f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "当地当局表示，该船载有印度游客32人、船员3人、越南导游1人等共36人，从Hon May Rut岛出发前往富国港，航行约400米时因强风巨浪倾覆。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "a51993420d9a735a68d95c67f8bbbfdda5952ea44c9db8a863f74d78a00a7045": {
-      "feature": "translate",
-      "sourceHash": "9ffe3901747b6fe09c5816094c18f87146fba104c2c53e63c3cf11ce4c41c5ce",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "随后，附近船只展开救援，救起21人，但发现15名印度游客死亡。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "aa1efb73be7d91262442b6a257f5c7b6f88c6e100215d22e8a312ebf59c74584": {
-      "feature": "translate",
-      "sourceHash": "8cf6adb7a8f3ee99a20ab1a853f29d449b215e590b102a4a63b549371bf54cd9",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据悉，部分游客是印度一家电子公司的团体游客。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "0c16065286f822201c5a508167c26b78188050797878a72f376442712d903272": {
-      "feature": "translate",
-      "sourceHash": "6226b450457fb1f429f857219ad38ce95ddb1d14018ec73d58b4821ffe071f47",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "乘船的一名印度游客阿希什·库马尔告诉美联社，'快艇（出发）还不到500米时突然倾覆，我们大喊救命、救命'，附近船只立即展开救援，但'已经太晚了'。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "5d4b88a3d239f6683b1b7a3f1aed6bd417c589f2f0f02cfc21342bb54b72c915": {
-      "feature": "translate",
-      "sourceHash": "fc106db3279f920951254804bd1f9da3b593f947fd41777a350a26b261912c84",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他还补充道，同行的3名朋友中，'听说2人死亡，1人情况危急'。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "a55f7a8a2cddc2348332b2dcb0d9ec572027397d6f817f75d94acd522771dc63": {
-      "feature": "translate",
-      "sourceHash": "73740771fdb4021cb5303a06961b2f960d4cc8c6f5beff41f48a940c5dd56e9f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "一名参与救援的船主告诉VNExpress，倾覆的快艇内困住了许多游客，救援困难，'只有几名有意识的人被救出'。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "04efe6c55434c030e7103b5dd6e32f39b36510f6f0b23d3bd69b8d0c6da4f19a": {
-      "feature": "translate",
-      "sourceHash": "950fad75fb0381496f1416980c9e19f08c7711815b3071cad88d8498d136851b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "越南总理范明政指示公安部调查事故原因，并依法严惩责任人。他还要求相关当局支持遇难者家属和伤者，并检查事故海域的海上安全。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "925e8bb1add6522bae6649c74bb23f936b1d3669141c32baa0274f801b518637": {
-      "feature": "translate",
-      "sourceHash": "07edb38c816dc2cd0e0fe83fb137084165b6a9113a9a903a1a37d8ef839f3310",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "印度总理纳伦德拉·莫迪在X（原推特）上就事故消息表示'深感悲痛'，向遇难者家属表示哀悼，并称印度大使馆、领事馆正在提供一切支持。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "2458813311a8ef5e533a2afe6bbaa2444bc295f069cdfe3b075afcc3ed31c5e4": {
-      "feature": "translate",
-      "sourceHash": "eb33bb9f273c5e2975d1fe13421562e70b7e0af54f1d29a29564e2c96b6a3ce7",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "富国岛是韩国游客也常去的越南代表性休闲旅游地之一，今年上半年游客量达570万人次，比去年增加30%。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "351e7ef47b992baf088309a9554758b017b08732baa46f1ea7cd10737aeb72a6": {
-      "feature": "translate",
-      "sourceHash": "e54ad6620a191fb9f45810dcbb68c4e0e6f0088a76e47b98c08171989f17bac5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "发生事故的Hon May Rut岛拥有白沙滩和清澈海水，是潜水和浮潜胜地，许多游客乘坐快艇往返于富国主岛和该岛之间。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
-    },
-    "35b1101f3366904ab6321b34be3eebc3ab9862da3e463344170ff8adf648f617": {
-      "feature": "translate",
-      "sourceHash": "14930648a33146988bbd7410ff8f9bc68197c5c3356209e7f7e264c26cd75388",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "举报请通过KakaoTalk okjebo <版权所有者(c)韩联社，禁止擅自转载-转发、AI学习及使用> 2026年7月12日01:06发布 2026年7月12日01时06分发布",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:00:52.761Z"
+      "createdAt": "2026-07-10T20:28:09.507Z"
     },
     "1a227a1ed3bfdb462706334bafc4f4481db832a10ab79102385984ae481e7541": {
       "feature": "translate",
@@ -8809,18 +8797,6 @@
       },
       "createdAt": "2026-07-11T15:11:02.590Z"
     },
-    "38598c84c1da03201b5fa05ed7c39337662fb587a8c6fa6cdb2be89ac9bc9dd3": {
-      "feature": "translate",
-      "sourceHash": "49d49f3fb65dc7d0ab24be8e30909ea7db19403cefcc398c001867b2fedec8dc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【相关文章】",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-10T20:28:09.507Z"
-    },
     "2efbc476bba130e8bbf5539dcb3faba4ed4203e220af1420bbc708457696632f": {
       "feature": "translate",
       "sourceHash": "ec768dccc79d749af23df9c69ea9e7f1afd28d93b9574065e28e47635efef3d6",
@@ -8881,1145 +8857,833 @@
       },
       "createdAt": "2026-07-11T13:20:57.400Z"
     },
-    "91fefd83cd0ed1092b2d2117277a54da88b88f299992082a39112c85a304f36b": {
+    "63ea3c512fbce8f99d0e18d2fb952a61a1debbbb0af7e931d8065ce5d005e592": {
       "feature": "translate",
-      "sourceHash": "a78c47cc2baf23e12491abd16349a10ee48d7f21d84a68e9c5560b54ad77a4b4",
+      "sourceHash": "79936b3d5123d49c3510b757368bf333df0f218b4d912e7112afbb930f4d0925",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "橄榄球日本队负于爱尔兰队，1胜1负 国家锦标赛",
+      "output": "关于因旅游等目的前往特定国家时需要在网上注册的“电子入境卡”的相关纠纷咨询，已有多起提交给国民生活中心。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "3c501afb06316e42480c1dac7e45d519a1cdd954073b2553789d47f2e1fd41d7": {
+    "a235be9dbedae86796b8c7f9cf6fd7bb36aa214ebceb9e932273e5e99e48e25f": {
       "feature": "translate",
-      "sourceHash": "f90b02208be45854867db21ab45438b8478f95c39ae82e82555e6ffc24dc5ac4",
+      "sourceHash": "bd9f1dc8b7b616b07f0d73388038252f4baa9a52958986a712dda41384f094e3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在对阵爱尔兰的比赛中被擒抱的迪恩斯（右）（11日，纽卡斯尔）=AAP提供・美联社",
+      "output": "一般来说，通过各国政府官方网站申请可以免费办理，但有人因误认为是代办公司网站而委托办理，被收取了高额手续费，该中心呼吁注意。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "d66ad2145b5b57feaed57ea7ef6b4a7dcfb281dc6175d85bde21c8434ef6d866": {
+    "fe2ae76f2c4d7d0d7d12ea4f869a299902e4a188617a1857febcb589d153d184": {
       "feature": "translate",
-      "sourceHash": "1c5848037b84ac26c35ee19ea09f532c0e9581ff45eafeb54e5000b8b550860a",
+      "sourceHash": "398ecc4b34018262fed9fb296221985082f00e068df2e9061e5ce5cee32c818f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【纽卡斯尔（澳大利亚）=共同】橄榄球强队12个国家和地区争夺的新设国际大赛“国家锦标赛”11日在澳大利亚的纽卡斯尔等地举行，世界排名第12位的日本代表队在第2场比赛中以20-36负于世界排名第3位的爱尔兰代表队，战绩变为1胜1负。爱尔兰取得2连胜。",
+      "output": "据该中心称，入境卡需填写护照信息、预计出入境日期等。过去多是在飞机上填写纸质卡片提交给目的地国家，但近年来要求在线提交的国家越来越多。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "b710991607c42250967af077a17f38180d8ae3e0494703056f71b1235d0955f1": {
+    "fe11873089ebbde5b2c28eb109da08c8610112c6f5bb8772ee4f93589adfc031": {
       "feature": "translate",
-      "sourceHash": "c0f3d312fe4d5832acd3e939806b5583dbd193b44a494802af56e40a2fe7bdb7",
+      "sourceHash": "e1d80c222ef7cf47f57fea36d0890938d1f66df64ab63ebab4323837c894b9c3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本凭借WTB梅因（BR东京）的达阵率先得分，但被对手三次达阵，以13-19进入半场。下半场也只取得一次达阵，分差被拉大。历史交锋记录日本1胜13败。",
+      "output": "一般来说，可在抵达前72小时起在目的地政府官方网站免费办理。然而，网络搜索中代办公司的网站有时会排在前列。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "d99a0b70ca1b39a565db12a5c0dfa0cd3fba6613c1912d0b09b6cf129516f4b7": {
+    "167a84425d11415928bc286f14d3a2c865f631f7ac85657feb92bb55939b98c8": {
       "feature": "translate",
-      "sourceHash": "0d4ff6da727bff78d2276b71514b5481734d03ff465c2cb25cb167d6eddfa982",
+      "sourceHash": "84c6d8e25aead3e99315ad61faaf117da003e07a14ad6daa9cd5d9b5e4f0d3ad",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "法国以42-26战胜澳大利亚，战绩变为1胜1败。新西兰取得两连胜。",
+      "output": "有咨询称，因误以为是官方网站而办理了手续，结果被收取了1万5千至2万日元左右的手续费。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "5c3d4a016d68737aacabd06ba378b761b3b53b30259c4d7c180b6095e1e4c934": {
+    "ad4ef656197459160e0a6e3d704578ddfa8cd18e2b7e23a6e3658b9885090bf9": {
       "feature": "translate",
-      "sourceHash": "eb9d5b8f93facc43ce2241fbd42f219725f45338b82625036b16b7c0eb787cc0",
+      "sourceHash": "b56bf5fa77cdc1e784b1574f8e38c071e048fef2b098b651392238d024c71d54",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本将于18日在东京MUFG体育场（国立竞技场）进行的第三场比赛中，对阵世界排名第四的法国。",
+      "output": "该咨询在2025年度约有30起，2026年度至今约有10起。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "db27e63c4023ec1bf0d3b0ab18b19c7f7011a7c2c63719bf2f8fa0026116d953": {
+    "5cca9ba005d67448735cdc54071bfe980aa53ff9dc23780306042413afcf0004": {
       "feature": "translate",
-      "sourceHash": "f9ae368ed3e62d4eade4fcf6c98378dbc5af927d9078cdb47b7ca6aaff6f8481",
+      "sourceHash": "b84d60a64e01804c73f18431fa9e9f0f0687622818b71e10edfded48bcbcd2de",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "福冈・太宰府39.3度、以九州北部为中心气温上升 43个地点出现酷暑日",
+      "output": "该中心表示，代办注册的业务本身原则上没有问题，但说明称“海外公司存在收费且金额显示不清的情况”。并提醒，如果被要求输入信用卡信息就需要警惕。【共同社】",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "8b11f25a8c88471ac0d5ed9f0ddc225a052c0df4048e1717a49929da7bc7d08d": {
+    "3a1c9ca344a3029f9d66cf0f935acc13f384cb55784b529cb8a3564aeaeb07a7": {
       "feature": "translate",
-      "sourceHash": "0a3fe136ad18179c5f436e383383d5a14a10e68415f31b69ef79a91cf42fb093",
+      "sourceHash": "5d014a8196819f2a7bef910ef684e8f33833678549b6448d0043f6bd6deeb382",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在成为酷暑日的福冈县太宰府市，打着遮阳伞行走的人们（11日上午）=共同",
+      "output": "国立大学共同投资股票等，确保地方大学资金 政府建立机制",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "b4cdb6965a780e4adb5f447eef6aab22f816614df6b94e192f652d9fbfc7ba4b": {
+    "516a8555975267067eb1669da2b9050b43b208dfb072f48eecfe9959efa1239e": {
       "feature": "translate",
-      "sourceHash": "87df5d4ac59e473ac034fbb9e0561a6118cdd268f03fdf5365f70b04e4db9d7f",
+      "sourceHash": "53fd1f22ea5920a217466ecdeaf38cecef1e1a20d5608df2bec98d4ca246976e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本列岛11日受高气压影响，以九州北部为中心气温上升。福冈县太宰府市观测到与当地观测史上最高纪录持平的39.3度，大分县日田市观测到38.3度。截至下午8点，全国914个观测点中有43个观测点出现了35度以上的酷暑日。",
+      "output": "即使是规模较小的地方国立大学也更容易进行资产管理。政府开始建立多个大学共同投资股票和房地产的机制。随着少子化导致学生数量减少，加上物价高涨导致校舍修缮费用等增加。通过与拥有投资专业人才的重点大学合作，加快确保资金。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "be9ff66ce73ca5c8319a08367e2e9abb691ddf6574bec74750cc40d7591ebdd7": {
+    "57c31adefed260aece19faa84c127ab28447b980118f400b1e4041c6de35b256": {
       "feature": "translate",
-      "sourceHash": "1537fb2509e7e0551d552686dd7ab97f3637c7606e8614b7828bffa96c04b27a",
+      "sourceHash": "54fc2515ca892d2e5e64cc4e57488c0da1a8e5aa7375d56b3cdf1e64fb05ef79",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据气象厅称，西日本到18日左右，东日本14日至18日左右将被高气压和暖空气覆盖，预计部分地区将出现酷暑日。",
+      "output": "国立大学共有85所，扣除现金活期存款后的运营资产总额约为4000亿日元。在物价上涨中有缩水的担忧。为确保运营费和研究费，自力储备资金...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "9e3509091287d038803127e5113fd5451848345daf047c3886dcdbf818479613": {
+    "2949143b7461a53816d4a4e09adc6f3551af5b31cb8d034f086b3bd056217935": {
       "feature": "translate",
-      "sourceHash": "d90157604be47bc84acd81d0d5ca809d6166e6c6ef9a38716dcb0b92ceb8fd47",
+      "sourceHash": "cb1ef3e6f31a76b1086112cc769d3995446582dd57f8cb37baf4a43437a7b236",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "环境省和气象厅向福冈县和熊本县等地发布了中暑警戒警报，呼吁注意容易中暑的老年人和儿童。",
+      "output": "网约车，印度尼西亚分成比例从20%降至8% 政治干预加强",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "24966007cf7d7f473666198d0c96e51a66c258430555b0f039cb7d21b148dc88": {
+    "04d563de30e4d7701ae5d3f0620cd16313cd6c8bd813d3e7956e2925b1821ca7": {
       "feature": "translate",
-      "sourceHash": "22392a92df74b45615128d3179422fa6b26aa9571f235c82912b2d8e7970f70a",
+      "sourceHash": "947d52c71ee266bb7c24df75f3646d0928b130d660f6bd0f088729e881fd0c0e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "11日，以西日本和东日本为中心受高气压覆盖天气晴朗，各地气温上升。其他气温较高的地方有福冈县久留米市38.1度，同县朝仓市37.8度，佐贺市37.0度，熊本县八代市36.9度等。",
+      "output": "【雅加达=押切智义】在印度尼西亚，网约车巨头7月将对两轮车服务的运营公司分成比例从20%下调至8%。这是顺应政府要求改善司机待遇的新法规之举。可能导致运营公司收益恶化，对服务质量等产生负面影响。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "3d83e43e034da0d015ca10796c14a7d3c23fa0b7447b58cd00d3d3c515052469": {
+    "2ff93c6def59da8516c9cf0d08a3f36e5bca487f97cffb08b4bda1e520afc9a1": {
       "feature": "translate",
-      "sourceHash": "d7d44ce17b6df6c2acedc8a540997b87b699c97eb638357c2243cb4ce812c41c",
+      "sourceHash": "3afa7b87dc71870fadd53056e061eb360422a4fb9d9755ef524de6e17796d3bc",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "包括酷暑日地点在内，30度以上的炎热日达到492个地点。〔共同社〕",
+      "output": "“为了持续扩大司机的繁荣，我们将予以支持。”印度尼西亚IT巨头GoTo旗下负责网约车业务的...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:11:02.590Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "37ee13aa096f6bff5aec47ce3d6fe20af632821daeae84e5029a0f4e64b4409d": {
+    "cfadc963f445aea2b084e573415d26e257ac35fe079251adfb0ca8db033db58c": {
       "feature": "translate",
-      "sourceHash": "6cf8afb025d1ad3c2c2e943c24124aac8dc5dfccfcde59b38c33908043de8630",
+      "sourceHash": "df90517c07f1ba603c87acdeea130cabe230aa3044a5fbba2aa558406f7e3799",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊朗最高领袖对美国以色列“复仇” 哈梅内伊国葬结束后发表声明",
+      "output": "启动修改再生医疗法的讨论 要求查明自由诊疗实际情况",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "573a16f61299f78c1dcf30f6f864fb5c210cdcd09261e04e664298fc070239f5": {
+    "d23fb04286bb18827e4822923be49013bc21b6b7d932d751cae3dd4ebe2e0984": {
       "feature": "translate",
-      "sourceHash": "a28ac8243f5d6f7706611fe06d687efe594878264a4fd5141b4f0a1f9184cf11",
+      "sourceHash": "c89cdae417b62f8979ccd3ad8199f00f17f315e72ea519632176532bed86ac93",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【伊斯坦布尔=渡边夏奈】伊朗最高领袖穆杰塔巴师11日就美国以色列杀害前最高领袖哈梅内伊一事发表声明称“必须复仇”。伊朗媒体报道。",
+      "output": "针对自由诊疗提供的再生医疗接连出现健康损害和违法事例，厚生劳动省从7月开始探讨确保安全性和科学合理性的制度。将召开专家会议讨论修改相关法律。再生医疗的普及与2014年相关法律实施时相比呈现“意料之外”的状况，需要采取对策。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "8faee79adf4ba51deb8a127afdcc32bb21b21669ae0160c43b62109a0b1ba439": {
+    "abdfcedc159884c712384f6f7f63d8796aafcba9c25972d4309e9b4ed6414ebf": {
       "feature": "translate",
-      "sourceHash": "b2efcba7bdc2128d5f515bfa33d62c58f2d893a29517316cab70803cd5bf8a66",
+      "sourceHash": "bed1c3168872399746e5229c4e152a3bc58b31ac4ea5363588c55ad22417e0ae",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊朗从4日开始为哈梅内伊师举行国葬。伊朗媒体10日报道称，哈梅内伊师在故乡圣...",
+      "output": "修改的是保护再生医疗安全性的《再生医疗等安全性确保法》（再生医疗法）。以自由诊疗为目标的医疗机构首先将治疗内容...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "a56bd110124fc99e1c84616a9e7fefbe487ad94b4f256d132da6274c421e4b8f": {
+    "246a4c5501d2a3c3c9b0c9183a1051a2cfc2898e5cf1c80de93870e9e22e01bf": {
       "feature": "translate",
-      "sourceHash": "ba99aa5f469f4efa56e8b3a43bbed28bf9aea2bd953647a57e24fd37d9f6a78b",
+      "sourceHash": "99436735f044356a7190374a7b504abdf26e95ee775fc654989c754a44db6f08",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "高尔夫永井花奈连续两周领先进入决赛轮 怀着7人加洞赛的悔恨",
+      "output": "中国上海市“银发经济”受瞩目 面向老年人的商品卖场扩大",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "c1f76fe1f969bd66e508c742fef847880c85b5c572b9ebcf7adaf02021c02212": {
+    "6c2a863d8e4a01f6b61e3d7f3635d7ba71f875f1247277e848ad26e189337ab1": {
       "feature": "translate",
-      "sourceHash": "9f4ba69609a2d6f3edb78b6e631011a3ac869d61ec6e495a4ba22ee5e60b9b14",
+      "sourceHash": "b65d216bc3647299afc6d7f666a9a845bc9423bfb31dec1e0772321950301778",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "美蓓亚三美女子北海道新闻杯（11日·北海道真驹内CC空沼=6700码，标准杆72杆）永井花奈打出无柏忌的1只老鹰、7只小鸟，交出63杆，创下赛事球场新纪录，以总成绩-16杆单独领先。从首轮开始领先的仲宗根澄香打出71杆，落后1杆排名第二。落后2杆的第三位是赛佩英（台湾），落后3杆的第四位是阿部未悠。",
+      "output": "在中国，对面向老年人的商品和服务的“银发经济”的关注度正在提高。在上海市，可以亲手触摸到为老年人开发的商品的展示厅和卖场正在扩大。随着老龄化加剧，抓住商机动向日益扩大。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "31b10dbc2a8d1fc93d320d09661f6609e493e05d16bef888a1ff3486ba5fc37c": {
+    "cbf67b9436e2ac937d6e5ed302fecbea4236669ca50859a282afe0a04bd558f5": {
       "feature": "translate",
-      "sourceHash": "a6a3a4d2c11541a4bea359f767a125ec4d72d53996bf74520fdb2dfc52c04e32",
+      "sourceHash": "0c69ec71ca2a40dffb852d7b03ab3e992f2da7e9c8ca24646d58892d48870929",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在降雨中，前半场就记分卡添加3杆的永井，转场...",
+      "output": "位于上海市的展示馆“长润养老体验馆”。一进入内部，就展示着面向老年人的鞋子、健康食品、家具等与衣食住相关的商品。2025年开设首家店铺后，至今已在上海、山东省等地开设...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "c04605ea3347ecd0b6ac8d6d1697a3d714fa383b6f20a5674c3200174c4f1af2": {
+    "474b67c16211eb8a3897e941cf6870440dcc2bc16e5e26f7994e6b0e475c57b5": {
       "feature": "translate",
-      "sourceHash": "36e0217465eadeda337198632cb3d79411ec313593babb7fdb85addffe0247a4",
+      "sourceHash": "bf349a28a3d248ed65bf08ec7d572ce3752ce9a0a0c75fd422544819bc7167eb",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "轮椅网球上地结衣达成生涯金满贯 温网首冠",
+      "output": "岛村乐器开设儿童主题公园 在兵库，可自由体验吉他、萨克斯等",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "6697184f1520e5a8dea8d8560dfef4ff40e7bb45f8dea49fc170ee82506be523": {
+    "a8385494d7bdd6938b87c0e0e09c9cc28feba3a906ff5a034d8d46cb70d8e0fd": {
       "feature": "translate",
-      "sourceHash": "7d4d1a5262719ee2ccf993a5b67ddaeced37d5e5f4ec70e3785f01bd05323bcc",
+      "sourceHash": "6559ffb49e65c85e1b5d9b85edea90037f3268ebbcbed100b0a5d07c96d19515",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在轮椅组女单中夺冠并发出欢呼的上地结衣。实现了“生涯金满贯”（11日，温布尔登）=共同",
+      "output": "岛村乐器（东京·江户川）6月开设了以声音和乐器为主题的儿童室内主题公园。准备了可以享受声音和节奏的游乐设施和活动。在少子化加剧的情况下，作为将来激发乐器演奏契机的全新业务，旨在扩大顾客群体。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "81f952bf81b2e1993146fe8d1beb09d4cb71a2b70d38d74a7f08019195e8d9fc": {
+    "34eea8d061b8af16762472a4d4371e7397aafae48b403616c23aa11edd4a1a93": {
       "feature": "translate",
-      "sourceHash": "36c3a31868b7c769236a471666e4c9d45ebcdc12c2b9a8226298f6a2b3a87ad3",
+      "sourceHash": "7bfb50acad1413cc4f073e36ebf2086c45caf24cbfdae5abd4fd1585723f010b",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【温布尔登=共同】网球温网轮椅组11日在伦敦郊外的全英俱乐部举行，女单决赛中头号种子上地结衣（三井住友银行）以6-0、6-0击败2号种子迪德·德弗鲁特（荷兰），首次夺冠，成为日本女子选手中首位实现四大满贯和残奥会全满贯的“生涯金满贯”得主。在该项目中是继德弗鲁特之后的第二人。男子单打方面，国枝慎吾、小田凯人（东海理化）曾达成此成就。",
+      "output": "室内主题公园“OTOVIVA”的首家门店，位于儿童职业体验设施“KidZania甲子园”也入驻的兵库县西宫市“三井购物...”内，该地有许多家庭游客到访。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "a9dfa6566de5fd4f8f9168354e1ad3b2ee62b1b42a84c9391754b778926be5e5": {
+    "f2e24bd813272b2fee74d8e280e05f7eb209810cec8fecb9619bd32904d31643": {
       "feature": "translate",
-      "sourceHash": "ebb61e2d0af75bcd1a650ec12466f5796474da3e787327a37ba705d93eae476c",
+      "sourceHash": "47321fe4d73cb6b43d6addf1c86cf78fbf3daac8c6058d6094d4d3ed7ff12c6f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "男双决赛中，小田和古斯塔沃·费尔南德斯（阿根廷）组合以6-2、1-6、2-6被头号种子阿尔菲·休伊特、戈登·里德组合（英国）逆转落败，获得亚军。",
+      "output": "神八食堂“烤鱼单一突破” 通过声音、光线、视觉、气味引发口碑传播",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T13:20:57.400Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "55cf189654a6040fd26b5b0f24324e59618b169fd76e1505a8d36b2cf6bcd87c": {
+    "be620b793f286a54c3b5355cda6d7225b8928d4ac12811db7c4a360e09d9edf2": {
       "feature": "translate",
-      "sourceHash": "acc58aa331dac239cee7add5a7cf09c3d5e2e826294b8d64f23e681e3e2d08c3",
+      "sourceHash": "d45ef4d364a1d7c5dd0a8df173fe8ff3d42d10b954abd6b66bb0b6f41c12829d",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "英国国王查尔斯与移居美国的哈里王子一家会面 时隔四年见到孙辈",
+      "output": "在餐饮连锁企业为数字化策略忙得不可开交的时代，有一家企业反其道而行之持续成长。那就是运营定食连锁“炭火烤干物定食 神八食堂”的神八（东京·港）。包括加盟连锁（FC）在内共开设110家门店，集团整体销售额在2024年10月期达到48亿日元，2025年急增至64亿日元，预计2026年将超过90亿日元。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "317662d78c69f69e834f6ac315e0eb392dd9b35ee05413047f336d6f907ec9c6": {
+    "e217c3017ccea6ef9c54cecba4534f601d00db7a9d5e773061568efb38af084e": {
       "feature": "translate",
-      "sourceHash": "76bb0148628e1ff71f18201d26894247cb8a15dfbb637176ad1c032b23c2e82b",
+      "sourceHash": "a8d63669441fdb7b85edaa40adc3257dc446b923f8a44c5ff989449de778e6e3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "英国哈里王子（左）与梅根王妃（4月17日，澳大利亚悉尼）=路透社",
+      "output": "神八代表董事江波户千洋称：“现有门店的销售额稳定...”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:08.840Z"
     },
-    "f0f0635ea80807fb2b5e6a6f348dee460879459340e63d68ffc4e5349500dc10": {
+    "f09d4a7c7bcf73452b2ebf2befaee90cd1d0410271186f52a47eb42ce32623e5": {
       "feature": "translate",
-      "sourceHash": "bedfbb045a0efcff2abe7591bb88850e4662efa7d76b7e141d6c26b18e2ea2ef",
+      "sourceHash": "c0523f9098da98dcc4c686ca53e0f026c994f357c33c0f303b28005905c973c2",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【伦敦=共同】英国国王查尔斯10日与次子哈里王子一家会面。这是时隔4年与王子的两个孩子会面。据英国媒体报道。王子2020年退出公务移居美国，并一直批评王室。能否成为修复关系的契机备受关注。",
+      "output": "丰田和电装等公司将政策持股减少三分之一，为解除交叉持股出售9300亿日元。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "159926a77aabb9cf0b9279cce408f53353c368e822a42ffce477b7269572c6ab": {
+    "edde9040be01e90d00ae719bc9c103e2f0608346627297d5a4660c6e9d03e6a5": {
       "feature": "translate",
-      "sourceHash": "40265d7232d73072ba5ed5f03db965bcbcf9a1b07f9c3dff3d857acc61d47eb6",
+      "sourceHash": "2ca098c8a9e57122f310998cbacc3babe472af34fd2c3790c467e73aa99d863e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据PA通讯社等报道，国王和王后卡米拉在西南部格洛斯特郡的私人住所会见了哈里王子、妻子梅根王妃、长子阿奇王子（7岁）、长女莉莉贝特公主（5岁）。国王与两个孙辈见面是自2022年伊丽莎白女王（当时）在位70周年纪念活动以来的首次。由于是私人会面，照片和视频未公开。",
+      "output": "丰田集团解除交叉持股（政策持股）已进入最后阶段。丰田汽车和电装等整个集团将在2026年3月期出售9353亿日元的股份，持有的股票数量减少到四年前的三分之一。此举旨在提高股票流动性，明确以市场为导向的经营方针。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "ae46dd0da6fa477abb12c0051ad88b54329aaf4852bd8585954f862bfe245a89": {
+    "b95036e5792723d717007b0400de9612d2a698a55f0a9cc52df99a126ffb7f1e": {
       "feature": "translate",
-      "sourceHash": "e0718446b22ca454881bd07319eb3c13e4ab4a1c15bbc67288f1d3bba7042cfe",
+      "sourceHash": "bde97cf4c1df63f03bd8a298ee34ea7158ab288530cdc06de65d0a6ef10a80ea",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "哈里王子本周回国参加慈善活动。据传关系不和的兄长威廉王储并未被报道与其会面。",
+      "output": "对丰田、电装、爱信等8家公司（不包括已私有化的丰田自动织机）的有价证券报告书进行了汇总。2026年3月期的出售额（不包括视为持有）为2025年3月期的1兆1395...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "9a6ea81481d033843b3d466d6e504ee11af67747da81bb9ead9fed58cdd17252": {
+    "cf04ee46035b89545dba9962744e87a892570914829b662a5cdec376a2de3fb5": {
       "feature": "translate",
-      "sourceHash": "45de5094891842359589b1565401b4b5758cf6e89ce3b44944165ccb0e600789",
+      "sourceHash": "7c6685eb269a6c37af07a362c71ef98ae1a142dd93fc2d14ec10ac33baa46b4e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "GPIF另类投资将扩大至“上限5%” 政府金融战略明确",
+      "output": "新员工对上司的期望：“该说的就说”连续3年增加，对成长感到焦虑。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "2b0b417facd7ebb524dc4db6359b867e3b2e36d4d0bd2149035d64b2ac056704": {
+    "07c8ce7b3332dbb87d9ce95fa08666a5038ee699c81de6da62a58b0e8d0d93a5": {
       "feature": "translate",
-      "sourceHash": "6bf74d9f25df3989d05a6b8286d2f51da4e9c8e4097554f2e6963435e4bd6c88",
+      "sourceHash": "e9bb02a2decb4983b0d491f860acd6fb07b3c4d9732c5f23cbe6997c0ddb851e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "政府将在新制定的金融战略中明确扩大年金积立金管理运用独立行政法人（GPIF）的另类投资。目前资产整体上限为5%，现状不到2%。战略提出“以实现5%为目标推进运营高度化”。",
+      "output": "新员工所期望的上司和职场形象正在发生变化。根据Recruit Management Solutions（东京·港区）的调查，要求上司给予细致指导的比例达到半数。另一方面，要求“该说的就说，严格指导”的比例也连续3年上升。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "7ed1d935ff8cbaa801af3266a217012c0822009dc1be50e08b9d22393b922f2d": {
+    "e6b1b767e1611ea6b4ee197e7402379c8da58f490f8a0cb55f7d481a25901229": {
       "feature": "translate",
-      "sourceHash": "fb2566d6b9fd444832e5927c8c6629945ae94162a919290d2b34ce9d3548b887",
+      "sourceHash": "2b55580814937280d35be7a8ab8a09189ead95df6df7458f67b39b39f3097ae9",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "将被纳入日本增长战略会议下设的资产运用立国推进分科会在本月内汇总的“促进增长投资的金融战略”。在扩大年金资产运用范围的同时，呼吁扩大国内投资资金...",
+      "output": "4月，向该公司公开型新员工培训的参与者发放了问卷，此外，3月至4月期间，通过学习支持系统向讲师派遣型新员工培训的参与者进行了问卷调查...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "ce6ff6c51eda532694e12e56bd9b22b23e36f2b9973bffc37910b8cd579ce080": {
+    "2fb570391d083da7cddafe55c72639bbaf19212ebc9f72a3eef993e7653cebbe": {
       "feature": "translate",
-      "sourceHash": "9f4b5745302b91387b09319b245e221969402d9ca1e13b0b841ad0340634875f",
+      "sourceHash": "6f15c31421822d73c20080bf836e33b6660e728843fa0d9618e39dc9a0d95091",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Meta“Ins”图片被擅自用于AI合成功能停止 遭批评",
+      "output": "KONA'S在涩谷推出“夏威夷美食”，以酒和牛排瞄准市中心。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "4b138a7cb6dbc64fc6f8ffb9462d0636b650f4e9eb26935454960e08c39055d5": {
+    "e4b255212d0ebecbf80a69573bdc486c89ad722c58c6a7472bad61b7eb3663b9": {
       "feature": "translate",
-      "sourceHash": "69aa3c53e958e456a583c04cacc048b1f103ffdc06663b0f5da5cab4871aaf2d",
+      "sourceHash": "749d4bd5a4da669681c53fbc94882d2cb1f37d967d59316d369a02bf3007811f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【硅谷=山田辽太郎】美国Meta 10日宣布，停止允许他人将社交网站“Instagram”上的投稿图片用于人工智能（AI）合成的功能。该功能于7日开始提供，因默认设置允许擅自使用图片而遭到批评。",
+      "output": "Toridoll Holdings旗下经营咖啡店的KONA'S（东京·涩谷）开设了提供丰富酒精饮品的新品牌“goodNess”。还提供牛排和生鱼片等，以提高晚间客流量。将以繁华街区为中心扩大门店。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "0792a7bc565f114a49de53d84351cceb19e840d36b7fcde2792e49fd3a304167": {
+    "dd363090a8d64ce59cd823fd12ac1eb77b0083ca734f3d0584cbf0d51de09c71": {
       "feature": "translate",
-      "sourceHash": "f205deacf8d21fc058ef717a5e8a7d2be7c963fca9333f89506b3b5bc32a9bdf",
+      "sourceHash": "2550f14937e3b38a02c1c9ed835f0cd1ccac886f65bbf068d428ea5994a3dd75",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "停止的是该公司“Meta AI”应用等中，指定Instagram账户并AI生成该人物登场图片的功能。该服务于7日与新型图像AI同时发布并开始提供，日...",
+      "output": "1号店位于涩谷Mark City。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "0f2ee92c5492e498ba26ed3bfe658621c9a4f67274c9ffe427baa19dc67a50ab": {
+    "39681f46c84ea2b2d15a8f34f8c3fb9ce848fc15384e4dfb7f3c7367b821cd75": {
       "feature": "translate",
-      "sourceHash": "6aa3bba0e3025cafa2fb90685b4523e5f97c3410301ac84360bd51543a3b2bb1",
+      "sourceHash": "9076378c9f2c066bd9f3097c3afaca962df2997cd48374ed283b041f3c5ea019",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "皇室典范修正案众院表决 对退席表示一定理解 中间派·小川淳也代表",
+      "output": "goodNess的首家门店位于与涩谷站直通的“涩谷Mark City”，于5月28日开业。“KONA'S Coffee...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "fb5f63cf712d9e3788c9b39aa3b88ac2fe38144eca996344b84dc74a96837e63": {
+    "3584a8f277fbc798878d7f6fe4cbcc3ffec6ae31b70c24d02390f55f4dc5ecfb": {
       "feature": "translate",
-      "sourceHash": "1d45e51ab6d26f6435717880b34e355eb9d3db3eb09b8e8148e13b6af321e081",
+      "sourceHash": "3183b1d3b2fa0f2aed5e31375eb584ab1a4f9e03bc790564cf7d7979a907eeb4",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中间派改革联合的小川淳也代表11日就皇室典范修正案众院全体会议表决中出现党内退席者一事表示：“虽然有党决议，但如此重要的课题有各种经过，每个人的政治信念绝非相同”，表示了一定理解。",
+      "output": "螃蟹在废弃塑料瓶中生长，海上漂流两个月，广岛大学等",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "cdc6af6b578819fcce37d357253bc1b42fc8c92ddae883fb5edcd2980c7c4d4b": {
+    "7045f9409ce54ff29cdfe0ace985be13fd99980308960b898faefdb4289a74e3": {
       "feature": "translate",
-      "sourceHash": "976af9bff489139b4b0dcbaf4a7234e75d4b7665fa3de7d5b995dd8d00f990ee",
+      "sourceHash": "806f1d16a8882db6041b67be498bc84a6b8975f1184578c5bdb96f05bf9ed9cd",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "同时表示“对令同事痛心感到一部分责任”，关于今后应对仅表示“将在干部之间协商”。〔共同〕",
+      "output": "螃蟹已经长到无法从瓶口出来的大小=佐藤初·广岛大学提供",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "3526df39c1abbf31fd26f9a405f5072740823ce6ab87597b1e08738f6003b265": {
+    "0d3497203e5bd2c4c3de9644eafc5000e886694ba0b3e202a527238325d195bc": {
       "feature": "translate",
-      "sourceHash": "c772e0bdadc29e9246c53611a17afae1c7661816da5e09075ee0cf50f9aab066",
+      "sourceHash": "5a178be84b12315a9bb091244d22a6d060122ae70fbebf82a59f467a06552d3a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本金融教育支援机构 神户举办中学生高中生学习金融活动 1分钟视频等",
+      "output": "广岛大学揭示了螃蟹被困在海上漂流的塑料瓶中存活两个月的事实。螃蟹在幼年时进入瓶子，以附着在容器上的微小生物和藻类为食成长。被认为是因为体型变大而无法从瓶子中出来。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "c5744ae689c75672a6f2bee4e116e4abeab3f8de1a3a4f3a5d7f30d4358e72be": {
+    "ed71d5a68e345f5e4103d16a1f31e9afebb3ce2349e5d481c88cc549e5c063da": {
       "feature": "translate",
-      "sourceHash": "12d67039a78279056535ca4da965f55c3bd288e45d57f3af12aee94fd72dac9e",
+      "sourceHash": "604d96afc383b72a76b0c0ca40cc262783a9a7fb3f2b4ebc04989f03c8854d56",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中学生高中生等努力制作金融教育视频（11日，神户市）",
+      "output": "人类废弃的塑料垃圾作为海洋漂浮物被认为对海洋生物的生态产生影响。虽然关于详细情况仍有很多未解之谜，但这被认为是影响甲壳类动物的一个例子。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "9fffbc495ecfbd867b1c53098ce80818e3f2b7dcabc8ecc3048cc9b35d4b8239": {
+    "5d381af9c15269fce20bc0325afb78dee98621cd0067b5a4dd295ed933f0659b": {
       "feature": "translate",
-      "sourceHash": "8500caa96b678a2e87289f4ee18c76b12e80a02204981f816711cd272c0c5073",
+      "sourceHash": "d59930078359727a36c81d380bec057bc731443e232a186dcacefd53939a36a5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本金融教育支援机构（东京·千代田）11日在神户市举办了面向中学生高中生的金融教育活动。中学生高中生们分别构思了以金融为主题的1分钟小学生用视频。作为通过制作视频学习金融知识的工作坊举办。",
+      "output": "装有螃蟹的瓶子于2022年夏季在冲绳县的海上被发现。这是一个装绍兴酒的容器，瓶口直径约2厘米。螃蟹是一只雌性的“眼斑蟳”（属于梭子蟹科），已经成长到即将能够繁殖的阶段。甲壳的纵向长度约4厘米，宽度约9厘米。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "884a1391adff859baf6615ca8612272ee0977031029c14c883510cbfa3b4fed7": {
+    "24e98869b97092cfecf15d698447063ea22b675cfc6eb800184d73af7c929e9a": {
       "feature": "translate",
-      "sourceHash": "b4e897be1ddf34f9f144b702a4e7d1460c06157821b8696bcfeae053320a9a67",
+      "sourceHash": "d4ffd8635e65cc7ff3227c367a989fda74b565bfa94edfbe6a5348ef60634c76",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "以兵库县内初中和高中为中心，共计40名学生参加。将税金、投资等与金钱相关的术语写在便利贴上企划视频内容。有学生表示“考虑如何向小学生说明很难”。",
+      "output": "研究当时在广岛大学博士课程就读的佐藤初（现任冲绳科学技术大学院大学研究员）和广岛大学的坂井阳一教授等研究团队调查了螃蟹进入瓶子的经过等。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "b08fed96a0ff38af56910df1da95395427ce5d8d2b2174b36b28c2c865e8f028": {
+    "2820c457314a4c0522ff3270204fc057c0128eb5eab6bce035f674ae57d1e188": {
       "feature": "translate",
-      "sourceHash": "39c765d907edc361bdf25fd89fa186daeb2d482659f2a89d9c9f661d4ef03d3f",
+      "sourceHash": "69d1d4caf897ae0854efda1dbb64efac46e255dbe2a89b0a2663a7965cfa503b",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本教育支援机构成立于2022年。除了面向初中和高中提供金融教育上门授课和企业培训等，还举办全国中学生高中生发表金融教育视频的比赛。",
+      "output": "具体分析了螃蟹胃内容物和瓶内微小生物的生长速度，发现螃蟹在容器内存活了2个月并成长。螃蟹有抓住漂流物的习性，被认为是在幼年阶段进入容器。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "39a309149ed1313ef1f82a648c52ff5b57c28d0d125294dd27740d837ef00921": {
+    "5f86514084db67c030fb259750626e0fa920095cbd22528cf045d7a7c0d20513": {
       "feature": "translate",
-      "sourceHash": "ac792017ee2453f5bb56c8abc5df2c3ae39898acb92487a9364f29ba39b6b640",
+      "sourceHash": "213dbef8bdf972455ccb35dd473764f6029b53f65fff600ba77c037e790ebc5a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "围绕“加深的世界危机与媒体”展开讨论 日经·上智大·哥伦比亚大",
+      "output": "坂井教授表示：“利用科学技术得以调查螃蟹如何在瓶子中存活。”一系列分析结果发表在国际学术期刊《Ecosphere》上。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "e58570455774debe9e804cb967dc03a1386300b6b428c388294fe044add04fb1": {
+    "c3ef2c07ee075e8a9c50359e410952bcd1387c6926873096236b29462d8cde38": {
       "feature": "translate",
-      "sourceHash": "ecc9484a415d953caacfc5db0f54afb0723d7340465bfa0e09b70518bbbae0a5",
+      "sourceHash": "5854fda2baa250e12673e766f99c10b98d3b254b0c8299073da13036cbc0bbd8",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "发表基调演讲的美国哥伦比亚大学新闻研究生院纳瓦罗利女士（11日，东京都千代田区）",
+      "output": "将员工AI应用反映在薪酬中，本田对选拔的1000人每月最多增加15万日元。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "4b4c1c872826e52314024eac108ee8773f02fb3928b9a2efd9344931366ff57a": {
+    "25f569d66ead874489920959e7d6b099d1902f5d7050096fed25bff9e7117d3b": {
       "feature": "translate",
-      "sourceHash": "8deb4290e7bbcb5c1bec175b89b085e7af5d726665de61b1841cd142696aee8e",
+      "sourceHash": "728e3f2a21aebc7141b1e942e1e2dbb9236727c4f1598e1be055cfdcbb06f1c0",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本经济新闻社与美国哥伦比亚大学新闻研究生院、上智大学媒体·新闻研究所11日在上智大学举办了学生支援项目“加深的世界危机与媒体 思考未来的新闻业”。",
+      "output": "日本大企业开始推行将员工是否善于在工作中使用人工智能（AI）反映在薪酬中的制度。本田向精通AI的人才提供每月最高15万日元的津贴。日本企业在AI业务应用方面落后于海外。通过制度促进员工使用AI。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "5e587558047316d99bc15d97de2b5a0f600afdc53ba64cf25d5096cc39989ba5": {
+    "db575bb4fa9a8053e40337d3906c55bf7a56d39651cd09f4c47ef95d46db607a": {
       "feature": "translate",
-      "sourceHash": "96f4ede6ac2a1baafbfe12c6c63ba6061e5e0b0fd0422fe028b6f7a626ad9557",
+      "sourceHash": "eb3b787f9c17a576072b28f702af30bf242070757f1c51a503514fa5c9da8edb",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在中美对立和俄罗斯侵略乌克兰等导致国际秩序动摇的背景下，专家和记者等讨论了媒体应发挥的作用。",
+      "output": "本田实行根据AI技能将员工分为三个等级并支付津贴的制度，该津贴与基本工资分开。对象包括研究所在内的国内全体员工（约45000人）。2...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "57ef6fb3661d73d692b7ecd7d5521de1458a6c62c21233a872cf1b31a6390ead": {
+    "4a5bb620dfa95f5ac4e64fabc8471e57f4cd70182fa700505fd41fbf5577cf36": {
       "feature": "translate",
-      "sourceHash": "c5c7726fd26e79ce2182fe216a6e372d3ef7f15942663e00840b32a6c2f85aa9",
+      "sourceHash": "047fa3256879fa2bb2db2522f1c61b86859579af281b7c4798fb195d2ecf586d",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "上智学院理事长萨利·阿加斯汀在开幕致辞中呼吁：“希望大家就如何应对国际社会环境变化以及未来社会应有的样子展开活跃讨论。”",
+      "output": "Anker推出3.7万日元耳机，内置AI语音记录，可立即录音并总结摘要。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "196fbb2e35a764ad2172484bb5fd7de1ca9b74d899a851450449d31a8b529fcf": {
+    "0f9264c1bd309e03436c8b66e9e6a4df17e45563fe7bf59bd2254e8608c68cdf": {
       "feature": "translate",
-      "sourceHash": "3df329e1b1fc374952394b02c807513d116703b784ab7314fd39905a8dc138b0",
+      "sourceHash": "8e6d014ea8a4bbb7314b5a933fb11dbd2e9e0ae222f821d76925304c4183e1a2",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "随后，哥伦比亚大学新闻研究生院院长杰拉尼·科布指出：“在地缘政治紧张加剧的背景下，错误信息以前所未有的速度扩散。”他认为记者应承担“连接复杂事件与社会的桥梁”作用。",
+      "output": "中国系移动电源巨头Anker Japan（东京·港区）于5月推出了两款旗舰完全无线耳机。这是该公司首次推出超过3万日元的产品，此前一直以中低价位受欢迎，此次将向美国苹果占据优势的高价位发起攻势。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "9ca2e89a8b026a4ced7c3d55798daddaa83efce873bca2cae869ad10eb15c5ef": {
+    "f8dd5261af3706f51f5efefea34b8c9052509bf98d2bf93e624a1c428054d6ce": {
       "feature": "translate",
-      "sourceHash": "0b1bdbd4aca06c5a7019899b4b79a79db620eae74afc9dca849a807f3113c3c6",
+      "sourceHash": "51d2cb593b8bd5c0ced02dcb3041b7c84279edc4ee33b9ea56460ce908d5a09a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "参加小组讨论的（左起）主持人上智大学副教授国枝智树、纳瓦罗利女士、贾尔斯先生、高桥先生等（11日，东京都千代田区）",
+      "output": "音频品牌“Soundcore”推出了“Liberty 5 Pro Max”（36990日元）和“Liberty 5 Pro”（26990日元...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "4d6559e00bc2f2816a6bd19bb4a4038e5b2b9d462fabee53bc6c224e9ee7e121": {
+    "48201c2fef3a3f310d5861e468d312f54c30a0f78719772409bdcf27df36cab1": {
       "feature": "translate",
-      "sourceHash": "48b97c10b8cca5d4ae45e5cdd463f80de98aec2a870a5a5d35946f85d67b1dcc",
+      "sourceHash": "3f6b6ca72c7d6e9e6fd20778923242b1bffd4e4f1429ca481ee3eea9ad6696e0",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "该研究生院的阿妮卡·科利尔·纳瓦罗利副教授在基调演讲中表示，在人工智能（AI）渗透的时代，媒体与地区社会的联系变得重要。她呼吁从事报道的人“希望与人们对话，反复提问”。",
+      "output": "“西瓜汁”热潮到来，2.5倍超大尺寸及优惠券登场。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "3d977bc4889fc8d44bc082b0bcb0b42ca1ad456bbf6e97ada15be0e292bb84ae": {
+    "14e3c501ca0326b96183b51618cc3c57e9fadfa6bcaae641633c288a1ca59a00": {
       "feature": "translate",
-      "sourceHash": "30721cd55319f6cab935ee1a6cb99da5f5a8bd6837854e7e7d453ed67c9a0b8a",
+      "sourceHash": "2a16a5ac1e12be2aa3044df9b8f07951cf6e4d6a8c0669a41581767486871b60",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在小组讨论中，英国《金融时报》（FT）的经济评论员克里斯·贾尔斯表示，传统媒体有“整理事实、提供可信背景的重要作用”。",
+      "output": "夏日风物诗——西瓜。如同直接饮用多汁果实的“西瓜汁”人气高涨。老字号水果专卖店从本季开始销售优惠券，大型咖啡连锁推出通常2.5倍的“超大杯”，各出奇招。受韩国热潮波及，作为夏季新宠，商战正酣。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "d09de41cf86c70baf455befad9984b93861757994b176e799344b3eab729d311": {
+    "fda82dbbeacd18126811b62e554d382fbecb4f91e3cbaf1acfa9ad3ce1fc3546": {
       "feature": "translate",
-      "sourceHash": "4daebb94b0d21e73bf3bb2e5defd5775ec30088d4a36685d477937e8a2ef0647",
+      "sourceHash": "7f6f524e766367de7c9d28e58531d4921d627007631438b9ce62c1a10ff4c12a",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "上智大学的高桥直治副教授回顾广播历史，强调记者应该是“为公共利益负责的人”。",
+      "output": "虽是限定商品却位居年度排行榜第二。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T11:07:57.737Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "fc477a5e8816a0c4eb6a2a4746818d742a452479c197a4b37925adb6ca372984": {
+    "0a8b40ac1168391dd9c19e9ab2ea04d1c7c15106b83b70775d4660ad9d464f65": {
       "feature": "translate",
-      "sourceHash": "2fbd41da00ba83c2a2a306090c91effb066310cd56925ab821a4e74bea964a34",
+      "sourceHash": "ebe4f3685b81ee7a0675d511c26dee158702dde61a68ff8402755e6aa54fe0d5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "沃利·芬克逝世 原美国宇航员",
+      "output": "6月下旬，位于东京池袋的果汁专卖店“果汁工房果琳”。店...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T15:58:09.740Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "e6953c470ee4d67d0e7bb7c86c37ff3f43b144cb6bc1233d94172b5fa26ba953": {
+    "9524717a77456806bc2e6b6395933478ceed6b9accaf0ba4950824659e6b5fb2": {
       "feature": "translate",
-      "sourceHash": "06b1d8400fd2322c67d17b3e3056fdda23df6cd1808086a576e54b8c507c0388",
+      "sourceHash": "149607c66f1ac3de8ea2ee828ddc1d5755de8ee8431c798f3fc78f290705b433",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "沃利·芬克（前美国宇航员）据美国南部德克萨斯州格雷普韦恩市称，7月8日在该州家中去世，享年87岁。",
+      "output": "焕发青春的“MARY'S巧克力”，设计感强的新品牌，销售额5年增长3.5倍。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "c26f7851fd05e2e0bd9e9e64022c3f74b25df982b2211d346f78adca28924193": {
+    "d5738f8bc647024cb94c746d4f03c9ddf23fa58427c3e5a22386d9dac43ae702": {
       "feature": "translate",
-      "sourceHash": "4e4e1177d5a160f3f6aa849dbb51584cf32830479fcb19c3cb0dfc83077752d5",
+      "sourceHash": "e537af72fc6f40a8bf56f64bb826c7875b6c87148472f39f6ea3bf1b71f4953f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "她是女性飞行员先驱，还曾担任美国运输安全委员会（NTSB）的航空安全调查官。2021年乘坐美国太空企业蓝色起源的宇宙飞船“新谢泼德”进行太空飞行，当时以82岁高龄成为最年长的太空飞行者。〔共同〕",
+      "output": "拥有76年历史的西点制造商Mary's Chocolate Company（东京·大田区）正致力于焕发青春。先锋是旗下新品牌“RURU MARY'S”。该品牌推出融合复古与现代的独特包装，并开展异业合作。主要销售渠道也转向街边店铺，销售额在5年内增长了3.5倍。本文追溯了其反复摸索后的抗老化策略。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "a98acf001d44ddd8004bb4beeb0f508f115edd5f135df7597c46fd210ab7cbb4": {
+    "4ed9bee582007046fa5de5d1bd8d6c6cde9cf3724143745463f4a163ab901384": {
       "feature": "translate",
-      "sourceHash": "1c93d5f6757aafb5e3288689b3beec6c7b81939ad354028e6b078436371760ee",
+      "sourceHash": "62883235e8d398bc1af4cd71ca0d803c21da54718e7c1412bf3ca9f6cf24b45c",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "桥本总业控股以第一名晋级 日经杯预选A组",
+      "output": "6月下旬，位于东京涩谷青山通的RURU MARY'S街边店。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "ec5db221e3ff3ccc98e02986d60a8df825d882eff9c9cac81fea7935302c61ac": {
+    "6bdab50ab774c9b6b5627f7afd870f4407408a80c7713132d442c028370cfa6b": {
       "feature": "translate",
-      "sourceHash": "497a6dd381e586135f6a4c1484dff4b7be3c069f271928eb8e3fd54ff9123e9c",
+      "sourceHash": "e3c292fcf324e98604e80c7c152bee0ee6358fe269463fe0349cabcb22cb93a9",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "大和证券集团Presents日经杯 企业对抗高尔夫锦标赛2026于11日在茨城县筑波未来市的筑波乡村俱乐部（标准杆72杆）进行了团体赛预选A组，第六次参赛的桥本总业控股以第一名的228杆首次晋级决赛。队伍需要在4人中包括女性，成绩取前3人合计。如果并列，则根据第4人的成绩等决定排名。决赛将于9月26日举行。",
+      "output": "富裕阶层资产仍流向香港，480万亿日元流入，中国资金吸引外资。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "342ac0253ccfe8f8bae0f11c357bb653bb4b4280badee1643f7dc998aa3f0942": {
+    "db4686815706ec669c75a4ff06ee4aec31859fab80c3d384110fedfe757285c2": {
       "feature": "translate",
-      "sourceHash": "6d795a797236f3d563fd5f4809c6e05a15ac74ffabe66e3b1f5df115306e4566",
+      "sourceHash": "5e066ccb1a45e7402acbb6e290a6061af535d16f074e5aa66d00470ee0753395",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "美伊或近期重启磋商 报道称美高官要求伊朗宣布停止攻击",
+      "output": "【这篇文章可以了解】・为什么富裕阶层的资产流入？・香港与中国大陆的关系・国安法的影响...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "3d26721f137b2b9c8cfdc669349fcce33222b8efd202c812ff90e3d9daca8338": {
+    "1df177d53a8746d06fb1aa1be6ec9111025f0afef127417601e80246b6085826": {
       "feature": "translate",
-      "sourceHash": "49acb46bed7b3d12a80a742710e1549af6291c902d5962b2397807c0293fb2b2",
+      "sourceHash": "450217f3c1d096d675ecc18bf3aa4081053292becd864047f58cb14de177d0c1",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【华盛顿=甲原润之介、伊斯坦布尔=浜岳彦】美国新闻网站Axios10日报道，据消息人士透露，美伊谈判可能于下周在瑞士举行。美国总统特朗普10日在社交媒体上表示，伊朗请求继续对话，美国也已同意。",
+      "output": "全员得分手兼传球手，团队作战的坚韧西班牙（冈崎慎司）",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "6873142f75a92b696f534ed1df4265829d4d0aec49c5c9eb994c1851783a1b36": {
+    "98e84924c6d1dd83c8d068027ddf52483e028e6e1d3375b9c0191dd5c48fcff0": {
       "feature": "translate",
-      "sourceHash": "cbeba8a0c60aa2bbde4cd58f0b7992d384a897d1058e85d579405ecce6e73406",
+      "sourceHash": "a2f9dbb1ec0ff4e170075f86ac05900312b048aa326d12dca2f530804cc30705",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "两国在7日至8日进行了攻击交替，但尚未恢复大规模战斗。",
+      "output": "西班牙一次次地用传球避开对手，越过一人、两人。例如，罗德里以惊人的速度将球精准传到边路。虽然是个刁钻的传球，但传的人传得漂亮，接的人也接得轻松，毫不费力地停下球。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "7739c977f237bc70408a2f55b2b0eccb9abeb283103e8765e41cc9af5d6f0c4b": {
+    "586d364a30629045cba96b170a558d7b3725a42b5ff1e439a09a61f974712c13": {
       "feature": "translate",
-      "sourceHash": "4c1f848f844c1ff5c707163459fdbb59bad35bfa52adfefd57a79e17b579a08a",
+      "sourceHash": "7d0c924317852a22595d365c264c548552675f9b9da91e58547370590f4b8454",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "攻击的轮换始于伊朗对通过霍尔木兹海峡的船只发动攻击，随后美国...",
+      "output": "这样一来，无法抢到球的对手只能被迫一步步后退防线。比利时也是如此。即使偶尔抢到球，也因为蒂勒曼斯的缺席导致中场没有控球点，只能一味地把球交给多库。关...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "683c615025013b9eb7123b6e039a3f6de2025c17661e9da9e45e82493dcb00e1": {
+    "fa466ca864ecad5f87d035383ec6756de375cbd00f1f2d6a2658713da2b98ebd": {
       "feature": "translate",
-      "sourceHash": "3c6dc51811fd645f993d779177bb7cf731e0c2d846a18e2baf614f084d4bfd52",
+      "sourceHash": "fbd1c4b14c219a9843d0e9546ce9a9b09e60e555917a75ec7274841a56ccf909",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "即使100万日元也买不到的股票，增加6成达到49只 个人投资者关注单股交易",
+      "output": "文具品牌Pilot推出童装，羊毛T恤9350日元，在电商平台销售。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "282b19df9283c92a3eeb08db004c2d578ba421c14dc9dd90c54396518e42678c": {
+    "0a6fa2f276032a5baff77c54d5a1388ac67a7cf69f0fe8626e07013d9f61a645": {
       "feature": "translate",
-      "sourceHash": "8c47542ef8928f4ae7556d60a9a61f39ea9c7f34f2de398e8f5f49a410a6f467",
+      "sourceHash": "2eecb35d1bd2ecfe4cf60b6b36ea9c8051ba24af9a9ce8860622a7e5b70ac3f3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "高价位股票正在增加。在东证Prime市场上，最低投资额超过100万日元的股票有49只，比一年前增加了6成。这是由于人工智能（AI）和半导体股的暴涨所致。个人投资者为了降低投资金额，开始关注以1股为单位的交易服务。",
+      "output": "以可擦笔“Frixion”闻名的Pilot Corporation开始销售童装。从高价位日常服装品牌“YUDANGI”开始，采用注重舒适度和环保的设计。旨在满足全家一起穿着的需求。该公司希望将服装业务培育为主力文具之后的新业务支柱之一。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "a1861e00c707df5b2f8d6a2e16df326e0137666d6091abc9e7c2ed0a6e8420a1": {
+    "258343ac9c7a774930ab8b4d16b2c111175c8b60414933d057255d1157ea2c88": {
       "feature": "translate",
-      "sourceHash": "47f5171216133e7d9217ce17f825c8dbcbf573e87791155639b62f74910e544f",
+      "sourceHash": "8c55195093ba046a069618a9c42bb61f2d169644acded535f0e61c49d6f8c5d4",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本股票以100股为单位交易。股价为1万5000日元的股票最低投资额为150万日元。截至10日，太阳诱电、SMC、迪斯科、富士电机等股票的最低投资额已超过1...",
+      "output": "该品牌以羊毛为原材料，特点在于易于调节体温和湿度。童装为黑色等...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "a509e3df09b9323876ae0e9148bdc13bfe35161d6667c629c8bd36e1b91efa8c": {
+    "ced4621efe29ca4a87bfb3f848a6bc0aff5d998adabb95f051cb855f08d2257a": {
       "feature": "translate",
-      "sourceHash": "f045003740440b94866b80a4f3c20c6b0d8f18a41cb42c25543d56115fc3e559",
+      "sourceHash": "a30202e63969278d6e8d5eb9def8c71589c520bb896a0f37d5e4ddebfb32bfdc",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "副首都法案在会期内成立“在野党应让步” 自民党干事长铃木俊一",
+      "output": "注册“电子入境卡”出现纠纷，被收取高额手续费，提醒注意。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T18:00:15.235Z"
     },
-    "ae1d3a895a585a02fac032f7d9437ec84e3b1e858abc127769516bf6574cfcf0": {
+    "5af4577c47ea556e83cceb0123fb047d350e018896fa03861d3b536d18f267c3": {
       "feature": "translate",
-      "sourceHash": "3a6d2eee33d3dd910eec343a2cbd2bb96fbf0826709585094cbe4c5dd881ce92",
+      "sourceHash": "d4fe7d428fd2ad901cb724dd8161e7d70e51677da6d599a52b5a10e3849506f3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "自民党干事长铃木俊一11日在新潟市的党会议上，就与日本维新会联合政权协议中明确的“副首都”构想相关法案，为确保在17日前的本届国会会期内通过，请求在野党合作。他表示“希望仅剩的一周内务必推进审议，得出结论”。",
+      "output": "在札幌市的公寓确认一名成年女性死亡，头部有外伤，可能是一起杀人事件。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T17:01:02.991Z"
     },
-    "e53a0db30e080f9fb59f93afa7b46ed9d0f5a1e95e8869d1a88e10e5da2c222b": {
+    "1f9682195849beac9b74d8570e4930a872498d4a0421189eeef41ead3c5278cc": {
       "feature": "translate",
-      "sourceHash": "06d4b46e828c588ce0ba1b08bdf49fbcd08c1284abce5193930f8ac47961915a",
+      "sourceHash": "6625aeb82c35c78f85d110ee7e4ee448acccd14309dfffe6ff42f3f39c5cd511",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "执政党已放弃让在野党反对的众议院议员定数削减法案在会期内通过，并称“在野党如果不让步就不合理”。",
+      "output": "11日下午5点半左右，在札幌市厚别区青叶町的公寓，发现一名成年女性倒地，当场确认死亡。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T17:01:02.991Z"
     },
-    "cde136906d1f2ff28beb1cf4e7a9aebd1385d8135d6b5e7e616415b4d0fc2709": {
+    "c5aca67de815cd44c82989b586b09807db3f5e749b86aa020917ba6bea5acbae": {
       "feature": "translate",
-      "sourceHash": "627a53feb1b6d9433d6f32a4fb743e4417b3469aae64b238797a317becf47bcd",
+      "sourceHash": "7a361a9443feaaa5a3174126d9bfe640fc85c7ecbfe963fd0a9b5352d585b596",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "关于10日在众议院通过的皇室典范修正案，他强调“希望在参议院也能尽快通过”。谈及在众议院表决中投赞成票的中道改革联盟与立宪民主、公明两党的合并协商，他指出“关注立宪民主和公明在参议院如何表态这一关乎国体的重要法案。也有人认为如果基本政策不一致就不能合并”。立宪民主党已确定反对方针。〔共同〕",
+      "output": "北海道札幌市",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
+      "createdAt": "2026-07-11T17:01:02.991Z"
     },
-    "474d0df038ef28b6b42898b73ad1d7191c2c936d458fe1105fd8315d14bbe9b2": {
+    "065c9835c18a1b53983e31642bb4d1d5d07d0922fb56b95e36bad109338c993d": {
       "feature": "translate",
-      "sourceHash": "5093dd29000f331af76ada9978b39ad3cd63f27e15a3776452b498a9edb046a2",
+      "sourceHash": "9a8be0dcff5b5bd1413c5adc5ad36a7008e3f66b9bef930a6d5c76816240dc35",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "大相扑名古屋场所中入后比赛・初日",
+      "output": "据搜查相关人员称，由于女性头部有外伤等，北海道警札幌厚别署认为有可能是杀人事件并展开调查。该署认为该女性的一名男性熟人可能了解情况，正在向他询问。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "491615a529a482165300b893b63b7c741e752bd2ef8f18e7f6a195cfe5d6ecb5": {
-      "feature": "translate",
-      "sourceHash": "cbb0791668577e05512bd485773dc0c0fc9820c4713df6c724fa7223d474b30b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "（东） （西）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "dfae68e1c9761d88914e56576559e95ce10b42512b7d297461c0549be8faa553": {
-      "feature": "translate",
-      "sourceHash": "c020bcdb4f8d3324ca015f674394d8c90816244294832a0ce6a12f8c072b0061",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "旭雄X-X朝紅",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "be32f6e54f1629bd24014af9e86ab43a20203b97e825927c2039331ed7889d95": {
-      "feature": "translate",
-      "sourceHash": "d726bb4c89abe45c032b0a2bfdd8ecb8232c19cb2c3b249c188eeab941c470fc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "大青0-0一意",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "90fa6e190c9d1058bf6bd22041676b149c856d0555433085a3d92abff19c03b6": {
-      "feature": "translate",
-      "sourceHash": "9f98884a9be8e3fb71589fdea3e86dbdc0ed5cea87f39c278cf5e077bb120fcc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阿剋1-1獅司",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "8b0d1ff69feeacfd6eb5678a400feb7d14a72f2d12f5f076b616c1814d645ddb": {
-      "feature": "translate",
-      "sourceHash": "5c014c5ca8a2a85601813809edd9b5b6232d4a86db6296e4598d53a39c8eb8d4",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "金峰1-1尊富",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "25b1e66a16d32b5223c80cff89f6b8835958939a867671fb8a15305630721391": {
-      "feature": "translate",
-      "sourceHash": "ad9c31c5f37d2e4e2374409dd3dfe128a034aa4982d1ec09ba5f22c39850020f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "錦富2-3阿炎",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "07e05992f36eff35a6e1e1284769d73b78ae32c6df0e45cf72603086bc3bd567": {
-      "feature": "translate",
-      "sourceHash": "672b0badc0990fbdce8b574ee98b49845962d1e6362ab68fa29a45ad547eb532",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "朝白0-2御嶽",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "70c319d3cedfcc8202b2c4bac9c8155cde2a77b75a8593dbe3a6dd068793186d": {
-      "feature": "translate",
-      "sourceHash": "718bc0d4db52a403f088fa641c304c713af7df0af5a4db296d614494da9ab712",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "若勝0-0千翔",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "7cd0a7ebba8ad58d6fc7d1ca8673889a67063d1566639f3f1c1936b01d5af99f": {
-      "feature": "translate",
-      "sourceHash": "24e98c816bd124de561765ae348b57508e944444cd04f554d089ad317e951232",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "朝山4-2翔猿",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "3e4a51f6d6bb98ebee5cdc823d9fdde96d2724dd3b201742e81ed383cc413955": {
-      "feature": "translate",
-      "sourceHash": "1a42d382325e929dd7cabb41e5effe2292180dc135d233798bafe8e7d2989e50",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "藤凌0-2狼雅",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "76b41e775b6828016a339b4d2e6ed95b176a3838a3e09115035918ac1d2640ba": {
-      "feature": "translate",
-      "sourceHash": "1c0612158c5aed62d4cc9e0dc0a751a22ecd8fa24c276a1b1d0f6eace78f2552",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "若元3-11高安",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "27755f8f16f2e3effbd5268cfd6a485834fe7568f2e195df428c734fffdd4d45": {
-      "feature": "translate",
-      "sourceHash": "8c8bdae42110ea5a02043107dc8b524119c6296dcf03c3e2b174abd13b7c600c",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "琴栄1-0藤青",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "11fa4e76300d93b37cfacf8cfd95d5cf07a9309c06601ac6a2e5f824c1faabb7": {
-      "feature": "translate",
-      "sourceHash": "e959f544f99e62a52b358fd86eff283dde84f1fc556a5b6e7eaf1f6591ca8e60",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "正代2-8欧馬",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "69c1124a73fd437efc4392e1c05c7ea3b5280b8a2aa333cc5b270dd9f79106e9": {
-      "feature": "translate",
-      "sourceHash": "f714603d8471ccced0a2756eb4673649440ccf68d0fc63150df5b00ced5ec036",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "宇良7-3一山",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "c97cd11eeec02d34212e0edf7057c99fb154914762ec2b8c132e5db97496b0ad": {
-      "feature": "translate",
-      "sourceHash": "6d1905726ac951431b98bc8acf4cbba1e3576e7b45239ccd128475b0bf32a185",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "大栄2-0伯富",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "e620e3a24bb455b8b15b29b211c42be6c0f3e5db91a6944331be9ded712f3dc4": {
-      "feature": "translate",
-      "sourceHash": "f04298b89c3b7f269f26e4cae3f6b9f65f38f4aee44225ddfe148803e359204b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "平戸0-3安青",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "33db418a1cd5c664572611aec202ec263a2c0aaa2b4ce344ecdf2ed16353cb1f": {
-      "feature": "translate",
-      "sourceHash": "75d7c0e7a6f04e78feed3c92ec62078a3600b726fdf8d87127f5a4ae65db026b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "美海5-6琴勝",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "a2d550ef7c7684e615ee8f42e0604d5c59cf314bf1c2a00c5f8c0f32032ff8de": {
-      "feature": "translate",
-      "sourceHash": "eb78c832b32fd47e01069a78a443742a03f3d780b38f20cbcb617a52cb052d19",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "熱海4-3豪山",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "375aaae262b4bd06bfb92c60ee32deef71b01bc8e625ef58036f9a199b589d50": {
-      "feature": "translate",
-      "sourceHash": "d7fca716ffef5a512935e7b5e8b18f8c22b347b93b315a325e09f52bd5dca5c5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "隆勝4-11琴桜",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "4512369cbf35c7492c7bbe5e909678b129c5dcce01a021b9c72eee8b51ea8351": {
-      "feature": "translate",
-      "sourceHash": "eb0b79341426678763988c36170df5f219da3d8ebaa311728654e189559a4513",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "霧島2-0藤川",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "71a75edf2b1a7c9e3fd4b9e8cf9a791c18d170e7cdf179747d0537b492ef0cbe": {
-      "feature": "translate",
-      "sourceHash": "14626910e44dfa69f19d36b403c25dfbb4ab283f26ca5ceb08d8ad8f775f39ef",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "義富3-0大里",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "d04b16b22c0521085b04c23c56a21f7d51513a03536a5681b8e9121f78bdb90f": {
-      "feature": "translate",
-      "sourceHash": "3b84b00b29fd66fdbd30bcfbbec582429dff6f6951b805ffa0efbb15e94a7153",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "豊昇7-5王鵬",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "08ef9c966802e178179f3572b8c07b5def9a2ed2f1ce8e5851ef39990325368f": {
-      "feature": "translate",
-      "sourceHash": "95381b54466bd7e9ba2ea35044cb3a4087705a62a33e277bed9cff1e4f3fe628",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "最低投资额是指 股价乘以100计算",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:32:57.447Z"
-    },
-    "c8984b55e96aa82d90eccb4a0e4ef5f008965a69266e28680bbffe848a039a5f": {
-      "feature": "translate",
-      "sourceHash": "29dbb28c0288df232bb741f575a9830a888165c9d1b840c737723324f60bb5c8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "▼最低投资额 指投资股票所需的最低金额。因股价而异，每个股票不同。日本股票市场以100股为交易单位（称为“单元”），股价乘以100即为最低投资额。股票分割后最低投资额会下降。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:33:28.765Z"
-    },
-    "cb09a47ac6569f73a91d6bd223ea9da79ea0841e8b60fc7780df102f1086bb8b": {
-      "feature": "translate",
-      "sourceHash": "b42e7062ad5a6c61bcc2c09c692518520440b2bb72e9b3eec6ef524bff529018",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "最低投资额的上市企业平均在泡沫期峰值达到近200万日元。目前股价虽然上涨，但上市企业平均在20万日元左右徘徊。按件数计历史最高速度的股票分割效果显现。另一方面，部分高股价股票的最低投资额上升变得显著。东京证券交易所要求企业将最低投资额设定在50万日元以下，2025年4月提出了约10万日元的新目标。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T11:07:57.737Z"
-    },
-    "ffd7b14a34f0746525e401e511e9ddc52e599ba50b31442fdf0a217c6fdffcc1": {
-      "feature": "translate",
-      "sourceHash": "73d3839e57469a23164c3c424ce9ed079e51f78650e8728727953dace52fa82e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "欧美以1股为单位交易为主流。积极实施股票分割，压低最低投资额以便个人购买。美国Alphabet在22年进行了20股分割，美国英伟达在24年进行了10股分割。在美国市场，即使是这些代表人工智能（AI）和半导体的大型股票，也能以数万日元起投资。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:33:28.765Z"
+      "createdAt": "2026-07-11T17:01:02.991Z"
     },
     "f4c2579c12a36e27a7a834aac53a8964e4c4afe4b6da571980874330a620c055": {
       "feature": "translate",
@@ -12145,53 +11809,113 @@
       },
       "createdAt": "2026-07-11T11:09:26.118Z"
     },
-    "5af4577c47ea556e83cceb0123fb047d350e018896fa03861d3b536d18f267c3": {
+    "f3f80381c50c250dfd7bee9523c4d1dbcfa41c2bd2c388cd90916188c9341c45": {
       "feature": "translate",
-      "sourceHash": "d4fe7d428fd2ad901cb724dd8161e7d70e51677da6d599a52b5a10e3849506f3",
+      "sourceHash": "68d3cc479a86be065448c829ddb791f2800ad28f29055045c8ddd1705fa53928",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在札幌市的公寓确认一名成年女性死亡，头部有外伤，可能是一起杀人事件。",
+      "output": "中朝签署条约65周年　通过贺电和会谈确认传统友好与团结",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:01:02.991Z"
+      "createdAt": "2026-07-11T17:01:20.570Z"
     },
-    "1f9682195849beac9b74d8570e4930a872498d4a0421189eeef41ead3c5278cc": {
+    "0e4893d99f2ca7ff56c43b84b4b38efa196cba8f4510252693dc3a472ebe17c6": {
       "feature": "translate",
-      "sourceHash": "6625aeb82c35c78f85d110ee7e4ee448acccd14309dfffe6ff42f3f39c5cd511",
+      "sourceHash": "a36f18748a6279dfc2a6f24eda839ceeaa8b568eb49f4820516aeb075017828c",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "11日下午5点半左右，在札幌市厚别区青叶町的公寓，发现一名成年女性倒地，当场确认死亡。",
+      "output": "中国与朝鲜在签署规定遇事时提供军事援助等内容的条约迎来65周年之际（11日），习近平国家主席与金正恩总书记互致贺电，此外两国总理举行会谈，确认了传统友好关系与团结。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:01:02.991Z"
+      "createdAt": "2026-07-11T17:01:20.570Z"
     },
-    "c5aca67de815cd44c82989b586b09807db3f5e749b86aa020917ba6bea5acbae": {
+    "6491f4463add881874ddf192be5f5dfc6f392b4206d07754f69ace94b37e88dc": {
       "feature": "translate",
-      "sourceHash": "7a361a9443feaaa5a3174126d9bfe640fc85c7ecbfe963fd0a9b5352d585b596",
+      "sourceHash": "e2a10e54a3455d6c3161e04efac15368c7a797d734882d4f5ea0b2bf04d954b3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "北海道札幌市",
+      "output": "![](https://news.web.nhk/news/html/20260712/K10015174681_2607120039_0712011102_02_03.jpg)",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:01:02.991Z"
+      "createdAt": "2026-07-11T17:01:20.570Z"
     },
-    "065c9835c18a1b53983e31642bb4d1d5d07d0922fb56b95e36bad109338c993d": {
+    "a7883d709b29876234d7f73284362d62e5f17f2df84f224964b7e3ba2d340c51": {
       "feature": "translate",
-      "sourceHash": "9a8be0dcff5b5bd1413c5adc5ad36a7008e3f66b9bef930a6d5c76816240dc35",
+      "sourceHash": "8c5ecd469eea1350ce529be00e8a449c970a67a7790be1e4350c00416fab3ef2",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据搜查相关人员称，由于女性头部有外伤等，北海道警札幌厚别署认为有可能是杀人事件并展开调查。该署认为该女性的一名男性熟人可能了解情况，正在向他询问。",
+      "output": "中国和朝鲜在共同经历的1950年代朝鲜战争之后，于1961年7月11日签署了规定遇事时相互提供军事援助等内容的《友好合作互助条约》。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T17:01:02.991Z"
+      "createdAt": "2026-07-11T17:01:20.570Z"
+    },
+    "d58208e02286dd5a60a47d26dca028bf95586df49dca3edcd02385cc10d4ded0": {
+      "feature": "translate",
+      "sourceHash": "4a156498355be06379cf66b7856b609be5df6b850b9b73df4f3aea6c47417553",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据两国国营媒体11日报道，在条约签署65周年之际，习近平主席与金总书记互致贺电。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:01:20.570Z"
+    },
+    "d85e6468b8330f22721e22e474ec44fc56baf39e653fe63c99227ea21460c2b2": {
+      "feature": "translate",
+      "sourceHash": "f25222f372713105e0fc904fafdf59850686b304154090e75d18a685656de142",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "其中习近平主席强调：“无论国际形势如何变化，重视传统友好关系的立场不会改变，维护双方共同利益的决心不会改变。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:01:20.570Z"
+    },
+    "75238e7d6d59d0fda87f65051ce05b7ee0e4ced0f29185c9e9389096a8e4e322": {
+      "feature": "translate",
+      "sourceHash": "444273a5373043f7cdadd1c969c04358c82ecdc2a7d7447c1c68ff81468de052",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据称，金总书记表示：“愿引领基于历史和传统的两国友好关系迈向新高度，发展成为最强大、最具战略性的社会主义国家间关系的典范。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:01:20.570Z"
+    },
+    "07f050e2e275c819c6d16fe8a8234550f638c9655210f86ea63b83240f10e2a2": {
+      "feature": "translate",
+      "sourceHash": "c0482046a13e9beee3a967fe6b6ce811d7d599f63b55b89ade9ec88013f262b8",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "此外，据中国外交部称，在北京，李强总理与朝鲜朴泰成总理举行会谈，表明了加强战略协作、扩大经济贸易等想法。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:01:20.570Z"
+    },
+    "c3d27a2662d127cb0f4dfc202acf048edc10369e44150b66358ecc9d2d8f9590": {
+      "feature": "translate",
+      "sourceHash": "d583518c6d036cee16d14c33fd338f1e5534a21bde426a4f01cf1c8a6b087eb5",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "朴总理10日晚还出席了纪念条约签署65周年的招待会，在作为中朝关系基础的条约迎来里程碑之际，再次确认了传统友好关系与团结。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-11T17:01:20.570Z"
     },
     "40ca1671b0eb3f699b64d4c8789d3629ea6457b6cd41ada33b971ccccd757a4f": {
       "feature": "translate",
@@ -18109,317 +17833,29 @@
       },
       "createdAt": "2026-07-11T09:35:56.270Z"
     },
-    "8bf84285d913e0f6e84e8b0b926426ac1806eaa8edfefab35ac72d29174e20ea": {
+    "6b73fd6db401e9438b93a4e2f04ca7cd35f7826bcd1ed3befe4eb4ef0b4b0510": {
       "feature": "translate",
-      "sourceHash": "f9af22dca6c9dfb1a14e7c6cd318af66da805a40ea2878a25abdf58e6f84290f",
+      "sourceHash": "5094438e061fbbe1e58f2e3297f9b14b332c62c01121729b319b940571058d17",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中学生和高中生中暑 运动类社团活动最多 需用客观数据应对",
+      "output": "台风9号 中国东部 浙江省登陆",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:35:56.270Z"
+      "createdAt": "2026-07-11T18:00:19.350Z"
     },
-    "f30546d51f325523e701aa9b5546aab4344b1ef5dbd73407cef76c130581874e": {
+    "4b0e60b8757ecceefced60fac45e1a894387455665ac76265487fc030df08a6d": {
       "feature": "translate",
-      "sourceHash": "82a7398e480e406b852d12c244d919b6e4f82bdcad41ccd856621aa6a87a408f",
+      "sourceHash": "adc226642ddda295dd40043f516ce739893cd65bc6500d9b9e2034f7395c6317",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据日本体育振兴中心称，中学和高中等发生的中暑多数由运动类社团活动引起。专家指出，梅雨季结束后尤其需要注意，“基于暑热指数等客观数据的对策很重要”。",
+      "output": "中国中央气象台宣布，台风9号于日本时间12日凌晨0点半左右在中国东部浙江省登陆。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "2bcb0f9d4a399f69be2971eb24fc49e78497d3deb338ac3b154c3147e4202857": {
-      "feature": "translate",
-      "sourceHash": "79e8a60608094d21c0d581cde2f1808c50f9999480d12cdf92b41c1209d49211",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据日本体育振兴中心统计，在截至2024年度的5年内，在学校管理下或上下学途中中暑并接受医院治疗等获得医疗费补助的案例，高中和高等专门学校有7447起，中学有6086起。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "c8fb932b9d22ffe313cfde8cd844f40c2b942cc5bb6eb27b9e87cebd63699a08": {
-      "feature": "translate",
-      "sourceHash": "384ab4684dd3d3ac287656e5dda4fa7ba941df3ca5fb3fdc0138ed83b64a7e41",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "其中最多的是由运动类的“体育社团活动”引起的，高中和高等专门学校约占整体的63%，为4667起，中学约占整体的53%，为3211起，均超过半数。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "9cbb8e4f555463926ff616727c22f733b1fbfbdb548ef111b62feb0a788b7639": {
-      "feature": "translate",
-      "sourceHash": "1e7523e4c5b4ac684366f52dd2d707c67aa5074f8cca9081ec3ef12642568ec8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "还有2名学生在社团活动中中暑死亡。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "4e53f2cbfbe8b3625dad9fdb35b239ff568667077288f3d789918c2ead1ec927": {
-      "feature": "translate",
-      "sourceHash": "35839729936d4e76f3ea3f154e4a37a388dd9743434d3ec2376a228050a0fd7f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "当时初中三年级的男生曾是田径部成员，在比赛途中倒下，两天后死亡；另外，当时高中二年级的男生曾是柔道部成员，在练习中诉说不适后倒下死亡。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "c51a1c14819a6654cb122077950bf1439a9351254843b34b4f3288ca85a3def0": {
-      "feature": "translate",
-      "sourceHash": "43df847de9f515e7962855c3be71b91a1d898d7ae000f0716e97366e2f85bab8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "![](https://news.web.nhk/news/html/20260711/K10015174511_2607111527_0711171725_02_03.jpg)",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "ad94902062586659d6c2fb06096b0d60930dc395865804582e098da878c14a8c": {
-      "feature": "translate",
-      "sourceHash": "92bf261f294c9e5a478708f34844f97f9b725c10342471617bcc6dc3b3326dc0",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "关于社团活动中的中暑对策，我们采访了熟悉运动与中暑关系的早稻田大学体育科学学术院的细川由梨副教授。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "ae34ec0528854a44ffd936cc334ceb53afbba796998837cc9e033d85287a47cb": {
-      "feature": "translate",
-      "sourceHash": "5ac0612104186b3266a467e44c8298cced69b7edc1c8bb2d290f6a40a36204f3",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--border {style=border-color:#ffe9d9} ### Q.对于“社团活动中中暑多”这一数据，您怎么看？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "cde9959b0203b9aab0f8b36bf840b8769a680b2481f1a2bd0ccc38fe7232ab10": {
-      "feature": "translate",
-      "sourceHash": "bd683b5f12ebb36088429f5bb894cec02058ff2d22c5a72516f6c4137bdfbec2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "**A.** 到目前为止能够正常活动的时间段，现在变成了未曾经历过的炎热，但学校的防中暑措施在增加，因此需要医疗费补助的重度案例似乎持平。不过，这只是中暑的冰山一角，我感觉轻症案例似乎有逐年增加的趋势。我认为学校和学生们自己都需要采取切实的对策。 :::",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "e2a805ffc3782834b73936211998d2a95b2bcc1160852897c7ce42e51c1c206a": {
-      "feature": "translate",
-      "sourceHash": "d1ca68c3da6641763c21f941880501bfc1c67680799360c1e80640bc38f0e845",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--border {style=border-color:#ffe9d9} ### Q.有没有需要特别注意的时期？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "1efe34a71c3010062efbf818bc26d3b1b6addfaa1ed160e7758fd94e03510485": {
-      "feature": "translate",
-      "sourceHash": "b290fbcaff8da101c42f460a67b45351bd3132c3a9353dc13d43a26a3755d9b2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "**A.** 梅雨季结束的时期尤其需要注意。从春天到夏天，身体会逐渐适应炎热，但在梅雨季期间气温稳定，身体刚开始适应炎热就被重置了。学校里正值考试期，很多情况下很难运动。当考试结束重新开始社团活动的时间与梅雨季结束最高气温上升的时间重叠时，就会造成双重负担。梅雨季结束后大约两周，降低运动强度、控制运动时间，留出适应炎热的时间是很重要的。 :::",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "cc76da6c20b7effa6a0d898e2338b3c81ff9a1297e1c41a601ed957223ae47b8": {
-      "feature": "translate",
-      "sourceHash": "f0f50944475c1dee62142a19c9cd9ba031889382ca470bc96e0c1b4df18e40c6",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--border {style=border-color:#ffe9d9} ### Q.您如何评价已经开始的应用软件等对策？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "32c547cf0ad39175ee2e6a01cef9e2b3cb4c2c71b30bb56f8e71aa3a5cd0b467": {
-      "feature": "translate",
-      "sourceHash": "367b04c765f2f4e1969dd1adfdd95ebbd720888f0cfcb083680feb1692d5fef9",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "**A.** 使用应用软件等监测自己身体状况的变化并保持关注，这本身就有预防中暑的效果。看到数值后容易产生“需要再补充些水分”或“早点睡吧”等具体行为变化，这也是优点。监测暑热指数等数据的学校也在增加。因炎热导致身体不适与毅力或意志无关。人类的极限通过数据也能显示，因此基于温度、湿度、暑热指数等客观数据进行判断很重要。孩子们在指导者面前会逞强，所以营造容易报告的氛围也是成年人的责任。 :::",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "26ce7c110352a73ce862f62e432d342a660cdc6cd3dbae1f954baa16d9c7bd01": {
-      "feature": "translate",
-      "sourceHash": "d9be51baabe181def62c0247afbba2d39ac1e4a7b5a6f1036dd8ac7b6147d4b6",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--border {style=border-color:#ffe9d9} ### Q.您想对学校和学生们双方说些什么？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "d32e0cab8e3cb884f0195a8895861c299d41efbb48cb2bc811f7fd2c09fcdc4f": {
-      "feature": "translate",
-      "sourceHash": "cee3a322628564182323bbf615b1867f1bf08ffc962724972c4dab5042867f01",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "**A.** 中暑存在着从外部看不出来的“因人而异的当天风险”。例如，因努力复习导致睡眠不足、因忙碌没吃早餐、或承受着其他压力等，这些可能成为最后的触发因素，导致中暑倒下。学校方面应基于客观数据采取措施。同时，学生们也要好好管理身体状况，如果感觉异样，要及时告诉队友或指导者。没有双方的努力，要减少中暑真的很难。 :::",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "fa131e352c2624651e4168994b8ff1bff2add0a40b6b5cd6f113d678fe28b8d3": {
-      "feature": "translate",
-      "sourceHash": "114093b2dbdc733a862d173a29d65f59c4191a9979935a7d5be705072a350e0a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--link-type4 {href=https://www.nhk.or.jp/nhkone/service/app/news_bousai/} ![中暑信息可通过新闻·防灾应用获取](https://news.web.nhk/news/html/20260711/K10015174511_2607111543_0711171725_02_04.jpg)",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T09:35:56.270Z"
-    },
-    "f3f80381c50c250dfd7bee9523c4d1dbcfa41c2bd2c388cd90916188c9341c45": {
-      "feature": "translate",
-      "sourceHash": "68d3cc479a86be065448c829ddb791f2800ad28f29055045c8ddd1705fa53928",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中朝签署条约65周年　通过贺电和会谈确认传统友好与团结",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "0e4893d99f2ca7ff56c43b84b4b38efa196cba8f4510252693dc3a472ebe17c6": {
-      "feature": "translate",
-      "sourceHash": "a36f18748a6279dfc2a6f24eda839ceeaa8b568eb49f4820516aeb075017828c",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中国与朝鲜在签署规定遇事时提供军事援助等内容的条约迎来65周年之际（11日），习近平国家主席与金正恩总书记互致贺电，此外两国总理举行会谈，确认了传统友好关系与团结。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "6491f4463add881874ddf192be5f5dfc6f392b4206d07754f69ace94b37e88dc": {
-      "feature": "translate",
-      "sourceHash": "e2a10e54a3455d6c3161e04efac15368c7a797d734882d4f5ea0b2bf04d954b3",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "![](https://news.web.nhk/news/html/20260712/K10015174681_2607120039_0712011102_02_03.jpg)",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "a7883d709b29876234d7f73284362d62e5f17f2df84f224964b7e3ba2d340c51": {
-      "feature": "translate",
-      "sourceHash": "8c5ecd469eea1350ce529be00e8a449c970a67a7790be1e4350c00416fab3ef2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中国和朝鲜在共同经历的1950年代朝鲜战争之后，于1961年7月11日签署了规定遇事时相互提供军事援助等内容的《友好合作互助条约》。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "d58208e02286dd5a60a47d26dca028bf95586df49dca3edcd02385cc10d4ded0": {
-      "feature": "translate",
-      "sourceHash": "4a156498355be06379cf66b7856b609be5df6b850b9b73df4f3aea6c47417553",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据两国国营媒体11日报道，在条约签署65周年之际，习近平主席与金总书记互致贺电。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "d85e6468b8330f22721e22e474ec44fc56baf39e653fe63c99227ea21460c2b2": {
-      "feature": "translate",
-      "sourceHash": "f25222f372713105e0fc904fafdf59850686b304154090e75d18a685656de142",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "其中习近平主席强调：“无论国际形势如何变化，重视传统友好关系的立场不会改变，维护双方共同利益的决心不会改变。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "75238e7d6d59d0fda87f65051ce05b7ee0e4ced0f29185c9e9389096a8e4e322": {
-      "feature": "translate",
-      "sourceHash": "444273a5373043f7cdadd1c969c04358c82ecdc2a7d7447c1c68ff81468de052",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据称，金总书记表示：“愿引领基于历史和传统的两国友好关系迈向新高度，发展成为最强大、最具战略性的社会主义国家间关系的典范。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "07f050e2e275c819c6d16fe8a8234550f638c9655210f86ea63b83240f10e2a2": {
-      "feature": "translate",
-      "sourceHash": "c0482046a13e9beee3a967fe6b6ce811d7d599f63b55b89ade9ec88013f262b8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "此外，据中国外交部称，在北京，李强总理与朝鲜朴泰成总理举行会谈，表明了加强战略协作、扩大经济贸易等想法。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
-    },
-    "c3d27a2662d127cb0f4dfc202acf048edc10369e44150b66358ecc9d2d8f9590": {
-      "feature": "translate",
-      "sourceHash": "d583518c6d036cee16d14c33fd338f1e5534a21bde426a4f01cf1c8a6b087eb5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "朴总理10日晚还出席了纪念条约签署65周年的招待会，在作为中朝关系基础的条约迎来里程碑之际，再次确认了传统友好关系与团结。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-11T17:01:20.570Z"
+      "createdAt": "2026-07-11T18:00:19.350Z"
     },
     "073a0034a19e956de6d6d1098ad05316f31c5718c13d1e34dbb3fad12918ee61": {
       "feature": "translate",
