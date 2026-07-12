@@ -1,7 +1,7 @@
 {
-  "runId": "29172796746",
-  "startedAt": "2026-07-11T23:52:21.372Z",
-  "finishedAt": "2026-07-12T00:13:30.638Z",
+  "runId": "29176859956",
+  "startedAt": "2026-07-12T02:30:33.488Z",
+  "finishedAt": "2026-07-12T02:50:27.159Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 21,
-          "generated": 4,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 16,
-          "generated": 9,
+          "cacheHits": 11,
+          "generated": 14,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 24,
-          "generated": 1,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 9,
-      "outputItems": 9,
+      "inputItems": 10,
+      "outputItems": 10,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 217,
-          "cacheHits": 205,
-          "generated": 12,
+          "units": 215,
+          "cacheHits": 154,
+          "generated": 61,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 144,
-          "cacheHits": 0,
-          "generated": 144,
+          "units": 148,
+          "cacheHits": 12,
+          "generated": 136,
           "failed": 0
         }
       ],
@@ -214,7 +214,7 @@
           "stage": "feature",
           "severity": "warning",
           "code": "batch_retry",
-          "message": "Expected ',' or '}' after property value in JSON at position 4971 (line 117 column 55)",
+          "message": "llm response contains unknown id: cb80ba86f3c0c6d3798bee60ec360cb5919e16769f61e23d0076aa43b09bc02d",
           "path": "/yna/latest",
           "feature": "translate"
         }
@@ -230,20 +230,26 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 103,
-          "cacheHits": 0,
-          "generated": 103,
+          "units": 105,
+          "cacheHits": 42,
+          "generated": 63,
           "failed": 0
         }
       ],
       "issues": [
         {
-          "stage": "feature",
+          "stage": "fetch",
           "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response missing ids",
-          "path": "/nikkei/news",
-          "feature": "translate"
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
         }
       ]
     },
@@ -257,9 +263,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 67,
-          "cacheHits": 0,
-          "generated": 67,
+          "units": 150,
+          "cacheHits": 57,
+          "generated": 93,
           "failed": 0
         }
       ],
@@ -269,6 +275,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
         }
       ]
@@ -283,9 +296,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 308,
-          "cacheHits": 244,
-          "generated": 64,
+          "units": 438,
+          "cacheHits": 190,
+          "generated": 248,
           "failed": 0
         }
       ],
@@ -339,14 +352,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 248,
-    "outputItems": 248,
+    "inputItems": 249,
+    "outputItems": 249,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2469,
-        "cacheHits": 2065,
-        "generated": 404,
+        "units": 2686,
+        "cacheHits": 2058,
+        "generated": 628,
         "failed": 0
       }
     ]
@@ -391,16 +404,8 @@
       "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "Expected ',' or '}' after property value in JSON at position 4971 (line 117 column 55)",
+      "message": "llm response contains unknown id: cb80ba86f3c0c6d3798bee60ec360cb5919e16769f61e23d0076aa43b09bc02d",
       "path": "/yna/latest",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response missing ids",
-      "path": "/nikkei/news",
       "feature": "translate"
     },
     {
@@ -408,6 +413,27 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
       "path": "/yomiuri/news"
     },
     {
