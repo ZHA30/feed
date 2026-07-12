@@ -1,7 +1,7 @@
 {
-  "runId": "29208216811",
-  "startedAt": "2026-07-12T20:41:59.099Z",
-  "finishedAt": "2026-07-12T20:49:31.188Z",
+  "runId": "29210229260",
+  "startedAt": "2026-07-12T21:45:47.005Z",
+  "finishedAt": "2026-07-12T21:59:11.149Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 15,
-          "generated": 10,
+          "cacheHits": 19,
+          "generated": 6,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 16,
-          "generated": 9,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 25,
-          "generated": 0,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 17,
-      "outputItems": 17,
+      "inputItems": 13,
+      "outputItems": 13,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 189,
-          "cacheHits": 171,
-          "generated": 18,
+          "units": 132,
+          "cacheHits": 121,
+          "generated": 11,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 215,
-          "cacheHits": 50,
-          "generated": 165,
+          "units": 161,
+          "cacheHits": 19,
+          "generated": 142,
           "failed": 0
         }
       ],
@@ -202,6 +202,14 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm request failed: 502 Bad Gateway",
+          "path": "/yna/latest",
+          "feature": "translate"
         }
       ]
     },
@@ -215,13 +223,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 128,
-          "cacheHits": 0,
-          "generated": 128,
+          "units": 112,
+          "cacheHits": 90,
+          "generated": 22,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        }
+      ]
     },
     {
       "path": "/yomiuri/news",
@@ -233,13 +249,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 179,
-          "cacheHits": 170,
-          "generated": 9,
+          "units": 185,
+          "cacheHits": 173,
+          "generated": 12,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        }
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
@@ -251,9 +275,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 410,
-          "cacheHits": 386,
-          "generated": 24,
+          "units": 230,
+          "cacheHits": 163,
+          "generated": 67,
           "failed": 0
         }
       ],
@@ -299,14 +323,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 256,
-    "outputItems": 256,
+    "inputItems": 252,
+    "outputItems": 252,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2748,
-        "cacheHits": 2385,
-        "generated": 363,
+        "units": 2447,
+        "cacheHits": 2181,
+        "generated": 266,
         "failed": 0
       }
     ]
@@ -339,6 +363,28 @@
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm request failed: 502 Bad Gateway",
+      "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
     }
   ]
 }
