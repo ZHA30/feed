@@ -1,7 +1,7 @@
 {
-  "runId": "29503471512",
-  "startedAt": "2026-07-16T13:44:29.194Z",
-  "finishedAt": "2026-07-16T14:04:08.691Z",
+  "runId": "29511957158",
+  "startedAt": "2026-07-16T15:37:23.478Z",
+  "finishedAt": "2026-07-16T15:56:42.270Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 15,
-          "generated": 10,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 11,
-          "generated": 14,
+          "cacheHits": 13,
+          "generated": 12,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 21,
-          "generated": 4,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -105,8 +105,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 19,
-          "generated": 1,
+          "cacheHits": 20,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -123,8 +123,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 11,
-          "generated": 9,
+          "cacheHits": 20,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -171,22 +171,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 128,
-          "cacheHits": 0,
-          "generated": 128,
+          "units": 137,
+          "cacheHits": 77,
+          "generated": 60,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "Bad control character in string literal in JSON at position 5639 (line 113 column 148)",
-          "path": "/chosun/politics",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yna/latest",
@@ -198,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 211,
-          "cacheHits": 0,
-          "generated": 211,
+          "units": 163,
+          "cacheHits": 15,
+          "generated": 148,
           "failed": 0
         }
       ],
@@ -217,19 +208,10 @@
     {
       "path": "/nikkei/news",
       "sourceUrl": "https://rss.20260501.xyz/nikkei/news?key=***",
-      "outputPath": "dist/nikkei/news.xml",
       "limit": 25,
-      "inputItems": 25,
-      "outputItems": 25,
-      "featureStats": [
-        {
-          "kind": "translate",
-          "units": 123,
-          "cacheHits": 0,
-          "generated": 123,
-          "failed": 0
-        }
-      ],
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
       "issues": [
         {
           "stage": "fetch",
@@ -244,6 +226,13 @@
           "code": "fetch_retry",
           "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "error",
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
         }
       ]
     },
@@ -257,9 +246,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 204,
-          "cacheHits": 122,
-          "generated": 82,
+          "units": 201,
+          "cacheHits": 169,
+          "generated": 32,
           "failed": 0
         }
       ],
@@ -283,29 +272,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 349,
-          "cacheHits": 183,
-          "generated": 166,
+          "units": 414,
+          "cacheHits": 330,
+          "generated": 84,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/nhk/news_web/latest",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bikerumor/feed",
@@ -317,9 +290,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 429,
-          "cacheHits": 429,
-          "generated": 0,
+          "units": 399,
+          "cacheHits": 376,
+          "generated": 23,
           "failed": 0
         }
       ],
@@ -335,27 +308,46 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 744,
-          "cacheHits": 743,
-          "generated": 1,
-          "failed": 0
+          "units": 708,
+          "cacheHits": 676,
+          "generated": 31,
+          "failed": 1
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: c4b071f819746529ffa15de7b4e844eee8ac31828b1c6eb4b08ae1a488eb6777",
+          "path": "/purplemanager/bikeradar-news",
+          "itemKey": "7e94f02bd5efb941bbb66d0d6ab92ff159526a7fed678f7165d32838924c80b3",
+          "field": "content:encoded",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response missing ids",
+          "path": "/purplemanager/bikeradar-news",
+          "feature": "translate"
+        }
+      ]
     }
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 14,
-    "inputItems": 253,
-    "outputItems": 253,
+    "renderedFeeds": 13,
+    "inputItems": 228,
+    "outputItems": 228,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2595,
-        "cacheHits": 1846,
-        "generated": 749,
-        "failed": 0
+        "units": 2429,
+        "cacheHits": 2030,
+        "generated": 398,
+        "failed": 1
       }
     ]
   },
@@ -382,14 +374,6 @@
       "path": "/kcna/kp/latest-news"
     },
     {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "Bad control character in string literal in JSON at position 5639 (line 113 column 148)",
-      "path": "/chosun/politics",
-      "feature": "translate"
-    },
-    {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
@@ -412,24 +396,34 @@
     },
     {
       "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "severity": "error",
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
     },
     {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: c4b071f819746529ffa15de7b4e844eee8ac31828b1c6eb4b08ae1a488eb6777",
+      "path": "/purplemanager/bikeradar-news",
+      "itemKey": "7e94f02bd5efb941bbb66d0d6ab92ff159526a7fed678f7165d32838924c80b3",
+      "field": "content:encoded",
+      "feature": "translate"
     },
     {
       "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/nhk/news_web/latest",
+      "message": "llm response missing ids",
+      "path": "/purplemanager/bikeradar-news",
       "feature": "translate"
     }
   ]
