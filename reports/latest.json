@@ -1,7 +1,7 @@
 {
-  "runId": "29648761621",
-  "startedAt": "2026-07-18T14:49:13.951Z",
-  "finishedAt": "2026-07-18T15:13:17.031Z",
+  "runId": "29650881446",
+  "startedAt": "2026-07-18T15:53:49.904Z",
+  "finishedAt": "2026-07-18T16:08:26.429Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 21,
-          "generated": 4,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 19,
-          "generated": 6,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -171,9 +171,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 163,
-          "cacheHits": 136,
-          "generated": 27,
+          "units": 224,
+          "cacheHits": 125,
+          "generated": 99,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 201,
-          "cacheHits": 59,
-          "generated": 142,
+          "units": 171,
+          "cacheHits": 52,
+          "generated": 119,
           "failed": 0
         }
       ],
@@ -223,27 +223,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 199,
-          "cacheHits": 187,
-          "generated": 12,
-          "failed": 0
-        }
-      ],
-      "issues": []
-    },
-    {
-      "path": "/yomiuri/news",
-      "sourceUrl": "https://rss.20260501.xyz/yomiuri/news?key=***",
-      "outputPath": "dist/yomiuri/news.xml",
-      "limit": 25,
-      "inputItems": 25,
-      "outputItems": 25,
-      "featureStats": [
-        {
-          "kind": "translate",
-          "units": 243,
-          "cacheHits": 227,
-          "generated": 16,
+          "units": 231,
+          "cacheHits": 188,
+          "generated": 43,
           "failed": 0
         }
       ],
@@ -253,6 +235,37 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        }
+      ]
+    },
+    {
+      "path": "/yomiuri/news",
+      "sourceUrl": "https://rss.20260501.xyz/yomiuri/news?key=***",
+      "limit": 25,
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "error",
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
         }
       ]
@@ -267,29 +280,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 386,
-          "cacheHits": 277,
-          "generated": 109,
+          "units": 400,
+          "cacheHits": 383,
+          "generated": 17,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm request failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bikerumor/feed",
@@ -330,15 +327,15 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 14,
-    "inputItems": 256,
-    "outputItems": 256,
+    "renderedFeeds": 13,
+    "inputItems": 231,
+    "outputItems": 231,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2692,
-        "cacheHits": 2374,
-        "generated": 318,
+        "units": 2526,
+        "cacheHits": 2239,
+        "generated": 287,
         "failed": 0
       }
     ]
@@ -385,22 +382,28 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "path": "/nikkei/news"
     },
     {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
+      "path": "/yomiuri/news"
     },
     {
-      "stage": "feature",
+      "stage": "fetch",
       "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm request failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest",
-      "feature": "translate"
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "error",
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
     }
   ]
 }
