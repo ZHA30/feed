@@ -1,7 +1,7 @@
 {
-  "runId": "29618867256",
-  "startedAt": "2026-07-17T22:46:49.801Z",
-  "finishedAt": "2026-07-17T22:54:17.905Z",
+  "runId": "29621674679",
+  "startedAt": "2026-07-17T23:50:07.233Z",
+  "finishedAt": "2026-07-18T00:06:12.689Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 19,
-          "generated": 6,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 15,
-      "outputItems": 15,
+      "inputItems": 14,
+      "outputItems": 14,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 143,
-          "cacheHits": 120,
-          "generated": 23,
+          "units": 133,
+          "cacheHits": 133,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 134,
-          "cacheHits": 0,
-          "generated": 134,
+          "units": 249,
+          "cacheHits": 27,
+          "generated": 222,
           "failed": 0
         }
       ],
@@ -202,6 +202,22 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 72d8f2c5e49c642aa218de741536ddb36107a82b364842f4bd8a58e33957be94",
+          "path": "/yna/latest",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 5ddf76ec539c4f33e8a67789a1acbae8e306c99d804e1d6d0faabbec658792da",
+          "path": "/yna/latest",
+          "feature": "translate"
         }
       ]
     },
@@ -215,22 +231,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 98,
-          "cacheHits": 86,
-          "generated": 12,
+          "units": 97,
+          "cacheHits": 89,
+          "generated": 8,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: 8752d5d23f7d9937329e7b581b14fc82d4a71a1d7961712bfccc6385df8bec91",
-          "path": "/nikkei/news",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yomiuri/news",
@@ -242,13 +249,32 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 52,
-          "cacheHits": 33,
-          "generated": 19,
-          "failed": 0
+          "units": 76,
+          "cacheHits": 49,
+          "generated": 26,
+          "failed": 1
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "Expected ',' or ']' after array element in JSON at position 238 (line 1 column 239)",
+          "path": "/yomiuri/news",
+          "itemKey": "d50ce758ab96453b6c8ba01b6554ef94c00ff47fb04a5f886f6ac1a7c8058779",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: e1fb250ac0aec6bfd929e8f934b437b49e949e5f0bf45135faa18e61b56390b8",
+          "path": "/yomiuri/news",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
@@ -260,9 +286,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 160,
-          "cacheHits": 131,
-          "generated": 29,
+          "units": 165,
+          "cacheHits": 126,
+          "generated": 39,
           "failed": 0
         }
       ],
@@ -279,8 +305,8 @@
         {
           "kind": "translate",
           "units": 381,
-          "cacheHits": 362,
-          "generated": 19,
+          "cacheHits": 381,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -308,15 +334,15 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 254,
-    "outputItems": 254,
+    "inputItems": 253,
+    "outputItems": 253,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2087,
-        "cacheHits": 1843,
-        "generated": 244,
-        "failed": 0
+        "units": 2220,
+        "cacheHits": 1916,
+        "generated": 303,
+        "failed": 1
       }
     ]
   },
@@ -353,8 +379,34 @@
       "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "llm response contains unknown id: 8752d5d23f7d9937329e7b581b14fc82d4a71a1d7961712bfccc6385df8bec91",
-      "path": "/nikkei/news",
+      "message": "llm response contains unknown id: 72d8f2c5e49c642aa218de741536ddb36107a82b364842f4bd8a58e33957be94",
+      "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: 5ddf76ec539c4f33e8a67789a1acbae8e306c99d804e1d6d0faabbec658792da",
+      "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "Expected ',' or ']' after array element in JSON at position 238 (line 1 column 239)",
+      "path": "/yomiuri/news",
+      "itemKey": "d50ce758ab96453b6c8ba01b6554ef94c00ff47fb04a5f886f6ac1a7c8058779",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: e1fb250ac0aec6bfd929e8f934b437b49e949e5f0bf45135faa18e61b56390b8",
+      "path": "/yomiuri/news",
       "feature": "translate"
     }
   ]
