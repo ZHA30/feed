@@ -1,7 +1,7 @@
 {
-  "runId": "29713098303",
-  "startedAt": "2026-07-20T02:43:06.908Z",
-  "finishedAt": "2026-07-20T03:50:48.392Z",
+  "runId": "29721135494",
+  "startedAt": "2026-07-20T06:15:34.089Z",
+  "finishedAt": "2026-07-20T06:28:21.991Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 16,
-          "generated": 9,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 13,
-          "generated": 12,
+          "cacheHits": 21,
+          "generated": 4,
           "failed": 0
         }
       ],
@@ -166,75 +166,18 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 12,
-      "outputItems": 12,
+      "inputItems": 16,
+      "outputItems": 16,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 166,
-          "cacheHits": 0,
-          "generated": 162,
-          "failed": 4
+          "units": 220,
+          "cacheHits": 137,
+          "generated": 83,
+          "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 503 Service Unavailable",
-          "path": "/chosun/politics",
-          "itemKey": "2b00ae62087fef0b34b2986c5013d2194347c0678fe78a1d764be6201b93726e",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 503 Service Unavailable",
-          "path": "/chosun/politics",
-          "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "Expected ',' or '}' after property value in JSON at position 4072 (line 1 column 4073)",
-          "path": "/chosun/politics",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 503 Service Unavailable",
-          "path": "/chosun/politics",
-          "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/chosun/politics",
-          "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response missing ids",
-          "path": "/chosun/politics",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yna/latest",
@@ -246,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 130,
-          "cacheHits": 0,
-          "generated": 130,
+          "units": 146,
+          "cacheHits": 15,
+          "generated": 131,
           "failed": 0
         }
       ],
@@ -259,21 +202,6 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: 079161b47b6d24c6119f0dfba71ec0fdb9dbbf1e045d5e7222bd7839e833e9fb",
-          "path": "/yna/latest",
-          "feature": "translate"
         }
       ]
     },
@@ -287,9 +215,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 116,
-          "cacheHits": 0,
-          "generated": 116,
+          "units": 107,
+          "cacheHits": 61,
+          "generated": 46,
           "failed": 0
         }
       ],
@@ -313,9 +241,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 118,
-          "cacheHits": 43,
-          "generated": 75,
+          "units": 155,
+          "cacheHits": 74,
+          "generated": 81,
           "failed": 0
         }
       ],
@@ -339,13 +267,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 634,
-          "cacheHits": 369,
-          "generated": 265,
+          "units": 734,
+          "cacheHits": 536,
+          "generated": 198,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -387,15 +323,15 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 251,
-    "outputItems": 251,
+    "inputItems": 255,
+    "outputItems": 255,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2665,
-        "cacheHits": 1888,
-        "generated": 773,
-        "failed": 4
+        "units": 2863,
+        "cacheHits": 2308,
+        "generated": 555,
+        "failed": 0
       }
     ]
   },
@@ -422,82 +358,11 @@
       "path": "/kcna/kp/latest-news"
     },
     {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 503 Service Unavailable",
-      "path": "/chosun/politics",
-      "itemKey": "2b00ae62087fef0b34b2986c5013d2194347c0678fe78a1d764be6201b93726e",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 503 Service Unavailable",
-      "path": "/chosun/politics",
-      "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "Expected ',' or '}' after property value in JSON at position 4072 (line 1 column 4073)",
-      "path": "/chosun/politics",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 503 Service Unavailable",
-      "path": "/chosun/politics",
-      "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/chosun/politics",
-      "itemKey": "9129b202acf344935ceeb9bf62fea65c757006d4b8397255a5365972183f1885",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response missing ids",
-      "path": "/chosun/politics",
-      "feature": "translate"
-    },
-    {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response contains unknown id: 079161b47b6d24c6119f0dfba71ec0fdb9dbbf1e045d5e7222bd7839e833e9fb",
-      "path": "/yna/latest",
-      "feature": "translate"
     },
     {
       "stage": "fetch",
@@ -512,6 +377,13 @@
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest"
     }
   ]
 }
