@@ -1,7 +1,7 @@
 {
-  "runId": "29868533747",
-  "startedAt": "2026-07-21T21:05:31.901Z",
-  "finishedAt": "2026-07-21T21:22:14.844Z",
+  "runId": "29875297978",
+  "startedAt": "2026-07-21T22:53:38.549Z",
+  "finishedAt": "2026-07-21T23:07:20.084Z",
   "status": "partial",
   "feeds": [
     {
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 21,
-          "generated": 4,
+          "cacheHits": 18,
+          "generated": 7,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 24,
+          "generated": 1,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 18,
-      "outputItems": 18,
+      "inputItems": 14,
+      "outputItems": 14,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 179,
-          "cacheHits": 136,
-          "generated": 43,
+          "units": 161,
+          "cacheHits": 105,
+          "generated": 56,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 172,
-          "cacheHits": 13,
-          "generated": 159,
+          "units": 210,
+          "cacheHits": 16,
+          "generated": 194,
           "failed": 0
         }
       ],
@@ -207,7 +207,7 @@
           "stage": "feature",
           "severity": "warning",
           "code": "batch_retry",
-          "message": "llm response contains unknown id: 6418920ad2166d07ee8912bd0d736e0c95c8466df115cf6d1a39d17cbd310eb6",
+          "message": "llm response contains unknown id: a96013a887f553a9f838b75817330f6b8341c83800b31c95bf81d47241215013",
           "path": "/yna/latest",
           "feature": "translate"
         }
@@ -224,8 +224,8 @@
         {
           "kind": "translate",
           "units": 104,
-          "cacheHits": 0,
-          "generated": 104,
+          "cacheHits": 57,
+          "generated": 47,
           "failed": 0
         }
       ],
@@ -241,13 +241,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 53,
-          "cacheHits": 2,
-          "generated": 51,
+          "units": 80,
+          "cacheHits": 49,
+          "generated": 31,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        }
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
@@ -259,13 +267,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 233,
-          "cacheHits": 138,
-          "generated": 95,
+          "units": 208,
+          "cacheHits": 155,
+          "generated": 53,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -278,8 +294,8 @@
         {
           "kind": "translate",
           "units": 194,
-          "cacheHits": 155,
-          "generated": 39,
+          "cacheHits": 194,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -307,14 +323,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 257,
-    "outputItems": 257,
+    "inputItems": 253,
+    "outputItems": 253,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2571,
-        "cacheHits": 2066,
-        "generated": 505,
+        "units": 2593,
+        "cacheHits": 2196,
+        "generated": 397,
         "failed": 0
       }
     ]
@@ -352,9 +368,23 @@
       "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "llm response contains unknown id: 6418920ad2166d07ee8912bd0d736e0c95c8466df115cf6d1a39d17cbd310eb6",
+      "message": "llm response contains unknown id: a96013a887f553a9f838b75817330f6b8341c83800b31c95bf81d47241215013",
       "path": "/yna/latest",
       "feature": "translate"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest"
     }
   ]
 }
