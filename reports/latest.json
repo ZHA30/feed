@@ -1,7 +1,7 @@
 {
-  "runId": "29835676545",
-  "startedAt": "2026-07-21T13:42:53.278Z",
-  "finishedAt": "2026-07-21T13:54:53.231Z",
+  "runId": "29845136001",
+  "startedAt": "2026-07-21T15:41:26.894Z",
+  "finishedAt": "2026-07-21T15:55:59.976Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 14,
-          "generated": 11,
+          "cacheHits": 10,
+          "generated": 15,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 19,
+          "generated": 6,
           "failed": 0
         }
       ],
@@ -123,8 +123,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 18,
-          "generated": 2,
+          "cacheHits": 20,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -171,9 +171,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 152,
-          "cacheHits": 116,
-          "generated": 36,
+          "units": 187,
+          "cacheHits": 115,
+          "generated": 72,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 188,
-          "cacheHits": 17,
-          "generated": 171,
+          "units": 229,
+          "cacheHits": 52,
+          "generated": 177,
           "failed": 0
         }
       ],
@@ -201,6 +201,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yna/latest"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
         }
       ]
@@ -215,13 +222,28 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 118,
-          "cacheHits": 37,
-          "generated": 81,
+          "units": 138,
+          "cacheHits": 85,
+          "generated": 53,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        }
+      ]
     },
     {
       "path": "/yomiuri/news",
@@ -233,9 +255,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 146,
-          "cacheHits": 65,
-          "generated": 81,
+          "units": 172,
+          "cacheHits": 108,
+          "generated": 64,
           "failed": 0
         }
       ],
@@ -266,9 +288,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 411,
-          "cacheHits": 364,
-          "generated": 47,
+          "units": 398,
+          "cacheHits": 385,
+          "generated": 13,
           "failed": 0
         }
       ],
@@ -278,13 +300,6 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/nhk/news_web/latest"
         }
       ]
@@ -299,9 +314,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 244,
-          "cacheHits": 244,
-          "generated": 0,
+          "units": 240,
+          "cacheHits": 220,
+          "generated": 20,
           "failed": 0
         }
       ],
@@ -317,9 +332,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 1214,
-          "cacheHits": 1174,
-          "generated": 40,
+          "units": 1228,
+          "cacheHits": 1203,
+          "generated": 25,
           "failed": 0
         }
       ],
@@ -334,9 +349,9 @@
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2881,
-        "cacheHits": 2406,
-        "generated": 475,
+        "units": 3000,
+        "cacheHits": 2547,
+        "generated": 453,
         "failed": 0
       }
     ]
@@ -374,6 +389,27 @@
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yna/latest"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yomiuri/news"
     },
@@ -389,13 +425,6 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
       "path": "/nhk/news_web/latest"
     }
   ]
