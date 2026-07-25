@@ -1,7 +1,7 @@
 {
-  "runId": "30174309390",
-  "startedAt": "2026-07-25T20:48:33.196Z",
-  "finishedAt": "2026-07-25T21:03:40.252Z",
+  "runId": "30176483154",
+  "startedAt": "2026-07-25T21:53:05.416Z",
+  "finishedAt": "2026-07-25T22:00:16.283Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 19,
-          "generated": 6,
+          "cacheHits": 15,
+          "generated": 10,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 24,
-          "generated": 1,
+          "cacheHits": 23,
+          "generated": 2,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 12,
-      "outputItems": 12,
+      "inputItems": 9,
+      "outputItems": 9,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 142,
-          "cacheHits": 90,
-          "generated": 52,
+          "units": 119,
+          "cacheHits": 108,
+          "generated": 11,
           "failed": 0
         }
       ],
@@ -221,8 +221,8 @@
         {
           "kind": "translate",
           "units": 189,
-          "cacheHits": 3,
-          "generated": 186,
+          "cacheHits": 187,
+          "generated": 2,
           "failed": 0
         }
       ],
@@ -238,22 +238,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 123,
-          "cacheHits": 0,
-          "generated": 123,
+          "units": 121,
+          "cacheHits": 75,
+          "generated": 46,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "Expected ',' or '}' after property value in JSON at position 3650 (line 1 column 3651)",
-          "path": "/yomiuri/news",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/nhk/news_web/latest",
@@ -265,9 +256,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 287,
-          "cacheHits": 241,
-          "generated": 46,
+          "units": 268,
+          "cacheHits": 211,
+          "generated": 57,
           "failed": 0
         }
       ],
@@ -313,14 +304,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 13,
-    "inputItems": 241,
-    "outputItems": 241,
+    "inputItems": 238,
+    "outputItems": 238,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2446,
-        "cacheHits": 2028,
-        "generated": 418,
+        "units": 2402,
+        "cacheHits": 2270,
+        "generated": 132,
         "failed": 0
       }
     ]
@@ -367,14 +358,6 @@
       "code": "feed_failed",
       "message": "fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "Expected ',' or '}' after property value in JSON at position 3650 (line 1 column 3651)",
-      "path": "/yomiuri/news",
-      "feature": "translate"
     }
   ]
 }
