@@ -1,7 +1,7 @@
 {
-  "runId": "30168621484",
-  "startedAt": "2026-07-25T17:56:24.630Z",
-  "finishedAt": "2026-07-25T18:05:40.934Z",
+  "runId": "30170962013",
+  "startedAt": "2026-07-25T19:06:53.103Z",
+  "finishedAt": "2026-07-25T19:26:41.912Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 14,
-          "generated": 11,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 25,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 13,
-      "outputItems": 13,
+      "inputItems": 15,
+      "outputItems": 15,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 143,
-          "cacheHits": 128,
-          "generated": 15,
+          "units": 188,
+          "cacheHits": 122,
+          "generated": 66,
           "failed": 0
         }
       ],
@@ -220,9 +220,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 104,
-          "cacheHits": 47,
-          "generated": 57,
+          "units": 102,
+          "cacheHits": 99,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -235,12 +235,11 @@
           "path": "/nikkei/news"
         },
         {
-          "stage": "feature",
+          "stage": "fetch",
           "severity": "warning",
-          "code": "batch_retry",
-          "message": "Expected ',' or '}' after property value in JSON at position 490 (line 13 column 62)",
-          "path": "/nikkei/news",
-          "feature": "translate"
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
         }
       ]
     },
@@ -254,9 +253,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 202,
-          "cacheHits": 202,
-          "generated": 0,
+          "units": 1414,
+          "cacheHits": 74,
+          "generated": 1340,
           "failed": 0
         }
       ],
@@ -267,6 +266,14 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/yomiuri/news"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 47a5b7400b59e86a7fa724b02ac2070c182646a8dbf06e96a76b985d35a406cb",
+          "path": "/yomiuri/news",
+          "feature": "translate"
         }
       ]
     },
@@ -281,20 +288,12 @@
         {
           "kind": "translate",
           "units": 259,
-          "cacheHits": 237,
-          "generated": 22,
+          "cacheHits": 259,
+          "generated": 0,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bikerumor/feed",
@@ -336,14 +335,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 13,
-    "inputItems": 242,
-    "outputItems": 242,
+    "inputItems": 244,
+    "outputItems": 244,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2413,
-        "cacheHits": 2300,
-        "generated": 113,
+        "units": 3668,
+        "cacheHits": 2246,
+        "generated": 1422,
         "failed": 0
       }
     ]
@@ -399,12 +398,11 @@
       "path": "/nikkei/news"
     },
     {
-      "stage": "feature",
+      "stage": "fetch",
       "severity": "warning",
-      "code": "batch_retry",
-      "message": "Expected ',' or '}' after property value in JSON at position 490 (line 13 column 62)",
-      "path": "/nikkei/news",
-      "feature": "translate"
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
     },
     {
       "stage": "fetch",
@@ -414,11 +412,12 @@
       "path": "/yomiuri/news"
     },
     {
-      "stage": "fetch",
+      "stage": "feature",
       "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: 47a5b7400b59e86a7fa724b02ac2070c182646a8dbf06e96a76b985d35a406cb",
+      "path": "/yomiuri/news",
+      "feature": "translate"
     }
   ]
 }
