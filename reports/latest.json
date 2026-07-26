@@ -1,7 +1,7 @@
 {
-  "runId": "30213798852",
-  "startedAt": "2026-07-26T18:01:37.939Z",
-  "finishedAt": "2026-07-26T18:08:29.216Z",
+  "runId": "30218289968",
+  "startedAt": "2026-07-26T20:07:05.805Z",
+  "finishedAt": "2026-07-26T20:15:31.927Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 12,
+          "generated": 13,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 16,
+          "generated": 9,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 25,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -166,33 +166,18 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 17,
-      "outputItems": 17,
+      "inputItems": 19,
+      "outputItems": 19,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 200,
-          "cacheHits": 167,
-          "generated": 33,
+          "units": 268,
+          "cacheHits": 163,
+          "generated": 105,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/chosun/politics"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/yna/latest",
@@ -235,9 +220,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 109,
-          "cacheHits": 81,
-          "generated": 28,
+          "units": 122,
+          "cacheHits": 1,
+          "generated": 121,
           "failed": 0
         }
       ],
@@ -268,28 +253,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 170,
-          "cacheHits": 170,
-          "generated": 0,
+          "units": 25,
+          "cacheHits": 0,
+          "generated": 25,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/nhk/news_web/latest",
@@ -301,28 +271,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 435,
-          "cacheHits": 416,
-          "generated": 19,
+          "units": 375,
+          "cacheHits": 333,
+          "generated": 42,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/nhk/news_web/latest"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/bikerumor/feed",
@@ -364,14 +319,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 13,
-    "inputItems": 246,
-    "outputItems": 246,
+    "inputItems": 248,
+    "outputItems": 248,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2608,
-        "cacheHits": 2520,
-        "generated": 88,
+        "units": 2484,
+        "cacheHits": 2169,
+        "generated": 315,
         "failed": 0
       }
     ]
@@ -403,20 +358,6 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/chosun/politics"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
     },
     {
@@ -446,34 +387,6 @@
       "code": "fetch_retry",
       "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
       "path": "/nikkei/news"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/nhk/news_web/latest"
     }
   ]
 }
