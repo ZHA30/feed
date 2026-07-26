@@ -1,6 +1,18 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "91597cd087f6ace35cd249de7a3ee9d14d2606d69b7c0f97b02b6e1435a44c23": {
+      "feature": "translate",
+      "sourceHash": "059a78226fd85bb8b994863ebbcd69fdd445ab02e3097140234190842be0d79c",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "Kimi K3 在浏览器中构建了 Windows XP",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:55:55.390Z"
+    },
     "f18791363d31a8c669d915a43de6ddd03d3803e1707f86a3cf72ac2ccc4f4fbf": {
       "feature": "translate",
       "sourceHash": "72ba3db76bc9f68dcc64f9a4ee633116d6c9a396ca3a1c179d99cd5990634b93",
@@ -73,6 +85,18 @@
       },
       "createdAt": "2026-07-25T21:55:35.655Z"
     },
+    "12c54e070b36b657e69bdd2257c76f22956bb0a3e2a0b195d250d2c550433183": {
+      "feature": "translate",
+      "sourceHash": "c7e3c4f635d717240d9332116e8eba2f3d54bf7a483ff2d8d2021022eda1becf",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "通用决议：Debian 中 LLM 的使用",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:55:55.390Z"
+    },
     "d7f1e11018e04b8e8d817689ff89b304aaa380fd73725048878761ffc6d8e586": {
       "feature": "translate",
       "sourceHash": "7b3eb57ecfa1462c090ffb02412c47cdcf3273f3aa221ab67793b37480a6d659",
@@ -96,18 +120,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T20:51:27.320Z"
-    },
-    "8254f2731c592e7c1d3440e9cad867ba20a6d4860b08ab9f37925fb8a13f4e8f": {
-      "feature": "translate",
-      "sourceHash": "fe8ff9c482664a682c5ae93164a71c3ed56b82527488d1de909e2b759f855950",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Tile的安全如此糟糕，以至于成为了跟踪者的功能。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T19:10:07.363Z"
     },
     "4f6474f8c8314777e15c76d57191b8171f193bf56e95bbf165422af03e03747a": {
       "feature": "translate",
@@ -217,6 +229,18 @@
       },
       "createdAt": "2026-07-25T19:10:07.363Z"
     },
+    "3b1fdb50356c85e40dc4a9d370db6d0b2c3de48533d2823a2f09bf781d346979": {
+      "feature": "translate",
+      "sourceHash": "5ff62c94b28013bd2ba798dc5003179dd8e89b7e73de01f35525b84c600617e6",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "用于碰撞检测的 SIMD",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:55:55.390Z"
+    },
     "c53fe4da06de6f52414bf5f55733b5e352f3500dabc0e877fc8cbbae11c7a73e": {
       "feature": "translate",
       "sourceHash": "907f9f5c9f13373bb401b9593709f5601d755a8077301589b0e0ff35e6f66ef2",
@@ -229,77 +253,65 @@
       },
       "createdAt": "2026-07-25T09:45:39.023Z"
     },
-    "91597cd087f6ace35cd249de7a3ee9d14d2606d69b7c0f97b02b6e1435a44c23": {
+    "1d0a2fa16c36f45e222270412423de56f00dbd54c9daf87f0fbef6b623fa9525": {
       "feature": "translate",
-      "sourceHash": "059a78226fd85bb8b994863ebbcd69fdd445ab02e3097140234190842be0d79c",
+      "sourceHash": "af122a83e6e7168fe456d5199aaa5cc574b2427ae5a667e4ab7cac8105062e29",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Kimi K3 在浏览器中构建了 Windows XP",
+      "output": "数十年来临床失败率：惊人",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:55:55.390Z"
+      "createdAt": "2026-07-26T00:01:47.291Z"
     },
-    "593355444f80b28aa4045dce4b55bfd601c7f2ba3ebb4b1af02e37a0dc32977c": {
+    "cf808675e629bd4c5c640a91b87d096a8b9801237f779736f27265cca53e8280": {
       "feature": "translate",
-      "sourceHash": "c3134f433259efa565499980648b42eaec144ad55b54c23023dd08f073aafc9a",
+      "sourceHash": "653f1c4ced4e3c6044f3e1592d294a6ca9a9e0d5e806b9a70aec7992b5006ab5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "数字智能：为什么人类创造了它不理解的东西",
+      "output": "就业岗位怎么了？区分AI炒作与现实",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:55:55.390Z"
+      "createdAt": "2026-07-26T00:01:47.291Z"
     },
-    "03cff1781be3e50787519238412ef56b211b8726120dedf948bdb447ba81d06f": {
+    "c9fa6b6406378ebab5a38be845341ce2eb1174cde9a761d1bdbab59587a1e0f0": {
       "feature": "translate",
-      "sourceHash": "a6232d9f3ac3ab7a56fc969407653c0c178b96a0d0b5c206c02656156aa1efc4",
+      "sourceHash": "86bc6bfa09c7447f75f9e60838e19381c692fe4df7e94739fe474a3791875f65",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阿努比斯实际上阻止了谁？",
+      "output": "在8美元微控制器上运行2890万参数的LLM",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:55:55.390Z"
+      "createdAt": "2026-07-26T00:01:47.291Z"
     },
-    "12c54e070b36b657e69bdd2257c76f22956bb0a3e2a0b195d250d2c550433183": {
+    "eea4e189fc7ad2b34c0c31d5d8c89d87b843b6d5ec943806b361ebe2607f1204": {
       "feature": "translate",
-      "sourceHash": "c7e3c4f635d717240d9332116e8eba2f3d54bf7a483ff2d8d2021022eda1becf",
+      "sourceHash": "7b7951eec31566811cb2fd456633ba9970af7ae92f02f6b36e0bcd2fadabdd12",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "通用决议：Debian 中 LLM 的使用",
+      "output": "Show HN：Yorishiro – AI代理所在的macOS终端",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:55:55.390Z"
+      "createdAt": "2026-07-26T00:01:47.291Z"
     },
-    "79d7cffe84bbc4ab2e9fcf789f94cdcff80c7afaf4e25b4b7880a608f4fa12a2": {
+    "19d28f350cf93f2973efe0dabb321ce8172134e73cf752c418cf9648cfe51553": {
       "feature": "translate",
-      "sourceHash": "2c2cb8cd03d58224aec915b7b012711b024d0c939d28dfde0e889d90b61f21e3",
+      "sourceHash": "553d0adb975ccfc4b22268c55054de63af2b803e96c70a55421a17a8612f7d25",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Show HN：光线投射扫雷",
+      "output": "Ramsay-Peaty在再次错失金牌后泪流满面",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:55:55.390Z"
-    },
-    "3b1fdb50356c85e40dc4a9d370db6d0b2c3de48533d2823a2f09bf781d346979": {
-      "feature": "translate",
-      "sourceHash": "5ff62c94b28013bd2ba798dc5003179dd8e89b7e73de01f35525b84c600617e6",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "用于碰撞检测的 SIMD",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:55:55.390Z"
+      "createdAt": "2026-07-25T22:56:05.585Z"
     },
     "cea929b04bfd065fd828159beec0d92d474d02dff0e12b2b326f0d502f4cb1f2": {
       "feature": "translate",
@@ -342,18 +354,6 @@
       "sourceHash": "508fd13fbd76e012c116ce84d6e59c866e67a7f6ed34366f00eb71c221c4ec03",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
       "output": "尽管获得杆位，诺里斯仍保持谨慎，因为汉密尔顿‘失控’",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T20:51:38.608Z"
-    },
-    "53bca3679cab393820ab1625d0f62b5ee0bcabf9602af2e8f2606b20052426a4": {
-      "feature": "translate",
-      "sourceHash": "b92c4f6dd1c58c0ff552fe15f1e673b4fc7bcb7e70ecbebebd81e13d61325196",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "体操运动员兰顿在惊险摔倒后确认没有受重伤",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
@@ -433,30 +433,6 @@
       },
       "createdAt": "2026-07-25T15:01:49.844Z"
     },
-    "2a0a83253211c32708e2b552c97a8f93057f78357f5a378e6b638674b0c73703": {
-      "feature": "translate",
-      "sourceHash": "bab1b711aa632648c487e608ff19ae7c30ede011f3941167c08deedb678da8be",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "埃塞克斯发生爆炸后20名消防员被送往医院",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:01:49.844Z"
-    },
-    "fe4ecc72ef8e9812a3c45bc9155b04a6c40c42bfe28b19c285203b1f5fe5bd6f": {
-      "feature": "translate",
-      "sourceHash": "4c75e23bc1623d90fd92dd60006c3598d8e34358e83867d48822cc189322438a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "六名男子因伦敦南部持刀伤人致死案被捕",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:01:49.844Z"
-    },
     "c4559f34be4a9b388cc0e4d5f16a0a50734236c022daa7eceef81c0d3b1dbb8c": {
       "feature": "translate",
       "sourceHash": "b46c4f859096a825c8c5a5c532fb3047a5ed2b14dcd51eabe508c2ef07a616cd",
@@ -468,18 +444,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T21:55:45.878Z"
-    },
-    "1d26a5a652e4f884ad276bdd03e1f1b192addaa0b2249cd53d359033169ebbf7": {
-      "feature": "translate",
-      "sourceHash": "e13a81e74b5740e05ce6adead91d326edd25496fee67d83bd01a9975e76eb2f8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "这款鸡尾酒席卷年轻饮酒者——但包装“不可回收”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T00:04:55.111Z"
     },
     "e41e95ca037909ce8f6d13bae29e80b2ebca3277fb05881a41ca517cc61485c7": {
       "feature": "translate",
@@ -505,42 +469,6 @@
       },
       "createdAt": "2026-07-25T11:10:01.454Z"
     },
-    "d3ce4eef566d68d132cab2e5ab885edb0e28374e19a456160234d966790591e1": {
-      "feature": "translate",
-      "sourceHash": "4cb0e4b373072f7c1205a08d7fed0b33d9f092987581778a07906cfb73cc6f21",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "克劳迪娅·温克尔曼的访谈节目播出一季后结束——有人能取代格雷厄姆·诺顿吗？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T00:04:55.111Z"
-    },
-    "793d4b8318ab8b3e868857a4c532cdd27ea31a2e3798761a8ecbde503c9576b4": {
-      "feature": "translate",
-      "sourceHash": "33ba04ad5883e1ee1317d8abb513ba4308d1ba368360fe6657e3f649b7f61c3a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "ADHD重塑了职场。这对老板和员工意味着什么",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T00:04:55.111Z"
-    },
-    "fa1226a51a06999e5ac2638f33df7dd44779135a8a6717b8e7f4d004d905270a": {
-      "feature": "translate",
-      "sourceHash": "77ab39d1a855e877757644c451a6853a45dddeebb81bfbb1f804341ab7630db2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "这支流行乐队从为救援犬表演到演唱会门票售罄。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T09:45:56.336Z"
-    },
     "a6f478a6a3d2174951378d48a75d243a3e84cb79eb0241d0d7855094b7871533": {
       "feature": "translate",
       "sourceHash": "047701d98dc5a0013550367d724ba4d98fcffb26a2a0318a04ee7a24737d5311",
@@ -553,53 +481,101 @@
       },
       "createdAt": "2026-07-25T11:10:01.454Z"
     },
-    "d33085636bd034680530f6e4aa537ecfc6dc0822d7212baf50f95ad14d00e3d1": {
+    "ffc611617be74bf98e61a608768c9222310208ef434c058cd593dc7a6cc5f932": {
       "feature": "translate",
-      "sourceHash": "b15a904399b1ccc29b2be490a7fb7b2fad7cb590d9ed83fdef45a8356dbed25c",
+      "sourceHash": "55fadef70fdf98337648d5c2c22abc436c935f29747b2797da2018fd83e854c5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "婚礼承办方未到，餐馆救场",
+      "output": "一周的工作经验让这些十年级学生了解了自己的未来",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T19:10:28.515Z"
+      "createdAt": "2026-07-26T00:02:06.423Z"
     },
-    "19d28f350cf93f2973efe0dabb321ce8172134e73cf752c418cf9648cfe51553": {
+    "9d9e4a9e803ad6e9096ffb099386b96a99368ecc0b1c4e193eb499d70335a4d7": {
       "feature": "translate",
-      "sourceHash": "553d0adb975ccfc4b22268c55054de63af2b803e96c70a55421a17a8612f7d25",
+      "sourceHash": "de28fe4586fbc6542b3d4c8f2aa2e34868e812b3f6e5a80ce2f98ba6579f8db6",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Ramsay-Peaty在再次错失金牌后泪流满面",
+      "output": "防晒霜不会致癌。为什么这些说法不断传播？",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:56:05.585Z"
+      "createdAt": "2026-07-26T00:02:06.423Z"
     },
-    "f88f0c771d6dec743b4c9240cb94e7a774db9cc4c1841658f528ccfcfc1e6e74": {
+    "d4ef01384cd087fe26b5b5d9ef7381454a22bc6a547f18ec256939c65c6ccbc8": {
       "feature": "translate",
-      "sourceHash": "4db4fd223ee674ef8e4b02b6214b75c19c0cb8fcadfa6ed9e5b2bd1c39e96ea5",
+      "sourceHash": "398dfd69d469f69dda07ed590ef8d9b80d3e3631669a9c12fdc249c9b2b251f5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "青少年在卢顿遇刺身亡后，多人因谋杀被捕",
+      "output": "《爱情岛》揭示了约会方式的演变",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:56:05.585Z"
+      "createdAt": "2026-07-26T00:02:06.423Z"
     },
-    "bcf277d939d44cb73d663bed9e93a4e4f35baa37a6682fff71c6e406dd850f14": {
+    "1eeebe30330c0fb4be2a985ff590a20a7652862808a78a08f45c4d7213ecd3d3": {
       "feature": "translate",
-      "sourceHash": "7cedc0c9f3303e8cb9497bb14d45b0320dd1b9e3d25caaad9be60c2a9f88f702",
+      "sourceHash": "4229ad399ed4b8789e38b16445d062c445833dc1ca9e2efee1e07a79b8df57ab",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "全球故事：伊朗战争是否重新开始？",
+      "output": "我曾以为洛克比空难已结案，直到我开始提问",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:56:05.585Z"
+      "createdAt": "2026-07-26T00:02:06.423Z"
+    },
+    "8c02487ad88fa39807d24def6522c6460b87d946be8f9faa60fe27a67ea8fcd1": {
+      "feature": "translate",
+      "sourceHash": "c62ebc8828c9d7c6d00a4bedec40d5154d81c0e0e6681bc49f36159b8362c618",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "披萨、意大利面、土豆、蛋白质——意大利儿童如何变得如此超重",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:02:06.423Z"
+    },
+    "5032c0ffe8706a910be918011b7b49c65399129a461cbc5130b76253072e9c9b": {
+      "feature": "translate",
+      "sourceHash": "cea66d21991aad31f0d119ade7d6fa98325334cafe6bc23eb330788ec899468c",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "周末结束转凉后，英国又一波热浪即将来临",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:02:06.423Z"
+    },
+    "4ab24bb7dc22b1b4a1b7d356d2c0c3fe538998c625be13d551bed1c3a794891e": {
+      "feature": "translate",
+      "sourceHash": "51f28e0f2baf574424e5cfda994a140370b91c59ce27b50fc68a12a2cfbfa4be",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "凯恩戈姆山野火疏散后，居民获准返回",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:02:06.423Z"
+    },
+    "9f683a9d1a14b0dc532c1fd787a463156bb397d01ed750178f51854d585c3097": {
+      "feature": "translate",
+      "sourceHash": "7e16684f24482a806482170bd1f81498bdbcbf300343f0988ae437252139685d",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "约书亚两次被击倒，戏剧性胜利促成与富里的对决",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:02:06.423Z"
     },
     "15b0a2de8eceb88ec3e358beab6445d50a864413cd78cc58d39c106ebfe49c4b": {
       "feature": "translate",
@@ -3253,17 +3229,41 @@
       },
       "createdAt": "2026-06-29T05:34:12.127Z"
     },
-    "33d2c06d282d4cccad215df5093212ebdedb8c93dae2db1b30f9304594d1f009": {
+    "c22799ab76f2bd31974476f5324087d6385fa4ea62ed32e59dca5ccc6878b085": {
       "feature": "translate",
-      "sourceHash": "19dbe5c20f92c6690c0b9b991aa318b972bd42a69ffd6819e24e3d8854761edc",
+      "sourceHash": "3eba830ddc762be8d7cb846318fe60d70ab3210083d7e82dd7567c62b4b8178f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "野火烟雾笼罩西班牙和法国天空",
+      "output": "伊朗战争实时更新：美伊冲突缓和，但双方支持者互攻",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T09:46:15.621Z"
+      "createdAt": "2026-07-25T22:56:10.991Z"
+    },
+    "bbca7017bdb7a9ea7b294a7d5419b98f2102aaf410292ff61581bf1d97cbd3e5": {
+      "feature": "translate",
+      "sourceHash": "83194363226eabd733a82790fe1aaed4d62ec18192dc7f15e80f5c75d1df0c2e",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "特朗普暂缓对伊朗重大战争升级，顾问提出担忧",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:56:10.991Z"
+    },
+    "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
+      "feature": "translate",
+      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "以下是最新消息。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-12T02:35:08.215Z"
     },
     "c8bef161dd1f2cea0bcf01d035319ae5647b7ae51db6594ac508e8de28e44b32": {
       "feature": "translate",
@@ -3277,6 +3277,18 @@
       },
       "createdAt": "2026-07-25T20:51:45.908Z"
     },
+    "33d2c06d282d4cccad215df5093212ebdedb8c93dae2db1b30f9304594d1f009": {
+      "feature": "translate",
+      "sourceHash": "19dbe5c20f92c6690c0b9b991aa318b972bd42a69ffd6819e24e3d8854761edc",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "野火烟雾笼罩西班牙和法国天空",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T09:46:15.621Z"
+    },
     "6e5ad2cd9a23267a542faec7b733ce5f835d692a66438d82dce7231329335ba9": {
       "feature": "translate",
       "sourceHash": "895a1d09b04c4945b83dc82ddf0184a887b85e92ba1e053bad311cc343f6d1e4",
@@ -3288,18 +3300,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T11:10:12.012Z"
-    },
-    "035a06634b45023fac0c4c31303572a67e2b0c895cf9cc80d94bed7260fe82a0": {
-      "feature": "translate",
-      "sourceHash": "f59d204c248e5c80dd3980d1f9528aaf3fba7d4cabfdce0732134ec484061662",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "以下是最新消息。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-12T02:35:08.215Z"
     },
     "79e89fdb10f5abfcabc2982a5a6792fdf0382938776be03215b174924adc317b": {
       "feature": "translate",
@@ -3505,41 +3505,29 @@
       },
       "createdAt": "2026-07-24T21:03:00.774Z"
     },
-    "c22799ab76f2bd31974476f5324087d6385fa4ea62ed32e59dca5ccc6878b085": {
+    "38ca6a5c2b0780da0b2ab43cfe207dd22204c920bb49e2a5db9664c99f6785cf": {
       "feature": "translate",
-      "sourceHash": "3eba830ddc762be8d7cb846318fe60d70ab3210083d7e82dd7567c62b4b8178f",
+      "sourceHash": "cac93c55be7d79654cf362776d1e69a8b9c0cb5690197a3ae6ff916a020552a5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊朗战争实时更新：美伊冲突缓和，但双方支持者互攻",
+      "output": "柏林一场骄傲活动附近，汽车冲入人群，致至少一人死亡",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:56:10.991Z"
+      "createdAt": "2026-07-26T00:02:11.143Z"
     },
-    "bbca7017bdb7a9ea7b294a7d5419b98f2102aaf410292ff61581bf1d97cbd3e5": {
+    "1ac2a3ea0b382a74dae0107c4ee22316c9b6c15bc8768a2bcde45ee12a352745": {
       "feature": "translate",
-      "sourceHash": "83194363226eabd733a82790fe1aaed4d62ec18192dc7f15e80f5c75d1df0c2e",
+      "sourceHash": "42e2dcf0e0f5152aa6e56f97ccd643bc8e92473721718dd1cbb4a8de6f75a129",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "特朗普暂缓对伊朗重大战争升级，顾问提出担忧",
+      "output": "数十万人逃离法国和西班牙的火灾，救援涌入",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T22:56:10.991Z"
-    },
-    "2b69faa11ad497969982fc1ef4f11f107158e1f89fe27d03a017c866030cab1d": {
-      "feature": "translate",
-      "sourceHash": "72f5a85f3ee88b97453d6ac2eadc9a4f213ade771a68dd5270b17b68fb1d7650",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "柏林骄傲节活动因汽车冲入人群提前结束",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:56:10.991Z"
+      "createdAt": "2026-07-26T00:02:11.143Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
@@ -5329,114 +5317,6 @@
       },
       "createdAt": "2026-07-25T07:17:34.883Z"
     },
-    "d8914c5ad4f8fa92251de04a6d1c9992d3a98455698271e197ee78bd75c6856f": {
-      "feature": "translate",
-      "sourceHash": "bd16347f4586b1b2790835b337caa07cb483b0260b925c6fbd546e66b875474f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "机器人船员复诵“舵左偏10度”并改变方向",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "b8f0a19d082f2b1a0f8397fbeb70fb13f94218cabdabe8ee63bd7b5966a9a9f6": {
-      "feature": "translate",
-      "sourceHash": "762331510473ad06dccc26d6f73cefbb8db4d5b575efb2b8cab1dae12032be6a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "海军，为应对兵役减少而投入现场进行‘PIBOT’首次战斗实验，即使在恶劣天气和夜间也能保持航线",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "9b7677cef3fc9dd25edc8df8321db53d38fc11b49899a2736bc1a8790c8cb3ff": {
-      "feature": "translate",
-      "sourceHash": "9e8ff254d1a1caacd107c9319fb98c5a65e86cd46365a61000122f288b0812a5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "23日，在庆尚南道昌原市镇海区海军教育司令部造舰训练场模拟器进行的‘海上值勤任务执行机器人战斗实验’中，韩国科学技术院开发的人形机器人‘PIBOT’正在执行舵手任务。/韩联社",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "ab456e63e33f60b075b71868961f576288acd82c1f7dddf15869c29768ee4891": {
-      "feature": "translate",
-      "sourceHash": "887af11b80fc8cd570f37e28c43bb0220256e482a74edccdb500e7575d9332dc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "“舵左偏10度，保持110度。”",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "f97de0a2af425379530b097e2172c0d65f746214b165c9020baa05eaa9a4632f": {
-      "feature": "translate",
-      "sourceHash": "03ba524b11fbc39d27e8ab22c4740a52b1ceaeada01b14cf6fed9bcfef034c87",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "23日下午，在镇海海军教育司令部的1级舰造舰模拟器内。宙斯盾驱逐舰西厓柳成龙舰（7600吨级）舰桥值勤军官下达了航向变更指令，随后传来了机械音的复诵。当天，舵手席上坐着一名身高165厘米、体重65公斤、有三只手臂、两条腿和三只眼睛的人形机器人‘PIBOT’。这是韩国科学技术院（KAIST）沈贤哲教授团队以飞行器操控为目标开发的‘飞行员机器人’，因韩国海军对应对兵役资源减少而投入机器人船员感兴趣，从而参加了首次战斗实验。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "de19fc9a47da98c60ef334fd081cd13f333c4f9f8cfcfc2c24200b429a16134a": {
-      "feature": "translate",
-      "sourceHash": "f867b29ffa48a428b8fb3fb11f7cb30cd523dd648937f3c497e06c6300ac1875",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "复诵了值勤军官指令的PIBOT，用它身体中央的第三只手臂缓缓向左转动方向盘状的舵机，模拟器中的舰船的船首也缓缓向左转去。左舷可见釜山新港，右舷可见巨加大桥。PIBOT扮演了舵手（舵手）的角色，抵御着迎面而来的船只和高浪，转动着船舵。根据舰长或值勤军官的命令操作舵机的舵手实行三班倒，每天值勤8小时（分两次每次4小时）。海军相关人士表示：‘人类遇到大浪会晕船，工作中也会注意力下降，我们正在验证是否能用机器人来替代。’",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "e7b8f43399fe8b0aa5e280dfa2674f9e84e0171a96b9f108b471e1d7d285b155": {
-      "feature": "translate",
-      "sourceHash": "218ba96a5e89c1ae1ba9c2fd2cf977fa9a112d555b4ca725a0eac2c7ecd10558",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "23日，在庆南昌原镇海区海军教育司令部造舰训练场模拟器进行的‘海上值勤任务执行机器人战斗实验’中，韩国科学技术院（KAIST）开发的人形机器人‘PIBOT’正在执行舵手任务。/纽西斯",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "3ab7e9a1eda00345e2b68f875d390f731593abe4d14aa03322b71c4011bf7b47": {
-      "feature": "translate",
-      "sourceHash": "efd4ce670ba2a22e74dfb89b657e23338c4f2e08700e44459233ced6b3f5e31f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "搭载了本地大型语言模型（LLM）的PIBOT，通过口头指令能理解其含义并遵从，但对语音指令的反应时间仍需5至10秒左右。PIBOT通过摄像头收集的视觉信息观察陀螺罗经（자이로컴퍼스），实时确认是否在正确航向上。即使在恶劣天气、夜间航行等情况下，也能无误地保持航向。但由于需要持续实时处理语音和视觉信息，与‘自动驾驶’相比，精度可能有所下降。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
-    "489d2a1dcfce565db9ac29859de2b5dc3debbebb0fcbc3b8de0b1a667df5fd4b": {
-      "feature": "translate",
-      "sourceHash": "fa6108375f050aa97836f86568d8e888e6c2a2f82c8a4607c406c6bb96084689",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "海军表示目标是在年内让PIBOT在海上进行测试。海军战力分析试验评价团长金炯俊（准将）表示：‘将探索在舰艇上运用机器人的方案，减轻船员工作负担，应对不断变化的国防环境。’海军还计划推进利用商业人形机器人支援陆地值勤业务、利用运输机器人装载弹药等实验。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-24T22:16:42.781Z"
-    },
     "475bac86e64f80bbaf99ab9e8f250ddbc4085b81bfd1680a73b26e5c96f29867": {
       "feature": "translate",
       "sourceHash": "94ca3dafa74c79320d65326019ab8f2298e84430ce3551e0a69065404b206afa",
@@ -5544,6 +5424,246 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T22:56:52.462Z"
+    },
+    "c2a652823b1e67ce43b367c2358a5732bd21bbccb606f6055cd0e5fa04a42ae9": {
+      "feature": "translate",
+      "sourceHash": "9e07ba6449dad55518b0ba55ac747423993c8abc86f03ed262cf51a15330164b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "李总统表示：“韩美应超越安保同盟，将视野拓展至‘创业同盟’。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:04:30.203Z"
+    },
+    "789653673ffc80b0caf560985350ff63a9700ee6791dc224ff53228d7e8717a2": {
+      "feature": "translate",
+      "sourceHash": "3d0aae13de490c2c6cf0eed4af6662bb71871f14ac5f08f8ddac3b34ea67f0a8",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "硅谷VC会面6家公司，请求对韩国企业投资“美国投资能力与韩国技术能力结合...打造下一代三星”“打造世界上最具投资·创业环境\"",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:04:35.713Z"
+    },
+    "a7f634469ae979d32bc668c30a7003244f010ce50c7b49f9fe8c1d569fe102c3": {
+      "feature": "translate",
+      "sourceHash": "68fb7c75000f11446da764967375cc2b45df2fdc06d84d7a8bdc9ef72101fab3",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "李在明总统25日（当地时间）在美国旧金山一家酒店举行的硅谷风险投资见面会上发表讲话。/韩联社",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:15.987Z"
+    },
+    "6c03030f6b96781325a8bc5e22c5cbf2f85f0cc6cf3c93eda707af50ab76895e": {
+      "feature": "translate",
+      "sourceHash": "97cdffa5696a5732483b49c20b4f3bd10db30b5c379ebeaea7f8059f08176943",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "正在访问美国旧金山的韩国总统李在明25日（当地时间）与美国主要风投机构人士会面，表示“韩国和美国应超越长期的安全同盟，现在要扩大合作范围，成为技术同盟、创新同盟、初创企业同盟”，并请求对韩国企业进行投资和合作。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:04:50.761Z"
+    },
+    "23573784b8ecbdd7487a495187f7f4a0bff42c9488fa30c7ab1eb023a52cc4ec": {
+      "feature": "translate",
+      "sourceHash": "19088f507a6b8a63ec55b01fcb3f0a2e6d6f69402e416a8dd1e204384818933d",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "李总统当天出席“硅谷风险投资见面会”活动并在致辞中表示：“如果韩国有潜力的初创企业与各位的全球投资实力相结合，投资者可以获得新的增长机会，我们的初创企业也能够获得进军世界市场的跳板。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:04:57.597Z"
+    },
+    "8c60b120a2f0badb876c0336e161deb9f0bc12bf2939fe95bea1480a8853e419": {
+      "feature": "translate",
+      "sourceHash": "61968539a620449b521c04e63bbe3de2ac02844572064ae084fd799dacb2af49",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "尹总统表示：“美国拥有世界最高水平的风险投资能力和全球网络，而韩国拥有卓越的技术实力、制造竞争力和充满活力的创业生态系统。如果两国的优势结合起来，我们将能够共同打造下一代的三星、现代、SK、NAVER，以及引领世界的新全球创新企业。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:08.832Z"
+    },
+    "39e2bfcc4327b9a428c71f57c6b7f316edfb8eb24077e2514a6aae5e9105e252": {
+      "feature": "translate",
+      "sourceHash": "f7fd005eb3c8971a062c2415ce1c526ce17087b7b704449245072438353e3fc7",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "该总统表示，将把我国打造成“世界上最适合投资和创业的环境”，并称“将果断改善阻碍海外创业人才流入的签证制度，进一步扩大连接国内外企业、研究机构和投资机构的合作基础。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:28.475Z"
+    },
+    "3f035dc8053c534936dd242ad88e62cfd017322874030815c8a74dee040dddae": {
+      "feature": "translate",
+      "sourceHash": "163207169480257758b08e2e9c3faee6b398a590c9224b4cb7590b915fecb19d",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "当天的见面活动上，安德森·霍洛维茨、General Catalyst、红杉资本、科斯拉创投、光速创投、New Enterprise Associates等6家VC的相关人士出席了活动。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:39.607Z"
+    },
+    "44f48e0d7badfdeaf530218aafbb011565e5d4803a90591ad505a8879a7a7f18": {
+      "feature": "translate",
+      "sourceHash": "41a86a440081a57fe7fad27a389f97ce477a6d1064cde33edf93c4ede3dc5148",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "李总统表示：“希望今天的场合成为韩国有潜力的初创企业和全球投资者们共同开启新成长之门的起点”，并“请求大家成为不可替代的韩国的坚实伙伴，以便世界的人才、技术和资本聚集到韩国，共同创造下一个30年的成长机会。”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:49.202Z"
+    },
+    "dd72f76cade74df94ba8a3defd27348b3c6d5d03ef6d0cd2925753d271b2c453": {
+      "feature": "translate",
+      "sourceHash": "d8ef81dde579ad8b2fd66a83adff735704adccef47895a04494548f7d6689e97",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "“特检无嫌疑也难复职”被罢免受处分的将军的泪水",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:05:57.189Z"
+    },
+    "0d0f141ecbecebc47d37d3eaecfaa6bd586c8dced202cec7ad6a04b01b134ae9": {
+      "feature": "translate",
+      "sourceHash": "e2a763185abb476186e415e127d559ac9e822c4789762b0a145319f85534e8b0",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "国防部仅凭怀疑就给予最高纪律处分",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:06:01.979Z"
+    },
+    "54263a7edd43b929caac9bd79a4984ce1bfa29b42ea44324a73505ef04022b8f": {
+      "feature": "translate",
+      "sourceHash": "abec76a73d37e56f45ac892cf627dae2436495dad11cd11c5eec968e22e84a9b",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "海军参谋总长姜东吉，前联合参谋本部作战本部长李承五/뉴스1",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:06:14.596Z"
+    },
+    "855d180880877b9c72ea5013f7bc817faf22f36bdd19b7f8eadef9d2048b5c8e": {
+      "feature": "translate",
+      "sourceHash": "9eb6db3424cac2d0430063056d3fa403afa647b80a90200a7b5aa064f577af16",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "前海军参谋总长（预备役大将）姜东吉因涉嫌参与12·3戒严，于今年3月受到‘停职1个月’的严重惩戒后离开军队，据悉他于24日向首尔行政法院提起诉讼，要求取消国防部的惩戒处分。他在第二次综合特别检察中获得不起诉，但国防部未采取‘长官职权取消惩戒’等恢复名誉措施，因此他自费提起行政诉讼。据悉，今年2月受到‘罢免’处分的前联合参谋本部作战本部长李承五目前也在进行取消惩戒处分的诉讼。军队内外有声音认为：‘既然仅凭疑点就进行了惩戒，国防部长官安圭伯应该通过‘职权取消’来善后。’",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:06:30.369Z"
+    },
+    "c7231da392953aea409b31d9efa8b45b83c7a6591dd25c23d67c906d5fa4740b": {
+      "feature": "translate",
+      "sourceHash": "9fe957fbe71432041e07081f401f7206aa65d68d087f812756e484632b87cf03",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在2024年10月军队向平壤渗透无人机时，曾领导联合参谋本部作战本部的李前本部长因此事于去年接受了内乱特别调查组（特别检察官赵恩锡）的调查，但被处以无嫌疑处分。内乱特别调查组认为，前国防部长金容铉等人为刺激朝鲜、制造宣布戒严的借口而指示了平壤无人机作战，但判断李前本部长并不知晓该目的，且反对了该作战。尽管如此，国防部以违反法令遵守义务和诚实义务为由，于今年2月11日罢免了李前本部长。当时正值李在明政府表示“应彻底铲除内乱”，为调查75万名公务员是否‘参与、协助内乱’而于去年11月成立的‘尊重宪法政府革新特别工作组(TF)’活动接近尾声之际。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:07:00.415Z"
+    },
+    "25e19de9f36d8e8599179122b739d0b964795710cda610be69a2d43888ecd19e": {
+      "feature": "translate",
+      "sourceHash": "33c3cdfad173a04bc82f8ffd26689791429956568706024fe343cfbc73c40ab2",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "两天后，在李在明政府中晋升为大将并成为海军参谋总长的前总长姜某也被停职。当时担任联合参谋本部军事支援本部长的他，接到当时联合参谋本部次长郑振八关于成立戒严司令部的支援请求，并传达给下属联合参谋本部戒严科长，这一点被认为是问题。姜前总长去年8月已经向国防部监察官室说明了戒严当时的行为情况，但3月初国防部以违反诚信义务为由，对其处以停职1个月的重罚。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:07:16.484Z"
+    },
+    "03d3403310f843b7ca30298408e9bfc9e16a73b95a805a120c2131595d90c4f1": {
+      "feature": "translate",
+      "sourceHash": "ce72d7509f6b41099a898e3532f3f1e9311d611fb642acd51f08c786cdf36748",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "2月25日成立的第二次综合特别检察（特别检察官权昌永）最初也对前总长姜和前本部长李适用内乱重要任务从事嫌疑而立案，但本月初以无嫌疑不予起诉。综合特别检察组在3日的简报中表示，对两人“如果一开始就知道就不会立案”，并称“难道不认为他们才是真正的英雄吗？真的无可挑剔，各自在岗位上非常努力”。据称，李前本部长因反对平壤无人机作战等而被前长官金容炫冷落，他们和前联合参谋本部作战部长安灿明等人在戒严时，多次向联合参谋本部议长金明秀指出违法性并建议解除戒严。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:07:26.793Z"
+    },
+    "1e1fd1da49d97ceb219bd64e0d5ea7d65eb44f9f6a74810af0593e6f4d3f1db7": {
+      "feature": "translate",
+      "sourceHash": "1bff819175ef04a71a5ef67a5054fb56e026c234936a44c3107b5736bc57d51a",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "但两位将军在受到严厉处分时已经失去了很多。军方消息人士说：“前总长姜某不知道自己会被停职，到海军本部上班后在部下面前耻辱地离开了办公室。”并问道：“海军仅有的四星上将可以被这样羞辱吗？”前任本部长李某因被免职，既没有得到一分钱的名誉退役津贴，养老金也减少了约一半。前任联合参谋本部相关人士表示：“李承伍中将在国防部正门前的单身宿舍停留，是个连自家门锁密码都会忘记的工作狂，但即使没有被指控也无法复职。”受到严厉处分后，他们在退役后无法获得国防部的就业推荐，因此再就业也受到限制。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:07:45.621Z"
+    },
+    "acfb8f3446f2d02b78ceeaeadf85e99b2eee504e59cd5eec487b9821b695dd21": {
+      "feature": "translate",
+      "sourceHash": "36832c5607647488978398752c43dcc5bd9125667f150ceb5d79ff6fc9d0782c",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "尽管如此，据悉国防部没有计划依职权取消处分。国防部表示：“惩戒和刑罚是不同的制度，因此与调查结果无关，可以认定惩戒理由。”一位预备役将军表示：“国防部长依职权取消惩戒是恢复受到不当处分军人名誉的义务”，并说：“自费花数千万韩元律师费提起行政诉讼，这合理吗？”",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:07:58.405Z"
+    },
+    "92096dfe939e624ef4b96d9c2bd37eda74273182496947de1be3146fce37e40a": {
+      "feature": "translate",
+      "sourceHash": "5df6ae6d101a90f108a5bdf55b7e0ce5c849ea9092c25b51be39ead11227c084",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "军内一些人认为，在12·3戒严当时，从鸡龙台出发前往首尔国防部乘所谓的‘戒严巴士’后退役的14名将军，对其进行惩戒是否过于严厉。他们接到召集令后上了巴士，30分钟后返回了鸡龙台，至今没有一人被起诉。虽然第二次综合特别检察正在重新调查，但如果嫌疑明确，不早就起诉了吗？",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-26T00:08:14.601Z"
+    },
+    "b0f33588b8018b6669f312e2ea2bbc46433f0155c90e90cc5b19b3ea10f5dfb6": {
+      "feature": "translate",
+      "sourceHash": "cf9052314596c9f5f95b76bad9f29455d5e879a194ad76026a0120600cc78fa7",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "查看“日经电子版 体育”的X（原推特）账号",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T00:07:59.171Z"
     },
     "cddd919ef88130736e2a4daa7e544f085019a8d9603a1f744c70ec4b7a19b5fe": {
       "feature": "translate",
@@ -7033,18 +7153,6 @@
       },
       "createdAt": "2026-07-25T20:56:32.163Z"
     },
-    "b0f33588b8018b6669f312e2ea2bbc46433f0155c90e90cc5b19b3ea10f5dfb6": {
-      "feature": "translate",
-      "sourceHash": "cf9052314596c9f5f95b76bad9f29455d5e879a194ad76026a0120600cc78fa7",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "查看“日经电子版 体育”的X（原推特）账号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T00:07:59.171Z"
-    },
     "d37c98eb20940c9174afdedf4f243f822a9973daced7d5f4b498826cb27f0ac6": {
       "feature": "translate",
       "sourceHash": "c2e7895e9fc5dff117f94567d1c5e4fa0cdbfc33d7ce9313c30203e2074798b0",
@@ -7669,137 +7777,245 @@
       },
       "createdAt": "2026-07-25T20:56:00.570Z"
     },
-    "9104b452915679869b86846e235f41c3454f0fe82bfea45b38e30805f5cc6e31": {
+    "1c50456a7a9a41e75346074cdc39ee53ca3dfda6b3d898f112a6534ad5885131": {
       "feature": "translate",
-      "sourceHash": "90f4d8800a337977c0237164c96af36064aafef74d9585241ce6b1e7ed7a2e5d",
+      "sourceHash": "e1c668dee9c1698fa9c1b29bcb7773d87897c77ec0a0d21a5c9a1fbd05e3108e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "东京、大阪市中心的塔楼公寓顶层，所有者5成不在 比起居住更注重\"投资\"",
+      "output": "26日的有力马 关屋纪念等赛马预测",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "e543546926c3ddbf2da0f82e18f054067ab5c6a32de49dffbc464caf5ed2450f": {
+    "464b10b225fe5e1d7f0dd96f3db9208b49632530d6d5db2a260c732db9a5458b": {
       "feature": "translate",
-      "sourceHash": "a32e6de37405a87d7d883b8bca7372b9c94d96181ec88acdcabad2134bc1c104",
+      "sourceHash": "c788bd52061e3993ce66072facf35156f09790bf77a3296340cde16bf2400d04",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "市中心塔楼公寓顶层所有者5成不在 比起居住更注重\"投资\"",
+      "output": "日经赛马负责记者野元贤一、关根庆太郎的26日中央赛马预测如下。新泻赛马全部赛事、在札幌举行的札幌日经赏（野元记者）、中京...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "10822ed5b142cb855ec76b058acfb895eedba44ba65b227cbe1532982a053f76": {
+    "365963a888eb4475feae1112f8af8df8c6bfa3b4a182472f50fd01fa5b22a227": {
       "feature": "translate",
-      "sourceHash": "cfce72bdd9773fa13d73eb83f87c9842b470e178b860a1b869fd0c408403163c",
+      "sourceHash": "7400139681e8dece75740e756891d1adaf614e6e1c53dc296855905a065bf408",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "—公寓不愉快的真相—",
+      "output": "DeepSeek，因创始人言论或搁置融资 彭博社报道",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "ce9e89e2bd7ea11382023d5e30b2ff1d7d138ce2f8f592ec34fc965f879cf869": {
+    "258989fe55652c5fa5444ca0ae1749b427f041f34b915f22a13897cf54c9dd2b": {
       "feature": "translate",
-      "sourceHash": "15be797e767b38ff0920e548ac08521645fb21dfd3013c8c8c0be76b3d24c07e",
+      "sourceHash": "7935db9c4efe3cd5bcba08b35fbec2c93a9002bec329bf03d8a9f2910f1d11e1",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "公务员更应做副业 酿造啤酒的市课长助理，不断扩大的联系",
+      "output": "【广州=藤野逸郎】据美国彭博社25日报道，中国人工智能（AI）初创公司DeepSeek可能搁置融资计划。这是因为在上一轮融资时，创业者在投资者说明会上关于美中AI竞争的言论被报道。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "1aa5f5bfc15bc119deb24b07a5bb246315b320d4912a13360511de58629e7623": {
+    "6b0145f70d3f1919aaa26c11ab3aaaae1fcd690bb96a7f85beea8ac0e1db9351": {
       "feature": "translate",
-      "sourceHash": "adb3effcf3372e494d6d987ab42d07eab54ca427550eadbe99ac8dd142c69cd1",
+      "sourceHash": "01e3dd3615a41400c2e84789362645a379f989000decfd41bcadf344a1656f46",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "6月的假日，担任奈良县生驹市一般社团法人\"未来酿造场\"代表理事的和田真人（49岁）前往大阪府内的啤酒酿造所。是为了接收委托酿造的草莓精酿啤酒。",
+      "output": "据悉，该公司原本以估值710亿美元（约11.6万亿日元）为前提，目标是筹集至少100亿元人民币（约2400亿日元）。然而...",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "6a8b1cb8bc8ab80688fe665e102aa6477843360018502a77631aa43b56e5ceb5": {
+    "60f1bd32940d7164bdf43a40a8a87be11089323f89d71958965b718a71229481": {
       "feature": "translate",
-      "sourceHash": "1d692b41cb91fa4ade59740649390a544a6870f3e9e049f9fd27fdbf55a53858",
+      "sourceHash": "5d035b40ae790cdaefc791e17b6a30edc0b5472c47e62b98714143762ed26b8f",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "使用甜柠檬、蚕豆、蜂蜜等当地生驹的农产品作为辅助原料委托酿造，在市内等地销售。还致力于利用废弃耕地种植啤酒花。",
+      "output": "石川肯尼“独一无二的选手” 加入大联盟红人队",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "548ba119aa6e18fcb4d633ccd14cef33d987c0b46ebb28053a5ccf6d675888af": {
+    "d54319854a53409372b4d83e31a356f3be3c86c50954320e6030fdcaa809ffb5": {
       "feature": "translate",
-      "sourceHash": "077167134f384916df6279c651b6335b5a56f0114c9f5ff03854ec0681952375",
+      "sourceHash": "cd4900533588ad4c500bf98e44a41aa0ae7fc289ca711bb76ebf5f82ae1385b5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "啤酒在当地也成为知名存在，但终究是\"副业\"。本...",
+      "output": "加入美国大联盟红人队，在线接受采访的石川肯尼（25日）=共同社",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "000e1d4f4bf422f0f350cd63dffa53fb1ad52a4980ec6e79720c5151b45fadaf": {
+    "aae18556fcb7cdaed73ad8454bace68e34ca8cc3518c3adb0a819ed03418e4b7": {
       "feature": "translate",
-      "sourceHash": "3defdde8e2b05e9d4be4efd4ab67829131be57c414c3274bfe2253a45bbc1053",
+      "sourceHash": "f2f8eb4aa3c3a6ca596fcfe8e496dfb6f576afb0d02683779c4d8dc0e0053501",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "福岛县西乡村，摆脱依赖国家财政 凭借地利和独自支援实现税收和人口增长",
+      "output": "【纽约=共同社】从美国乔治亚大学通过大联盟选秀第13轮加入红人队的石川肯尼于25日在线接受采访，并有力宣告：“我想成为留在粉丝记忆中的独一无二的选手。” 他以投手和外野手的“二刀流”为目标升入大联盟。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "8d12dd1ca2810483e977203f4e3bf199d2aba3ee2d5dc2570a834d28b4870c16": {
+    "07744ec061277446812937c3b1e102dfb60155d3599c2a6dacc0e8b212c79928": {
       "feature": "translate",
-      "sourceHash": "f9dfcff21a2d199eca8189d7c20da68eaa4510ea15db594fcd7bd9700ca3f633",
+      "sourceHash": "bf13d1d6b785ceb929458873b142ecdbb286a0ea6774c82920267e555f14af44",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "人口2万的福岛县西乡村的财政能力正在提高。以半导体和医疗相关等村内制造企业的税收增加为背景，从2023年度起成为即使不分配国家地方交付税也能进行财政运营的\"不交付团体\"。采访了高桥广志村长关于村政的现状和财政运营方针。",
+      "output": "父亲是日本人、母亲是美国人的石川，来自夏威夷，22岁。他从茨城县的明秀学园日立高中毕业后进入亚细亚大学，随后退学赴美。24日签订合同。他说：“对即将开始的新挑战充满期待。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "30cf812cd9acf4b963f7f7ea737ba89eae6fcda5f7a11ddce87067fbac8b243c": {
+    "ab53d95c8746e639561daf065cfa8426d44ce5aa3b3b35abf5a7a397d7f50780": {
       "feature": "translate",
-      "sourceHash": "ef9bbbe59eb4900b5cd0e615487b4052a0d6111cfdad877d4a1f941bb76f0ecd",
+      "sourceHash": "82d1d5316756c610f6c262b6e0596ba32b7aa4264418cd04d0b6e7d8a7c23dc7",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "——作为地方政府财政能力指标的财政力指数，西乡村呈上升趋势。原因是什么？",
+      "output": "去年秋天他在职业棒球欧力士队选秀第6轮被指名，他说：“这是人生中最艰难的决定之一。我绝不会忘记曾有留校和加入欧力士这两个绝佳的选择。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-26T00:08:59.200Z"
     },
-    "c6fc40ecc7bf5758d4e0982490c6e0045646d09a9d40c0035c8e81ba1225ab56": {
+    "9497c981eec59f266b160dacafd3fd07006e69e5a76ed6bb530abed898fd82ba": {
       "feature": "translate",
-      "sourceHash": "c81cb761952adec7d1ba5b4a14c8ec30adbb357c54dd767437b7318162e78e8b",
+      "sourceHash": "f6265d1b5fdddcecbd916affdb6825f5de105710afa6de8552d0e19f52a4c287",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "\"位于村里的半导体和医疗器械相关制造业的业绩良好以及...",
+      "output": "印度教育部长辞职 “蟑螂人民党” 示威活动是否走向平息",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T20:56:00.570Z"
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "3a73db81f80ac26267f6c64da23d6dc1f9e1310b7fb25cae4b91acc89c596922": {
+      "feature": "translate",
+      "sourceHash": "2d0b067aba519d17f9fb2c79a302633b93e8bf01a5a8892258a4ad6ec11b9070",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在印度，因大学入学考试题目泄露嫌疑而引发的政府抗议示威活动不断扩大的情况下，25日，教育部长表示“为了让学生们能够专心学业”而宣布辞职。对此，组织示威的团体宣布停止抗议活动，事态是否会走向平息成为焦点。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "a7101c54fb40b231c78e72c565f67f31d06a4a26f9cadbef4841c632363d0fc9": {
+      "feature": "translate",
+      "sourceHash": "0c5e5ec79bce02357b688f90f1f255a50c7ae96a0de8e7097534d53614414234",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在印度连日举行示威的“蟑螂人民党”是一个由年轻人为主在社交网络上创建的虚构政党，它利用了印度最高法院首席大法官关于“失业年轻人就像蟑螂”的发言。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "6d4e63a3902429c118477185bebc4b82428e46f6ac72d2ed2d4635ea96bb5e0f": {
+      "feature": "translate",
+      "sourceHash": "1e58b9407067a5503938e46829411a00dca895711c586322522bcdcaae3d0804",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "针对今年5月举行的大学入学考试中题目内容疑似泄露，当局宣布考试无效并进行重考一事，抗议活动持续要求教育部长辞职等。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "1a2f47d93be3c11fcdd9d38255d0746383faf7912b8e10e81ad6c44fbef86b07": {
+      "feature": "translate",
+      "sourceHash": "bbb43a3977292b2086ae0eed809c4a3f4449d3a954d2a76f05cc45ef52d5c873",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在此背景下，25日，普拉丹教育部长发表声明宣布辞职，称“为了让学生们能专心学业，已向总理提交辞呈”。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "437ab25f0b34386cb5f76f50fcd8d602a90fd214ffef11de7dfa1b0ce7a67599": {
+      "feature": "translate",
+      "sourceHash": "69405f6300db410794fa19c54e52b9d2c9096c96ea37a3e3d98eb25261f42078",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "对此，团体方面召开记者会，宣布所有要求已被接受，并决定停止示威。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "a6557254e033796f26efbb698f8a553c2d7c9928350a6832f5aed8cd31c1d97d": {
+      "feature": "translate",
+      "sourceHash": "97674cee37c3e4fe8bd4848d1437b172d7bdfade6d2d2c7e656cf4708d027af5",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "在混乱蔓延的情况下，此次政府虽然试图收拾局面，但据当地媒体报道，教育部长辞职后西部拉贾斯坦邦仍有示威活动，此外在野党也继续追究莫迪总理的责任，事态是否会走向平息成为焦点。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "629204d0bf327ae425c02a33b98673a4d36191d3202a254c9a0a1a8aa741cd50": {
+      "feature": "translate",
+      "sourceHash": "7b146ace12558f49700770784d13426e4ca69ec01026e51a1627c80f1258e971",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "德国 “汽车冲撞性少数群体活动 造成伤亡” 海外媒体",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "99b8d830981af3856f52f484a8552b7b649e75c2dde30006438e5190db2b459b": {
+      "feature": "translate",
+      "sourceHash": "b243624cb2daa215de911472c382316756cbdc5f0276028829a1f837622251f7",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据法新社等报道，德国首都柏林当地时间25日晚，一辆汽车冲入人群，造成1人死亡，约15人受伤。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
+    },
+    "d4f27170b47011a20097083a391e19f7af44fc0eb2d34a69ebc299b26a7100a3": {
+      "feature": "translate",
+      "sourceHash": "3c103ebd7aad5a7883c896374b220cf9b4bcb0f85f3e9be72059ec9dc5cf02bd",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "据德国媒体报道，现场位于柏林旅游胜地勃兰登堡门附近的蒂尔加藤地区，当时正在举行呼吁提高LGBTQ等性少数群体权利的大规模活动，聚集了数十万人，但在晚上10点左右活动被中止，并要求所有到场者撤离。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.490Z"
     },
     "b68cf0b30f6ad8f8e92715501c66de692f0a50a5182658911afeeb9482740a34": {
       "feature": "translate",
@@ -7908,6 +8124,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T22:00:16.098Z"
+    },
+    "a95cf39f0929cd4e9c98412a8a23a2c30fc87c51f6908a21ae06c7633102f9c9": {
+      "feature": "translate",
+      "sourceHash": "3762cfe9daba10a59b80e56b9e3d9c3ab225cc258af4b95a0aebb703996154b9",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "25日，东海和山梨县观测到最高气温超过40度，国内连续5天出现“酷暑日”，刷新了记录。26日东海、近畿、四国、九州预计也将出现危险高温，请继续彻底做好防中暑措施。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.491Z"
     },
     "13d707808441f5c7f94f4ca6c7fba959517e5b0c6f22e5dedaf71309192994c4": {
       "feature": "translate",
@@ -8041,6 +8269,18 @@
       },
       "createdAt": "2026-07-25T22:00:16.099Z"
     },
+    "dbeba89230d0062afcb5d4d4e33c0396c3d168caff00bf7746fd029d8a92544d": {
+      "feature": "translate",
+      "sourceHash": "3475f87eb1ffb006974cc8d43c801a5f9207de1f6a10dbdee138d85dc967b553",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "截至早上6点的1小时内，▽山形县在饭丰町设置雨量计观测到53毫米，▽新潟县在小千谷市设置雨量计观测到52毫米的极强降雨。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.491Z"
+    },
     "3e9096c12e268a22df26547a3cb480818daea9c973ca6e860960d5f57891e27f": {
       "feature": "translate",
       "sourceHash": "e5c602d985695ac6b352cd1f89dcdfcff4878492ef10be1f55ce159635d98818",
@@ -8053,6 +8293,18 @@
       },
       "createdAt": "2026-07-25T22:00:16.099Z"
     },
+    "68084d53ff2620bf2a0a0c856e067bc6b8b83eaf9cb50bdb4160b6f4194fbebc": {
+      "feature": "translate",
+      "sourceHash": "46616893dbebcc1a2e3c1e956ea2b7f45a7fa866f3bc5c53de87ef3d67f7d426",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "此外，山形县部分地区发布了表示低洼地带浸水和河流泛滥危险性极高的“4级大雨危险警报”。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.491Z"
+    },
     "2a2bc493507a054c05d56874b7301d94c0740ec27e0f75c4184db59d347cd8d5": {
       "feature": "translate",
       "sourceHash": "b86a8ea185f75a9bbb82a17454f4e831fa0922b6687662d77ce4a5d90fdeeb26",
@@ -8064,6 +8316,18 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T22:00:16.099Z"
+    },
+    "a9dce4fa8f8c5b94dfa8bcfae3b60d0c3dfa158e6fdb029ad0099b33f5229900": {
+      "feature": "translate",
+      "sourceHash": "3a87b6ec8770711889ca9d0e2492b49bc0c4186d7259a529c3985609400d10be",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "东北地区预计也将有大雨，气象厅呼吁严加防范地质灾害，同时警惕低洼地带浸水、河流涨水和泛滥。还需注意雷击、龙卷风等强阵风以及冰雹。",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-25T22:57:18.491Z"
     },
     "1b3b2bc6881dfb45ac7d1d20346e5934f46e556b2fe46bed1e0007938e057574": {
       "feature": "translate",
@@ -9757,773 +10021,125 @@
       },
       "createdAt": "2026-07-25T21:03:30.763Z"
     },
-    "2238be73f2744012ed8e36b86642c4260e1d7e4a32e8c372b176f2e3c29c3e96": {
+    "74d0f4071f6aad39bcade58cf4b9a076afe48132043c1e74e6af0d8559101749": {
       "feature": "translate",
-      "sourceHash": "9246e0f4a3151716b734ea740027f696bbb795edd60cc4db33fa6a18dc515a0c",
+      "sourceHash": "b1614401be63e120e9f7c080ef221c089039af0740b44d46d264ff3f56ce4346",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "前田大然转会伊普斯维奇 经世界杯后加盟英超",
+      "output": "特朗普总统声称将对处罚谷歌的欧盟征收关税",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "7f928e28cb10dc42d849a4c2db3994a33651b903d6c76997fe33f1848120853d": {
+    "3451888e366703ba07d157e05521a25423e0c8ce714093f453938b406596efc6": {
       "feature": "translate",
-      "sourceHash": "1d519abeb51e29db09c7bc334213524bd7f73aa5b633136ce288c20dc74c4109",
+      "sourceHash": "8dd88e5393efe5b78d1593d016da5ca683ee3e282fbbf4c8f6f447d6a8470a99",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本国家足球队成员、在世界杯连续两届进球的选手前田大然，已确定从苏格兰超级联赛凯尔特人转会至英格兰超级联赛伊普斯维奇。",
+      "output": "欧盟以日本约1600亿日元的罚款处罚美国IT巨头谷歌后，特朗普总统宣布将启动基于《贸易法301条》的调查，并声称将作为对抗措施对欧盟征收高额关税。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "7eea7991a97124979246668ea9f3d6bd93b0c9e031b2050836f46daae367c324": {
+    "d0a7e949a4cab999c577574446c1510cb083dc577c476ac2606f52cc69570de3": {
       "feature": "translate",
-      "sourceHash": "f2d855a20b407887eac78bc6142627e9242197fcc4a74c9cdb9b0f95cbbb3d3f",
+      "sourceHash": "e63b95e3a8970c4bb49ce8148d3372af13c6de05212a6e4d0415a5b22b18cccf",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "![](https://news.web.nhk/news/html/20260725/K10015186221_2607252347_0725235441_02_03.jpg \"世界杯 巴西战\")",
+      "output": "欧盟执行机构欧盟委员会23日宣布，IT巨头谷歌在搜索网站上优先显示自家服务，违反了欧盟确保公平竞争的法律，因此处以约1600亿日元的罚款。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "32564f38823b7d84ecd33eb5229db1cbbbef57e50acb70dab5deef73a29b9386": {
+    "b3c740589010a6b5e128527a8de9b123caea85b674581f03e06cf91452b03300": {
       "feature": "translate",
-      "sourceHash": "325df315fefed069edc0988bc7af68860ae63331ea8601e82c44887aa442bf0d",
+      "sourceHash": "771da077e22b0918037b68690d0ea23bb663e3ca14e19ed729d1dee5412d8d23",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "伊普斯维奇于25日宣布签下前田选手，合同期至2029年夏天。",
+      "output": "对此，美国总统特朗普24日在社交媒体上发文批评称：“美国不是欧洲的‘存钱罐’，也不允许成为那样。”",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "e668aea0f74bc7cab14688fedc95f5b31716a099e2f585ab93ccb8964522c3a4": {
+    "3f5b603ebdc0a8c368cd9f36fbf2680dd8f0653332466f3bd0fffd15f5e6c64f": {
       "feature": "translate",
-      "sourceHash": "7db541f31d8ff281f88c530d1115ccd8866e0694b5eae3c3d697669fd6b8245c",
+      "sourceHash": "633515913be8c568b7da0d2eba78dfd911a31f28c4daf6a0d2f8834959b309a5",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "前田选手来自大阪府，现年28岁。",
+      "output": "并且，在明确表示将启动基于《贸易法301条》的调查后，该条款允许在认定贸易伙伴存在不公平贸易做法时发动额外关税等对抗措施，并声称“我们将对欧盟征收高额关税”等。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "0e73c34cf3913b47c08bdaabe5360ad80d97331c0f6fda53e29fa8ec6b8f2ac9": {
+    "52e4dbf9249659048e5487f48bfc8725fb519dfce3ebd79ea00db3dadb3da352": {
       "feature": "translate",
-      "sourceHash": "3f47b74dcbb71320926ae7941b4cde4e85666d86daedb172db420bcd84ea321a",
+      "sourceHash": "123de3fe7971fd246d9a8b2d6c376e2f288397ae22bcfe0572d9370e7733b62e",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他是一名前锋，凭借50米跑5秒出头的爆发性速度突破防线，并在前场防守中以被称为“魔鬼逼抢”的激烈压迫对手为特点。",
+      "output": "特朗普政权24日刚刚对日本、欧盟等主要贸易伙伴发动基于《贸易法301条》的额外关税，接下来焦点是是否会对欧盟实际征收进一步关税。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "ab2407b78c52c4d5f586656f0130066b95a431919a5f03b6672fdf6d36b09c85": {
+    "9fa692573b4b8f5d479c0441be90206929f55663efd8e96705d2e90b3aa04131": {
       "feature": "translate",
-      "sourceHash": "605654fb51e1bb7df562aff26771153ea5775c11b5416f34771608594bc09a07",
+      "sourceHash": "b332941298b320a582c6ddf0d88193a50c8850a0cd75e42ff448a4e996c0333b",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "![](https://news.web.nhk/news/html/20260725/K10015186221_2607252340_0725234556_02_03.jpg \"世界杯 瑞典战进球\")",
+      "output": "新潟县长冈市、柏崎市、刈羽村发布4级地质灾害危险警报",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "7a882d52019ef864c3e5d569dd46a2fb98e2076e988fc097f95775d384d1c926": {
+    "fb6f5dc3e4e08553d6f461574943db2cccdfd964bab17ca4d2f15947343c808e": {
       "feature": "translate",
-      "sourceHash": "e4104abb0240a37258cf70bb1d8a6b2d3af4bbd5492f20ae0b380600c50437d6",
+      "sourceHash": "94afa3a3266827357f34323b96762158756d6458fdfa5026d7d43ace2a880991",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在中北美世界杯上，他三场首发，在第一轮第三场对阵瑞典的比赛中连续两届进球，该进球也被提名为赛事最佳进球候选。",
+      "output": "新潟地方气象台于上午8点15分，向长冈市、柏崎市、刈羽村发布了4级地质灾害危险警报。由于地质灾害危险性非常高，需要严加警戒。气象台呼吁确认地方政府发布的避难信息，并提醒在悬崖附近等危险地带的人员迅速转移到安全场所。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "735f998841c3e4899c31028199b4f864e824623ee259ec829661c2867eb00fd6": {
+    "17cffa11c61c932ddc47e7e48f25011b5208c4ad2e754d4116d77f0804bd5189": {
       "feature": "translate",
-      "sourceHash": "ec1e4767c83e8c66d2cf7bfc82e4d2d05c1b691a4267fea56d5dd8b208aab436",
+      "sourceHash": "c16b6d30ba2ed4807fa9baaa13811f4c5f67e553d64e28c145db8b7c8d28ed32",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "![](https://news.web.nhk/news/html/20260725/K10015186221_2607252340_0725234556_02_04.jpg)",
+      "output": "新潟县长冈市发布4级大雨危险警报 严加防范浸水和泛滥",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
-    "060211c0d155ac98fa3ff799e9ac294826fdaa8413cbd4303dec9d6126ecc519": {
+    "f07e57045e6040cef176a4d8c11d4b0924ef4a9bdb325e06b51f9ddf93848408": {
       "feature": "translate",
-      "sourceHash": "c959b36c6cfa7a2d4a3ae22f25ec49244ae77f56fee0ab26a400d02326ad3e9c",
+      "sourceHash": "705500de1683ef9fc311b05d358fefcf998edcf5f250fe04ac38f9d5fc8a5ad3",
       "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "此外，在对阵强队荷兰和巴西的比赛中，他多次从前方施压抢断，给对手制造麻烦，在防守端也做出了巨大贡献。",
+      "output": "新潟地方气象台于上午8点15分，向长冈市发布了4级大雨危险警报。低洼地区浸水和河流泛滥的危险性非常高，需要严加警戒。气象台呼吁确认地方政府发布的避难信息，并提醒在危险地带的人员迅速转移到安全场所。",
       "model": "deepseek-v4-flash-free",
       "metadata": {
         "targetLanguage": "zh-CN",
         "extractionVersion": "v2"
       },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "f2ca83cc7c2d2680f95ead70b7088a2fad538dfc905093e88ec5dae7e9ee9384": {
-      "feature": "translate",
-      "sourceHash": "8a156a6c91e7dd448fd4d313ea2503cb2fcd3af2b04c831fd8b19d40c3acfee3",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "他的新东家伊普斯维奇上赛季在英冠排名第二，时隔两个赛季重返英超。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "ca3f384e015a4ee65156bca4f8048fa4517351044b9fa2276f32edd0e8575170": {
-      "feature": "translate",
-      "sourceHash": "96d133ba6bcd82b292a0594ff2f2c452ae2f6ca662035333f446f46227f91556",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "前田选手在苏格兰超级联赛凯尔特人队中作为主力活跃，曾当选联赛最佳球员，上赛季是联赛五连冠的动力，但他实现了向被称为世界最高水平的英超的升级，迎来新赛季。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "c0223fc5f8f0bed01cd27a88eb55d399faa20fab5dfc4f2aef68757bcfb9384e": {
-      "feature": "translate",
-      "sourceHash": "e7ad8b982f53e44b2b6da6a65a2726e34afbd402fb2904d0e62a8ffef3aeb8d4",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "甲府市发布4级暴雨危险警报 严防浸水及河流泛滥",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "39a03a0c257c73947fbe77c1da705dbd06008d44a941de1c8d3ac6b63c4bea02": {
-      "feature": "translate",
-      "sourceHash": "784c6915b94a86b4b14057148a1c5aebbe580aeb626e9603b3e3120b12d3e98e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "甲府地方气象台于25日下午10时51分对甲府市发布了4级暴雨危险警报。低洼地带浸水和河流泛滥的危险性极高，需要严加警戒。气象台呼吁确认地方政府的避难信息，身处危险区域的人员应迅速转移到安全地点。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "cd29df885e4922d7bca5e16940006d828beea395b71343f6ce35dd405a381d34": {
-      "feature": "translate",
-      "sourceHash": "627534a0778da9ec2a7bf2760529b22dfe9986ccf168b5089abd408750811e6e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【职业棒球结果】巨人队连胜阪神队 独占首位",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "873bd5ad01f99e468dd985fb6f7b691783b2a937d3270c2cb5e256335f6b8b8e": {
-      "feature": "translate",
-      "sourceHash": "70e5a53d08ad7eaebae97f326f71ee208d233890dca9487f8c092eb47618e89e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "职业棒球共进行了6场比赛，巨人队在佐佐木俊辅选手3安打2打点的活跃下连胜阪神队，独占首位。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "a7b256e6b7b7ae0de9bd3b0f0f83df6c852fd6519527f21c5848a87fe885a497": {
-      "feature": "translate",
-      "sourceHash": "0fd4cdefb8e7dd589cec6ad59bbd720c36778dbf8e9b3b63405e0987773f1296",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "**【NHK ONE直播】周六观察9职业棒球新闻视频**\\n**播出期限 8月1日(周六)晚10:00**\\n**↓↓↓可点击下方观看↓↓↓**",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "9ccf75367f661f794af41912527b30f83ddc47a107dd0c9505d4dcc3a14d6d34": {
-      "feature": "translate",
-      "sourceHash": "2586bc89436e8c0138867a77437bb6516f2bf5b103cc3e00c6b71e94c230b211",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": ":::nw--link-type5 {href=\"https://www.web.nhk/tv/pl/series-tep-7K78K8ZNJV/ep/4LKY54M1ZK?startOffset=3165\"} ![周六观察9职业棒球新闻视频](https://news.web.nhk/news/html/20260725/K10015186191_2607252158_0725222203_02_03.jpg) :::",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "7a179b7a511fccbd5030977c84443680cb6088ef013eb0fd45f036ff7b3cba6d": {
-      "feature": "translate",
-      "sourceHash": "28ade38fed46669656a18b13a7a326771d196d676c20cd443c2c2a3ef1ef62a6",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 《太平洋联盟》",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "a6397cca8669a8e9d5b455a411c754ca967a8812bab520e53793ad1d36ff91b8": {
-      "feature": "translate",
-      "sourceHash": "8b41b595fcfa204702d9084afbf02f54c0b10e0f4a0059d8fa0ecf5cfe2a801a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 西武 × 软银",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "18dc6595cc0416aa9375f3a99f42acc28afbab4ead44e9b5780c88492dd9dd8c": {
-      "feature": "translate",
-      "sourceHash": "92d4504cf81a4566269554a3d08ad619280e6b4102d1d0e81a6433a75c0f9969",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "西武 对 软银的比赛，西武以8比6获胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "45464e689c42ed98e7aad9450f88d8d86fe4e820aca64947b30de6a5f27e4fc2": {
-      "feature": "translate",
-      "sourceHash": "820e07b627790ef30920178bbd4afc8d0aaa5e0120945297e6a1b64a1f739e62",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:武内投手 7胜5败\\n▽救援:甲斐野投手 2胜2败11救援\\n●负:埃尔南德斯投手 1败\\n◎本垒打:软银・正木选手 15号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "f2db5960d406785e48954c0c51bb8e687569434428f12113f1975c6b3c773dc5": {
-      "feature": "translate",
-      "sourceHash": "acf396df7dcac8a20b673c2a055bf5b4b824989e67a931bb3335ce1642ad9ad2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "西武在追回4分的第6局，凭借仲三选手、西川选手、滝澤选手连续三支适时安打和两个牺牲高等拿下6分反超。先发武内投手虽然6局失6分但取得第7胜，第7局后的投手接力也顺利完成。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "4ea6fdfa65846a2957f8a8bd7d925dda109429e5e9f697626840d85498d042fc": {
-      "feature": "translate",
-      "sourceHash": "fee0592afc995459a4c26baf18c3326a420079012582248420589201f4be9113",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "软银先发大津投手投到第6局中途失6分未能稳住，第二位投手埃尔南德斯也投出两次投手犯规等表现混乱。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "19536580c0ca14b3bf9131ba07fbbdf67c36d896dd1e89c276c6393e3506a032": {
-      "feature": "translate",
-      "sourceHash": "5f89d5deecf3a2c1b83753f5388ccf38ff4874fd8bf387a1b3c6951b6725aee2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 日本火腿 × 乐天",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "af02b9517d470692702683352451169ec4949ee1f203cecea2d398670d8152a8": {
-      "feature": "translate",
-      "sourceHash": "a1c3583111d78e468842e2c2045390a1356db2970ff8ed89b636fb77d3cc6927",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本火腿 对 乐天，日本火腿以4比3获得再见胜利。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "5bbcdc418b2c9a06706b66d01e0069560b74ca20d376dd769f78b1dd030c3028": {
-      "feature": "translate",
-      "sourceHash": "169c2274aa324405c530c0cbb30db425e4ebe7a2dabcc3e4dadba94cd96f3632",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:柳川投手 3胜19救援\\n●负:泰投手 2胜1败\\n◎本垒打:日本火腿・水野选手 7号\\n乐天・YG安田选手 3号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "3f4a32e3c75825358dac58530495febf4e69616a9d4bc3cba7763759edb131aa": {
-      "feature": "translate",
-      "sourceHash": "4a3de9e9b035956ba33f8105d63440014741286347f75b097a3f2db69e705a9b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "日本火腿在追回1分的第8局，凭借清宫选手的牺牲高追平，在9局同分状态下，一出局二垒有人，替补出场的奈良间选手适时二垒安打锁定胜局。第5位上场的柳川投手在第九局一局无失分，取得第3胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "3e3c2941a052ccc058dd17a140af4576116a3d5f05305cb902182ea5f6fb9b80": {
-      "feature": "translate",
-      "sourceHash": "39977e533f06118166142e8db7044b5201588a2ddfb1419efc39b0aa2c234da9",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "乐天先发庄司投手7局失2分表现良好，但后卫投手群未能坚持住。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "a55058306fac380f7c87e1a242c989de3177f2d1e8d10d4e894d5cf3f39515fb": {
-      "feature": "translate",
-      "sourceHash": "d1e06f3d67e49d5b68e5a7487b06a0b09420525db71d5c2fdd424ee40603dd67",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 欧力士 × 罗德",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:38.097Z"
-    },
-    "23556c14e61f1108bcebb4a5b6a2d3818a64822f57cd55ac26eb5263a5c3bba2": {
-      "feature": "translate",
-      "sourceHash": "81f4c052e892c456f2f7f148626ab8f6d2d18a36e63efc28239d41734ba7aff5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "欧力士对阵罗德，欧力士以5比3获胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "b8a0961f126f4fe4f3640f7cf91039337e95442411fd1a7787a7ad06d8af061e": {
-      "feature": "translate",
-      "sourceHash": "60c54f0686119a0a2d08a90e6a78c993975d89f6dcf4cd877191c8dfa9225f93",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:山崎投手 2胜3败\\ ▽救援:马查多投手 1胜23救援\\ ●负:中森投手 2胜1败1救援\\ ◎本垒打:欧力士・太田选手 6号/福永选手 1号\\ 罗德・上田希由翔选手 5号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "0c8691dac7e9e61712aa8a386d2e26a9d4201ed9edee2074ee470f88d6634e21": {
-      "feature": "translate",
-      "sourceHash": "77ce251a39b3c71596fc44616dc819bb9d14578a61bc440009d3ae81eaf8295f",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "欧力士在第1局，凭借西川选手的牺牲高飞球和太田选手的两分本垒打，先得3分。之后被追平，但第7局福永选手的 solo 本垒打再次领先，第8局再添1分。第7局1局无失分压制对手的第3任投手山崎投手取得了第2胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "8c091a600f99bbfd5a011a954fc1e13f30717a10f0a52e68094c1a21482bec89": {
-      "feature": "translate",
-      "sourceHash": "2895cbde59636e5d2f8d52ef71d4cfb643d317f8a06260a4846c6f6df8e83157",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "罗德队后援投手阵容未能坚持住，在拉锯战中落败。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "fddc50cfcb5d1aea592dab1261bd2ea188d4c77535fd407cc1f35a3e97c46cbe": {
-      "feature": "translate",
-      "sourceHash": "e17348353575a755770b9c2b7e7c7177eeae3f29c8511463dcbf83529b272d63",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 《中央联盟》",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "16b15497dd818606daaca72e80f697a923be5abfb6ed7f9b11351f8172806a02": {
-      "feature": "translate",
-      "sourceHash": "cc96a16a7b78f4dffd8ad34b9c5e3426cce4df5207e7457eae7691030fc7598b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 阪神 × 巨人",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "fe59441ef5bac823e9bde82d3779c0fc3d4f50741d15ffc7ea935f6351231f0a": {
-      "feature": "translate",
-      "sourceHash": "ef26ea5ab2f3fb85503578cecc69fa28d52a30673f2f296ea009e751c2267ed9",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阪神对阵巨人，巨人以5比1获胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "0b267ff21f1de24e93edba8b113e98e7cb9d87553ca9a575615eb2075c93b49a": {
-      "feature": "translate",
-      "sourceHash": "45b69615af34cb7c44466eb1f8c5a7e5c5f94cd876516dcfa81e9c19599d4d03",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:竹丸投手 7胜7败\\ ●负:伊原投手 3胜1败\\ ◎本垒打:巨人・达尔贝克选手 17号/佐佐木选手 7号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "83b9be2f54f7d2cd63f3f14115d0508756416c0eff2e2ae60e41ec3ad3e50908": {
-      "feature": "translate",
-      "sourceHash": "cf0cf7a4c74d6bdf70330da8f7681fa97d5781e13b5dbfb5ebfa3ce960de6390",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "巨人在0比1落后1分的第4局，凭借达尔贝克选手连续2场比赛本垒打的第17号 solo 本垒打追平，之后佐佐木选手和石冢选手的连续适时二垒安打再得3分反超。竹丸投手投6局被安打4支失1分，取得第7胜。巨人以联赛最快速度达到50胜，独占首位。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "556a5d2d0a2ea0da6125fbf76e3d29bd40b585ad8e812eb9ca114bcde92b365e": {
-      "feature": "translate",
-      "sourceHash": "a339c3c83e2dbb9d1a8726f757d0eb2a364c557b446dc4fd4df147270beeca07",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阪神先发投手伊原在第4局被打爆，吞下本赛季首败。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "d2d211b103460bf0abfbf0bdbbed5680c63e135fef7c1b41bd19485ebabb6491": {
-      "feature": "translate",
-      "sourceHash": "97de2dea5586396e80f98f2bae30d21c45af5b240050ea1a5e92075e20025e5d",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 养乐多 × 广岛",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "b131e9c04101d0953beed615a103af47bb13aebec860dbd781f8801834ed4483": {
-      "feature": "translate",
-      "sourceHash": "be142ab5d45777beea4bfbc69eb45ea7854f45c21beeb2258a6934962a0ad74e",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "养乐多对阵广岛，养乐多在延长10局以2比1再见胜利。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "f8c19ffac81acfa0a0c7109eefe7f3c9a989c7c09674d9027b94bf69235d1673": {
-      "feature": "translate",
-      "sourceHash": "41ae8fff643fccb46c521a3682b2c92ee9800ba96e1060d5cb6a38b53ae36008",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:里兰索投手 2胜2败\\ ●负:远藤投手 1胜2败",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "bc892286ca5e7b3000270df3d621b7484edb8bd62e0c771aa108ff7bc81c202c": {
-      "feature": "translate",
-      "sourceHash": "414399bb4aaa61452f8a049e9e2ce3597b22a82f13589c3b58372206e05e2949",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "养乐多在1比1的延长10局，从盐见选手的二垒安打开始扩大机会，代打古贺选手的牺牲高飞球决定了比赛。养乐多连续2场再见胜利，取得3连胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "79a4d92e9911db2c5babb5cc3b16f69c92234207c2a47701381cbcb5827b3f4d": {
-      "feature": "translate",
-      "sourceHash": "d5f386a7f2ed6512b1044531570347a66635b93b50efd117e893bf017fd577c1",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "广岛在落后1分的第9局凭借秋山选手的适时安打追平，但第4任投手远藤没能坚持住。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "2d1135cb8c95023cc2e020fc5f043642fc9d7aa7608a3549764428211df349eb": {
-      "feature": "translate",
-      "sourceHash": "89fb61e7a6cb2017427b0a11c596dec0521f60231765078d4f7ad7503fe47cfe",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "### 中日 × DeNA",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "1ef31f98648d17c18fd98de88c7c1a886c73d7fcb43973c7abb87c88e1e04f57": {
-      "feature": "translate",
-      "sourceHash": "e1f08973e0ad5a127608d3b128bf6c13f12e5f9ed9c2e66d6cf9eafb68657195",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中日对阵DeNA，DeNA以5比0获胜。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "9e140d9558a4d62a57d1b64d9edb95ef5207a482479e80415607a3c4e17b677d": {
-      "feature": "translate",
-      "sourceHash": "295dc776b2926e1df6ad2f47f6d4ee53adf4ee996c1912e214bdcebe1e559d46",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "○胜:比德投手 1胜\\ ●负:涌井投手 2胜1败\\ ◎本垒打:DeNA・筒香选手 7号/松尾选手 4号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "66c2429480fa2d73ea91b81b37715cd3b65baed79207f79314052116f12d0748": {
-      "feature": "translate",
-      "sourceHash": "9b4b7cabdb0ef8c4ca58d4dcbebfeba4fb2ab2cd2378ef09e753589c028c42ef",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "DeNA在第2局凭借筒香选手的 solo 本垒打先发制人，第4局松尾选手的 solo 本垒打追加得分。之后第5局筒香选手又打出适时安打，小幅度地增加得分。6月加入的新战力比德投手在首次日本登板中投了5局，虽然每局都让跑者上垒，但无失分压制，取得了首胜。DeNA终结了3连败。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "55a553f0cabce88067fd599716429083f9989eba07493f171c3b21e2c8303b38": {
-      "feature": "translate",
-      "sourceHash": "7eb761763ceb194f4ae511d587c7a29b0275aa62a11d66da87faa4c3c882b980",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "中日打线未能串联，被完封落败，涌井投手投5局失3分，吞下本赛季首败。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T15:05:10.498Z"
-    },
-    "9497c981eec59f266b160dacafd3fd07006e69e5a76ed6bb530abed898fd82ba": {
-      "feature": "translate",
-      "sourceHash": "f6265d1b5fdddcecbd916affdb6825f5de105710afa6de8552d0e19f52a4c287",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "印度教育部长辞职 “蟑螂人民党” 示威活动是否走向平息",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "3a73db81f80ac26267f6c64da23d6dc1f9e1310b7fb25cae4b91acc89c596922": {
-      "feature": "translate",
-      "sourceHash": "2d0b067aba519d17f9fb2c79a302633b93e8bf01a5a8892258a4ad6ec11b9070",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在印度，因大学入学考试题目泄露嫌疑而引发的政府抗议示威活动不断扩大的情况下，25日，教育部长表示“为了让学生们能够专心学业”而宣布辞职。对此，组织示威的团体宣布停止抗议活动，事态是否会走向平息成为焦点。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "a7101c54fb40b231c78e72c565f67f31d06a4a26f9cadbef4841c632363d0fc9": {
-      "feature": "translate",
-      "sourceHash": "0c5e5ec79bce02357b688f90f1f255a50c7ae96a0de8e7097534d53614414234",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在印度连日举行示威的“蟑螂人民党”是一个由年轻人为主在社交网络上创建的虚构政党，它利用了印度最高法院首席大法官关于“失业年轻人就像蟑螂”的发言。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "6d4e63a3902429c118477185bebc4b82428e46f6ac72d2ed2d4635ea96bb5e0f": {
-      "feature": "translate",
-      "sourceHash": "1e58b9407067a5503938e46829411a00dca895711c586322522bcdcaae3d0804",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "针对今年5月举行的大学入学考试中题目内容疑似泄露，当局宣布考试无效并进行重考一事，抗议活动持续要求教育部长辞职等。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "1a2f47d93be3c11fcdd9d38255d0746383faf7912b8e10e81ad6c44fbef86b07": {
-      "feature": "translate",
-      "sourceHash": "bbb43a3977292b2086ae0eed809c4a3f4449d3a954d2a76f05cc45ef52d5c873",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在此背景下，25日，普拉丹教育部长发表声明宣布辞职，称“为了让学生们能专心学业，已向总理提交辞呈”。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "437ab25f0b34386cb5f76f50fcd8d602a90fd214ffef11de7dfa1b0ce7a67599": {
-      "feature": "translate",
-      "sourceHash": "69405f6300db410794fa19c54e52b9d2c9096c96ea37a3e3d98eb25261f42078",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "对此，团体方面召开记者会，宣布所有要求已被接受，并决定停止示威。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "a6557254e033796f26efbb698f8a553c2d7c9928350a6832f5aed8cd31c1d97d": {
-      "feature": "translate",
-      "sourceHash": "97674cee37c3e4fe8bd4848d1437b172d7bdfade6d2d2c7e656cf4708d027af5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在混乱蔓延的情况下，此次政府虽然试图收拾局面，但据当地媒体报道，教育部长辞职后西部拉贾斯坦邦仍有示威活动，此外在野党也继续追究莫迪总理的责任，事态是否会走向平息成为焦点。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "629204d0bf327ae425c02a33b98673a4d36191d3202a254c9a0a1a8aa741cd50": {
-      "feature": "translate",
-      "sourceHash": "7b146ace12558f49700770784d13426e4ca69ec01026e51a1627c80f1258e971",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "德国 “汽车冲撞性少数群体活动 造成伤亡” 海外媒体",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "99b8d830981af3856f52f484a8552b7b649e75c2dde30006438e5190db2b459b": {
-      "feature": "translate",
-      "sourceHash": "b243624cb2daa215de911472c382316756cbdc5f0276028829a1f837622251f7",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据法新社等报道，德国首都柏林当地时间25日晚，一辆汽车冲入人群，造成1人死亡，约15人受伤。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "d4f27170b47011a20097083a391e19f7af44fc0eb2d34a69ebc299b26a7100a3": {
-      "feature": "translate",
-      "sourceHash": "3c103ebd7aad5a7883c896374b220cf9b4bcb0f85f3e9be72059ec9dc5cf02bd",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "据德国媒体报道，现场位于柏林旅游胜地勃兰登堡门附近的蒂尔加藤地区，当时正在举行呼吁提高LGBTQ等性少数群体权利的大规模活动，聚集了数十万人，但在晚上10点左右活动被中止，并要求所有到场者撤离。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.490Z"
-    },
-    "a95cf39f0929cd4e9c98412a8a23a2c30fc87c51f6908a21ae06c7633102f9c9": {
-      "feature": "translate",
-      "sourceHash": "3762cfe9daba10a59b80e56b9e3d9c3ab225cc258af4b95a0aebb703996154b9",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "25日，东海和山梨县观测到最高气温超过40度，国内连续5天出现“酷暑日”，刷新了记录。26日东海、近畿、四国、九州预计也将出现危险高温，请继续彻底做好防中暑措施。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.491Z"
-    },
-    "dbeba89230d0062afcb5d4d4e33c0396c3d168caff00bf7746fd029d8a92544d": {
-      "feature": "translate",
-      "sourceHash": "3475f87eb1ffb006974cc8d43c801a5f9207de1f6a10dbdee138d85dc967b553",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "截至早上6点的1小时内，▽山形县在饭丰町设置雨量计观测到53毫米，▽新潟县在小千谷市设置雨量计观测到52毫米的极强降雨。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.491Z"
-    },
-    "68084d53ff2620bf2a0a0c856e067bc6b8b83eaf9cb50bdb4160b6f4194fbebc": {
-      "feature": "translate",
-      "sourceHash": "46616893dbebcc1a2e3c1e956ea2b7f45a7fa866f3bc5c53de87ef3d67f7d426",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "此外，山形县部分地区发布了表示低洼地带浸水和河流泛滥危险性极高的“4级大雨危险警报”。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.491Z"
-    },
-    "a9dce4fa8f8c5b94dfa8bcfae3b60d0c3dfa158e6fdb029ad0099b33f5229900": {
-      "feature": "translate",
-      "sourceHash": "3a87b6ec8770711889ca9d0e2492b49bc0c4186d7259a529c3985609400d10be",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "东北地区预计也将有大雨，气象厅呼吁严加防范地质灾害，同时警惕低洼地带浸水、河流涨水和泛滥。还需注意雷击、龙卷风等强阵风以及冰雹。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-25T22:57:18.491Z"
+      "createdAt": "2026-07-26T00:09:14.418Z"
     },
     "d3988db6da9a7a8b1e8f22a86a6dcdd4ec7f5636b0289f2d7b7efcec55618421": {
       "feature": "translate",
