@@ -1,7 +1,7 @@
 {
-  "runId": "30297994493",
-  "startedAt": "2026-07-27T19:23:16.085Z",
-  "finishedAt": "2026-07-27T19:32:36.096Z",
+  "runId": "30305487867",
+  "startedAt": "2026-07-27T21:07:17.094Z",
+  "finishedAt": "2026-07-27T21:19:16.555Z",
   "status": "partial",
   "feeds": [
     {
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 21,
+          "generated": 4,
           "failed": 0
         }
       ],
@@ -123,8 +123,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 18,
-          "generated": 2,
+          "cacheHits": 20,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 18,
-      "outputItems": 18,
+      "inputItems": 15,
+      "outputItems": 15,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 292,
-          "cacheHits": 164,
-          "generated": 128,
+          "units": 217,
+          "cacheHits": 198,
+          "generated": 19,
           "failed": 0
         }
       ],
@@ -182,19 +182,10 @@
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
-      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 10,
-      "outputItems": 10,
-      "featureStats": [
-        {
-          "kind": "translate",
-          "units": 229,
-          "cacheHits": 0,
-          "generated": 229,
-          "failed": 0
-        }
-      ],
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
       "issues": [
         {
           "stage": "fetch",
@@ -208,6 +199,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yna/latest"
+        },
+        {
+          "stage": "fetch",
+          "severity": "error",
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
         }
       ]
@@ -222,9 +220,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 148,
-          "cacheHits": 117,
-          "generated": 31,
+          "units": 103,
+          "cacheHits": 0,
+          "generated": 103,
           "failed": 0
         }
       ],
@@ -235,6 +233,21 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: f8444c7fb0f91ffe9a9328fe1305e97be6313e7c35fdb6d2850122d3acfd28c",
+          "path": "/nikkei/news",
+          "feature": "translate"
         }
       ]
     },
@@ -248,28 +261,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 216,
-          "cacheHits": 216,
-          "generated": 0,
+          "units": 50,
+          "cacheHits": 6,
+          "generated": 44,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        },
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/nhk/news_web/latest",
@@ -281,9 +279,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 364,
-          "cacheHits": 364,
-          "generated": 0,
+          "units": 296,
+          "cacheHits": 212,
+          "generated": 84,
           "failed": 0
         }
       ],
@@ -328,15 +326,15 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 14,
-    "inputItems": 257,
-    "outputItems": 257,
+    "renderedFeeds": 13,
+    "inputItems": 244,
+    "outputItems": 244,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2476,
-        "cacheHits": 2070,
-        "generated": 406,
+        "units": 1893,
+        "cacheHits": 1626,
+        "generated": 267,
         "failed": 0
       }
     ]
@@ -379,6 +377,13 @@
     },
     {
       "stage": "fetch",
+      "severity": "error",
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/yna/latest"
+    },
+    {
+      "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
@@ -388,15 +393,16 @@
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
-      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
     },
     {
-      "stage": "fetch",
+      "stage": "feature",
       "severity": "warning",
-      "code": "fetch_retry",
-      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: f8444c7fb0f91ffe9a9328fe1305e97be6313e7c35fdb6d2850122d3acfd28c",
+      "path": "/nikkei/news",
+      "feature": "translate"
     }
   ]
 }
