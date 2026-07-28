@@ -1,7 +1,7 @@
 {
-  "runId": "30327405932",
-  "startedAt": "2026-07-28T03:58:44.547Z",
-  "finishedAt": "2026-07-28T04:12:04.526Z",
+  "runId": "30335180360",
+  "startedAt": "2026-07-28T06:33:12.723Z",
+  "finishedAt": "2026-07-28T06:46:36.949Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 13,
-          "generated": 12,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 12,
-          "generated": 13,
+          "cacheHits": 16,
+          "generated": 9,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 22,
-          "generated": 3,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 14,
-      "outputItems": 14,
+      "inputItems": 13,
+      "outputItems": 13,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 178,
-          "cacheHits": 103,
-          "generated": 75,
+          "units": 160,
+          "cacheHits": 120,
+          "generated": 40,
           "failed": 0
         }
       ],
@@ -189,9 +189,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 137,
-          "cacheHits": 13,
-          "generated": 124,
+          "units": 198,
+          "cacheHits": 23,
+          "generated": 175,
           "failed": 0
         }
       ],
@@ -201,6 +201,13 @@
           "severity": "warning",
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yna/latest"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
         }
       ]
@@ -215,9 +222,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 118,
-          "cacheHits": 11,
-          "generated": 107,
+          "units": 122,
+          "cacheHits": 7,
+          "generated": 115,
           "failed": 0
         }
       ],
@@ -241,9 +248,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 216,
-          "cacheHits": 61,
-          "generated": 155,
+          "units": 149,
+          "cacheHits": 7,
+          "generated": 142,
           "failed": 0
         }
       ],
@@ -259,9 +266,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 180,
-          "cacheHits": 22,
-          "generated": 158,
+          "units": 229,
+          "cacheHits": 41,
+          "generated": 188,
           "failed": 0
         }
       ],
@@ -307,14 +314,14 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 253,
-    "outputItems": 253,
+    "inputItems": 252,
+    "outputItems": 252,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2055,
-        "cacheHits": 1408,
-        "generated": 647,
+        "units": 2084,
+        "cacheHits": 1402,
+        "generated": 682,
         "failed": 0
       }
     ]
@@ -346,6 +353,13 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yna/latest"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
     },
     {
