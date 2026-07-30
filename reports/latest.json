@@ -1,7 +1,7 @@
 {
-  "runId": "30517142167",
-  "startedAt": "2026-07-30T05:37:48.426Z",
-  "finishedAt": "2026-07-30T05:56:17.965Z",
+  "runId": "30526337982",
+  "startedAt": "2026-07-30T08:21:19.606Z",
+  "finishedAt": "2026-07-30T08:46:49.834Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 20,
-          "generated": 5,
+          "cacheHits": 22,
+          "generated": 3,
           "failed": 0
         }
       ],
@@ -69,21 +69,12 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 20,
-          "generated": 5,
+          "cacheHits": 24,
+          "generated": 1,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: a193ceb82833e4fc7b0e9b8a8eac97e1c3b7d562e84d68159fa453f9a47eefdd",
-          "path": "/nytimes/world",
-          "feature": "translate"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/typesetinthefuture/feed",
@@ -175,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 14,
-      "outputItems": 14,
+      "inputItems": 13,
+      "outputItems": 13,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 186,
-          "cacheHits": 101,
-          "generated": 85,
+          "units": 182,
+          "cacheHits": 128,
+          "generated": 54,
           "failed": 0
         }
       ],
@@ -198,10 +189,10 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 140,
-          "cacheHits": 10,
-          "generated": 130,
-          "failed": 0
+          "units": 178,
+          "cacheHits": 13,
+          "generated": 159,
+          "failed": 6
         }
       ],
       "issues": [
@@ -214,9 +205,69 @@
         },
         {
           "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
           "severity": "warning",
           "code": "batch_retry",
-          "message": "llm response contains unknown id: ec3e42e137528c98149d777deac64cdca241f4faaa751da190c2008a795c6fd9",
+          "message": "llm request failed: 500 Internal Server Error",
           "path": "/yna/latest",
           "feature": "translate"
         }
@@ -232,13 +283,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 128,
-          "cacheHits": 8,
-          "generated": 120,
+          "units": 137,
+          "cacheHits": 10,
+          "generated": 127,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        }
+      ]
     },
     {
       "path": "/yomiuri/news",
@@ -250,13 +309,102 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 151,
-          "cacheHits": 30,
-          "generated": 121,
-          "failed": 0
+          "units": 208,
+          "cacheHits": 1,
+          "generated": 199,
+          "failed": 8
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "7495f0bd53e15671ab19669d47691645cd378fa67b615bccf28ffa89fc8dae67",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "Expected ',' or ']' after array element in JSON at position 251 (line 1 column 252)",
+          "path": "/yomiuri/news",
+          "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "itemKey": "91538f6bf04d57d75a2e9a506304fa1a99275f177dd5c560442240c2432306f8",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yomiuri/news",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
@@ -268,13 +416,22 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 408,
-          "cacheHits": 11,
-          "generated": 397,
+          "units": 525,
+          "cacheHits": 199,
+          "generated": 326,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm request failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -316,27 +473,19 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 253,
-    "outputItems": 253,
+    "inputItems": 252,
+    "outputItems": 252,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2309,
-        "cacheHits": 1436,
-        "generated": 873,
-        "failed": 0
+        "units": 2526,
+        "cacheHits": 1633,
+        "generated": 879,
+        "failed": 14
       }
     ]
   },
   "issues": [
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response contains unknown id: a193ceb82833e4fc7b0e9b8a8eac97e1c3b7d562e84d68159fa453f9a47eefdd",
-      "path": "/nytimes/world",
-      "feature": "translate"
-    },
     {
       "stage": "fetch",
       "severity": "warning",
@@ -367,10 +516,173 @@
     },
     {
       "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "9c18933c6a39310d7c9d8acc9c92de3affed035b918aad77e3696271868c2002",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
       "severity": "warning",
       "code": "batch_retry",
-      "message": "llm response contains unknown id: ec3e42e137528c98149d777deac64cdca241f4faaa751da190c2008a795c6fd9",
+      "message": "llm request failed: 500 Internal Server Error",
       "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "757c0d4894a8169c58ebc633aa755fbd4d44f63a7e94f4fa9c6990bf96659453",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "7495f0bd53e15671ab19669d47691645cd378fa67b615bccf28ffa89fc8dae67",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "Expected ',' or ']' after array element in JSON at position 251 (line 1 column 252)",
+      "path": "/yomiuri/news",
+      "itemKey": "5618eceedd381a27bb9e9eb24a6b909235f259a2b548758abc86089d664e351e",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "itemKey": "91538f6bf04d57d75a2e9a506304fa1a99275f177dd5c560442240c2432306f8",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yomiuri/news",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm request failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest",
       "feature": "translate"
     }
   ]
