@@ -1,7 +1,7 @@
 {
-  "runId": "30608825985",
-  "startedAt": "2026-07-31T06:09:50.712Z",
-  "finishedAt": "2026-07-31T06:26:35.660Z",
+  "runId": "30620847237",
+  "startedAt": "2026-07-31T09:41:32.022Z",
+  "finishedAt": "2026-07-31T09:59:15.009Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 19,
-          "generated": 6,
+          "cacheHits": 17,
+          "generated": 8,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 14,
-          "generated": 11,
+          "cacheHits": 7,
+          "generated": 18,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 21,
-          "generated": 4,
+          "cacheHits": 16,
+          "generated": 9,
           "failed": 0
         }
       ],
@@ -123,8 +123,8 @@
         {
           "kind": "translate",
           "units": 20,
-          "cacheHits": 20,
-          "generated": 0,
+          "cacheHits": 4,
+          "generated": 16,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 14,
-      "outputItems": 14,
+      "inputItems": 15,
+      "outputItems": 15,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 150,
-          "cacheHits": 107,
-          "generated": 43,
+          "units": 147,
+          "cacheHits": 108,
+          "generated": 39,
           "failed": 0
         }
       ],
@@ -182,10 +182,19 @@
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
+      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
+      "inputItems": 10,
+      "outputItems": 10,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 181,
+          "cacheHits": 0,
+          "generated": 181,
+          "failed": 0
+        }
+      ],
       "issues": [
         {
           "stage": "fetch",
@@ -200,13 +209,6 @@
           "code": "fetch_retry",
           "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
           "path": "/yna/latest"
-        },
-        {
-          "stage": "fetch",
-          "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
         }
       ]
     },
@@ -220,9 +222,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 136,
-          "cacheHits": 4,
-          "generated": 132,
+          "units": 137,
+          "cacheHits": 9,
+          "generated": 128,
           "failed": 0
         }
       ],
@@ -238,9 +240,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 143,
-          "cacheHits": 7,
-          "generated": 136,
+          "units": 136,
+          "cacheHits": 6,
+          "generated": 130,
           "failed": 0
         }
       ],
@@ -256,9 +258,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 377,
-          "cacheHits": 53,
-          "generated": 324,
+          "units": 531,
+          "cacheHits": 161,
+          "generated": 370,
           "failed": 0
         }
       ],
@@ -275,8 +277,8 @@
         {
           "kind": "translate",
           "units": 241,
-          "cacheHits": 212,
-          "generated": 29,
+          "cacheHits": 241,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -303,15 +305,15 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 13,
-    "inputItems": 243,
-    "outputItems": 243,
+    "renderedFeeds": 14,
+    "inputItems": 254,
+    "outputItems": 254,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2139,
-        "cacheHits": 1454,
-        "generated": 685,
+        "units": 2465,
+        "cacheHits": 1566,
+        "generated": 899,
         "failed": 0
       }
     ]
@@ -350,13 +352,6 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
-    },
-    {
-      "stage": "fetch",
-      "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
       "path": "/yna/latest"
     }
   ]
