@@ -1,7 +1,7 @@
 {
-  "runId": "30714300102",
-  "startedAt": "2026-08-01T19:13:53.752Z",
-  "finishedAt": "2026-08-01T19:20:04.463Z",
+  "runId": "30717741118",
+  "startedAt": "2026-08-01T20:47:47.396Z",
+  "finishedAt": "2026-08-01T21:12:55.430Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 18,
-          "generated": 7,
+          "cacheHits": 14,
+          "generated": 11,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 23,
-          "generated": 2,
+          "cacheHits": 19,
+          "generated": 6,
           "failed": 0
         }
       ],
@@ -171,9 +171,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 179,
+          "units": 206,
           "cacheHits": 151,
-          "generated": 28,
+          "generated": 55,
           "failed": 0
         }
       ],
@@ -182,10 +182,19 @@
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
+      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 0,
-      "outputItems": 0,
-      "featureStats": [],
+      "inputItems": 10,
+      "outputItems": 10,
+      "featureStats": [
+        {
+          "kind": "translate",
+          "units": 297,
+          "cacheHits": 0,
+          "generated": 297,
+          "failed": 0
+        }
+      ],
       "issues": [
         {
           "stage": "fetch",
@@ -202,11 +211,12 @@
           "path": "/yna/latest"
         },
         {
-          "stage": "fetch",
-          "severity": "error",
-          "code": "feed_failed",
-          "message": "fetch failed: 503 Service Unavailable",
-          "path": "/yna/latest"
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 0a4b2f83db1d517505df138f6b360c84d0d028c04956f988312dadd1d8859aa",
+          "path": "/yna/latest",
+          "feature": "translate"
         }
       ]
     },
@@ -220,9 +230,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 131,
-          "cacheHits": 128,
-          "generated": 3,
+          "units": 121,
+          "cacheHits": 2,
+          "generated": 119,
           "failed": 0
         }
       ],
@@ -233,6 +243,21 @@
           "code": "fetch_retry",
           "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
           "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response missing ids",
+          "path": "/nikkei/news",
+          "feature": "translate"
         }
       ]
     },
@@ -246,13 +271,21 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 230,
-          "cacheHits": 230,
-          "generated": 0,
+          "units": 25,
+          "cacheHits": 0,
+          "generated": 25,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        }
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
@@ -264,9 +297,9 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 526,
-          "cacheHits": 524,
-          "generated": 2,
+          "units": 387,
+          "cacheHits": 315,
+          "generated": 72,
           "failed": 0
         }
       ],
@@ -326,15 +359,15 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 13,
-    "inputItems": 243,
-    "outputItems": 243,
+    "renderedFeeds": 14,
+    "inputItems": 253,
+    "outputItems": 253,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2736,
-        "cacheHits": 2693,
-        "generated": 43,
+        "units": 2706,
+        "cacheHits": 2120,
+        "generated": 586,
         "failed": 0
       }
     ]
@@ -376,11 +409,12 @@
       "path": "/yna/latest"
     },
     {
-      "stage": "fetch",
-      "severity": "error",
-      "code": "feed_failed",
-      "message": "fetch failed: 503 Service Unavailable",
-      "path": "/yna/latest"
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: 0a4b2f83db1d517505df138f6b360c84d0d028c04956f988312dadd1d8859aa",
+      "path": "/yna/latest",
+      "feature": "translate"
     },
     {
       "stage": "fetch",
@@ -388,6 +422,28 @@
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
       "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response missing ids",
+      "path": "/nikkei/news",
+      "feature": "translate"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
     },
     {
       "stage": "fetch",
