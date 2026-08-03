@@ -1,7 +1,7 @@
 {
-  "runId": "30780066424",
-  "startedAt": "2026-08-03T02:45:51.744Z",
-  "finishedAt": "2026-08-03T03:29:37.594Z",
+  "runId": "30789818889",
+  "startedAt": "2026-08-03T06:19:40.971Z",
+  "finishedAt": "2026-08-03T06:54:16.147Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 17,
-          "generated": 8,
+          "cacheHits": 14,
+          "generated": 11,
           "failed": 0
         }
       ],
@@ -33,12 +33,31 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 14,
+          "cacheHits": 13,
           "generated": 11,
-          "failed": 0
+          "failed": 1
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/bbc",
+          "itemKey": "79bd8b19a7e574d225ef642c0341336195a3dd335a8023346071aad87e46e32b",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/bbc",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/readwise",
@@ -69,8 +88,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 25,
-          "generated": 0,
+          "cacheHits": 23,
+          "generated": 2,
           "failed": 0
         }
       ],
@@ -171,30 +190,140 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 149,
-          "cacheHits": 81,
-          "generated": 68,
-          "failed": 0
+          "units": 132,
+          "cacheHits": 61,
+          "generated": 60,
+          "failed": 11
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/chosun/politics",
+          "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 8cbb97379696828f0160dfe685acc9b56e5a69d1738a9f09d0ed2b599a71e5b",
+          "path": "/chosun/politics",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/yna/latest",
       "sourceUrl": "https://rss.20260501.xyz/yna/latest?key=***&limit=***&mode=***",
-      "outputPath": "dist/yna/latest.xml",
       "limit": 25,
-      "inputItems": 10,
-      "outputItems": 10,
-      "featureStats": [
-        {
-          "kind": "translate",
-          "units": 147,
-          "cacheHits": 11,
-          "generated": 135,
-          "failed": 1
-        }
-      ],
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
       "issues": [
         {
           "stage": "fetch",
@@ -211,284 +340,114 @@
           "path": "/yna/latest"
         },
         {
-          "stage": "feature",
+          "stage": "fetch",
           "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/yna/latest",
-          "itemKey": "45d77d4fd099172d59dbdbc244f42ccfc392de49daef0463ba2f07327c565db6",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: 8b36e585cf5521cb07963ec5feb3ba076b8d2537cee4fe836f9457f78cfc9006",
-          "path": "/yna/latest",
-          "feature": "translate"
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
+          "path": "/yna/latest"
         }
       ]
     },
     {
       "path": "/nikkei/news",
       "sourceUrl": "https://rss.20260501.xyz/nikkei/news?key=***",
-      "outputPath": "dist/nikkei/news.xml",
       "limit": 25,
-      "inputItems": 25,
-      "outputItems": 25,
-      "featureStats": [
-        {
-          "kind": "translate",
-          "units": 95,
-          "cacheHits": 3,
-          "generated": 73,
-          "failed": 19
-        }
-      ],
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
       "issues": [
         {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "82845e784bcf28d2628a957d12d7055f73ec3e2cb21512aabf6d7d66e5a4ff4c",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "82845e784bcf28d2628a957d12d7055f73ec3e2cb21512aabf6d7d66e5a4ff4c",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "06987c3d147a7fe56ef939f4827adb2a0389cec72e611eaf0f04a15ffff8481c",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "06987c3d147a7fe56ef939f4827adb2a0389cec72e611eaf0f04a15ffff8481c",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "6f1fd7d2284b2e1c7c34e54b3786ef596d2381b81752c643605dc9e7df30a9e3",
-          "field": "title",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm request failed: 402 Payment Required",
-          "path": "/nikkei/news",
-          "itemKey": "6f1fd7d2284b2e1c7c34e54b3786ef596d2381b81752c643605dc9e7df30a9e3",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
+          "stage": "fetch",
           "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm request failed: 500 Internal Server Error",
-          "path": "/nikkei/news",
-          "feature": "translate"
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "error",
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
         }
       ]
     },
     {
       "path": "/yomiuri/news",
       "sourceUrl": "https://rss.20260501.xyz/yomiuri/news?key=***",
-      "outputPath": "dist/yomiuri/news.xml",
       "limit": 25,
-      "inputItems": 25,
-      "outputItems": 25,
-      "featureStats": [
+      "inputItems": 0,
+      "outputItems": 0,
+      "featureStats": [],
+      "issues": [
         {
-          "kind": "translate",
-          "units": 198,
-          "cacheHits": 123,
-          "generated": 75,
-          "failed": 0
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
+        },
+        {
+          "stage": "fetch",
+          "severity": "error",
+          "code": "feed_failed",
+          "message": "fetch failed: 503 Service Unavailable",
+          "path": "/yomiuri/news"
         }
-      ],
-      "issues": []
+      ]
     },
     {
       "path": "/nhk/news_web/latest",
       "sourceUrl": "https://rss.20260501.xyz/nhk/news_web/latest?key=***",
       "outputPath": "dist/nhk/news_web/latest.xml",
       "limit": 25,
-      "inputItems": 20,
-      "outputItems": 20,
+      "inputItems": 12,
+      "outputItems": 12,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 256,
-          "cacheHits": 82,
-          "generated": 166,
-          "failed": 8
+          "units": 305,
+          "cacheHits": 76,
+          "generated": 215,
+          "failed": 14
         }
       ],
       "issues": [
         {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest"
+        },
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nhk/news_web/latest"
+        },
+        {
           "stage": "feature",
           "severity": "error",
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+          "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
           "field": "description",
           "feature": "translate"
         },
@@ -498,7 +457,7 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+          "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
           "field": "description",
           "feature": "translate"
         },
@@ -508,7 +467,7 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+          "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
           "field": "description",
           "feature": "translate"
         },
@@ -518,7 +477,7 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "9c9ec5c8ba1f3b84d23f390d32809f3fc6107edd809a9ee47fbf1e4b85c055d9",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
           "field": "description",
           "feature": "translate"
         },
@@ -528,7 +487,17 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "77cbf826a9dec073f16dc40112024be1929626428de2f62e2e1f1d7d9e1e5cd9",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "title",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
           "field": "description",
           "feature": "translate"
         },
@@ -538,7 +507,7 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "58035f729b3bbac10a20635e89ab7d255350c8268f81d33683ae1150bb7b9dde",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
           "field": "description",
           "feature": "translate"
         },
@@ -548,7 +517,37 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "52538177bb4f3efc1c732eab8e3bbd2d4291ef9d5f386fa10ed5a3b21be77239",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
           "field": "description",
           "feature": "translate"
         },
@@ -566,8 +565,28 @@
           "code": "generation_failed",
           "message": "llm request failed: 500 Internal Server Error",
           "path": "/nhk/news_web/latest",
-          "itemKey": "fe91174cb0bd093a7e14ea0522876ecfe56f523f45c138a2736aa71a5b2fdf80",
-          "field": "title",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm request failed: 500 Internal Server Error",
+          "path": "/nhk/news_web/latest",
+          "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+          "field": "description",
           "feature": "translate"
         },
         {
@@ -619,20 +638,38 @@
   ],
   "totals": {
     "feeds": 15,
-    "renderedFeeds": 14,
-    "inputItems": 252,
-    "outputItems": 252,
+    "renderedFeeds": 11,
+    "inputItems": 184,
+    "outputItems": 184,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 2516,
-        "cacheHits": 1952,
-        "generated": 536,
-        "failed": 28
+        "units": 2108,
+        "cacheHits": 1783,
+        "generated": 299,
+        "failed": 26
       }
     ]
   },
   "issues": [
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/bbc",
+      "itemKey": "79bd8b19a7e574d225ef642c0341336195a3dd335a8023346071aad87e46e32b",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/bbc",
+      "feature": "translate"
+    },
     {
       "stage": "fetch",
       "severity": "warning",
@@ -655,6 +692,124 @@
       "path": "/kcna/kp/latest-news"
     },
     {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "b38f966837799c66a9605ef1a2089f26f8153a840ab1f3cb8c7ffa48798ab433",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/chosun/politics",
+      "itemKey": "44af8112fd7db5723039424a7eff81f602c6b9fc6556423c7d48eb87c3f63ee9",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: 8cbb97379696828f0160dfe685acc9b56e5a69d1738a9f09d0ed2b599a71e5b",
+      "path": "/chosun/politics",
+      "feature": "translate"
+    },
+    {
       "stage": "fetch",
       "severity": "warning",
       "code": "fetch_retry",
@@ -669,220 +824,67 @@
       "path": "/yna/latest"
     },
     {
-      "stage": "feature",
+      "stage": "fetch",
       "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/yna/latest",
-      "itemKey": "45d77d4fd099172d59dbdbc244f42ccfc392de49daef0463ba2f07327c565db6",
-      "field": "description",
-      "feature": "translate"
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/yna/latest"
     },
     {
-      "stage": "feature",
+      "stage": "fetch",
       "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response contains unknown id: 8b36e585cf5521cb07963ec5feb3ba076b8d2537cee4fe836f9457f78cfc9006",
-      "path": "/yna/latest",
-      "feature": "translate"
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
     },
     {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "b1b42d72d8cef95b6750b72d3f951debbf917a78cc16e3c74b2190667bd0a5cc",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "81a59a585c439f4674fb6a42bee945323f23690595041c3ec532f559fd4c76af",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "5d8df067600e20508675f30e3c339c854a24c079ba5d765fc77df26f0c0676e5",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "22945a7f8c664471fcb6db2bebfeea5b9df2cb0df05f3508d33a2b47578b25e2",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "82845e784bcf28d2628a957d12d7055f73ec3e2cb21512aabf6d7d66e5a4ff4c",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "82845e784bcf28d2628a957d12d7055f73ec3e2cb21512aabf6d7d66e5a4ff4c",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "06987c3d147a7fe56ef939f4827adb2a0389cec72e611eaf0f04a15ffff8481c",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "06987c3d147a7fe56ef939f4827adb2a0389cec72e611eaf0f04a15ffff8481c",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "6f1fd7d2284b2e1c7c34e54b3786ef596d2381b81752c643605dc9e7df30a9e3",
-      "field": "title",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm request failed: 402 Payment Required",
-      "path": "/nikkei/news",
-      "itemKey": "6f1fd7d2284b2e1c7c34e54b3786ef596d2381b81752c643605dc9e7df30a9e3",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
+      "stage": "fetch",
       "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm request failed: 500 Internal Server Error",
-      "path": "/nikkei/news",
-      "feature": "translate"
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "error",
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "error",
+      "code": "feed_failed",
+      "message": "fetch failed: 503 Service Unavailable",
+      "path": "/yomiuri/news"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest"
+    },
+    {
+      "stage": "fetch",
+      "severity": "warning",
+      "code": "fetch_retry",
+      "message": "retry 2/2 after fetch failed: 503 Service Unavailable",
+      "path": "/nhk/news_web/latest"
     },
     {
       "stage": "feature",
@@ -890,7 +892,7 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+      "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
       "field": "description",
       "feature": "translate"
     },
@@ -900,7 +902,7 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+      "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
       "field": "description",
       "feature": "translate"
     },
@@ -910,7 +912,7 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "f28695bbd4612a4572cba7c1d3b73882bec5e2811466621ee45a0b7bee7538d0",
+      "itemKey": "f45050240c4a09777daf7a1c3f6ed004c794cd18294844101da227792e2e601e",
       "field": "description",
       "feature": "translate"
     },
@@ -920,7 +922,7 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "9c9ec5c8ba1f3b84d23f390d32809f3fc6107edd809a9ee47fbf1e4b85c055d9",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
       "field": "description",
       "feature": "translate"
     },
@@ -930,7 +932,17 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "77cbf826a9dec073f16dc40112024be1929626428de2f62e2e1f1d7d9e1e5cd9",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "title",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
       "field": "description",
       "feature": "translate"
     },
@@ -940,7 +952,7 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "58035f729b3bbac10a20635e89ab7d255350c8268f81d33683ae1150bb7b9dde",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
       "field": "description",
       "feature": "translate"
     },
@@ -950,7 +962,37 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "52538177bb4f3efc1c732eab8e3bbd2d4291ef9d5f386fa10ed5a3b21be77239",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
       "field": "description",
       "feature": "translate"
     },
@@ -968,8 +1010,28 @@
       "code": "generation_failed",
       "message": "llm request failed: 500 Internal Server Error",
       "path": "/nhk/news_web/latest",
-      "itemKey": "fe91174cb0bd093a7e14ea0522876ecfe56f523f45c138a2736aa71a5b2fdf80",
-      "field": "title",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm request failed: 500 Internal Server Error",
+      "path": "/nhk/news_web/latest",
+      "itemKey": "dbbd7cdb5d420df14ae0b0b25b2f5fed6830c460a06bb3fa9d279e7250ddf745",
+      "field": "description",
       "feature": "translate"
     },
     {
