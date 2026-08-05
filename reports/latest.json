@@ -1,7 +1,7 @@
 {
-  "runId": "31043882543",
-  "startedAt": "2026-08-05T20:24:28.292Z",
-  "finishedAt": "2026-08-05T20:57:25.541Z",
+  "runId": "31051692483",
+  "startedAt": "2026-08-05T22:10:29.130Z",
+  "finishedAt": "2026-08-05T22:50:45.673Z",
   "status": "partial",
   "feeds": [
     {
@@ -15,8 +15,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 13,
-          "generated": 12,
+          "cacheHits": 19,
+          "generated": 6,
           "failed": 0
         }
       ],
@@ -33,8 +33,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 18,
-          "generated": 7,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -69,8 +69,8 @@
         {
           "kind": "translate",
           "units": 25,
-          "cacheHits": 24,
-          "generated": 1,
+          "cacheHits": 20,
+          "generated": 5,
           "failed": 0
         }
       ],
@@ -166,14 +166,14 @@
       "sourceUrl": "https://rss.20260501.xyz/chosun/politics?key=***",
       "outputPath": "dist/chosun/politics.xml",
       "limit": 25,
-      "inputItems": 18,
-      "outputItems": 18,
+      "inputItems": 12,
+      "outputItems": 12,
       "featureStats": [
         {
           "kind": "translate",
-          "units": 196,
-          "cacheHits": 156,
-          "generated": 40,
+          "units": 144,
+          "cacheHits": 132,
+          "generated": 12,
           "failed": 0
         }
       ],
@@ -189,10 +189,10 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 140,
-          "cacheHits": 13,
-          "generated": 123,
-          "failed": 4
+          "units": 321,
+          "cacheHits": 31,
+          "generated": 276,
+          "failed": 14
         }
       ],
       "issues": [
@@ -205,10 +205,52 @@
         },
         {
           "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
-          "message": "llm response contains unknown id: dd1707e2f53bf1a2d6f415a5ac672bc72d5eb395e3f1b3de266077da6ef6eeb9b",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: ed5b986f5f11d3a9bf7b93463d9a79b346866b623be344607fb0c81fb46b12e2",
           "path": "/yna/latest",
+          "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 2afbbf4235c361013df47565cbc12fc5b975da31027471a4465fc36087f2bd20",
+          "path": "/yna/latest",
+          "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 5379c985e4651c5b545cea405b81237fd7469fd084746e552bb6b3a52d975",
+          "path": "/yna/latest",
+          "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: c41a8de2ec0d9aaa28baadd833bb85ed1ba495b3780ae51bb5f58c916996446",
+          "path": "/yna/latest",
+          "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: d976b191bb8a624ff8797e3b36e2dce481aebe2301aede666c79827cd49eed8b9",
+          "path": "/yna/latest",
+          "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+          "field": "description",
           "feature": "translate"
         },
         {
@@ -217,7 +259,7 @@
           "code": "generation_failed",
           "message": "fetch failed",
           "path": "/yna/latest",
-          "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
+          "itemKey": "1f38e0272db5aa9d40f217dee74e51df48b9a907d8ebd09008e280110adcb474",
           "field": "description",
           "feature": "translate"
         },
@@ -225,37 +267,103 @@
           "stage": "feature",
           "severity": "error",
           "code": "generation_failed",
-          "message": "llm response contains unknown id: c6925ceeee307ff95acace754783d4a28593cb2c0131bad797568a69f7d791",
-          "path": "/yna/latest",
-          "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "llm response contains unknown id: 047941b3690d0ec65bcb335fa17591548b5f0628c50af11d81a26a3a2e7bbd5",
-          "path": "/yna/latest",
-          "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "error",
-          "code": "generation_failed",
-          "message": "fetch failed",
-          "path": "/yna/latest",
-          "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-          "field": "description",
-          "feature": "translate"
-        },
-        {
-          "stage": "feature",
-          "severity": "warning",
-          "code": "batch_retry",
           "message": "llm request failed: 500 Internal Server Error",
+          "path": "/yna/latest",
+          "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: ff63c122fd7cb025e2e3e7dd26be4b9b04f08b967a52c2850b49ecffe9995308",
+          "path": "/yna/latest",
+          "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "fetch failed",
+          "path": "/yna/latest",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: f5c83d790ddc9663af278a1b061200dac1c57fa0c6fb21d81cc007bc7d2195a",
+          "path": "/yna/latest",
+          "itemKey": "b75fb91502a15de89bfd3293fd0f823bdcc21d064710b95b2c7d4b101349ec88",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 57275ae239187b578802912f2c0913139064d8eb862b23054e947e8edbe2cd89",
+          "path": "/yna/latest",
+          "itemKey": "bfed6d6f491ffedece67a6dab88308f6400f13b94e2afa7af54d400b91c2f29d",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "fetch failed",
+          "path": "/yna/latest",
+          "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: f05c001459f0a0517b0d3680f2652dd5266a4c1460f0d437b35dc5d3e79c8e2",
+          "path": "/yna/latest",
+          "itemKey": "bfed6d6f491ffedece67a6dab88308f6400f13b94e2afa7af54d400b91c2f29d",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 465683b0e5464d518d5b2f05c46cd019275d39350abfa2a070ed087950f0a8",
+          "path": "/yna/latest",
+          "itemKey": "5711772868ec58a9511e4386d12780f0d5c240435e7fd01a90d3eac845ee50b5",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "error",
+          "code": "generation_failed",
+          "message": "llm response contains unknown id: 744f17e15871361ef7181e6e2943c8c7cc294ce2ad6a524b5ec8a24f8471088d",
+          "path": "/yna/latest",
+          "itemKey": "5711772868ec58a9511e4386d12780f0d5c240435e7fd01a90d3eac845ee50b5",
+          "field": "description",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "fetch failed",
+          "path": "/yna/latest",
+          "feature": "translate"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: ed5f986f5f11d1d3a9bf7b93463d9a79b346866b623be344607fb0c81fb46b12e2",
           "path": "/yna/latest",
           "feature": "translate"
         }
@@ -271,13 +379,29 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 116,
-          "cacheHits": 0,
-          "generated": 116,
+          "units": 102,
+          "cacheHits": 51,
+          "generated": 51,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "fetch",
+          "severity": "warning",
+          "code": "fetch_retry",
+          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
+          "path": "/nikkei/news"
+        },
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "fetch failed",
+          "path": "/nikkei/news",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/yomiuri/news",
@@ -289,21 +413,13 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 25,
-          "cacheHits": 0,
-          "generated": 25,
+          "units": 83,
+          "cacheHits": 17,
+          "generated": 66,
           "failed": 0
         }
       ],
-      "issues": [
-        {
-          "stage": "fetch",
-          "severity": "warning",
-          "code": "fetch_retry",
-          "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-          "path": "/yomiuri/news"
-        }
-      ]
+      "issues": []
     },
     {
       "path": "/nhk/news_web/latest",
@@ -315,13 +431,22 @@
       "featureStats": [
         {
           "kind": "translate",
-          "units": 169,
-          "cacheHits": 113,
-          "generated": 56,
+          "units": 104,
+          "cacheHits": 6,
+          "generated": 98,
           "failed": 0
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "stage": "feature",
+          "severity": "warning",
+          "code": "batch_retry",
+          "message": "llm response contains unknown id: 9f6c03e088226eaafd00b09aee182474b4d9c054ff0cf83e1a592a2b8098aa8",
+          "path": "/nhk/news_web/latest",
+          "feature": "translate"
+        }
+      ]
     },
     {
       "path": "/bikerumor/feed",
@@ -334,8 +459,8 @@
         {
           "kind": "translate",
           "units": 267,
-          "cacheHits": 249,
-          "generated": 18,
+          "cacheHits": 267,
+          "generated": 0,
           "failed": 0
         }
       ],
@@ -363,15 +488,15 @@
   "totals": {
     "feeds": 15,
     "renderedFeeds": 14,
-    "inputItems": 249,
-    "outputItems": 249,
+    "inputItems": 243,
+    "outputItems": 243,
     "featureStats": [
       {
         "kind": "translate",
-        "units": 3002,
-        "cacheHits": 2600,
-        "generated": 398,
-        "failed": 4
+        "units": 3110,
+        "cacheHits": 2577,
+        "generated": 519,
+        "failed": 14
       }
     ]
   },
@@ -406,10 +531,52 @@
     },
     {
       "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
-      "message": "llm response contains unknown id: dd1707e2f53bf1a2d6f415a5ac672bc72d5eb395e3f1b3de266077da6ef6eeb9b",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: ed5b986f5f11d3a9bf7b93463d9a79b346866b623be344607fb0c81fb46b12e2",
       "path": "/yna/latest",
+      "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 2afbbf4235c361013df47565cbc12fc5b975da31027471a4465fc36087f2bd20",
+      "path": "/yna/latest",
+      "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 5379c985e4651c5b545cea405b81237fd7469fd084746e552bb6b3a52d975",
+      "path": "/yna/latest",
+      "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: c41a8de2ec0d9aaa28baadd833bb85ed1ba495b3780ae51bb5f58c916996446",
+      "path": "/yna/latest",
+      "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: d976b191bb8a624ff8797e3b36e2dce481aebe2301aede666c79827cd49eed8b9",
+      "path": "/yna/latest",
+      "itemKey": "ecbc41d5d062d8db9aec9d005fd01d0dd6c9cc4de4d901d1591ab805f050ebe8",
+      "field": "description",
       "feature": "translate"
     },
     {
@@ -418,7 +585,7 @@
       "code": "generation_failed",
       "message": "fetch failed",
       "path": "/yna/latest",
-      "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
+      "itemKey": "1f38e0272db5aa9d40f217dee74e51df48b9a907d8ebd09008e280110adcb474",
       "field": "description",
       "feature": "translate"
     },
@@ -426,37 +593,103 @@
       "stage": "feature",
       "severity": "error",
       "code": "generation_failed",
-      "message": "llm response contains unknown id: c6925ceeee307ff95acace754783d4a28593cb2c0131bad797568a69f7d791",
-      "path": "/yna/latest",
-      "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "llm response contains unknown id: 047941b3690d0ec65bcb335fa17591548b5f0628c50af11d81a26a3a2e7bbd5",
-      "path": "/yna/latest",
-      "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "error",
-      "code": "generation_failed",
-      "message": "fetch failed",
-      "path": "/yna/latest",
-      "itemKey": "7edb4e39e0f74b1db9e74fbeac92459212bb28085091da02eb08ff48bfa8ff9f",
-      "field": "description",
-      "feature": "translate"
-    },
-    {
-      "stage": "feature",
-      "severity": "warning",
-      "code": "batch_retry",
       "message": "llm request failed: 500 Internal Server Error",
+      "path": "/yna/latest",
+      "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: ff63c122fd7cb025e2e3e7dd26be4b9b04f08b967a52c2850b49ecffe9995308",
+      "path": "/yna/latest",
+      "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "fetch failed",
+      "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: f5c83d790ddc9663af278a1b061200dac1c57fa0c6fb21d81cc007bc7d2195a",
+      "path": "/yna/latest",
+      "itemKey": "b75fb91502a15de89bfd3293fd0f823bdcc21d064710b95b2c7d4b101349ec88",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 57275ae239187b578802912f2c0913139064d8eb862b23054e947e8edbe2cd89",
+      "path": "/yna/latest",
+      "itemKey": "bfed6d6f491ffedece67a6dab88308f6400f13b94e2afa7af54d400b91c2f29d",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "fetch failed",
+      "path": "/yna/latest",
+      "itemKey": "cdefcb732888980288c77bd62e245ee3a17d0559026ac7ba41008218e4b28c6b",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: f05c001459f0a0517b0d3680f2652dd5266a4c1460f0d437b35dc5d3e79c8e2",
+      "path": "/yna/latest",
+      "itemKey": "bfed6d6f491ffedece67a6dab88308f6400f13b94e2afa7af54d400b91c2f29d",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 465683b0e5464d518d5b2f05c46cd019275d39350abfa2a070ed087950f0a8",
+      "path": "/yna/latest",
+      "itemKey": "5711772868ec58a9511e4386d12780f0d5c240435e7fd01a90d3eac845ee50b5",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "error",
+      "code": "generation_failed",
+      "message": "llm response contains unknown id: 744f17e15871361ef7181e6e2943c8c7cc294ce2ad6a524b5ec8a24f8471088d",
+      "path": "/yna/latest",
+      "itemKey": "5711772868ec58a9511e4386d12780f0d5c240435e7fd01a90d3eac845ee50b5",
+      "field": "description",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "fetch failed",
+      "path": "/yna/latest",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: ed5f986f5f11d1d3a9bf7b93463d9a79b346866b623be344607fb0c81fb46b12e2",
       "path": "/yna/latest",
       "feature": "translate"
     },
@@ -465,7 +698,23 @@
       "severity": "warning",
       "code": "fetch_retry",
       "message": "retry 1/2 after fetch failed: 503 Service Unavailable",
-      "path": "/yomiuri/news"
+      "path": "/nikkei/news"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "fetch failed",
+      "path": "/nikkei/news",
+      "feature": "translate"
+    },
+    {
+      "stage": "feature",
+      "severity": "warning",
+      "code": "batch_retry",
+      "message": "llm response contains unknown id: 9f6c03e088226eaafd00b09aee182474b4d9c054ff0cf83e1a592a2b8098aa8",
+      "path": "/nhk/news_web/latest",
+      "feature": "translate"
     }
   ]
 }
