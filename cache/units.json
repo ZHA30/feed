@@ -1896,42 +1896,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-29T05:36:37.510Z"
-    },
-    "38598c84c1da03201b5fa05ed7c39337662fb587a8c6fa6cdb2be89ac9bc9dd3": {
-      "feature": "translate",
-      "sourceHash": "49d49f3fb65dc7d0ab24be8e30909ea7db19403cefcc398c001867b2fedec8dc",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "【相关报道】",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-08-06T06:17:36.411Z"
-    },
-    "b0f33588b8018b6669f312e2ea2bbc46433f0155c90e90cc5b19b3ea10f5dfb6": {
-      "feature": "translate",
-      "sourceHash": "cf9052314596c9f5f95b76bad9f29455d5e879a194ad76026a0120600cc78fa7",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "关注“日经电子版体育”的X（原Twitter）账号",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-08-06T06:17:15.183Z"
-    },
-    "ce1e8e51b78c40efb52ade22280604f170b0093cf75e85cd9e04683ca26b66fb": {
-      "feature": "translate",
-      "sourceHash": "4e6430d680225ce2f59eb7b7713082aec6b03ee0ff240d1bbe42e768a4e1139a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "（数据提供：共同通信数码）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-08-06T14:14:44.700Z"
     }
   }
 }
