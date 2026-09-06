@@ -85,6 +85,18 @@
       },
       "createdAt": "2026-06-29T05:35:45.201Z"
     },
+    "90f8944cc7044de3b88a67827aaaaec4218d544aeeda8caaf5ff4980875a0e13": {
+      "feature": "translate",
+      "sourceHash": "006c7fad05eaaac9ee2ceb09631d594df991fceab3d5422c57d6b60a0f219cf8",
+      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
+      "output": "小土豆",
+      "model": "deepseek-v4-flash-free",
+      "metadata": {
+        "targetLanguage": "zh-CN",
+        "extractionVersion": "v2"
+      },
+      "createdAt": "2026-07-12T14:57:15.925Z"
+    },
     "69ab18bd1eace043780a7e0f4d0138da0ec2eddae1078dbd23c0969daf5b3690": {
       "feature": "translate",
       "sourceHash": "f40a1151a3cd5421e80844ba29c37d76b81c92b3abccb58daacef1bd46229222",
@@ -1105,18 +1117,6 @@
       },
       "createdAt": "2026-07-12T14:57:15.925Z"
     },
-    "90f8944cc7044de3b88a67827aaaaec4218d544aeeda8caaf5ff4980875a0e13": {
-      "feature": "translate",
-      "sourceHash": "006c7fad05eaaac9ee2ceb09631d594df991fceab3d5422c57d6b60a0f219cf8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "小土豆",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-12T14:57:15.925Z"
-    },
     "54da94fe4cf780748875f338cc4717384ccb0dc01f412270a0f6b51acb0d706c": {
       "feature": "translate",
       "sourceHash": "c4130454945bfe40708b87bf352d595edcfce75c4a94e363b00bd9992e4ddf15",
@@ -1380,270 +1380,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-05T16:09:17.206Z"
-    },
-    "86824f499ad8496379a77cc8ab9b1cc2fb60cbb261e9ca904442aa0f211418b0": {
-      "feature": "translate",
-      "sourceHash": "eba6850be194412e279b5b772b435a7e9ef404c927d10ff504571cc9e3c952ba",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Wisereads 第149期 — 克里斯·巴拉德的《The Plunge》，德里克·汤普森论增强自我，以及更多",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "d80556034b779dc1d0247b916034bd44b37ff526c42dbbf5f9266223540712d3": {
-      "feature": "translate",
-      "sourceHash": "eba6850be194412e279b5b772b435a7e9ef404c927d10ff504571cc9e3c952ba",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Wisereads 第149期 — 克里斯·巴拉德的《The Plunge》，德里克·汤普森论增强自我，以及更多",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "4e7da1f6ebe0e3e85228eb1cea4e91d26f19fd8ba45bbec00841b886700a2990": {
-      "feature": "translate",
-      "sourceHash": "13a9795309fca8093f074fc265895afd659d3dc466cb810975ca25b6296c1f21",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "上周，我们分享了达比·萨克斯比的《老爸大脑》预览。本周，我们将分享克里斯·巴拉德新作《The Plunge：特立独行的游泳者、一段不可思议的追求，以及冷水的变革力量》的预览。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "3818ca25ab2d23c58f8cd110fd8e213c82fbecb023be4c7daca91d51831d39b3": {
-      "feature": "translate",
-      "sourceHash": "fe3ee7c1585a58084e84d29ae14cb57c1a77558e2badf7696d9c794d6070dae2",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "老板们要求你全职返回办公室的真正原因（与生产力无关）",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "91c3a137b65b531bcf0069a94bbd111a2d21fda247374757b0c923aece9c1395": {
-      "feature": "translate",
-      "sourceHash": "9203ef638ab80b5b7b0d1f6d65694a9197699f8ea7d814f6b87c510f8fd9ef98",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "沃顿商学院心理学家、《重新思考》作者亚当·格兰特认为，重返办公室的要求往往更多关乎自我而非生产力。\"远程工作也阻止了领导者沐浴在员工敬仰的光芒中。领导者不是在角落办公室里脱颖而出，而是迷失在屏幕上平等的方块海洋中。他们得不到全神贯注的注意力，反而在网上遇到无聊、疲惫以及来自伴侣、孩子和宠物的干扰。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "add5691120bc51c7abb12120a88074207f2814d25b74d0ad4bc07b680888c2ff": {
-      "feature": "translate",
-      "sourceHash": "4dc6614d77d47aed4256757b6d78c383ce2dcf376cb343162cd6ab64ee523214",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "即将到来的循环",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "6f841c49e642be45312da4bda6523961d130c463b5d99f7d6ad842fdb04d9196": {
-      "feature": "translate",
-      "sourceHash": "2a2bb69405b148540def9dc2cbd64e1873900e557495388dc72471c9ee7f40ec",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Flask创建者阿明·罗纳赫担心，自主代理循环会放大当前模型已有的弱点。\"要么我们需要找到巧妙的方法将人类重新拉回循环中，并使循环的变化长期可读，要么我们需要找到更好的方法来组合这些日益复杂的系统。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "b878ff1906a45e5756496b100947ff1e73d37205fd5ee372c9d4b5f0007d14cb": {
-      "feature": "translate",
-      "sourceHash": "6790cd77ee5925ef1e52a860e39f2c9efdae44630bc8770d5de381bf65e3a0d8",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "增强自我的崇拜",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "7526de58e62b68f0ff1230a46aea7461d3f708fc0fbba3eccb9663994d7257de": {
-      "feature": "translate",
-      "sourceHash": "b6e10aee395895da1e081f316d7b0c8a40f42e60deb503d5636a35a9bfc74ba5",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "记者德里克·汤普森谈论优化健康如何悄然成为身份标志，以及一旦身体成为项目后悄然出现的权衡。\"睡得更多的最好方法是晚上少见朋友。每周举重更多的最好方法是取消社交午餐以保护我的午间健身时间。要成为一个可衡量的增强型自我，往往意味着消除那些不那么可量化的意义和快乐来源。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "706b0c0672f86ab230e5d1fe0eac1f49f2c4402eba761d7616aceec52f869870": {
-      "feature": "translate",
-      "sourceHash": "63d0c35fd8b697664dc1e5d5dcce7720a82847ad8af702bc80ff917607545aaf",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "你如何保持动力？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "d4737371581403e89f8ce54da14205bb6d23b25a0d643e69b5989e68e53f1348": {
-      "feature": "translate",
-      "sourceHash": "5d0286a5cc29221e08f57f03b2fdcdee73e4d8177a112b7638578fc66614812d",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "《感觉良好的生产力》作者和YouTuber阿里·阿布达尔谈论，一旦自雇已经带来了他所追求的自由，是什么让他继续建设。\"一定程度的自由来自于赚钱。对吧？因为那样你就能辞掉工作，把时间花在想做的事情上等等。但在某个时刻，剩下的自由来自于把钱留在桌上。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "a8035e848a0f0644fa8760a3572d08ccd8181e0d77291da1e520cfad46e8073b": {
-      "feature": "translate",
-      "sourceHash": "bf68090f7105794df4ced8971a9018b03a3a9b57aa86c81274341f14a744a35c",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "代理循环架构",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "afbad5632f7825abc089edebfc1ed5ddcc77e6843c8edb8d92c5724bd600dc31": {
-      "feature": "translate",
-      "sourceHash": "784675c0034f05bc968e2e5c8de228071e9d64c0deb796414c843bf7c139fd34",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "基于马特·范·霍恩最近关于循环演变的文章，Inngest联合创始人丹·法雷利提出了一种代理循环架构。\"三层：循环、技能、编排器。循环是工作单元。技能是资产。编排引擎使两者持久化。边车模式是模型：代理编写自己持久的技能，部署它们，审查它们的表现，并进行迭代。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "fb4fc16135ff4524aaa6f90b479fb3beca71e30a19033d77afb56975a4c0e8b1": {
-      "feature": "translate",
-      "sourceHash": "8658f23ba68d8cadd1d1237d027713e95c7cbb8a6fc507d942be019d4e158843",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "Semiquincententacles",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "54bb3b7ce3ab6367907caf5103255f958db760851c9ba118c1b14d7a012b7188": {
-      "feature": "translate",
-      "sourceHash": "7563fea2eeec9e0ecdccb112aba8642c6ad4992d387e2c64e3494f5b685eec51",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "摩根大通策略师迈克尔·森巴莱斯特在其250周年市场调查中使用了\"Aquilaceph\"，这是一个半秃鹰半章鱼的标志，象征着美国对全球市场的掌控。关于美国股票：\"就在2015年，美国最大的10只股票仅占标普500市值的17%。现在这一数字已升至约40%。这可能会让你惊讶，但40%的集中度仍在全球股权集中度最低的三个国家之列；只有日本和印度更低。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "fe2a14cd4802aeb115a7e91619cdd082cee62dc93509217586c1d3b318cdb098": {
-      "feature": "translate",
-      "sourceHash": "9ed46c3b90d49ca43524157b529008c8baaaf07a8eb4dbf50e6632e4c26d619a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "The Plunge",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "117e26fc2c8dd6e7e105054a5134f74b02894b5ab55636e8f7a5f55ac9143777": {
-      "feature": "translate",
-      "sourceHash": "35b7116b8a5202e1c542c3e6fd3801f4fa778f973c56f844facda55fef7bc0ea",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "在将冷水暴露作为延长运动生涯的方式后，获奖的《体育画报》作家克里斯·巴拉德花了三年时间沉浸在冷水爱好者的世界中，并得出一个发现：他们\"欣喜若狂\"。受到亚当·格兰特的赞扬，《The Plunge》名义上是一本关于跳入冰水的书，但实际上它讲述了那些围绕做困难事情组织生活的人们，以及为什么这样做。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "a5e88881c96f3eeeff581f59b3efca0c6fdbb9deaefcfc686f10f643ed844184": {
-      "feature": "translate",
-      "sourceHash": "1ac86a837b446bc411e03eab8d6e6b49d987af6d94b7755eeee213af796c11a4",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "现代生活的很多方面都是围绕轻松构建的。我们住在恒温的房子里，从那里开着恒温的汽车到恒温的工作场所，整天坐着，说话、打字、盯着金属盒子上的闪烁图像。给许多美国人戴上Fitbit，你会发现度过一天——甚至在职场上茁壮成长——而没有身体挑战是多么容易。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "2b65279a71e52eebc34b60488837cdd3d240393ee62f19c8fc8b58712e48574d": {
-      "feature": "translate",
-      "sourceHash": "6a7e84814dfc3aa85b7c8ac25ffd5b29bbf273b7161a75a7da495146137d7962",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "既然已经将它们从日常生活中消除，我们现在需要主动寻找它们。而生存一次跳水，即使只有三十秒，也是困难的。它提供了自信的爆发。你感到更坚强、更有能力。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "0b4b3751c44dba6baf839d627c067a634f2f3d0f8b368a9b29ab4ec3a3cd2d4a": {
-      "feature": "translate",
-      "sourceHash": "af4ff1662ec984ad01d56b2b7dec532453bce6532b62cbe1fec2ae751bcb525b",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "我们很高兴与Wisereads读者分享《The Plunge》的预览。如果它让你想尝试一下寒冷，你可以在任何购书平台购买一本。",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "f4ae3bab14b9a9b789c11f3294fdf8078a6f31015193ee6af931e2b6a619cf43": {
-      "feature": "translate",
-      "sourceHash": "d0638925f0c74e8ab615c6dac45ffed9d278cc66235f80d41138e461779c9c26",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "萨莎的\"Newsletter\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
-    },
-    "554694f147dd0685852bd77bb552688b1d742f6175218b7d35cf83e76f57e563": {
-      "feature": "translate",
-      "sourceHash": "b4c27259caf0616a233980f31165a701114a6f8948668ede13a3bc5fdc0d136a",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "记者萨莎·查平，凯特·霍尔的丈夫，也是他们即将出版的关于能动性的书《You Can Just Do Things》的合著者，写作了对书籍、九型人格结果、关系和内心生活的坦诚反思。来自《投降作为一种非愚蠢的生活策略》：\"内省的正确终点不是被关于自己的事实填满。你的内省如果是有限的，如果它引导你直接接触经验，那它就是成功的。不要阻碍你的成长。\"",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:32:56.522Z"
     },
     "5eb725607e5e4541966ed719b8ffdf5c1b860e27b66e4df71f0daf72cd1b8099": {
       "feature": "translate",
