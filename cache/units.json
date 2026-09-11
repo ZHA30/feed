@@ -1620,18 +1620,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-06-29T05:36:37.510Z"
-    },
-    "afbe52e777d1c8ce5f51596d7250c3cbf46c91c176ba8ca049b9288583f16252": {
-      "feature": "translate",
-      "sourceHash": "b7f2cc2f1f27eae56f713eb613826adee5e21eb1843bff90dee930a66012d410",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "美国地铁建造过多横向通道",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-06-29T05:36:37.510Z"
     }
   }
 }
