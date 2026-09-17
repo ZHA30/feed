@@ -1344,18 +1344,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-04T12:08:40.045Z"
-    },
-    "c635b44ae7d5a0b4dbfe6e11a88672751fba1cff1030ce894396ddcc83aef666": {
-      "feature": "translate",
-      "sourceHash": "15a5d3f8b155ec70a04fb241de91843cbf90eb0faa344a4689d8eafb21a658fb",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "螺旋蝇的衰落与崛起",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-03T15:11:19.251Z"
     }
   }
 }
