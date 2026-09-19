@@ -1332,18 +1332,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-11T13:16:01.394Z"
-    },
-    "1656b269f23d3fcac9c78ab781b56e67c57828ff371eeaa3705b0187fa20bccc": {
-      "feature": "translate",
-      "sourceHash": "ad84d262c24cb2f566ab9c603273a85d08d1d631adebc50dcf4079d2d9cec233",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "阅读清单 07/04/26",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-04T12:08:40.045Z"
     }
   }
 }
