@@ -804,18 +804,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-18T13:11:49.467Z"
-    },
-    "3d9681d17215a23bbdb74826ecab73a18d9f62d4c188c947939cc5b3c07cc388": {
-      "feature": "translate",
-      "sourceHash": "fe2ea6cdda9b36a068437ebdf835c7ff96304bb831d43bee53cef414ca28aa03",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "法律的可预测性如何？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-16T13:48:06.862Z"
     }
   }
 }
