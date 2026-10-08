@@ -516,18 +516,6 @@
         "extractionVersion": "v2"
       },
       "createdAt": "2026-07-25T15:02:03.500Z"
-    },
-    "f4ac0a35725b56aff2c841ac5943fef41d729876dd6e0e7b65c650df6212cbe1": {
-      "feature": "translate",
-      "sourceHash": "f56fa398b88182fc6e6ed1dc770f2c3cea5642132cdfe11a5d586fe74256a679",
-      "promptHash": "9af99058cd25f98c9378d8e623e82d5849ed8ce27d83f6da5766e0e94a56bca5",
-      "output": "我们能否通过更便宜的劳动力或材料来降低建筑成本？",
-      "model": "deepseek-v4-flash-free",
-      "metadata": {
-        "targetLanguage": "zh-CN",
-        "extractionVersion": "v2"
-      },
-      "createdAt": "2026-07-23T15:10:33.114Z"
     }
   }
 }
